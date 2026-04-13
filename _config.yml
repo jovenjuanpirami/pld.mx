@@ -1,0 +1,54 @@
+title: "PLD.mx - Prevención de Lavado de Dinero en México"
+description: "Noticias, guías y recursos sobre Prevención de Lavado de Dinero (PLD), la LFPIORPI y cumplimiento regulatorio para empresas en México."
+url: "https://pld.mx"
+baseurl: ""
+permalink: /:categories/:year/:month/:day/:title/
+
+# SEO
+lang: es-MX
+author: "PLD.mx"
+twitter:
+  card: summary_large_image
+logo: /assets/images/logo.svg
+
+# Build
+markdown: kramdown
+highlighter: rouge
+timezone: America/Mexico_City
+
+# Pagination
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+paginate: 12
+paginate_path: "/pagina/:num/"
+
+# Collections
+collections:
+  categorias:
+    output: true
+    permalink: /categoria/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Equipo PLD.mx"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude
+exclude:
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .github/

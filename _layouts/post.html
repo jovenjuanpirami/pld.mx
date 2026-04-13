@@ -1,0 +1,88 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/Article">
+  <header class="post-header">
+    <div class="container">
+      {% if page.categories.first %}
+      <a href="/categoria/{{ page.categories.first | slugify }}/" class="post-category-tag">{{ page.categories.first }}</a>
+      {% endif %}
+      <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="post-subtitle">{{ page.description }}</p>
+      {% endif %}
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%d de %B, %Y" }}
+        </time>
+        <span class="post-meta-sep">·</span>
+        <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min de lectura</span>
+        {% if page.author %}
+        <span class="post-meta-sep">·</span>
+        <span itemprop="author">{{ page.author }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="post-hero">
+    <div class="container">
+      <img src="{{ page.image }}" alt="{{ page.title }}" itemprop="image" loading="eager">
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="post-content container" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer container">
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="post-share">
+      <span>Compartir:</span>
+      <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url }}" target="_blank" rel="noopener" aria-label="Compartir en Twitter">Twitter</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url }}" target="_blank" rel="noopener" aria-label="Compartir en LinkedIn">LinkedIn</a>
+      <a href="https://wa.me/?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url }}" target="_blank" rel="noopener" aria-label="Compartir en WhatsApp">WhatsApp</a>
+    </div>
+
+    <nav class="post-nav">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}" class="post-nav-prev">&larr; {{ page.previous.title | truncatewords: 8 }}</a>
+      {% endif %}
+      {% if page.next.url %}
+      <a href="{{ page.next.url }}" class="post-nav-next">{{ page.next.title | truncatewords: 8 }} &rarr;</a>
+      {% endif %}
+    </nav>
+  </footer>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | escape | truncatewords: 30 }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "PLD.mx"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PLD.mx",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/assets/images/logo.svg' | absolute_url }}"
+    }
+  }{% if page.image %},
+  "image": "{{ page.image | absolute_url }}"{% endif %}
+}
+</script>

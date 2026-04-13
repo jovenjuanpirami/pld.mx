@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="googlebot" content="index, follow">
+
+{% seo %}
+
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+
+{% if page.image %}
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+{% endif %}
+
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="PLD.mx">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@pldmx">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PLD.mx",
+  "url": "https://pld.mx",
+  "description": "Portal informativo sobre Prevención de Lavado de Dinero, LFPIORPI y cumplimiento regulatorio en México",
+  "inLanguage": "es-MX",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://pld.mx/buscar?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>

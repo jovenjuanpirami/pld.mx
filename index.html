@@ -1,0 +1,32 @@
+---
+layout: default
+title: "PLD.mx — Noticias y Recursos sobre Prevención de Lavado de Dinero en México"
+description: "Portal informativo sobre PLD, LFPIORPI y cumplimiento regulatorio. Artículos diarios, guías y recursos para empresas mexicanas."
+---
+
+<section class="hero">
+  <div class="hero-content container">
+    <h1>Prevención de Lavado de Dinero en México</h1>
+    <p>Tu fuente diaria de noticias, análisis y recursos sobre PLD, la LFPIORPI y cumplimiento regulatorio para empresas en México.</p>
+    <a href="#articulos" class="hero-cta">Ver artículos recientes &darr;</a>
+  </div>
+</section>
+
+<section id="articulos" class="posts-section">
+  <div class="container">
+    <h2 class="section-title">Artículos Recientes</h2>
+    <div class="posts-grid">
+      {% for post in site.posts limit:12 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section">
+  <div class="container">
+    <h2>Mantente Informado</h2>
+    <p>Publicamos artículos diarios sobre PLD, cumplimiento y regulación en México. Visítanos regularmente para estar al día.</p>
+    <a href="/categorias/" class="hero-cta" style="display:inline-flex;">Explorar categorías</a>
+  </div>
+</section>

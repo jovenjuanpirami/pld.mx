@@ -1,0 +1,25 @@
+<article class="post-card">
+  <a href="{{ post.url }}" class="post-card-link">
+    {% if post.image %}
+    <div class="post-card-image">
+      <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+    </div>
+    {% else %}
+    <div class="post-card-image post-card-placeholder">
+      <div class="placeholder-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 10 L24 2 L42 10 L42 26 C42 38 24 48 24 48 C24 48 6 38 6 26 Z" fill="url(#pg)"/><defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0b4147"/><stop offset="100%" stop-color="#0ad6ac"/></linearGradient></defs></svg>
+      </div>
+    </div>
+    {% endif %}
+    <div class="post-card-body">
+      {% if post.categories.first %}
+      <span class="post-card-category">{{ post.categories.first }}</span>
+      {% endif %}
+      <h3 class="post-card-title">{{ post.title }}</h3>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+      <time class="post-card-date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%d de %B, %Y" }}
+      </time>
+    </div>
+  </a>
+</article>
