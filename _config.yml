@@ -16,14 +16,11 @@ markdown: kramdown
 highlighter: rouge
 timezone: America/Mexico_City
 
-# Pagination
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-paginate: 12
-paginate_path: "/pagina/:num/"
 
 # Collections
 collections:
