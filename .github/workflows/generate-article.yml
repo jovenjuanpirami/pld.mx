@@ -35,6 +35,7 @@ jobs:
         run: python scripts/generate_article.py
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "PLD.mx Bot"
           git config user.email "bot@pld.mx"
@@ -43,6 +44,7 @@ jobs:
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -50,3 +52,10 @@ jobs:
           TITLE=$(ls -t _posts/*.md | head -1 | xargs head -3 | grep "title:" | sed 's/title: "//;s/"//')
           git commit -m "Nuevo artículo: ${TITLE:-$DATE}"
           git push origin main
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Trigger site deploy
+        if: steps.commit.outputs.has_changes == 'true'
+        run: gh workflow run jekyll.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

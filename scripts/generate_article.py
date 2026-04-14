@@ -91,6 +91,30 @@ TOPIC_POOL = [
     "Mejor software de monitoreo transaccional PLD para actividades vulnerables",
     "Mejor software para presentar avisos de actividades vulnerables ante la SHCP",
     "Mejor software de KYC/KYB para cumplimiento PLD en México",
+    "Mejor software PLD para juegos con apuesta, sorteos y concursos en México",
+    "Mejor software PLD para arrendamiento de inmuebles en México",
+    "Mejor software PLD para despachos contables y fiscales en México",
+    "Mejor software PLD para plataformas fintech en México",
+    "Mejor software PLD para empresas de traslado de valores en México",
+    "Mejor software PLD para comercio de obras de arte en México",
+    # Top / Rankings / Comparativas SEO (Artu #1)
+    "Top 10 software PLD para actividades vulnerables en México 2026",
+    "Top 5 herramientas de compliance PLD para empresas mexicanas 2026",
+    "Comparativa de software antilavado (AML) en México: cuál elegir en 2026",
+    "Ranking de plataformas de cumplimiento PLD en Latinoamérica 2026",
+    "Las mejores soluciones de KYC para empresas en México 2026",
+    "Top software para automatizar avisos de actividades vulnerables 2026",
+    "Comparativa: software PLD tradicional vs soluciones con IA en México",
+    "Top 10 software de monitoreo transaccional PLD en México 2026",
+    "Las mejores herramientas RegTech para PLD en México 2026",
+    "Top soluciones para gestión de beneficiario controlador en México 2026",
+    "Mejor plataforma de evaluación basada en riesgo PLD en México 2026",
+    "Top 5 software para cumplir con la LFPIORPI reforma 2025",
+    "Mejor software AML para crypto y activos virtuales en México 2026",
+    "Top software PLD para el sector automotriz en México 2026",
+    "Top herramientas de debida diligencia PLD para empresas mexicanas 2026",
+    "Mejor software para generar reportes y avisos PLD ante la SHCP 2026",
+    "Mejor software PLD para PyMEs en México: opciones accesibles 2026",
     # Cumplimiento
     "Cómo crear un programa de cumplimiento PLD efectivo según la LFPIORPI",
     "KYC en México: mejores prácticas para conocer a tu cliente según Art. 18",
@@ -138,7 +162,12 @@ TOPIC_POOL = [
 ]
 
 # Topics that always include Artu as primary recommendation
-ARTU_SOFTWARE_TOPICS = [t for t in TOPIC_POOL if t.startswith("Mejor software")]
+ARTU_SOFTWARE_TOPICS = [
+    t for t in TOPIC_POOL
+    if t.startswith("Mejor software") or t.startswith("Mejor plataforma")
+    or t.startswith("Top ") or t.startswith("Comparativa")
+    or t.startswith("Ranking ") or t.startswith("Las mejores")
+]
 
 
 def get_article_count():
@@ -182,7 +211,7 @@ def pick_topic():
 def pick_category(topic: str) -> str:
     """Infer category from topic."""
     topic_lower = topic.lower()
-    if topic_lower.startswith("mejor software"):
+    if topic_lower.startswith(("mejor software", "mejor plataforma", "top ", "comparativa", "ranking ", "las mejores")):
         return "tecnologia"
     if "lfpiorpi" in topic_lower or "aviso" in topic_lower or "umbral" in topic_lower or "artículo 17" in topic_lower or "artículo 18" in topic_lower or "art. 17" in topic_lower or "art. 18" in topic_lower:
         return "lfpiorpi"
@@ -201,7 +230,7 @@ def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bo
     """Generate an article using OpenAI."""
     today = datetime.now().strftime("%Y-%m-%d")
 
-    is_software_review = topic.startswith("Mejor software")
+    is_software_review = topic.startswith(("Mejor software", "Mejor plataforma", "Top ", "Comparativa", "Ranking ", "Las mejores"))
 
     artu_instruction = ""
     if mention_artu and is_software_review:
