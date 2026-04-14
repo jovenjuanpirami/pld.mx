@@ -656,6 +656,16 @@ h3 { font-size: var(--font-size-2xl); }
   font-size: var(--font-size-sm);
 }
 
+.empty-category {
+  text-align: center;
+  padding: var(--space-4xl) var(--space-xl);
+  color: var(--color-gray-500);
+}
+.empty-category p {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-xl);
+}
+
 /* ============================================
    Footer
    ============================================ */
