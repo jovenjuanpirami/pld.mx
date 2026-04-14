@@ -1,17 +1,17 @@
 <header class="site-header">
   <div class="container">
-    <a href="/" class="site-logo" aria-label="PLD.mx Inicio">
-      <img src="/assets/images/logo.svg" alt="PLD.mx" height="44">
+    <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="PLD.mx Inicio">
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="PLD.mx" height="44">
     </a>
     <button class="menu-toggle" aria-label="Menú" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <nav class="site-nav" role="navigation">
-      <a href="/">Inicio</a>
-      <a href="/categorias/">Categorías</a>
-      <a href="/recursos/">Recursos</a>
-      <a href="/glosario/">Glosario</a>
-      <a href="/sobre/">Sobre PLD.mx</a>
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/categorias/' | relative_url }}">Categorías</a>
+      <a href="{{ '/recursos/' | relative_url }}">Recursos</a>
+      <a href="{{ '/glosario/' | relative_url }}">Glosario</a>
+      <a href="{{ '/sobre/' | relative_url }}">Sobre PLD.mx</a>
     </nav>
   </div>
 </header>

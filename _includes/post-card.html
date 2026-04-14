@@ -1,8 +1,8 @@
 <article class="post-card">
-  <a href="{{ post.url }}" class="post-card-link">
+  <a href="{{ post.url | relative_url }}" class="post-card-link">
     {% if post.image %}
     <div class="post-card-image">
-      <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
     </div>
     {% else %}
     <div class="post-card-image post-card-placeholder">

@@ -5,7 +5,7 @@ layout: default
   <header class="post-header">
     <div class="container">
       {% if page.categories.first %}
-      <a href="/categoria/{{ page.categories.first | slugify }}/" class="post-category-tag">{{ page.categories.first }}</a>
+      <a href="{{ '/categoria/' | append: page.categories.first | slugify | append: '/' | relative_url }}" class="post-category-tag">{{ page.categories.first }}</a>
       {% endif %}
       <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
       {% if page.description %}
@@ -28,7 +28,7 @@ layout: default
   {% if page.image %}
   <div class="post-hero">
     <div class="container">
-      <img src="{{ page.image }}" alt="{{ page.title }}" itemprop="image" loading="eager">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" itemprop="image" loading="eager">
     </div>
   </div>
   {% endif %}
@@ -55,10 +55,10 @@ layout: default
 
     <nav class="post-nav">
       {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" class="post-nav-prev">&larr; {{ page.previous.title | truncatewords: 8 }}</a>
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">&larr; {{ page.previous.title | truncatewords: 8 }}</a>
       {% endif %}
       {% if page.next.url %}
-      <a href="{{ page.next.url }}" class="post-nav-next">{{ page.next.title | truncatewords: 8 }} &rarr;</a>
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-next">{{ page.next.title | truncatewords: 8 }} &rarr;</a>
       {% endif %}
     </nav>
   </footer>

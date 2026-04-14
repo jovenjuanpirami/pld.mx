@@ -5,34 +5,36 @@ description: "Explora artículos por categoría: LFPIORPI, actividades vulnerabl
 permalink: /categorias/
 ---
 
-<div class="page-content container">
-  <header class="page-header">
+<section class="page-hero">
+  <div class="container">
     <h1>Categorías</h1>
-    <p class="page-subtitle">Explora nuestros artículos organizados por tema</p>
-  </header>
+    <p class="page-hero-sub">Explora nuestros artículos organizados por tema</p>
+  </div>
+</section>
 
+<div class="page-content container" style="max-width: var(--max-width);">
   <div class="categories-grid">
-    <a href="/categoria/lfpiorpi/" class="category-card">
+    <a href="{{ '/categoria/lfpiorpi/' | relative_url }}" class="category-card">
       <h3>LFPIORPI</h3>
       <p>Todo sobre la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita.</p>
     </a>
-    <a href="/categoria/actividades-vulnerables/" class="category-card">
+    <a href="{{ '/categoria/actividades-vulnerables/' | relative_url }}" class="category-card">
       <h3>Actividades Vulnerables</h3>
-      <p>Guías específicas para cada actividad vulnerable: inmobiliarias, joyerías, notarios, blindaje vehicular y más.</p>
+      <p>Guías específicas para cada actividad vulnerable: inmobiliarias, joyerías, notarios, fintechs y más.</p>
     </a>
-    <a href="/categoria/cumplimiento/" class="category-card">
+    <a href="{{ '/categoria/cumplimiento/' | relative_url }}" class="category-card">
       <h3>Cumplimiento</h3>
-      <p>Mejores prácticas, programas de cumplimiento, KYC/KYB y debida diligencia.</p>
+      <p>Mejores prácticas, KYC/KYB, debida diligencia, evaluación de riesgos y programas de cumplimiento.</p>
     </a>
-    <a href="/categoria/tecnologia/" class="category-card">
+    <a href="{{ '/categoria/tecnologia/' | relative_url }}" class="category-card">
       <h3>Tecnología PLD</h3>
-      <p>Soluciones tecnológicas, automatización y herramientas para simplificar el cumplimiento.</p>
+      <p>Soluciones tecnológicas, automatización, software y herramientas para simplificar el cumplimiento.</p>
     </a>
-    <a href="/categoria/regulacion/" class="category-card">
+    <a href="{{ '/categoria/regulacion/' | relative_url }}" class="category-card">
       <h3>Regulación</h3>
-      <p>Cambios regulatorios, disposiciones de la UIF, y actualizaciones normativas.</p>
+      <p>Cambios regulatorios, disposiciones de la UIF, GAFI y actualizaciones normativas.</p>
     </a>
-    <a href="/categoria/noticias/" class="category-card">
+    <a href="{{ '/categoria/noticias/' | relative_url }}" class="category-card">
       <h3>Noticias</h3>
       <p>Noticias relevantes sobre PLD en México y el mundo.</p>
     </a>
