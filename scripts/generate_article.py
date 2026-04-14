@@ -11,8 +11,9 @@ import sys
 import json
 import random
 import hashlib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from openai import OpenAI
 
 # ─── Configuration ───────────────────────────────────────────────────────────
@@ -228,7 +229,7 @@ def pick_category(topic: str) -> str:
 
 def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bool):
     """Generate an article using OpenAI."""
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
 
     is_software_review = topic.startswith(("Mejor software", "Mejor plataforma", "Top ", "Comparativa", "Ranking ", "Las mejores"))
 
@@ -441,7 +442,7 @@ def main():
     print(f"Title: {article['title']}")
 
     # Generate OG image
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
     slug = slugify(article["title"])
     image_filename = f"{today}-{slug}.svg"
     image_path = IMAGES_DIR / image_filename

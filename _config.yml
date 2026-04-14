@@ -15,6 +15,7 @@ logo: /assets/images/logo.svg
 markdown: kramdown
 highlighter: rouge
 timezone: America/Mexico_City
+future: true
 
 # Plugins
 plugins:
