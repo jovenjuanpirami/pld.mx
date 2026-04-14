@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Noticias PLD — Resúmenes Semanales y Noticias sobre Lavado de Dinero en México"
+description: "Noticias semanales sobre prevención de lavado de dinero en México. Resúmenes, análisis y las historias más importantes de PLD, LFPIORPI y la UIF."
+permalink: /noticias/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Noticias PLD</h1>
+    <p class="page-hero-sub">Resúmenes semanales y las noticias más importantes sobre prevención de lavado de dinero en México</p>
+  </div>
+</section>
+
+{% assign weekly_briefs = site.posts | where_exp: "post", "post.tags contains 'resumen semanal'" %}
+{% if weekly_briefs.size > 0 %}
+<section class="posts-section">
+  <div class="container">
+    <h2 class="section-title">Resumen Semanal PLD</h2>
+    <p style="color: var(--text-secondary); margin-bottom: 2rem;">Cada viernes publicamos un resumen con las noticias más relevantes de la semana en materia de PLD en México.</p>
+    <div class="posts-grid">
+      {% for post in weekly_briefs limit:4 %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+    </div>
+    {% if weekly_briefs.size > 4 %}
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="#todas-noticias" class="hero-cta" style="display:inline-flex;">Ver todos los resúmenes ↓</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<section id="todas-noticias" class="posts-section">
+  <div class="container">
+    <h2 class="section-title">Todas las Noticias</h2>
+    <div class="posts-grid">
+      {% for post in site.posts %}
+        {% if post.categories contains "noticias" %}
+          {% include post-card.html post=post %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% assign news_count = 0 %}
+    {% for post in site.posts %}
+      {% if post.categories contains "noticias" %}
+        {% assign news_count = news_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if news_count == 0 %}
+    <div class="empty-category">
+      <p>Próximamente publicaremos noticias y resúmenes semanales sobre PLD en México. ¡Vuelve pronto!</p>
+      <a href="{{ '/' | relative_url }}" class="hero-cta" style="display:inline-flex;">Ver todos los artículos</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
