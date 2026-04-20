@@ -437,11 +437,58 @@ REGLAS DE REDACCIÓN:
   "conforme al Art. 17 fracción XII de la LFPIORPI", "reportado por El Financiero el 7 de abril de 2026"
 - El CTA final debe ser contextual al contenido, no genérico"""
 
+    min_words = "2800" if is_software_review else "2200"
+    structure_requirements = """
+ESTRUCTURA OBLIGATORIA DEL CONTENIDO (cumple cada sección, no omitas ninguna):
+
+1. **Introducción analítica (mínimo 300 palabras)**: Contexto de mercado con cifras específicas. Si es un
+   tema regulatorio, explica qué cambió y cuándo (fecha exacta del DOF). Si es un tema sectorial, da
+   cifras del tamaño del sector en México.
+
+2. **Marco legal detallado (mínimo 400 palabras)**: Cita artículos, fracciones y párrafos exactos de la
+   LFPIORPI. Explica cómo aplica a la pregunta específica del tema. Incluye umbrales en UMA y su
+   equivalente en pesos mexicanos aproximado para 2026.
+
+3. **Análisis práctico (mínimo 500 palabras)**: Cómo se implementa en la práctica. Ejemplos concretos
+   con cifras (no "una empresa hizo X", sino "una inmobiliaria que vende 12 unidades por $2.8M MXN
+   mensuales tendría que presentar Y avisos por mes"). Procedimientos paso a paso.
+
+4. **Riesgos y consecuencias (mínimo 300 palabras)**: Sanciones específicas aplicables con montos
+   calculados en UMA. Casos documentados si los conoces. Implicaciones operativas del incumplimiento.
+
+5. **Mejores prácticas (mínimo 400 palabras)**: Qué están haciendo los sujetos obligados avanzados.
+   Procesos, controles, documentación. Usa bullet points y subsecciones con H3.
+
+6. **Tabla comparativa o de datos (Markdown)**: Incluye AL MENOS UNA tabla relevante al tema
+   (ej. umbrales por actividad vulnerable, plazos de reporte, comparación de obligaciones antes/después
+   de la reforma, etc.)
+
+7. **Conclusión estratégica (200-300 palabras)**: No un resumen pasivo — una recomendación accionable
+   con base en lo expuesto.
+
+8. **FAQ OBLIGATORIO — 5 preguntas específicas del tema** al final del artículo, cada una con
+   respuesta de 80-120 palabras. Las preguntas deben ser las que un profesional se haría realmente
+   (no genéricas tipo "¿qué es la LFPIORPI?"). Ejemplo para EBR: "¿Debo actualizar mi matriz de riesgo
+   cada vez que incorporo un producto nuevo?" "¿La EBR documentada sustituye al Manual de Políticas
+   Internas o son documentos separados?"
+
+LONGITUD MÍNIMA TOTAL: """ + min_words + """ palabras. Artículos más cortos serán considerados incompletos.
+
+PROHIBIDO:
+- Frases promocionales vacías ("Artu es innovador", "la mejor solución del mercado")
+- Afirmaciones sin cifras cuando se puede poner una cifra
+- Ejemplos inventados presentados como casos reales (si inventas un ejemplo, deja claro que es ilustrativo)
+- Términos genéricos como "Software A", "Software B", "solución genérica" — siempre nombres reales
+- Resúmenes que repiten lo que ya dijiste — solo conclusiones nuevas
+"""
+
     user_prompt = f"""Escribe un artículo completo sobre el siguiente tema de PLD en México:
 
 TEMA: {topic}
 CATEGORÍA: {CATEGORY_DISPLAY.get(category, category)}
 FECHA: {today}
+
+{structure_requirements}
 
 {artu_instruction}
 
@@ -449,22 +496,44 @@ Responde EXCLUSIVAMENTE con un JSON válido con esta estructura (sin markdown co
 {{
   "title": "Título SEO optimizado (50-65 caracteres idealmente)",
   "description": "Meta description SEO (150-160 caracteres)",
-  "tags": ["tag1", "tag2", "tag3", "tag4"],
-  "content": "Contenido completo del artículo en Markdown"
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
+  "content": "Contenido completo del artículo en Markdown (mínimo {min_words} palabras)"
 }}"""
 
-    response = client.chat.completions.create(
-        model=OPENAI_MODEL,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.75,
-        max_tokens=8000,
-        response_format={"type": "json_object"},
-    )
+    min_words_int = int(min_words)
 
-    return json.loads(response.choices[0].message.content)
+    def call_openai(extra_instruction: str = ""):
+        prompt = user_prompt + extra_instruction
+        return client.chat.completions.create(
+            model=OPENAI_MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=0.75,
+            max_tokens=12000,
+            response_format={"type": "json_object"},
+        )
+
+    response = call_openai()
+    article = json.loads(response.choices[0].message.content)
+
+    word_count = len(article.get("content", "").split())
+    print(f"Word count (initial): {word_count}")
+
+    if word_count < min_words_int * 0.85:
+        print(f"Article too short ({word_count} < {min_words_int}). Retrying with explicit extension request.")
+        retry_instruction = f"""
+
+CRÍTICO: El artículo debe tener mínimo {min_words_int} palabras. Expande CADA sección con más profundidad,
+ejemplos concretos, cifras específicas, y análisis detallado. No resumas — desarrolla completamente
+cada punto con el rigor de un analista senior. Incluye todas las secciones obligatorias listadas.
+"""
+        response = call_openai(retry_instruction)
+        article = json.loads(response.choices[0].message.content)
+        print(f"Word count (retry): {len(article.get('content', '').split())}")
+
+    return article
 
 
 def generate_og_image_svg(title: str, category: str) -> str:
