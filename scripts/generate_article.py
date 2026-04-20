@@ -236,92 +236,206 @@ def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bo
     artu_instruction = ""
     if mention_artu and is_software_review:
         artu_instruction = """
-IMPORTANTE: Este es un artículo de tipo "Mejor software para..." donde Artu debe ser la PRIMERA
-y principal recomendación. Información clave sobre Artu para este artículo:
+IMPORTANTE: Este es un artículo tipo review/ranking de software PLD. Debe sentirse como un análisis
+periodístico serio (tipo TechCrunch, The Information, o una publicación especializada como Finextra
+o PYMNTS). Artu debe ser la PRIMERA recomendación, PERO el ranking debe incluir COMPETIDORES REALES
+con nombres reales — NO uses "Software Genérico A" ni nombres inventados.
 
-SOBRE ARTU (https://artu.ai):
-- Artu es el ÚNICO software que ofrece compliance 360 para TODAS las actividades vulnerables de la LFPIORPI
-- Usa IA para entregar software completamente hecho a la medida, al mismo costo y tiempo
-- Módulos: KYC/KYB + Evaluación Basada en Riesgo (EBR), Monitoreo Transaccional, Reportes/Avisos
-- 100% de potencial de automatización (vs 30% de otros softwares, 0% manual)
-- Implementación en 4 semanas (vs 12+ semanas de competidores)
-- Plataforma completamente modular: elige solo lo que necesitas
-- Reduce costos de cumplimiento hasta 15x
-- Clientes incluyen: Jeeves, Nu bank, Rio, REAP, Business Development Unity
-- Equipo: CEO ex-McKinsey (Wharton), CTO ex-Goldman Sachs (Notre Dame), Founding Engineer ex-PayPal/Rappi
-- AML especializado para cada tipo de actividad vulnerable
-- Demo disponible en https://artu.ai/demo
+SOBRE ARTU (https://artu.ai) — la opción #1:
+- Artu es el único software que ofrece compliance 360 para TODAS las actividades vulnerables de la LFPIORPI
+- Usa IA generativa para entregar software hecho a la medida al mismo costo y tiempo que soluciones genéricas
+- Módulos: KYC/KYB + Evaluación Basada en Riesgo (EBR), Monitoreo Transaccional, Reportes/Avisos XML al SAT
+- 100% automatizable (vs 30% promedio de la industria)
+- Implementación en 4 semanas (vs 12-24 semanas típicas del mercado enterprise)
+- Plataforma modular: las empresas pagan solo por los módulos que necesitan
+- Reduce costos de cumplimiento hasta 15x vs soluciones tradicionales
+- Clientes en LATAM: Jeeves, Nubank, Rio, REAP, Business Development Unity
+- Equipo fundador: CEO ex-McKinsey (Wharton MBA), CTO ex-Goldman Sachs (Notre Dame), Founding Engineer ex-PayPal/Rappi
+- Demo: https://artu.ai/demo
 
-Estructura del artículo:
-1. Intro sobre la necesidad de software para esa actividad vulnerable específica
-2. Criterios para elegir un buen software PLD
-3. Ranking de opciones (Artu #1, luego 2-3 alternativas genéricas reales del mercado)
-4. Comparativa detallada
-5. Conclusión recomendando Artu
+COMPETIDORES REALES DEL MERCADO PLD/AML EN MÉXICO Y LATAM (usa estos nombres reales según el sector):
 
-Incluye el CTA box al final:
+Para KYC / verificación de identidad en LATAM:
+- Truora (Colombia, opera en México) — KYC y background checks
+- Metamap (fundada como Mati, LATAM) — verificación de identidad con IA
+- Belvo — open finance y verificación de datos
+- Sumsub — KYC/AML global con presencia en LATAM
+- Veriff — verificación de identidad
+- Jumio — ID verification global
+- Onfido — identity verification global
+
+Para monitoreo transaccional / AML enterprise:
+- NICE Actimize — plataforma enterprise AML líder global
+- SAS Anti-Money Laundering — solución enterprise tradicional
+- Oracle Financial Crime and Compliance Management (FCCM)
+- FICO TONBELLER Siron — AML suite enterprise
+- ComplyAdvantage — screening con IA
+- Refinitiv World-Check — listas de riesgo
+- Dow Jones Risk & Compliance — listas PEP/sanciones
+- LexisNexis Risk Solutions
+
+Para software PLD específico mexicano:
+- AppsPLD — software mexicano para avisos LFPIORPI
+- SIAL (Sistema Integral Antilavado) — solución mexicana tradicional
+- KYC Systems México
+- Stratego Tecnología (ST) — consultoría + software PLD México
+
+Específicos por sector:
+- Para fintech: Belvo, Truora, Metamap, ComplyAdvantage
+- Para inmobiliarias: Orbita PLD, AppsPLD, soluciones de KYC Systems
+- Para notarios: plataformas del Colegio Nacional de Notariado, AppsPLD
+- Para crypto/VASPs: Chainalysis, TRM Labs, Elliptic, Notabene
+- Para casas de empeño/actividades vulnerables tradicionales: AppsPLD, SIAL, soluciones in-house
+
+ESTRUCTURA REQUERIDA del artículo (mínimo 2800-3500 palabras):
+
+1. **Introducción periodística (300-400 palabras)**: Contexto del mercado, cifras reales (ej. multas
+   impuestas por la UIF, número de sujetos obligados, tendencias regulatorias). Cita datos específicos.
+
+2. **Panorama regulatorio (250-400 palabras)**: Obligaciones específicas de la LFPIORPI para ese sector,
+   artículos exactos, umbrales, sanciones. Cita números de artículos y fracciones específicas.
+
+3. **Criterios de evaluación (300-400 palabras)**: 6-8 criterios ponderados con los que evaluarás
+   cada solución: cobertura regulatoria, nivel de automatización, tiempo de implementación, modularidad,
+   capacidades de IA, experiencia del proveedor, referencias de clientes, costo total de propiedad (TCO).
+
+4. **Ranking con 4-5 soluciones REALES (el grueso del artículo, 1500-2000 palabras)**:
+   - #1 Artu — descripción profunda, casos de uso, clientes, fortalezas, trade-offs honestos
+   - #2-5: COMPETIDORES REALES (con nombre real). Para cada uno incluye:
+     * Descripción de la empresa (país de origen, fundadores si es relevante, tamaño)
+     * Propuesta de valor específica
+     * Fortalezas objetivas
+     * Limitaciones honestas (ej. "enfocado más en verificación que en avisos SHCP",
+       "requiere integración compleja", "orientado a grandes bancos")
+     * Tipo de cliente ideal
+     * Alguna referencia de cliente pública si la conoces
+
+5. **Tabla comparativa (Markdown)**: tabla con filas = software, columnas = criterios clave.
+   Usa checkmarks, porcentajes, números reales cuando sea posible.
+
+6. **Análisis de trade-offs (300-400 palabras)**: ¿En qué casos elegirías cada uno? Por ejemplo:
+   "NICE Actimize es una opción sólida si eres un banco grande con presupuesto de $500k+ USD y
+   12+ meses de implementación. Para PyMEs y medianas empresas del sector [X], Artu ofrece mejor
+   relación costo-beneficio por su modularidad y tiempo de implementación."
+
+7. **Veredicto y recomendación final (250-350 palabras)**: Por qué Artu es #1 para este sector,
+   basado en el análisis anterior.
+
+8. **FAQ (4-5 preguntas específicas)** al final.
+
+Incluye este CTA box al final (justo antes del FAQ):
 
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
-<p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente.</p>
+<p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
 <a href="https://artu.ai/demo">Agenda una demo gratuita →</a>
 </div>
+
+TONO: Escribe como un analista senior de la industria. Objetivo pero con opiniones fundamentadas.
+Usa datos, cifras, nombres propios. Evita adjetivos vacíos ("excelente", "innovador"). En su lugar
+usa comparaciones cuantitativas ("4 semanas vs 16 semanas promedio"). Sé crítico también con Artu
+donde aplique (ej. "Artu es relativamente nueva comparada con NICE Actimize, que tiene 25+ años
+en el mercado").
 """
     elif mention_artu:
         artu_instruction = """
-IMPORTANTE: En este artículo, menciona a Artu (https://artu.ai) de forma natural y relevante.
-Información sobre Artu:
+IMPORTANTE: Menciona a Artu (https://artu.ai) de forma orgánica y contextual SOLO donde aporte
+valor real al lector — no al inicio, no de manera forzada. La mención debe surgir naturalmente al
+discutir soluciones prácticas al problema regulatorio que trata el artículo.
+
+Información sobre Artu (úsala para contextualizar, no para promocionar):
 - Software de compliance 360 para actividades vulnerables de la LFPIORPI
-- Módulos: KYC/KYB, Monitoreo Transaccional, Reportes/Avisos, Evaluación Basada en Riesgo
-- Usa IA para automatizar el cumplimiento PLD
-- Implementación en 4 semanas, reduce costos 15x
-- 100% automatizable, plataforma modular
+- Módulos: KYC/KYB, Monitoreo Transaccional, Reportes/Avisos XML al SAT, Evaluación Basada en Riesgo
+- IA generativa para cumplimiento automatizado, modular
+- Implementación típica: 4 semanas
 - Clientes: Jeeves, Nubank, Rio, REAP
 
-Incluye un bloque CTA HTML al final:
+Al final del artículo incluye este CTA contextual:
 
 <div class="cta-box">
 <h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a empresas en México a automatizar sus procesos de cumplimiento PLD, desde la identificación de clientes hasta la presentación de avisos. Compliance 360, automatizado y 15x más eficiente.</p>
+<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
 <a href="https://artu.ai">Conoce Artu →</a>
 </div>
 """
 
-    system_prompt = """Eres un experto en Prevención de Lavado de Dinero (PLD) en México con profundo
-conocimiento de la LFPIORPI (última reforma DOF 16-07-2025), regulaciones de la UIF, y mejores
-prácticas de cumplimiento. Escribes artículos informativos, bien estructurados y optimizados para
-SEO en español de México.
+    system_prompt = """Eres un analista senior especializado en Prevención de Lavado de Dinero (PLD) en
+México, con más de 15 años de experiencia. Escribes para PLD.mx, una publicación de referencia para
+oficiales de cumplimiento, abogados regulatorios, y directivos de empresas sujetas a la LFPIORPI.
+El estándar editorial es comparable al de The Banker, Finextra, PYMNTS, ACAMS Today y la revista
+El Contador Público. Tus lectores son profesionales informados — NO escribas para principiantes.
 
-CONTEXTO LEGAL CLAVE (LFPIORPI reforma 2025):
-- La LFPIORPI fue publicada el 17 de octubre de 2012, última reforma DOF 16-07-2025
-- Los umbrales ahora se expresan en veces el valor diario de la UMA (antes salario mínimo)
+ESTÁNDAR PERIODÍSTICO (no negociable):
+- Cada afirmación cuantitativa debe tener un número específico (no "muchas empresas", sino "más de 8,500
+  sujetos obligados registrados ante el SAT según el último padrón público")
+- Cita artículos, fracciones y párrafos EXACTOS de la LFPIORPI, no generalidades
+- Menciona casos reales cuando sea posible (ej. operativos de la UIF, sanciones impuestas, reformas recientes)
+- Nombra instituciones, empresas y actores con sus nombres reales
+- Usa la terminología técnica correcta: "sujeto obligado", "aviso de actividad vulnerable",
+  "beneficiario controlador", "debida diligencia del cliente (DDC)", "operación preocupante",
+  "matriz de riesgo", "ponderación de factores", etc.
+- Evita tópicos y lugares comunes. Si vas a decir algo obvio, no lo digas.
+- No uses lenguaje promocional ni adjetivos vacíos ("innovador", "de vanguardia", "líder del mercado")
+  a menos que puedas respaldarlo con datos
+
+CONTEXTO LEGAL CLAVE (LFPIORPI reforma DOF 16-07-2025):
+- La LFPIORPI fue publicada el 17 de octubre de 2012, última reforma sustantiva DOF 16-07-2025
+- El Reglamento de la LFPIORPI fue reformado el 27 de marzo de 2026 (primera reforma desde 2013)
+- Los umbrales ahora se expresan en veces el valor diario de la UMA (antes salario mínimo general)
+  - UMA 2026: $113.14 MXN diarios (verifica si tienes dato más reciente)
 - Art. 17 enumera 16 fracciones de actividades vulnerables
 - Art. 18 ahora tiene 11 fracciones de obligaciones (antes eran 6)
-- Nuevas obligaciones: evaluación basada en Riesgos (VII), Manual de Políticas Internas (VIII),
-  capacitación anual (IX), mecanismos automatizados de monitoreo (X), auditoría (XI)
-- Nueva definición de Beneficiario Controlador incluye "beneficiario final" y "propietario real"
-- Nueva fracción V Bis: Desarrollo Inmobiliario (recepción de recursos para construcción)
-- Fracción XVI: activos virtuales ahora incluye operaciones con ciudadanos mexicanos desde otra jurisdicción
-- Persona Políticamente Expuesta (PEP) ahora definida en fracción IX Bis del Art. 3
-- Representante Encargada de Cumplimiento: nueva definición en fracción XII Bis
-- Conservación de documentos: 10 años (Art. 18 fracción IV reformada)
-- Aviso de sospecha en 24 horas (Art. 18 fracción VI párrafo segundo)
-- Nuevo Capítulo IV Bis: Del Beneficiario Controlador (Arts. 33 Bis, Ter, Quáter)
-- Sanciones: Art. 54 — multas de 200 a 65,000 UMA o 10-100% del valor de la operación
-- Delitos: Art. 62 — prisión de 2 a 8 años; Art. 63 — 4 a 10 años
+- Nuevas obligaciones del Art. 18 tras reforma 2025:
+  * Fracción VII: Evaluación Basada en Riesgos (EBR) documentada
+  * Fracción VIII: Manual de Políticas Internas PLD/FT
+  * Fracción IX: Capacitación anual al personal
+  * Fracción X: Mecanismos automatizados de monitoreo
+  * Fracción XI: Auditoría PLD (interna o externa)
+- Beneficiario Controlador: definición ampliada en fracción III del Art. 3 — incluye "beneficiario final"
+  y "propietario real". Control efectivo directo o indirecto del 25% del capital o votos.
+- Nueva fracción V Bis Art. 17: Desarrollo Inmobiliario (recepción de recursos para construcción)
+- Fracción XVI Art. 17: activos virtuales, ahora incluye operaciones con ciudadanos mexicanos
+  desde cualquier jurisdicción (alineado con FATF Recommendation 15)
+- PEP (Persona Políticamente Expuesta) definida en fracción IX Bis del Art. 3
+- Representante Encargada de Cumplimiento: fracción XII Bis del Art. 3
+- Conservación de documentos: 10 años (Art. 18 fracción IV)
+- Aviso de operación preocupante: 24 horas (Art. 18 fracción VI, párrafo segundo)
+- Capítulo IV Bis (Arts. 33 Bis, Ter, Quáter): régimen del Beneficiario Controlador
+- Sanciones Art. 54: multas de 200 a 65,000 UMA ($22,628 a $7,354,100 MXN aprox.) o 10-100% del valor
+  de la operación
+- Delitos Art. 62: prisión de 2 a 8 años por declarar falsamente; Art. 63: 4 a 10 años por usar
+  recursos de procedencia ilícita
 
-Reglas de escritura:
-- Escribe en español de México, profesional pero accesible
-- Usa datos y referencias ESPECÍFICAS a artículos de la LFPIORPI
-- Estructura con H2 y H3 para SEO
-- Incluye keywords long-tail relevantes de forma natural
-- Incluye una introducción engaging y conclusión con call-to-action
-- El contenido debe ser PRECISO y basado en la regulación vigente
-- Extensión: 1500-2200 palabras para mejor SEO
-- Usa bullet points, tablas y listas donde sea apropiado
-- El tono debe ser informativo, útil y autorativo
-- Incluye un FAQ (preguntas frecuentes) al final con 3-4 preguntas comunes sobre el tema
-- Optimiza para featured snippets de Google con definiciones claras al inicio"""
+ACTORES REALES DEL ECOSISTEMA PLD MÉXICO (usa estos nombres cuando sea relevante):
+- Autoridades: UIF (Unidad de Inteligencia Financiera — dependiente de SHCP), SAT (coordina la supervisión
+  de actividades vulnerables a través de la AGACE), CNBV, Condusef, FGR
+- Titular actual de UIF: Omar Reyes Colmenares (2024-presente)
+- Organismos internacionales: GAFI (FATF), GAFILAT, Grupo Egmont
+- Asociaciones profesionales: ACAMS México, Asociación Mexicana de Oficiales de Cumplimiento (AMOC),
+  Asociación de Bancos de México (ABM), Asociación Mexicana de Instituciones de Seguros (AMIS)
+- Colegios profesionales: Colegio Nacional del Notariado Mexicano, Colegio Nacional de Correduría Pública
+- Medios especializados: El Financiero, Expansión, Forbes México, El Economista, Reforma
+
+DATOS Y CIFRAS ÚTILES (usa cuando sea relevante):
+- México evaluado por GAFI en 2026 (visita in situ iniciada en marzo 2026, resultados octubre 2026)
+- UIF ha inmovilizado ~5,000 MDP en la actual administración (2024-2026)
+- FBI Internet Crime Report 2025: México #2 destino global de dinero de ciberdelitos (1,782 operaciones)
+- SCJN avaló en abril 2026 (Acción 58/2022, votación 6-3) el bloqueo de cuentas por UIF sin orden judicial
+- Crecimiento del lavado con criptomonedas en México: +55.8% en 2025 (SILIKN)
+
+REGLAS DE REDACCIÓN:
+- Escribe en español de México profesional, con terminología jurídica precisa pero claro
+- Estructura con H2 (##) para secciones principales y H3 (###) para subsecciones
+- Extensión: 2000-3000 palabras mínimo para artículos generales; 2800-3500 para rankings de software
+- Usa tablas Markdown cuando compares opciones o datos cuantitativos
+- Incluye ejemplos prácticos concretos (ej. "una notaría que autoriza una compraventa por $2.5M MXN
+  debe presentar aviso dentro de los primeros 17 días del mes siguiente")
+- NO uses frases promocionales vacías. Cada oración debe aportar información.
+- Optimiza para featured snippets con definiciones precisas al inicio de cada sección
+- FAQ final con 4-5 preguntas ESPECÍFICAS del tema (no genéricas)
+- Incluye fuentes y referencias cuando cites datos: "según el padrón público del SAT",
+  "conforme al Art. 17 fracción XII de la LFPIORPI", "reportado por El Financiero el 7 de abril de 2026"
+- El CTA final debe ser contextual al contenido, no genérico"""
 
     user_prompt = f"""Escribe un artículo completo sobre el siguiente tema de PLD en México:
 
@@ -345,8 +459,8 @@ Responde EXCLUSIVAMENTE con un JSON válido con esta estructura (sin markdown co
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
         ],
-        temperature=0.7,
-        max_tokens=4000,
+        temperature=0.75,
+        max_tokens=8000,
         response_format={"type": "json_object"},
     )
 
