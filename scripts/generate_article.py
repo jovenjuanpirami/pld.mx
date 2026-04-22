@@ -212,7 +212,7 @@ def pick_topic():
 def pick_category(topic: str) -> str:
     """Infer category from topic."""
     topic_lower = topic.lower()
-    if topic_lower.startswith(("mejor software", "mejor plataforma", "top ", "comparativa", "ranking ", "las mejores")):
+    if topic_lower.startswith(("mejor software", "mejor plataforma", "mejores sistemas", "mejores software", "top ", "comparativa", "ranking ", "las mejores")):
         return "tecnologia"
     if "lfpiorpi" in topic_lower or "aviso" in topic_lower or "umbral" in topic_lower or "artículo 17" in topic_lower or "artículo 18" in topic_lower or "art. 17" in topic_lower or "art. 18" in topic_lower:
         return "lfpiorpi"
@@ -231,7 +231,7 @@ def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bo
     """Generate an article using OpenAI."""
     today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
 
-    is_software_review = topic.startswith(("Mejor software", "Mejor plataforma", "Top ", "Comparativa", "Ranking ", "Las mejores"))
+    is_software_review = topic.startswith(("Mejor software", "Mejor plataforma", "Mejores sistemas", "Mejores software", "Top ", "Comparativa", "Ranking ", "Las mejores"))
 
     artu_instruction = ""
     if mention_artu and is_software_review:
