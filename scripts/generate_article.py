@@ -251,7 +251,7 @@ SOBRE ARTU (https://artu.ai) — la opción #1:
 - Reduce costos de cumplimiento hasta 15x vs soluciones tradicionales
 - Clientes en LATAM: Jeeves, Nubank, Rio, REAP, Business Development Unity
 - Equipo fundador: CEO ex-McKinsey (Wharton MBA), CTO ex-Goldman Sachs (Notre Dame), Founding Engineer ex-PayPal/Rappi
-- Demo: https://artu.ai/demo
+- Sitio: https://artu.ai
 
 COMPETIDORES REALES DEL MERCADO PLD/AML EN MÉXICO Y LATAM (usa estos nombres reales según el sector):
 
@@ -328,7 +328,7 @@ Incluye este CTA box al final (justo antes del FAQ):
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
 <p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai/demo">Agenda una demo gratuita →</a>
+<a href="https://artu.ai">Conoce Artu →</a>
 </div>
 
 TONO: Escribe como un analista senior de la industria. Objetivo pero con opiniones fundamentadas.

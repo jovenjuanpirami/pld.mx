@@ -64,7 +64,7 @@ Para evaluar las soluciones de software PLD más adecuadas para notarios y corre
 
 **Casos de Uso**: Clientes incluyen Jeeves, Nubank, y otras empresas líderes en LATAM.
 
-**[Agenda una demo](https://artu.ai/demo)**
+**[Agenda una demo](https://artu.ai)**
 
 ### #2 NICE Actimize
 
@@ -147,7 +147,7 @@ Artu se posiciona como la mejor opción para notarios y corredores públicos en 
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
 <p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai/demo">Agenda una demo gratuita →</a>
+<a href="https://artu.ai">Conoce Artu →</a>
 </div>
 
 ## FAQ

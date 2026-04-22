@@ -58,7 +58,7 @@ Artu es especialmente relevante para empresas en LATAM como Nubank y Jeeves, qui
 **Limitaciones:**
 - Relativamente nueva en comparación con veteranos como NICE Actimize
 
-[Agenda una demo gratuita con Artu](https://artu.ai/demo)
+[Agenda una demo gratuita con Artu](https://artu.ai)
 
 ### #2 Chainalysis
 
@@ -135,7 +135,7 @@ Artu emerge como la mejor opción para el mercado mexicano de activos virtuales,
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
 <p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai/demo">Agenda una demo gratuita →</a>
+<a href="https://artu.ai">Conoce Artu →</a>
 </div>
 
 ## FAQ

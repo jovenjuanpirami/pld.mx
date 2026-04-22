@@ -124,7 +124,7 @@ Artu se posiciona como la mejor opción para sujetos obligados en el sector de e
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
 <p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai/demo">Agenda una demo gratuita →</a>
+<a href="https://artu.ai">Conoce Artu →</a>
 </div>
 
 ## FAQ
