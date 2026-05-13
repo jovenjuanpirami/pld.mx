@@ -1,0 +1,81 @@
+name: Generate Podcast Episode
+
+# Runs after a new article is pushed to main. Generates audio with ElevenLabs
+# and uploads to Buzzsprout, which auto-publishes to Spotify, Apple Podcasts, etc.
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "_posts/**.md"
+  workflow_dispatch:
+    inputs:
+      post_paths:
+        description: 'Paths to specific posts (space-separated). Empty = newest post.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  podcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout (with history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Determine which posts to process
+        id: posts
+        run: |
+          if [ -n "${{ inputs.post_paths }}" ]; then
+            echo "Using manually specified posts"
+            echo "files=${{ inputs.post_paths }}" >> $GITHUB_OUTPUT
+          else
+            # Find _posts files that were ADDED in the most recent commit
+            added=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md' 2>/dev/null || true)
+            if [ -z "$added" ]; then
+              echo "No new posts in last commit"
+              echo "files=" >> $GITHUB_OUTPUT
+            else
+              # Squash newlines into spaces for one-line var
+              files=$(echo "$added" | tr '\n' ' ')
+              echo "Detected new posts: $files"
+              echo "files=$files" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Generate and upload podcast episode(s)
+        if: steps.posts.outputs.files != ''
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          BUZZSPROUT_API_TOKEN: ${{ secrets.BUZZSPROUT_API_TOKEN }}
+          BUZZSPROUT_PODCAST_ID: ${{ secrets.BUZZSPROUT_PODCAST_ID }}
+        run: |
+          python scripts/generate_podcast.py ${{ steps.posts.outputs.files }}
+
+      - name: Commit tracking file
+        if: steps.posts.outputs.files != ''
+        run: |
+          git config user.name "PLD.mx Bot"
+          git config user.email "bot@pld.mx"
+          git add _data/podcast_episodes.json
+          if git diff --staged --quiet; then
+            echo "No tracking changes to commit"
+            exit 0
+          fi
+          git commit -m "Track new podcast episode(s)"
+          git push origin main
