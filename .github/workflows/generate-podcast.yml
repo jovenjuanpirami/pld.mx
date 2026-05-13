@@ -70,6 +70,10 @@ jobs:
       - name: Commit tracking file
         if: steps.posts.outputs.files != ''
         run: |
+          if [ ! -f _data/podcast_episodes.json ]; then
+            echo "No tracking file to commit (no episodes published)"
+            exit 0
+          fi
           git config user.name "PLD.mx Bot"
           git config user.email "bot@pld.mx"
           git add _data/podcast_episodes.json

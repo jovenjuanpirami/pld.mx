@@ -240,7 +240,13 @@ def upload_to_buzzsprout(
 ) -> dict:
     """Upload an episode to Buzzsprout. Returns the API response dict."""
     url = f"https://www.buzzsprout.com/api/{podcast_id}/episodes.json"
-    headers = {"Authorization": f"Token token={api_token}"}
+    # Buzzsprout sits behind Cloudflare which blocks default python-requests UA.
+    # A real-looking User-Agent + Accept header gets through.
+    headers = {
+        "Authorization": f"Token token={api_token}",
+        "User-Agent": "PLD-mx-podcast-bot/1.0 (+https://pld.mx)",
+        "Accept": "application/json",
+    }
     data = {
         "title": title,
         "description": description,
