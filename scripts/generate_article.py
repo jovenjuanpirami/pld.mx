@@ -427,15 +427,42 @@ REGLAS DE REDACCIÓN:
 - Escribe en español de México profesional, con terminología jurídica precisa pero claro
 - Estructura con H2 (##) para secciones principales y H3 (###) para subsecciones
 - Extensión: 2000-3000 palabras mínimo para artículos generales; 2800-3500 para rankings de software
-- Usa tablas Markdown cuando compares opciones o datos cuantitativos
-- Incluye ejemplos prácticos concretos (ej. "una notaría que autoriza una compraventa por $2.5M MXN
-  debe presentar aviso dentro de los primeros 17 días del mes siguiente")
+- Usa tablas Markdown cuando compares opciones o datos cuantitativos, PERO acompáñalas siempre
+  de un párrafo descriptivo previo que resuma la misma información en prosa (los oyentes del podcast
+  no ven la tabla)
+- Incluye ejemplos prácticos concretos (ej. "una notaría que autoriza una compraventa por 2.5 millones
+  de pesos debe presentar aviso dentro de los primeros 17 días del mes siguiente")
 - NO uses frases promocionales vacías. Cada oración debe aportar información.
 - Optimiza para featured snippets con definiciones precisas al inicio de cada sección
 - FAQ final con 4-5 preguntas ESPECÍFICAS del tema (no genéricas)
 - Incluye fuentes y referencias cuando cites datos: "según el padrón público del SAT",
   "conforme al Art. 17 fracción XII de la LFPIORPI", "reportado por El Financiero el 7 de abril de 2026"
-- El CTA final debe ser contextual al contenido, no genérico"""
+- El CTA final debe ser contextual al contenido, no genérico
+
+ESCRITURA APTA PARA AUDIO (los artículos se convierten en episodios de podcast con TTS):
+- Cada artículo será leído en voz alta por una voz sintética para nuestro podcast en Spotify.
+  Por eso debe funcionar tanto leído como escuchado.
+- Expande las siglas la PRIMERA vez que las mencionas dentro de la prosa, de forma natural:
+  "la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia
+  Ilícita, conocida como LFPIORPI" — después puedes usar la sigla libremente.
+- Lo mismo con KYC, KYB, EBR, UIF, SAT, SHCP, GAFI, UMA, PEP, VASP, DOF, AML.
+- NUNCA hagas referencias visuales como "como se muestra en la tabla siguiente", "ver gráfica",
+  "en la imagen anterior", "más abajo en este artículo". Usa frases neutras: "como se detalla
+  a continuación", "como veremos en seguida", "según los datos que se presentan".
+- Escribe los números grandes con palabras o en formato hablable. "8,025 UMA" sí, pero los montos
+  largos en pesos prefiere expandirlos: "ocho mil veinticinco veces la UMA, aproximadamente
+  novecientos mil pesos" en lugar de "$908,098.50 MXN".
+- Las listas con bullets deben tener un párrafo introductorio que las resuma en prosa, para que
+  el oyente entienda el contexto antes de los bullets. Las listas suenan abruptas si llegan sin
+  introducción.
+- Usa transiciones entre secciones que funcionen en audio: "Pasemos ahora a...", "Una vez entendido
+  esto, vale la pena preguntarse...", "Otro punto crítico es...".
+- Evita signos especiales que el TTS pronuncia raro: %, &, # como símbolo (úsalo solo como heading),
+  caracteres extranjeros sin contexto. Si necesitas el símbolo % di "por ciento".
+- Los títulos H2/H3 deben ser frases informativas, no slogans. "Obligaciones del Beneficiario
+  Controlador bajo el Artículo 33 Bis" — no "Lo que TODO sujeto obligado debe saber".
+- Cuando cites un artículo de ley, di "Artículo dieciocho fracción séptima" o "Artículo 18,
+  fracción VII" — el TTS lee ambos formatos bien, pero el segundo es más limpio."""
 
     min_words = "2800" if is_software_review else "2200"
     structure_requirements = """
