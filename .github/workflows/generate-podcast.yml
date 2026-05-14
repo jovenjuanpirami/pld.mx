@@ -1,7 +1,9 @@
-name: Generate Podcast Episode
+name: Generate Podcast Episode (Friday brief)
 
-# Runs after a new article is pushed to main. Generates audio with ElevenLabs
-# and uploads to Buzzsprout, which auto-publishes to Spotify, Apple Podcasts, etc.
+# Runs after a new Friday weekly brief is pushed to main. Generates audio with
+# ElevenLabs and uploads to Buzzsprout, which auto-publishes to Spotify.
+# Daily articles are NOT auto-converted to podcast — only Friday briefs.
+# (For monthly highlight episodes, see monthly-podcast-pick.yml.)
 
 on:
   push:
@@ -41,18 +43,20 @@ jobs:
         id: posts
         run: |
           if [ -n "${{ inputs.post_paths }}" ]; then
+            # Manual override - process whatever the user specified
             echo "Using manually specified posts"
             echo "files=${{ inputs.post_paths }}" >> $GITHUB_OUTPUT
           else
             # Find _posts files that were ADDED in the most recent commit
+            # AND filter to only Friday weekly briefs (filename contains "resumen-semanal")
             added=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '_posts/*.md' 2>/dev/null || true)
-            if [ -z "$added" ]; then
-              echo "No new posts in last commit"
+            briefs=$(echo "$added" | grep -E 'resumen-semanal' || true)
+            if [ -z "$briefs" ]; then
+              echo "No new Friday briefs in last commit (daily articles are not auto-podcasted)"
               echo "files=" >> $GITHUB_OUTPUT
             else
-              # Squash newlines into spaces for one-line var
-              files=$(echo "$added" | tr '\n' ' ')
-              echo "Detected new posts: $files"
+              files=$(echo "$briefs" | tr '\n' ' ')
+              echo "Detected new Friday brief(s): $files"
               echo "files=$files" >> $GITHUB_OUTPUT
             fi
           fi

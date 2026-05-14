@@ -1,0 +1,72 @@
+name: Monthly Highlight Podcast Episode
+
+# Runs on the 1st of every month at 8 AM Mexico City time.
+# Picks the single highest-SEO-value article from the last 30 days that
+# isn't a Friday brief and isn't already published as a podcast, then
+# converts it to audio and publishes to Spotify via Buzzsprout.
+
+on:
+  schedule:
+    # 0 14 1 * * = 14:00 UTC on day 1 of each month = 8:00 AM Mexico City
+    - cron: '0 14 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monthly-pick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Pick the monthly highlight article
+        id: pick
+        run: |
+          chosen=$(python scripts/pick_monthly_podcast.py)
+          if [ -z "$chosen" ]; then
+            echo "No eligible article found this month — skipping"
+            echo "post=" >> $GITHUB_OUTPUT
+          else
+            echo "Chosen post: $chosen"
+            echo "post=$chosen" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate and upload podcast episode
+        if: steps.pick.outputs.post != ''
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          BUZZSPROUT_API_TOKEN: ${{ secrets.BUZZSPROUT_API_TOKEN }}
+          BUZZSPROUT_PODCAST_ID: ${{ secrets.BUZZSPROUT_PODCAST_ID }}
+        run: |
+          python scripts/generate_podcast.py "${{ steps.pick.outputs.post }}"
+
+      - name: Commit tracking file
+        if: steps.pick.outputs.post != ''
+        run: |
+          if [ ! -f _data/podcast_episodes.json ]; then
+            echo "No tracking file to commit"
+            exit 0
+          fi
+          git config user.name "PLD.mx Bot"
+          git config user.email "bot@pld.mx"
+          git add _data/podcast_episodes.json
+          if git diff --staged --quiet; then
+            echo "No tracking changes to commit"
+            exit 0
+          fi
+          git commit -m "Track monthly highlight podcast episode"
+          git push origin main
