@@ -129,14 +129,95 @@ def expand_acronyms_first_use(text: str) -> str:
     return text
 
 
-def build_episode_script(metadata: dict, body: str) -> str:
-    """Combine intro + cleaned content + outro into final script."""
+def generate_podcast_script_with_ai(title: str, cleaned_text: str, openai_key: str) -> str:
+    """Use GPT to turn a long article into a tight, entertaining podcast script
+    (1200-1800 words, ~6-10 min of audio). Includes intro/outro and natural
+    acronym expansion. Returns the finished narration text."""
+
+    system_prompt = """Eres un guionista profesional de podcasts en español de México con experiencia escribiendo para radio y audio periodístico (estilo BBC Mundo, NPR en español, Radio Ambulante).
+
+Tu trabajo: transformar artículos extensos sobre prevención de lavado de dinero (PLD) y regulación en México en GUIONES DE PODCAST cortos, dinámicos y entretenidos para episodios de 6-10 minutos.
+
+REGLAS DE ESCRITURA:
+- Longitud objetivo: 1200-1800 palabras (~8-11 min de audio narrado)
+- Estilo: conversacional, periodístico, ágil. Como un periodista experimentado en radio.
+- NO repitas información. Cada oración debe agregar algo nuevo.
+- NO uses listas/bullets. Convierte TODO a prosa narrativa fluida.
+- Expande siglas naturalmente la primera vez: "la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI"
+- Después puedes usar la sigla libremente
+- Citas reales: cuando el artículo mencione cifras, fechas, instituciones, úsalas para dar credibilidad
+- Cero referencias visuales ("como se ve en la tabla", "imagen anterior", "abajo")
+- Frases cortas/medianas. Ritmo dinámico. Pausas naturales con puntos.
+- Sin tecnicismos vacíos. Si usas un término técnico, explícalo brevemente.
+
+ESTRUCTURA OBLIGATORIA:
+1. APERTURA (15-20 seg): "Bienvenidos a PLD punto MX..." + frase potente del tema del día
+2. CONTEXTO (1 min): por qué importa este tema AHORA
+3. DESARROLLO (4-7 min): el contenido principal, narrado en orden lógico, con anécdotas o ejemplos concretos cuando aporte
+4. CIERRE (30 seg): conclusión accionable + "Visita pld punto MX para leer el análisis completo..."
+
+PROHIBIDO:
+- Empezar con "Hoy hablaremos de..." o "En este episodio veremos..." (aburrido)
+- Repetir el título tal cual al inicio
+- Usar markdown, asteriscos, almohadillas o cualquier formato visual
+- Inventar datos. Si el artículo no lo dice, no lo digas.
+
+Tu output es SOLO el guion del podcast, listo para ser leído por un TTS en voz mexicana."""
+
+    user_prompt = f"""TÍTULO DEL ARTÍCULO:
+{title}
+
+ARTÍCULO COMPLETO (transforma esto en guion de podcast):
+
+{cleaned_text[:18000]}
+
+Genera el guion del podcast. Solo el texto del guion, nada más."""
+
+    response = requests.post(
+        "https://api.openai.com/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {openai_key}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": "gpt-4o",
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "temperature": 0.8,
+            "max_tokens": 3500,
+        },
+        timeout=180,
+    )
+    if response.status_code != 200:
+        raise RuntimeError(f"OpenAI error {response.status_code}: {response.text[:400]}")
+    return response.json()["choices"][0]["message"]["content"].strip()
+
+
+def build_episode_script(metadata: dict, body: str, openai_key: str | None) -> str:
+    """Produce final podcast script.
+
+    If OPENAI_API_KEY is set: use GPT to write a tight 1200-1800 word podcast
+    script (recommended for quality — shorter, entertaining, no repetition).
+
+    Otherwise: fall back to the basic version (cleaned article + intro/outro)."""
     title = metadata.get("title", "Análisis PLD")
     cleaned = clean_markdown_for_speech(body)
-    cleaned = expand_acronyms_first_use(cleaned)
 
+    if openai_key:
+        print(f"  Building AI podcast script (gpt-4o) from {len(cleaned)} chars of article")
+        try:
+            script = generate_podcast_script_with_ai(title, cleaned, openai_key)
+            print(f"  AI script: {len(script.split())} words")
+            return script
+        except Exception as e:
+            print(f"  ⚠ AI script failed ({e}); falling back to basic version")
+
+    # Fallback: basic intro + cleaned article + outro
+    cleaned = expand_acronyms_first_use(cleaned)
     intro = (
-        f"Bienvenidos a PLD punto MX, su fuente diaria de análisis sobre "
+        f"Bienvenidos a PLD punto MX, su fuente de análisis sobre "
         f"prevención de lavado de dinero en México. "
         f"En el episodio de hoy: {title}."
     )
@@ -146,7 +227,6 @@ def build_episode_script(metadata: dict, body: str) -> str:
         "más contenido sobre cumplimiento regulatorio, la LFPIORPI y prevención "
         "de lavado de dinero en México."
     )
-
     return f"{intro}\n\n{cleaned}\n\n{outro}"
 
 
@@ -295,6 +375,7 @@ def process_post(
     bz_token: str,
     bz_id: str,
     tracking: dict,
+    openai_key: str | None = None,
 ) -> bool:
     """Process a single post. Returns True if a new episode was published."""
     slug = post_path.stem
@@ -308,7 +389,7 @@ def process_post(
     title = metadata.get("title", slug)
     description_meta = metadata.get("description", "")
 
-    script = build_episode_script(metadata, body)
+    script = build_episode_script(metadata, body, openai_key)
     print(f"  Script length: {len(script)} chars")
 
     print(f"  Calling ElevenLabs (voice {voice_id})…")
@@ -349,6 +430,7 @@ def main():
     voice_id = os.environ.get("ELEVENLABS_VOICE_ID")
     bz_token = os.environ.get("BUZZSPROUT_API_TOKEN")
     bz_id = os.environ.get("BUZZSPROUT_PODCAST_ID")
+    openai_key = os.environ.get("OPENAI_API_KEY")  # optional but recommended
 
     missing = [
         name
@@ -363,6 +445,9 @@ def main():
     if missing:
         print(f"ERROR: missing env vars: {', '.join(missing)}")
         sys.exit(1)
+    if not openai_key:
+        print("⚠  OPENAI_API_KEY not set — falling back to basic article narration")
+        print("   (set it to get tight, entertaining 8-10 min podcast scripts via GPT)")
 
     if len(sys.argv) < 2:
         print("Usage: generate_podcast.py <post1.md> [<post2.md> ...]")
@@ -379,7 +464,7 @@ def main():
             print(f"⚠  Skip (not found): {arg}")
             continue
         try:
-            if process_post(post_path, voice_id, eleven_key, bz_token, bz_id, tracking):
+            if process_post(post_path, voice_id, eleven_key, bz_token, bz_id, tracking, openai_key):
                 published_count += 1
         except Exception as e:
             print(f"✗ Failed {post_path.name}: {type(e).__name__}: {e}")
