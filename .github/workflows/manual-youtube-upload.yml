@@ -1,0 +1,57 @@
+name: Manual YouTube Upload
+
+# Manually upload an existing podcast episode to YouTube.
+# Useful for backfilling or testing.
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Post slug (without .md). Example: 2026-05-13-artu-lanza-plan-starter-pld-para-pymes-en-mexico'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg libcairo2 libcairo2-dev
+          pip install requests cairosvg google-api-python-client google-auth google-auth-oauthlib
+
+      - name: Upload to YouTube
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          python scripts/upload_to_youtube.py "${{ inputs.slug }}"
+
+      - name: Commit tracking file
+        run: |
+          if [ ! -f _data/podcast_episodes.json ]; then
+            exit 0
+          fi
+          git config user.name "PLD.mx Bot"
+          git config user.email "bot@pld.mx"
+          git add _data/podcast_episodes.json
+          if git diff --staged --quiet; then
+            echo "No tracking changes to commit"
+            exit 0
+          fi
+          git commit -m "Track YouTube upload for ${{ inputs.slug }}"
+          git push origin main
