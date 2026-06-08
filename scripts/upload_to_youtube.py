@@ -105,7 +105,12 @@ def find_image(slug: str) -> Path | None:
 
 def download_audio(url: str, dest: Path):
     print(f"  Downloading audio: {url}")
-    r = requests.get(url, stream=True, timeout=300)
+    # Buzzsprout is behind Cloudflare which blocks default requests UA.
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "audio/mpeg, audio/*, */*",
+    }
+    r = requests.get(url, stream=True, timeout=300, headers=headers)
     r.raise_for_status()
     with open(dest, "wb") as f:
         for chunk in r.iter_content(chunk_size=65536):
