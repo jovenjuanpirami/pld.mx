@@ -37,7 +37,9 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg libcairo2 libcairo2-dev
+          pip install requests cairosvg google-api-python-client google-auth google-auth-oauthlib
 
       - name: Determine which posts to process
         id: posts
@@ -71,6 +73,20 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python scripts/generate_podcast.py ${{ steps.posts.outputs.files }}
+
+      - name: Upload to YouTube
+        if: steps.posts.outputs.files != ''
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          # Extract slugs from full paths for the YouTube uploader
+          for path in ${{ steps.posts.outputs.files }}; do
+            slug=$(basename "$path" .md)
+            python scripts/upload_to_youtube.py "$slug" || echo "YouTube upload failed for $slug (continuing)"
+          done
 
       - name: Commit tracking file
         if: steps.posts.outputs.files != ''
