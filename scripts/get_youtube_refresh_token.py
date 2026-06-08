@@ -18,7 +18,6 @@ Then run:
 """
 
 import sys
-from getpass import getpass
 
 try:
     from google_auth_oauthlib.flow import InstalledAppFlow
@@ -34,21 +33,34 @@ SCOPES = [
 ]
 
 
+def clean(s: str) -> str:
+    """Strip whitespace, quotes, and non-printable characters from pasted input."""
+    return "".join(ch for ch in s.strip().strip('"').strip("'") if ch.isprintable())
+
+
 def main():
     print("\n" + "=" * 60)
     print(" YouTube OAuth Refresh Token Generator")
     print("=" * 60)
     print(
-        "\nThis script will open your browser. Sign in with the\n"
-        "Google account that owns your YouTube channel and accept\n"
-        "the permissions. The script will print a refresh token.\n"
+        "\nVoy a pedirte el Client ID y Client Secret.\n"
+        "Esta vez los verás mientras los pegas para que confirmes.\n"
+        "El Client Secret comienza con 'GOCSPX-'.\n"
     )
 
-    client_id = input("Paste your Client ID: ").strip()
-    client_secret = getpass("Paste your Client Secret (hidden as you type): ").strip()
+    client_id = clean(input("Paste your Client ID: "))
+    client_secret = clean(input("Paste your Client Secret: "))
 
     if not client_id or not client_secret:
         print("\nERROR: both Client ID and Client Secret are required")
+        sys.exit(1)
+
+    # Show partial values so user can verify before authorizing
+    print(f"\n  Client ID:     {client_id[:15]}...{client_id[-25:]}")
+    print(f"  Client Secret: {client_secret[:8]}...{client_secret[-4:]}")
+    confirm = input("\n¿Se ven correctos? (s/n): ").strip().lower()
+    if confirm not in ("s", "si", "sí", "y", "yes"):
+        print("Aborted. Re-run the script with the correct values.")
         sys.exit(1)
 
     client_config = {
