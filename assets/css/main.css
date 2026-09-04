@@ -1101,200 +1101,283 @@ h3 { font-size: var(--font-size-2xl); }
    Rankings — Top Software PLD / Top Personas PLD
    ============================================ */
 
+.rank-page { padding: var(--space-3xl) 0 var(--space-4xl); background: var(--color-gray-50); }
+.rank-page .container { max-width: 1080px; }
+
 .section-intro {
   max-width: var(--content-width);
   color: var(--color-gray-500);
   font-size: var(--font-size-lg);
-  line-height: 1.7;
-  margin-bottom: var(--space-2xl);
+  line-height: 1.75;
+  margin: 0 auto var(--space-2xl);
+  text-align: center;
 }
 
 .disclosure-note {
-  background: rgba(255, 129, 48, 0.08);
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
   border-left: 4px solid var(--color-orange);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius);
   padding: var(--space-lg) var(--space-xl);
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-3xl);
   font-size: var(--font-size-sm);
   line-height: 1.7;
   color: var(--color-gray-700);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 
 .rank-disclaimer {
-  margin-top: var(--space-2xl);
+  margin: var(--space-3xl) auto 0;
   padding-top: var(--space-lg);
   border-top: 1px solid var(--color-gray-200);
   font-size: var(--font-size-sm);
   color: var(--color-gray-500);
   line-height: 1.7;
+  text-align: center;
+  max-width: var(--content-width);
 }
 
-/* --- Ranking de software --- */
-.rank-list {
-  display: grid;
-  gap: var(--space-lg);
-  margin-bottom: var(--space-3xl);
-}
-.rank-item {
-  display: flex;
-  gap: var(--space-xl);
-  align-items: flex-start;
+/* --- Tarjeta de ranking --- */
+.rank-list { display: grid; gap: var(--space-xl); margin-bottom: var(--space-3xl); }
+
+.rank-card {
+  position: relative;
   background: var(--color-white);
   border: 1px solid var(--color-gray-200);
-  border-radius: var(--radius);
-  padding: var(--space-xl);
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 1px 3px rgba(11, 65, 71, 0.04);
 }
-.rank-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+.rank-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(11, 65, 71, 0.12);
 }
-.rank-badge {
+.rank-card__rail { height: 5px; width: 100%; background: var(--color-gray-300); }
+.rank-card__inner { display: flex; gap: var(--space-xl); padding: var(--space-2xl); align-items: flex-start; }
+
+.rank-card__num {
   flex: 0 0 auto;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-size-xl);
+  font-size: 1.6rem;
   font-weight: 900;
   color: var(--color-white);
-  background: var(--color-gray-500);
+  background: var(--color-gray-300);
+  letter-spacing: -0.02em;
 }
-.rank-item--gold { border-color: var(--color-mint); border-width: 2px; }
-.rank-item--gold .rank-badge { background: var(--gradient-accent); }
-.rank-item--silver .rank-badge { background: var(--color-blue); }
-.rank-item--bronze .rank-badge { background: var(--color-sky); }
-.rank-item--caution { background: var(--color-gray-50); }
-.rank-item--caution .rank-badge { background: var(--color-gray-300); color: var(--color-gray-700); }
+.rank-card__main { flex: 1 1 auto; min-width: 0; }
 
-.rank-body { flex: 1 1 auto; min-width: 0; }
-.rank-body h3 {
-  font-size: var(--font-size-2xl);
+.rank-card__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-sm) var(--space-md);
   margin-bottom: var(--space-xs);
 }
-.rank-tagline {
-  color: var(--color-blue);
+.rank-card__head h3 { font-size: 1.65rem; margin: 0; letter-spacing: -0.02em; }
+.rank-card__pill {
+  font-size: 0.7rem;
   font-weight: 700;
-  font-size: var(--font-size-sm);
-  margin-bottom: var(--space-md);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--color-gray-100);
+  color: var(--color-gray-500);
 }
-.rank-body p {
-  color: var(--color-gray-700);
-  line-height: 1.7;
-  margin-bottom: var(--space-md);
+.rank-card__tagline {
+  color: var(--color-gray-500);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  margin-bottom: var(--space-lg);
 }
-.rank-fit {
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-500) !important;
-}
-.rank-cta {
-  display: inline-block;
-  font-weight: 700;
-  color: var(--color-blue);
-  text-decoration: none;
-}
-.rank-cta:hover { text-decoration: underline; }
+.rank-card__body p { color: var(--color-gray-700); line-height: 1.75; margin-bottom: var(--space-md); }
 
-/* --- Ranking de personas --- */
-.personas-list {
-  display: grid;
-  gap: var(--space-lg);
-  margin-bottom: var(--space-3xl);
+.rank-chips { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin: var(--space-lg) 0; }
+.rank-chip {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--color-gray-50);
+  border: 1px solid var(--color-gray-200);
+  color: var(--color-gray-700);
 }
-.persona-item {
-  display: flex;
-  gap: var(--space-xl);
-  align-items: flex-start;
+
+.rank-meta {
+  padding-top: var(--space-md);
+  margin-top: var(--space-lg);
+  border-top: 1px solid var(--color-gray-100);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+  line-height: 1.7;
+}
+.rank-meta strong { color: var(--color-gray-900); font-weight: 700; }
+
+.rank-actions { margin-top: var(--space-lg); }
+.rank-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  color: var(--color-white);
+  background: var(--color-teal);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.rank-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(11,65,71,0.22); }
+.rank-btn--primary { background: var(--gradient-accent); }
+.rank-btn--primary:hover { box-shadow: 0 8px 24px rgba(10,214,172,0.35); }
+
+.rank-card--1 { border-color: rgba(10,214,172,0.5); }
+.rank-card--1 .rank-card__rail { background: var(--gradient-accent); }
+.rank-card--1 .rank-card__num { background: var(--gradient-accent); }
+.rank-card--1 .rank-card__pill { background: rgba(10,214,172,0.12); color: #08856c; }
+
+.rank-card--2 .rank-card__rail { background: var(--color-blue); }
+.rank-card--2 .rank-card__num { background: var(--color-blue); }
+
+.rank-card--3 .rank-card__rail { background: var(--color-sky); }
+.rank-card--3 .rank-card__num { background: var(--color-sky); }
+
+.rank-card--4 .rank-card__rail { background: var(--color-lavender); }
+.rank-card--4 .rank-card__num { background: var(--color-lavender); }
+
+.rank-card--caution { background: var(--color-gray-50); }
+.rank-card--caution .rank-card__rail { background: var(--color-orange); }
+.rank-card--caution .rank-card__num { background: var(--color-gray-300); color: var(--color-gray-700); }
+.rank-card--caution .rank-card__pill { background: rgba(255,129,48,0.14); color: #b4531a; }
+.rank-note {
+  background: rgba(255,129,48,0.07);
+  border-left: 3px solid var(--color-orange);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md) var(--space-lg);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+  margin-top: var(--space-md);
+}
+
+/* --- Tarjetas de personas --- */
+.personas-list { display: grid; gap: var(--space-xl); margin-bottom: var(--space-3xl); }
+
+.persona-card {
+  position: relative;
   background: var(--color-white);
   border: 1px solid var(--color-gray-200);
-  border-radius: var(--radius);
-  padding: var(--space-xl);
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 1px 3px rgba(11, 65, 71, 0.04);
 }
-.persona-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
-}
-.persona-photo {
-  position: relative;
-  flex: 0 0 auto;
-  width: 120px;
-  height: 120px;
-}
-.persona-photo img {
-  width: 120px;
-  height: 120px;
+.persona-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(11,65,71,0.12); }
+.persona-card__rail { height: 5px; width: 100%; background: var(--color-gray-300); }
+.persona-card__inner { display: flex; gap: var(--space-2xl); padding: var(--space-2xl); align-items: flex-start; }
+
+.persona-card__aside { flex: 0 0 auto; width: 132px; }
+.persona-card__photo { position: relative; width: 132px; height: 132px; }
+.persona-card__photo img {
+  width: 132px; height: 132px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--color-gray-100);
   display: block;
+  border: 4px solid var(--color-white);
+  box-shadow: 0 4px 16px rgba(11,65,71,0.16);
 }
-.persona-rank {
+.persona-card__num {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 36px;
-  height: 36px;
+  bottom: -4px; right: -4px;
+  width: 42px; height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: var(--font-size-base);
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 1.05rem;
   color: var(--color-white);
-  background: var(--color-gray-500);
-  border: 3px solid var(--color-white);
+  background: var(--color-gray-300);
+  border: 4px solid var(--color-white);
 }
-.persona-item--gold { border-color: var(--color-mint); border-width: 2px; }
-.persona-item--gold .persona-rank { background: var(--gradient-accent); }
-.persona-item--silver .persona-rank { background: var(--color-blue); }
-.persona-item--bronze .persona-rank { background: var(--color-sky); }
-
-.persona-body { flex: 1 1 auto; min-width: 0; }
-.persona-body h3 {
-  font-size: var(--font-size-2xl);
-  margin-bottom: var(--space-xs);
-}
-.persona-role {
+.persona-card__main { flex: 1 1 auto; min-width: 0; }
+.persona-card__main h3 { font-size: 1.55rem; margin-bottom: 2px; letter-spacing: -0.02em; }
+.persona-card__role {
   color: var(--color-blue);
   font-weight: 700;
   font-size: var(--font-size-sm);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
+  line-height: 1.5;
 }
-.persona-body p {
-  color: var(--color-gray-700);
-  line-height: 1.7;
-  margin-bottom: var(--space-md);
-}
-.persona-fit,
-.persona-note {
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-500) !important;
-}
-.persona-contact {
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-500) !important;
-  margin-bottom: 0 !important;
-}
-.persona-contact a {
-  color: var(--color-blue);
-  text-decoration: none;
-  word-break: break-word;
-}
-.persona-contact a:hover { text-decoration: underline; }
+.persona-card__main > p { color: var(--color-gray-700); line-height: 1.75; margin-bottom: var(--space-md); }
 
-@media (max-width: 640px) {
-  .rank-item,
-  .persona-item {
-    flex-direction: column;
-    gap: var(--space-md);
-    padding: var(--space-lg);
-  }
-  .persona-photo,
-  .persona-photo img {
-    width: 96px;
-    height: 96px;
-  }
+.persona-fit {
+  background: var(--color-gray-50);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md) var(--space-lg);
+  font-size: var(--font-size-sm);
+  line-height: 1.7;
+  color: var(--color-gray-700) !important;
+}
+.persona-fit strong { color: var(--color-gray-900); }
+
+.persona-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  align-items: center;
+  margin-top: var(--space-lg) !important;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-gray-100);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500) !important;
+}
+.persona-contact a { color: var(--color-blue); text-decoration: none; font-weight: 600; word-break: break-word; }
+.persona-contact a:hover { text-decoration: underline; }
+.persona-note {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(10,214,172,0.12);
+  color: #08856c;
+}
+
+.persona-card--1 { border-color: rgba(10,214,172,0.5); }
+.persona-card--1 .persona-card__rail { background: var(--gradient-accent); }
+.persona-card--1 .persona-card__num { background: var(--gradient-accent); }
+.persona-card--2 .persona-card__rail { background: var(--color-blue); }
+.persona-card--2 .persona-card__num { background: var(--color-blue); }
+.persona-card--3 .persona-card__rail { background: var(--color-sky); }
+.persona-card--3 .persona-card__num { background: var(--color-sky); }
+.persona-card--4 .persona-card__rail { background: var(--color-lavender); }
+.persona-card--4 .persona-card__num { background: var(--color-lavender); }
+
+/* --- Tabla comparativa --- */
+.rank-table-wrap {
+  overflow-x: auto;
+  margin-bottom: var(--space-3xl);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-gray-200);
+  background: var(--color-white);
+}
+.rank-table { width: 100%; border-collapse: collapse; font-size: var(--font-size-sm); min-width: 640px; }
+.rank-table th, .rank-table td { padding: var(--space-md) var(--space-lg); text-align: left; border-bottom: 1px solid var(--color-gray-100); }
+.rank-table thead th { background: var(--color-gray-50); font-weight: 700; color: var(--color-gray-900); white-space: nowrap; }
+.rank-table tbody tr:last-child td { border-bottom: none; }
+.rank-table td:first-child { font-weight: 700; color: var(--color-gray-900); white-space: nowrap; }
+.rank-table a { color: var(--color-blue); text-decoration: none; font-weight: 600; }
+.rank-table a:hover { text-decoration: underline; }
+
+@media (max-width: 720px) {
+  .rank-card__inner, .persona-card__inner { flex-direction: column; gap: var(--space-lg); padding: var(--space-xl); }
+  .rank-card__num { width: 52px; height: 52px; border-radius: 14px; font-size: 1.35rem; }
+  .persona-card__aside { width: 100%; }
+  .persona-card__photo { width: 104px; height: 104px; }
+  .persona-card__photo img { width: 104px; height: 104px; }
+  .rank-card__head h3, .persona-card__main h3 { font-size: 1.35rem; }
+  .section-intro { text-align: left; }
 }
