@@ -1251,19 +1251,20 @@ h3 { font-size: var(--font-size-2xl); }
 .rank-card--4 .rank-card__rail { background: var(--color-lavender); }
 .rank-card--4 .rank-card__num { background: var(--color-lavender); }
 
-.rank-card--caution { background: var(--color-gray-50); }
-.rank-card--caution .rank-card__rail { background: var(--color-orange); }
-.rank-card--caution .rank-card__num { background: var(--color-gray-300); color: var(--color-gray-700); }
-.rank-card--caution .rank-card__pill { background: rgba(255,129,48,0.14); color: #b4531a; }
+.rank-card--5 .rank-card__rail { background: var(--color-gray-300); }
+.rank-card--5 .rank-card__num { background: var(--color-gray-300); color: var(--color-gray-700); }
+
 .rank-note {
-  background: rgba(255,129,48,0.07);
-  border-left: 3px solid var(--color-orange);
+  background: var(--color-gray-50);
+  border: 1px solid var(--color-gray-200);
   border-radius: var(--radius-sm);
   padding: var(--space-md) var(--space-lg);
   font-size: var(--font-size-sm);
   line-height: 1.7;
+  color: var(--color-gray-700);
   margin-top: var(--space-md);
 }
+.rank-note strong { color: var(--color-gray-900); }
 
 /* --- Tarjetas de personas: retrato a sangre que se expande --- */
 .personas-grid {
