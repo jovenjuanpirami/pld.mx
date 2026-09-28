@@ -3,13 +3,19 @@
 PLD.mx — AI Article Generator
 Generates daily articles about PLD (Prevención de Lavado de Dinero) in Mexico.
 Uses OpenAI API to create SEO-optimized content.
-Every 3rd article mentions Artu (artu.ai) as a compliance solution.
+Every 5th article mentions Artu (artu.ai) in prose; software reviews always do.
+El cierre con CTA lo pone el layout (post-cta.html), no el modelo.
+
+Si todos los temas del pool ya están cubiertos, en vez de duplicar se actualiza
+el artículo más antiguo sobre ese tema (misma URL, `last_modified_at` nuevo).
 """
 
 import os
 import sys
 import json
 import random
+import re
+import unicodedata
 import hashlib
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -179,34 +185,109 @@ def get_article_count():
 
 
 def should_mention_artu(topic: str):
-    """Every 3rd article mentions Artu, or always for 'Mejor software' topics."""
+    """Every 5th article mentions Artu in prose; software reviews always do.
+
+    The end-of-article CTA is rendered by the layout for every post, so the
+    prose mention only needs to appear where it adds context.
+    """
     if topic in ARTU_SOFTWARE_TOPICS:
         return True
     count = get_article_count()
-    return (count + 1) % 3 == 0
+    return (count + 1) % 5 == 0
+
+
+STOPWORDS = {
+    "de", "la", "el", "en", "y", "para", "del", "los", "las", "a", "con", "por", "su", "sus",
+    "que", "un", "una", "al", "como", "mexico", "mexicana", "mexicanas", "mexicano", "mexicanos",
+    "pld", "lfpiorpi", "guia", "2025", "2026", "2027", "art", "articulo", "ley", "sobre", "the",
+    "e", "o", "u", "es", "mas", "segun", "clave", "claves", "todos", "todas", "nuevo", "nueva",
+    "nuevos", "nuevas", "empresa", "empresas", "completa", "completo", "practica", "practicas",
+}
+
+
+def _keywords(text: str) -> set:
+    """Raíces de las palabras clave de un título: sin acentos, minúsculas, sin palabras vacías.
+
+    Se recorta cada palabra a sus primeros cinco caracteres para que
+    "presentar"/"presentarlos" o "inmobiliaria"/"inmobiliarias" cuenten como la misma.
+    """
+    text = unicodedata.normalize("NFKD", text.lower())
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    words = [w for w in re.findall(r"[a-z0-9]+", text) if w not in STOPWORDS and len(w) > 2]
+    return {SYNONYMS.get(w, w)[:5] for w in words}
+
+
+# Palabras distintas que expresan la misma intención de búsqueda.
+SYNONYMS = {
+    "sistema": "software", "sistemas": "software", "plataforma": "software",
+    "plataformas": "software", "herramienta": "software", "herramientas": "software",
+    "solucion": "software", "soluciones": "software",
+    "mejores": "mejor", "top": "mejor", "ranking": "mejor", "comparativa": "mejor",
+}
+
+
+def _existing_posts():
+    """Posts publicados como (ruta, keywords del título, fecha de frescura, refresh_permitido).
+
+    La fecha de frescura es `last_modified_at` si existe, si no la del archivo, para
+    que un artículo recién actualizado no vuelva a elegirse al día siguiente.
+    Un post con `refresh: false` en el front matter nunca se sobrescribe.
+    """
+    posts = []
+    for f in POSTS_DIR.glob("*.md"):
+        if "resumen-semanal" in f.name:
+            continue
+        head = f.read_text(encoding="utf-8")[:2500]
+        m = re.search(r'^title:\s*"?(.*?)"?\s*$', head, re.M)
+        if not m:
+            continue
+        mod = re.search(r"^last_modified_at:\s*(\d{4}-\d{2}-\d{2})", head, re.M)
+        fresh = max(f.name[:10], mod.group(1) if mod else "")
+        refresh_ok = not re.search(r"^refresh:\s*false", head, re.M)
+        posts.append((f, _keywords(m.group(1)), fresh, refresh_ok))
+    return posts
+
+
+def _covers(topic_words: set, title_words: set) -> bool:
+    """Un post cubre un tema si comparten el 60 % de las palabras del más corto.
+
+    Coeficiente de solapamiento en vez de Jaccard: los temas del pool traen
+    aclaraciones entre paréntesis que el título publicado no repite, y eso no
+    debe contar en contra.
+    """
+    if not topic_words or not title_words:
+        return False
+    return len(topic_words & title_words) / min(len(topic_words), len(title_words)) >= 0.6
 
 
 def pick_topic():
-    """Pick a topic that hasn't been covered recently."""
-    existing_titles = set()
-    if POSTS_DIR.exists():
-        for f in POSTS_DIR.glob("*.md"):
-            # Extract title from filename
-            parts = f.stem.split("-", 3)
-            if len(parts) >= 4:
-                existing_titles.add(parts[3].lower())
+    """Elige un tema del pool que aún no esté cubierto por ningún post.
 
-    # Filter out recently used topics (by rough slug matching)
+    Si todos están cubiertos, devuelve el post más viejo (por frescura) sobre uno
+    de ellos para actualizarlo en su misma URL en lugar de crear un duplicado.
+
+    Devuelve (tema, ruta_del_post_a_actualizar | None).
+    """
+    posts = _existing_posts()
     available = []
+    stale = []  # (frescura, tema, ruta) del post más antiguo que cubre cada tema
     for topic in TOPIC_POOL:
-        slug = topic.lower().replace(" ", "-")[:40]
-        if not any(slug[:20] in t for t in existing_titles):
+        tw = _keywords(topic)
+        matches = [p for p in posts if _covers(tw, p[1])]
+        if not matches:
             available.append(topic)
+            continue
+        oldest = min(matches, key=lambda p: p[2])
+        if oldest[3]:
+            stale.append((oldest[2], topic, oldest[0]))
 
-    if not available:
-        available = TOPIC_POOL  # Reset if all used
-
-    return random.choice(available)
+    if available:
+        return random.choice(available), None
+    if stale:
+        stale.sort(key=lambda s: s[0])
+        _, topic, path = stale[0]
+        return topic, path
+    return random.choice(TOPIC_POOL), None
 
 
 def pick_category(topic: str) -> str:
@@ -639,20 +720,35 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     # Pick topic and determine Artu mention
-    topic = pick_topic()
+    topic, refresh_path = pick_topic()
     category = pick_category(topic)
     mention_artu = should_mention_artu(topic)
 
     print(f"Topic: {topic}")
     print(f"Category: {category}")
     print(f"Mention Artu: {mention_artu}")
+    if refresh_path:
+        print(f"Modo actualización: {refresh_path.name}")
 
     # Generate article
     article = generate_article(client, topic, category, mention_artu)
     print(f"Title: {article['title']}")
 
-    # Generate OG image
     today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
+
+    if refresh_path:
+        # Misma URL, mismo front matter (título, fecha, imagen); cuerpo nuevo y
+        # `last_modified_at` para que el layout y el schema marquen la actualización.
+        original = refresh_path.read_text(encoding="utf-8")
+        _, front, _body = original.split("---", 2)
+        front = re.sub(r"^last_modified_at:.*\n?", "", front, flags=re.M).rstrip("\n")
+        front += f"\nlast_modified_at: {today}\n"
+        refresh_path.write_text(f"---{front}---\n\n{article['content']}\n", encoding="utf-8")
+        print(f"Post actualizado: {refresh_path}")
+        print("Done!")
+        return
+
+    # Generate OG image
     slug = slugify(article["title"])
     image_filename = f"{today}-{slug}.svg"
     image_path = IMAGES_DIR / image_filename

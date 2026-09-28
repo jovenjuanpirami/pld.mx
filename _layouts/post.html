@@ -13,8 +13,12 @@ layout: default
       {% endif %}
       <div class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date: "%d de %B, %Y" }}
+          {% include fecha.html date=page.date %}
         </time>
+        {% if page.last_modified_at %}
+        <span class="post-meta-sep">·</span>
+        <span>Actualizado el {% include fecha.html date=page.last_modified_at %}</span>
+        {% endif %}
         <span class="post-meta-sep">·</span>
         <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min de lectura</span>
         {% if page.author %}
@@ -34,7 +38,9 @@ layout: default
   {% endif %}
 
   <div class="post-content container" itemprop="articleBody">
-    {{ content }}
+    {%- assign demo_href = 'href="' | append: site.artu.demo | append: '"' -%}
+    {{ content | replace: 'href="https://artu.ai/demo"', demo_href }}
+    {% include post-cta.html %}
   </div>
 
   <footer class="post-footer container">
@@ -64,6 +70,8 @@ layout: default
   </footer>
 </article>
 
+{% include related-posts.html %}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +79,7 @@ layout: default
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | default: page.excerpt | strip_html | escape | truncatewords: 30 }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   "author": {
     "@type": "Organization",
     "name": "PLD.mx"

@@ -18,7 +18,7 @@
       <h3 class="post-card-title">{{ post.title }}</h3>
       <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
       <time class="post-card-date" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: "%d de %B, %Y" }}
+        {% include fecha.html date=post.date %}
       </time>
     </div>
   </a>

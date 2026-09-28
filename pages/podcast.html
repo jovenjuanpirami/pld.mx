@@ -1,0 +1,49 @@
+---
+layout: default
+title: "Podcast PLD — Resumen semanal de Prevención de Lavado de Dinero en México"
+description: "Escucha el resumen semanal de PLD: las novedades de la LFPIORPI, la UIF y el SAT explicadas en minutos. Disponible en Spotify y en tu app de podcasts."
+permalink: /podcast/
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Podcast PLD</h1>
+    <p class="page-hero-sub">Cada viernes, lo que pasó en Prevención de Lavado de Dinero en México, explicado en minutos. Producido por <strong>{{ site.podcast.name }}</strong>.</p>
+    <div class="podcast-channels">
+      <a class="podcast-channel podcast-channel--spotify" href="{{ site.podcast.spotify }}" target="_blank" rel="noopener">Escuchar en Spotify &rarr;</a>
+      <a class="podcast-channel" href="{{ site.podcast.rss }}" target="_blank" rel="noopener">RSS para otras apps</a>
+    </div>
+  </div>
+</section>
+
+<section class="podcast-section">
+  <div class="container">
+    <div class="podcast-list">
+      {%- for ep in site.data.podcast_episodes reversed -%}
+      {%- assign clave = ep[0] -%}
+      {%- assign e = ep[1] -%}
+      <article class="podcast-episode">
+        <div class="podcast-episode__head">
+          <time datetime="{{ e.published_at }}">{% include fecha.html date=e.published_at %}</time>
+          <h2>{{ e.title }}</h2>
+        </div>
+        <audio controls preload="none" src="{{ e.audio_url }}">
+          <a href="{{ e.audio_url }}">Descargar el audio</a>
+        </audio>
+        {%- for post in site.posts -%}
+          {%- if post.path contains clave %}
+        <a class="podcast-episode__read" href="{{ post.url | relative_url }}">Leer el artículo de este episodio &rarr;</a>
+          {%- break -%}
+          {%- endif -%}
+        {%- endfor %}
+      </article>
+      {%- endfor %}
+    </div>
+
+    <div class="resource-cta">
+      <h2>No te pierdas ningún episodio</h2>
+      <p>Sigue el podcast en Spotify y recibe cada viernes el resumen semanal de PLD.</p>
+      <a href="{{ site.podcast.spotify }}" class="hero-cta" target="_blank" rel="noopener">Seguir en Spotify &rarr;</a>
+    </div>
+  </div>
+</section>

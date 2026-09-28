@@ -16,6 +16,7 @@ tags:
   - Auditoría PLD
 image: /assets/images/posts/2026-08-23-reglas-de-caracter-general-lfpiorpi-guia-2026.svg
 author: Equipo PLD.mx
+refresh: false
 ---
 
 Las **Reglas de Carácter General LFPIORPI** fueron modificadas por el **Acuerdo 115/2026**, publicado en el Diario Oficial de la Federación el **7 de agosto de 2026** y con entrada en vigor el **30 de noviembre de 2026**. Es la reforma más profunda a estas reglas desde su publicación original del 23 de agosto de 2013: agrega once capítulos nuevos, tres anexos, reescribe el régimen de avisos e informes y crea por primera vez un marco detallado de enfoque basado en riesgos, mecanismos automatizados y auditoría para actividades vulnerables.

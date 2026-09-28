@@ -50,3 +50,21 @@ exclude:
   - Gemfile.lock
   - README.md
   - .github/
+
+# Medición (se activa cada etiqueta al rellenar su clave)
+google_analytics: ""        # GA4, p. ej. "G-XXXXXXXXXX"
+meta_pixel: ""              # ID numérico del pixel de Meta
+linkedin_partner_id: ""     # Partner ID del Insight Tag de LinkedIn
+lead_form_endpoint: ""      # Endpoint POST del formulario (Formspree, Tally, HubSpot…)
+
+# Enlaces de conversión
+artu:
+  site: https://artu.ai/
+  demo: https://calendly.com/ceojuanpi/website-product-demo
+  calculadora: https://artu.ai/calculadora-de-riesgo/
+  aliados: https://artu.ai/aliados/conviertete-en-aliado/
+
+podcast:
+  name: "Artu Compliance Hero"
+  spotify: https://open.spotify.com/show/0b1kTb4GP3lkHMQ8oXvx89
+  rss: https://feeds.buzzsprout.com/2617719.rss

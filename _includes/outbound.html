@@ -1,0 +1,31 @@
+{%- comment -%}
+Atribución de enlaces salientes hacia Artu y Calendly:
+- Corrige el destino roto artu.ai/demo -> Calendly.
+- Añade utm_source/medium/campaign/content sin pisar los que ya vengan en el enlace.
+- utm_campaign sale de data-cta (para distinguir el tipo de CTA); los enlaces en prosa quedan como "contenido".
+- utm_content es el slug de la página, para saber qué artículo originó el clic.
+- Registra el clic como evento en GA4 si está activo.
+{%- endcomment -%}
+<script>
+(function () {
+  var DEMO = '{{ site.artu.demo }}';
+  var page = (location.pathname.replace(/^\/|\/$/g, '') || 'inicio').replace(/\//g, '_');
+  var links = document.querySelectorAll('a[href^="https://artu.ai"], a[href^="https://calendly.com/ceojuanpi"]');
+  Array.prototype.forEach.call(links, function (a) {
+    try {
+      var u = new URL(a.href);
+      if (u.hostname === 'artu.ai' && u.pathname.replace(/\/$/, '') === '/demo') { u = new URL(DEMO); }
+      var cta = a.getAttribute('data-cta') || 'contenido';
+      var defaults = { utm_source: 'pldmx', utm_medium: 'referral', utm_campaign: cta, utm_content: page };
+      Object.keys(defaults).forEach(function (k) { if (!u.searchParams.has(k)) u.searchParams.set(k, defaults[k]); });
+      a.href = u.toString();
+      if (!a.getAttribute('target')) { a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); }
+      a.addEventListener('click', function () {
+        if (typeof gtag === 'function') {
+          gtag('event', 'artu_click', { cta: cta, page: page, destino: u.hostname + u.pathname });
+        }
+      });
+    } catch (e) { /* enlace malformado: se deja intacto */ }
+  });
+})();
+</script>

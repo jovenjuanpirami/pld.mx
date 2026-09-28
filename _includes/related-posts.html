@@ -1,0 +1,44 @@
+{%- comment -%}
+Tres artículos relacionados: primero los que comparten una etiqueta específica
+(se ignoran las genéricas), después se completa con los más recientes de la misma categoría.
+{%- endcomment -%}
+{%- assign cat = page.categories.first -%}
+{%- assign pool = site.categories[cat] -%}
+{%- assign genericas = "pld,lfpiorpi,compliance,cumplimiento,regulación méxico,regulacion mexico,méxico,mexico" | split: "," -%}
+{%- assign elegidos = "" | split: "" -%}
+{%- assign urls = page.url | append: "|" -%}
+{%- if pool -%}
+  {%- for p in pool -%}
+    {%- if elegidos.size >= 3 -%}{%- break -%}{%- endif -%}
+    {%- if urls contains p.url -%}{%- continue -%}{%- endif -%}
+    {%- assign comparte = false -%}
+    {%- for tag in page.tags -%}
+      {%- assign tl = tag | downcase -%}
+      {%- unless genericas contains tl -%}
+        {%- if p.tags contains tag -%}{%- assign comparte = true -%}{%- break -%}{%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+    {%- if comparte -%}
+      {%- assign elegidos = elegidos | push: p -%}
+      {%- assign urls = urls | append: p.url | append: "|" -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for p in pool -%}
+    {%- if elegidos.size >= 3 -%}{%- break -%}{%- endif -%}
+    {%- if urls contains p.url -%}{%- continue -%}{%- endif -%}
+    {%- assign elegidos = elegidos | push: p -%}
+    {%- assign urls = urls | append: p.url | append: "|" -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if elegidos.size > 0 %}
+<section class="related-posts">
+  <div class="container">
+    <h2 class="section-title">Sigue leyendo</h2>
+    <div class="posts-grid">
+      {%- for p in elegidos %}
+      {% include post-card.html post=p %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

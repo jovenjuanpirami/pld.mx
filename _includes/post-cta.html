@@ -1,0 +1,59 @@
+{%- comment -%}
+Cierre editorial de cada artículo. Elige la variante según el tema:
+- "demo": temas de software, automatización, sectoriales -> demo de Artu.
+- "calculadora": temas de multas, riesgo, auditoría, sanciones -> calculadora de riesgo.
+Se puede forzar con {% include post-cta.html variant="calculadora" %}.
+El sector se infiere del título para personalizar el titular.
+{%- endcomment -%}
+{%- assign t = page.title | downcase -%}
+{%- assign sector = "" -%}
+{%- if t contains "inmobiliar" or t contains "desarrollador" or t contains "arrendamiento" or t contains "construcci" -%}{%- assign sector = "inmobiliarias y desarrolladores" -%}
+{%- elsif t contains "joyer" or t contains "metales" -%}{%- assign sector = "joyerías y comercio de metales" -%}
+{%- elsif t contains "notari" or t contains "corredor" or t contains "fedatari" -%}{%- assign sector = "notarías y corredurías" -%}
+{%- elsif t contains "automotri" or t contains "vehícul" or t contains "vehicul" -%}{%- assign sector = "agencias automotrices" -%}
+{%- elsif t contains "cripto" or t contains "activos virtuales" -%}{%- assign sector = "plataformas de activos virtuales" -%}
+{%- elsif t contains "sofom" or t contains "préstamo" or t contains "prestamo" or t contains "crédito" or t contains "credito" or t contains "mutuo" or t contains "empeño" -%}{%- assign sector = "otorgantes de crédito y casas de empeño" -%}
+{%- elsif t contains "donativ" or t contains "sin fines de lucro" -%}{%- assign sector = "asociaciones y donatarias" -%}
+{%- elsif t contains "tarjeta" or t contains "prepago" or t contains "monedero" -%}{%- assign sector = "emisores de tarjetas y prepago" -%}
+{%- elsif t contains "juego" or t contains "sorteo" or t contains "apuesta" -%}{%- assign sector = "juegos y sorteos" -%}
+{%- elsif t contains "aduan" or t contains "comercio exterior" -%}{%- assign sector = "agentes aduanales y comercio exterior" -%}
+{%- elsif t contains "blindaje" or t contains "traslado" or t contains "custodia" -%}{%- assign sector = "blindaje, traslado y custodia de valores" -%}
+{%- elsif t contains "despacho" or t contains "contad" or t contains "abogad" or t contains "servicios profesionales" -%}{%- assign sector = "despachos y servicios profesionales" -%}
+{%- endif -%}
+
+{%- assign variant = include.variant -%}
+{%- unless variant -%}
+  {%- if page.categories contains "tecnologia" or t contains "software" or t contains "plataforma" or t contains "herramienta" or t contains "top " or t contains "mejor" or t contains "ranking" or t contains "comparativa" or t contains "automatiza" or t contains "regtech" -%}
+    {%- assign variant = "demo" -%}
+  {%- elsif t contains "multa" or t contains "sanci" or t contains "infracci" or t contains "riesgo" or t contains "auditor" or t contains "visita" or t contains "incumpl" -%}
+    {%- assign variant = "calculadora" -%}
+  {%- else -%}
+    {%- assign variant = "demo" -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- assign regulatorio = false -%}
+{%- if page.categories contains "lfpiorpi" or page.categories contains "regulacion" or page.categories contains "cumplimiento" -%}{%- assign regulatorio = true -%}{%- endif -%}
+
+<aside class="post-cta post-cta--{{ variant }}" aria-label="Recomendación">
+  {%- if variant == "calculadora" %}
+  <span class="post-cta__label">Herramienta gratuita</span>
+  <h3>¿Cuánto podría costarte un incumplimiento?</h3>
+  <p>Antes de decidir cuánto invertir en cumplimiento conviene saber cuánto arriesgas. La calculadora de riesgo estima el monto de multas al que está expuesta una empresa según su actividad vulnerable y su volumen de operaciones. Toma dos minutos.</p>
+  <div class="post-cta__actions">
+    <a class="post-cta__btn" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-calculadora" data-cta="post-calculadora" target="_blank" rel="noopener">Calcular mi riesgo &rarr;</a>
+    <a class="post-cta__link" href="{{ site.artu.demo }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-demo" data-cta="post-demo" target="_blank" rel="noopener">Ver cómo automatizarlo</a>
+  </div>
+  {%- else %}
+  <span class="post-cta__label">Recomendación de PLD.mx</span>
+  <h3>Automatiza el cumplimiento PLD {% if sector != "" %}para {{ sector }}{% else %}de tu empresa{% endif %}</h3>
+  <p>Artu concentra en una sola plataforma el expediente del cliente, la matriz de riesgo, la acumulación de operaciones y los avisos al SAT: las funciones que el Acuerdo 115/2026 exige a los mecanismos automatizados. Se implementa en semanas, no en meses.</p>
+  <div class="post-cta__actions">
+    <a class="post-cta__btn" href="{{ site.artu.demo }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-demo" data-cta="post-demo" target="_blank" rel="noopener">Ver una demo &rarr;</a>
+    <a class="post-cta__link" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-calculadora" data-cta="post-calculadora" target="_blank" rel="noopener">Calcular mi exposición a multas</a>
+  </div>
+  {%- endif %}
+  {%- if regulatorio %}
+  <p class="post-cta__extra">También puedes descargar el <a href="{{ '/calendario-acuerdo-115-2026/' | relative_url }}">calendario de cumplimiento 2026–2029 del Acuerdo 115/2026</a>.</p>
+  {%- endif %}
+</aside>

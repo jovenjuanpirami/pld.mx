@@ -23,10 +23,68 @@ description: "Portal informativo sobre PLD, LFPIORPI y cumplimiento regulatorio.
   </div>
 </section>
 
-<section class="newsletter-section">
+<section class="tools-section">
   <div class="container">
-    <h2>Mantente Informado</h2>
-    <p>Publicamos artículos diarios sobre PLD, cumplimiento y regulación en México. Visítanos regularmente para estar al día.</p>
-    <a href="{{ '/categorias/' | relative_url }}" class="hero-cta" style="display:inline-flex;">Explorar categorías</a>
+    <h2 class="section-title">Herramientas para cumplir</h2>
+    <div class="tools-grid">
+      <a class="tool-card" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign=home-calculadora" data-cta="home-calculadora" target="_blank" rel="noopener">
+        <span class="tool-card__tag">Gratis</span>
+        <h3>Calculadora de riesgo de multas</h3>
+        <p>Estima en dos minutos a cuánto podrían ascender las sanciones de tu empresa bajo la LFPIORPI, según tu actividad y volumen.</p>
+        <span class="tool-card__go">Calcular &rarr;</span>
+      </a>
+      <a class="tool-card" href="{{ '/calendario-acuerdo-115-2026/' | relative_url }}">
+        <span class="tool-card__tag">Nuevo</span>
+        <h3>Calendario del Acuerdo 115/2026</h3>
+        <p>Todas las fechas de entrada en vigor de las nuevas Reglas de Carácter General, de 2026 a 2029, en una página para imprimir.</p>
+        <span class="tool-card__go">Ver calendario &rarr;</span>
+      </a>
+      <a class="tool-card" href="{{ '/top-software-pld/' | relative_url }}">
+        <span class="tool-card__tag">Ranking 2026</span>
+        <h3>Top Software PLD</h3>
+        <p>Las plataformas de cumplimiento comparadas contra las seis funciones del artículo 41.</p>
+        <span class="tool-card__go">Ver ranking &rarr;</span>
+      </a>
+      <a class="tool-card" href="{{ '/podcast/' | relative_url }}">
+        <span class="tool-card__tag">Semanal</span>
+        <h3>Podcast PLD</h3>
+        <p>Cada viernes, lo que pasó en PLD en México explicado en minutos. En Spotify y en tu app.</p>
+        <span class="tool-card__go">Escuchar &rarr;</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-section lead-section">
+  <div class="container">
+    {% if site.lead_form_endpoint and site.lead_form_endpoint != "" %}
+    <h2>Recibe las fechas clave antes de que lleguen</h2>
+    <p>Un correo cuando cambie algo en la LFPIORPI, sus reglas o los formatos del SAT. Sin ruido.</p>
+    <form class="lead-form" action="{{ site.lead_form_endpoint }}" method="POST">
+      <input type="hidden" name="_subject" value="Nuevo suscriptor PLD.mx">
+      <input type="text" name="_gotcha" class="lead-form__hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="email" name="email" placeholder="tu@empresa.com" required aria-label="Correo electrónico">
+      <select name="actividad" aria-label="Actividad vulnerable">
+        <option value="">¿Qué actividad realizas?</option>
+        <option>Inmobiliaria / desarrollo</option>
+        <option>Préstamos o crédito (SOFOM, mutuo)</option>
+        <option>Activos virtuales / fintech</option>
+        <option>Notaría o correduría</option>
+        <option>Joyería / metales</option>
+        <option>Automotriz</option>
+        <option>Servicios profesionales / despacho</option>
+        <option>Otra</option>
+      </select>
+      <button type="submit" class="hero-cta">Suscribirme</button>
+    </form>
+    <p class="lead-form__note">Sin spam. Te das de baja cuando quieras.</p>
+    {% else %}
+    <h2>Mantente al día</h2>
+    <p>Sigue el resumen semanal en Spotify o explora el contenido por categoría.</p>
+    <div class="lead-actions">
+      <a href="{{ site.podcast.spotify }}" class="hero-cta" target="_blank" rel="noopener">Seguir el podcast</a>
+      <a href="{{ '/categorias/' | relative_url }}" class="hero-cta hero-cta--ghost">Explorar categorías</a>
+    </div>
+    {% endif %}
   </div>
 </section>
