@@ -8,3 +8,6 @@ Gemfile.lock
 .DS_Store
 .env
 __pycache__/
+
+# Producto privado de Artu (repo aparte): nunca se publica con el sitio
+manual-cumplimiento/

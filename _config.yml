@@ -45,6 +45,7 @@ defaults:
 
 # Exclude
 exclude:
+  - manual-cumplimiento/   # generador de manuales (repo privado aparte): nunca se publica en pld.mx
   - scripts/
   - Gemfile
   - Gemfile.lock
