@@ -11,6 +11,7 @@
   const KEY = 'pldmx_entrevista_v1';
   const KEY_OK = 'pldmx_entrevista_ok';
   const DIAS_RETENCION = 7;
+  const BASE = (root.dataset.base || '').replace(/\/$/, '');
 
   let D = null;              // datos de la entrevista (módulos + catálogo)
   let A = {};                // respuestas
@@ -284,9 +285,10 @@
         <p class="eyebrow">Entrevista ${completa ? 'completa' : 'incompleta'}</p>
         <h1 style="margin:0 0 8px">${completa ? '¡Listo! Descarga tus respuestas' : 'Aún faltan respuestas'}</h1>
         ${completa
-          ? `<p>Descarga tu <strong>archivo de respuestas</strong> y envíalo a Artu: con él elaboramos tu Manual de Políticas Internas. Si quieres conservar una copia legible, también puedes guardarlo en PDF.</p>
-             <div class="acciones" style="margin-top:14px"><button type="button" class="btn ok" data-accion="descargar">Descargar mi archivo de respuestas</button><button type="button" class="btn sec" data-accion="pdf">Guardar en PDF</button><button type="button" class="btn sec" data-accion="volver">← Revisar respuestas</button></div>
-             <p class="muted mini" style="margin-top:14px">Al descargar, tus respuestas se borran de este navegador por tu privacidad. Guarda el archivo (<code>respuestas-…json</code>) y envíalo tal cual; no lo edites.</p>`
+          ? `<p>Descarga tu <strong>cuestionario en PDF</strong> y envíalo a Artu por correo o WhatsApp: con él elaboramos tu Manual de Políticas Internas.</p>
+             <div class="acciones" style="margin-top:14px"><button type="button" class="btn ok" data-accion="descargar">Descargar mi cuestionario (PDF)</button><button type="button" class="btn sec" data-accion="volver">← Revisar respuestas</button></div>
+             <p class="muted mini" style="margin-top:14px">Al descargar, tus respuestas se borran de este navegador por tu privacidad. Envía el PDF tal como se descarga (sin reimprimirlo ni convertirlo): la última página contiene los datos que Artu necesita para leerlo.</p>
+             <p id="ent-estado" class="muted mini"></p>`
           : `<p>Faltan respuestas obligatorias (${p.contestadas} de ${p.total}). Módulos pendientes: ${faltan.map((m) => `<a href="#" data-ir-mod="${esc(m.id)}">${esc(m.nombre)}</a>`).join(', ')}.</p>
              <div class="acciones"><button type="button" class="btn ok" data-ir-mod="${esc(faltan[0].id)}">Completar →</button></div>`}
         <details style="margin-top:22px"><summary class="muted">Ver todas mis respuestas</summary><div style="margin-top:12px">${resumen}</div></details>
@@ -295,15 +297,100 @@
       <div class="ent-print" style="display:none"><h1>Cuestionario para el Manual de Políticas Internas PLD</h1><p>${esc(emp)}${A.A4 ? ' · RFC ' + esc(A.A4) : ''} · ${new Date().toLocaleDateString('es-MX')}</p>${resumen}</div>`;
     window.scrollTo({ top: 0 });
   }
-  function descargar() {
+  function cargarScript(src) {
+    return new Promise((res, rej) => { const el = document.createElement('script'); el.src = src; el.onload = res; el.onerror = () => rej(new Error('No se pudo cargar ' + src)); document.head.appendChild(el); });
+  }
+  async function librerias() {
+    if (!window.PDFLib) await cargarScript(BASE + '/assets/js/vendor/pdf-lib.min.js');
+    if (!window.fontkit) { try { await cargarScript(BASE + '/assets/js/vendor/fontkit.umd.min.js'); } catch (e) { /* sin Satoshi */ } }
+  }
+  async function fuente(pdf, nombre, estandar) {
+    try {
+      if (!window.fontkit) throw new Error('sin fontkit');
+      pdf.registerFontkit(window.fontkit);
+      const r = await fetch(BASE + '/assets/fonts/' + nombre, { cache: 'force-cache' }); if (!r.ok) throw new Error('fuente');
+      return await pdf.embedFont(await r.arrayBuffer(), { subset: true });
+    } catch (e) { return pdf.embedStandardFont(estandar); }
+  }
+  function limpiaTexto(t) { return String(t).replace(/[\u2713\u2714]/g, 'Si').replace(/\u00a0/g, ' ').replace(/[\r\n\t]+/g, ' '); }
+  function wrap(texto, font, size, ancho) {
+    const out = []; let linea = '';
+    for (const palabra of limpiaTexto(texto).split(' ')) {
+      const prueba = linea ? linea + ' ' + palabra : palabra;
+      let w; try { w = font.widthOfTextAtSize(prueba, size); } catch (e) { w = prueba.length * size * 0.5; }
+      if (w <= ancho) { linea = prueba; continue; }
+      if (linea) out.push(linea);
+      if (font.widthOfTextAtSize(palabra, size) > ancho) { let trozo = ''; for (const ch of palabra) { if (font.widthOfTextAtSize(trozo + ch, size) > ancho) { out.push(trozo); trozo = ch; } else trozo += ch; } linea = trozo; } else linea = palabra;
+    }
+    if (linea) out.push(linea);
+    return out;
+  }
+  async function construirPDF() {
+    await librerias();
+    const { PDFDocument, StandardFonts, rgb } = window.PDFLib;
+    const pdf = await PDFDocument.create();
+    const reg = await fuente(pdf, 'Satoshi-Regular.ttf', StandardFonts.Helvetica);
+    const bold = await fuente(pdf, 'Satoshi-Bold.ttf', StandardFonts.HelveticaBold);
+    const navy = rgb(0.043, 0.255, 0.278), mint = rgb(0.039, 0.839, 0.675), gris = rgb(0.478, 0.541, 0.6), texto = rgb(0.24, 0.29, 0.33);
+    const W = 612, H = 792, M = 54, ANCHO = W - 2 * M;
+    let page = pdf.addPage([W, H]); let y = H - M; const paginas = [page];
+    const nueva = () => { page = pdf.addPage([W, H]); paginas.push(page); y = H - M; };
+    const asegurar = (alto) => { if (y - alto < M + 24) nueva(); };
+    const linea = (t, f, size, color, x = M, maxW = ANCHO) => { for (const l of wrap(t, f, size, maxW)) { asegurar(size * 1.4); page.drawText(l, { x, y: y - size, size, font: f, color }); y -= size * 1.4; } };
     const r = respuestasCompletas();
-    const paquete = Object.assign({ _formato: 'pldmx-entrevista/1', _version_entrevista: D.version_entrevista, _generado: new Date().toISOString(), _empresa: A.A1 || '', _rfc: A.A4 || '' }, r);
-    const rfc = String(A.A4 || 'respuestas').replace(/[^A-Za-z0-9]/g, '').slice(0, 13) || 'respuestas';
-    const blob = new Blob([JSON.stringify(paquete, null, 1)], { type: 'application/json' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `respuestas-${rfc}-${hoyISO()}.json`; document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-    borrarLocal();
-    toast('Archivo descargado. Tus respuestas ya no están en este navegador.');
+    const emp = String(A.A1 || ''), rfc = String(A.A4 || '');
+    // portada compacta
+    page.drawRectangle({ x: M, y: y - 6, width: 54, height: 6, color: mint }); y -= 22;
+    linea('CUESTIONARIO PARA EL MANUAL DE POLÍTICAS INTERNAS PLD', bold, 9, mint); y -= 4;
+    linea('Entrevista de cumplimiento', bold, 24, navy); y -= 6;
+    linea(emp, bold, 12, navy); if (rfc) linea('RFC ' + rfc, reg, 11, texto);
+    linea('Respuestas del cliente · ' + new Date().toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric' }), reg, 11, texto); y -= 10;
+    linea('Este documento se generó en pld.mx/entrevista. Envíalo tal cual a Artu: la última página contiene los datos que el sistema necesita para elaborar el manual; no la elimines.', reg, 9.5, gris); y -= 14;
+    for (const m of D.modulos) {
+      const insts = instancias(m.id); if (!insts.length) continue;
+      asegurar(60);
+      y -= 10; page.drawLine({ start: { x: M, y: y - 2 }, end: { x: W - M, y: y - 2 }, thickness: 1.2, color: mint }); y -= 8;
+      linea(`${m.id}. ${m.nombre}`, bold, 13, navy); y -= 4;
+      for (const inst of insts) {
+        const resp = legible(inst, valorEfectivo(inst));
+        const bloque = wrap(inst.texto, bold, 9.5, ANCHO).length * 13.3 + wrap(resp, reg, 10, ANCHO - 14).length * 14 + 10;
+        asegurar(Math.min(bloque, 300));
+        linea(inst.texto + (inst.requerido ? '' : ' (opcional)'), bold, 9.5, navy);
+        linea(resp, reg, 10, texto, M + 14, ANCHO - 14); y -= 7;
+      }
+    }
+    // última página: datos para el sistema (texto codificado, pequeño)
+    const paquete = Object.assign({ _formato: 'pldmx-entrevista/1', _version_entrevista: D.version_entrevista, _generado: new Date().toISOString(), _empresa: emp, _rfc: rfc }, r);
+    const json = JSON.stringify(paquete);
+    const b64 = btoa(unescape(encodeURIComponent(json)));
+    nueva();
+    linea('Datos para Artu (no eliminar esta página)', bold, 11, navy); y -= 2;
+    linea('Esta página contiene tus respuestas en un formato que lee el sistema de Artu para elaborar tu manual. No tiene información distinta a la de las páginas anteriores.', reg, 9, gris); y -= 8;
+    const mono = pdf.embedStandardFont(StandardFonts.Courier);
+    const filas = ['PLDMX-DATA-BEGIN'].concat(b64.match(/.{1,96}/g) || []).concat(['PLDMX-DATA-END']);
+    for (const f of filas) { asegurar(6.5); page.drawText(f, { x: M, y: y - 5, size: 5, font: mono, color: gris }); y -= 6.5; }
+    // adjunto (forma principal) y metadatos
+    await pdf.attach(new TextEncoder().encode(json), 'respuestas.json', { mimeType: 'application/json', description: 'Respuestas de la entrevista pld.mx (formato pldmx-entrevista/1)', creationDate: new Date(), modificationDate: new Date() });
+    pdf.setTitle('Cuestionario para el Manual de Políticas Internas PLD — ' + emp);
+    pdf.setSubject('pldmx-entrevista/1'); pdf.setProducer('pld.mx/entrevista'); pdf.setCreator('pld.mx/entrevista'); pdf.setKeywords(['PLD', 'LFPIORPI', 'entrevista', 'Artu']);
+    // numeración
+    paginas.forEach((p, i) => { p.drawText(`pld.mx · Entrevista de cumplimiento · página ${i + 1} de ${paginas.length}`, { x: M, y: 30, size: 7.5, font: reg, color: gris }); });
+    return pdf.save();
+  }
+  async function descargar() {
+    const est = $('#ent-estado'); if (est) est.textContent = 'Preparando tu PDF…';
+    try {
+      const bytes = await construirPDF();
+      const rfc = String(A.A4 || 'cuestionario').replace(/[^A-Za-z0-9]/g, '').slice(0, 13) || 'cuestionario';
+      const blob = new Blob([bytes], { type: 'application/pdf' });
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `cuestionario-${rfc}-${hoyISO()}.pdf`; document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+      borrarLocal();
+      if (est) est.textContent = 'PDF descargado. Tus respuestas ya no están guardadas en este navegador.';
+      toast('PDF descargado');
+    } catch (e) {
+      if (est) est.textContent = 'No se pudo generar el PDF (' + (e && e.message ? e.message : e) + '). Revisa tu conexión y vuelve a intentar.';
+    }
   }
   function imprimir() { const pr = $('.ent-print'); if (pr) { pr.style.display = 'block'; window.print(); setTimeout(() => { pr.style.display = 'none'; }, 500); } }
 
@@ -324,6 +411,7 @@
     if (t.dataset.irMod) { e.preventDefault(); modIdx = D.modulos.findIndex((m) => m.id === t.dataset.irMod); intentoGuardar = true; render(); return; }
     if (t.dataset.accion === 'descargar') { descargar(); return; }
     if (t.dataset.accion === 'pdf') { imprimir(); return; }
+    if (t.dataset.accion === 'json') { return; }
     if (t.dataset.accion === 'volver') { modIdx = 0; render(); return; }
     if (t.dataset.accion === 'borrar') { e.preventDefault(); if (confirm('¿Borrar todas tus respuestas de este navegador?')) { A = {}; borrarLocal(); modIdx = 0; render(); } }
   });
