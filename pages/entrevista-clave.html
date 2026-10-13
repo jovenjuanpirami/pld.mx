@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Generar clave de la entrevista"
+description: "Herramienta interna: calcula el valor que se pone en _config.yml para proteger la entrevista."
+permalink: /entrevista/clave/
+sitemap: false
+noindex: true
+---
+<section class="page-hero"><div class="container"><h1>Clave de la entrevista</h1><p class="page-hero-sub">Escribe la contraseña que quieres dar a los clientes. Copia el valor y pégalo en <code>_config.yml</code> como <code>entrevista_password_hash</code>. La contraseña nunca se guarda: solo su huella.</p></div></section>
+<section class="section"><div class="container" style="max-width:720px">
+  <label for="pw" style="display:block;font-weight:700;margin-bottom:6px">Contraseña</label>
+  <input id="pw" type="text" style="width:100%;padding:12px 14px;border:1.5px solid #e6eaef;border-radius:12px;font-size:1rem">
+  <p style="margin-top:14px;font-weight:700">Valor para _config.yml</p>
+  <pre id="hash" style="background:#f6f7fa;padding:14px;border-radius:12px;word-break:break-all;min-height:48px"></pre>
+  <script>
+    async function huella(t){ const b=await crypto.subtle.digest('SHA-256', new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join(''); }
+    document.getElementById('pw').addEventListener('input', async e=>{ document.getElementById('hash').textContent = e.target.value ? ('entrevista_password_hash: "' + await huella(e.target.value.trim()) + '"') : ''; });
+  </script>
+</div></section>

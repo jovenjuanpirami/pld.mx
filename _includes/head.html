@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{% endif %}
 <meta name="googlebot" content="index, follow">
 
 {% seo %}

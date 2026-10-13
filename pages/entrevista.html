@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Entrevista para tu Manual de Cumplimiento PLD"
+description: "Responde la entrevista en línea para elaborar el Manual de Políticas Internas PLD de tu empresa. Tus respuestas no salen de tu navegador hasta que descargas tu archivo."
+permalink: /entrevista/
+sitemap: false
+noindex: true
+---
+<link rel="stylesheet" href="{{ '/assets/css/entrevista.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+<div class="ent" id="entrevista" data-datos="{{ '/assets/data/entrevista.json' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" data-hash="{{ site.entrevista_password_hash }}">
+  <div class="card"><p class="muted">Cargando la entrevista…</p></div>
+</div>
+<noscript><div class="ent"><div class="card"><p class="error">Esta entrevista necesita JavaScript activado en tu navegador.</p></div></div></noscript>
+<script src="{{ '/assets/js/entrevista.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" defer></script>

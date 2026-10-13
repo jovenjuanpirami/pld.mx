@@ -69,3 +69,6 @@ podcast:
   name: "Artu Compliance Hero"
   spotify: https://open.spotify.com/show/0b1kTb4GP3lkHMQ8oXvx89
   rss: https://feeds.buzzsprout.com/2617719.rss
+
+# Entrevista en línea (/entrevista/): huella SHA-256 de la contraseña que se da a los clientes. Genera otra en /entrevista/clave/
+entrevista_password_hash: "90680c45652fe38c77ac099ad9b83831e07e27976654e170e7e44a6cc33a0946"
