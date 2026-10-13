@@ -72,3 +72,5 @@ podcast:
 
 # Entrevista en línea (/entrevista/): huella SHA-256 de la contraseña que se da a los clientes. Genera otra en /entrevista/clave/
 entrevista_password_hash: "90680c45652fe38c77ac099ad9b83831e07e27976654e170e7e44a6cc33a0946"
+# Contraseña de demostración: entra con las respuestas de ejemplo ya llenas (empresa ficticia) para probar la descarga del PDF. Huella de "demo2026".
+entrevista_demo_hash: "43c27b4e263fa191a6a7ec198cd4d5b47d17413c49d77dc533a01720707e3202"

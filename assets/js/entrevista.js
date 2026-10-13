@@ -8,6 +8,9 @@
   if (!root) return;
   const DATA_URL = root.dataset.datos;
   const HASH = (root.dataset.hash || '').trim();
+  const HASH_DEMO = (root.dataset.hashDemo || '').trim();   // contraseña de demostración: carga respuestas de ejemplo
+  const DEMO_URL = root.dataset.demo || '';
+  const KEY_DEMO = 'pldmx_entrevista_demo';
   const KEY = 'pldmx_entrevista_v1';
   const KEY_OK = 'pldmx_entrevista_ok';
   const DIAS_RETENCION = 7;
@@ -17,6 +20,7 @@
   let A = {};                // respuestas
   let modIdx = 0;
   let intentoGuardar = false;
+  let demo = false;          // true cuando se entró con la contraseña de demostración
 
   // ------------------------------------------------------------ utilidades
   const $ = (sel, el) => (el || document).querySelector(sel);
@@ -42,7 +46,7 @@
       return obj.respuestas || {};
     } catch (e) { return {}; }
   }
-  function borrarLocal() { try { localStorage.removeItem(KEY); sessionStorage.removeItem(KEY_OK); } catch (e) { /* nada */ } }
+  function borrarLocal() { demo = false; try { localStorage.removeItem(KEY); sessionStorage.removeItem(KEY_OK); sessionStorage.removeItem(KEY_DEMO); } catch (e) { /* nada */ } }
 
   // ------------------------------------------------------------ motor (réplica de dsl.py / engine.py)
   function get(qid, fr) {
@@ -256,6 +260,7 @@
           <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap"><span class="eyebrow">Módulo ${modIdx + 1} de ${D.modulos.length}</span><span class="muted mini">${insts.length} pregunta${insts.length !== 1 ? 's' : ''}${mod.minutos ? ` · unos ${mod.minutos} min` : ''}</span></div>
           <h1 style="margin:0 0 10px">${esc(mod.nombre)}</h1>
           ${mod.descripcion ? `<p class="intro">${esc(mod.descripcion)}</p>` : ''}
+          ${demo ? '<p class="aviso demo">Modo demostración: estas respuestas son de una empresa ficticia. Puedes cambiarlas o <a href="#" data-accion="final">ir directo a la descarga del PDF</a>.</p>' : ''}
           ${intentoGuardar && Object.keys(errs).length ? `<p class="aviso">Revisa ${Object.keys(errs).length} respuesta${Object.keys(errs).length > 1 ? 's' : ''} marcada${Object.keys(errs).length > 1 ? 's' : ''} abajo.</p>` : ''}
           <form id="ent-form" onsubmit="return false">
             ${insts.map((inst) => `<div class="pregunta" id="p-${esc(inst.id)}">
@@ -282,7 +287,7 @@
     const emp = A.A1 || '';
     root.innerHTML = `
       <div class="card" style="max-width:900px;margin:0 auto">
-        <p class="eyebrow">Entrevista ${completa ? 'completa' : 'incompleta'}</p>
+        <p class="eyebrow">Entrevista ${completa ? 'completa' : 'incompleta'}${demo ? ' · modo demostración' : ''}</p>
         <h1 style="margin:0 0 8px">${completa ? '¡Listo! Descarga tus respuestas' : 'Aún faltan respuestas'}</h1>
         ${completa
           ? `<p>Descarga tu <strong>cuestionario en PDF</strong> y envíalo a Artu por correo o WhatsApp: con él elaboramos tu Manual de Políticas Internas.</p>
@@ -409,6 +414,7 @@
     }
     if (t.dataset.ir !== undefined) { leerFormulario(D.modulos[modIdx].id); intentoGuardar = false; modIdx = Number(t.dataset.ir); render(); return; }
     if (t.dataset.irMod) { e.preventDefault(); modIdx = D.modulos.findIndex((m) => m.id === t.dataset.irMod); intentoGuardar = true; render(); return; }
+    if (t.dataset.accion === 'final') { e.preventDefault(); leerFormulario(D.modulos[modIdx].id); intentoGuardar = false; renderFinal(); return; }
     if (t.dataset.accion === 'descargar') { descargar(); return; }
     if (t.dataset.accion === 'pdf') { imprimir(); return; }
     if (t.dataset.accion === 'json') { return; }
@@ -429,12 +435,27 @@
     root.innerHTML = `<div class="card gate"><div class="logo">Entrevista para tu Manual de Cumplimiento PLD</div>
       <p class="muted" style="margin:10px 0 18px">Escribe la contraseña que te compartió Artu para comenzar. La entrevista toma unos 35 minutos y puedes pausarla.</p>
       <form id="gate"><input type="password" id="gate-pw" placeholder="Contraseña" autocomplete="off" style="margin-bottom:12px">${error ? '<div class="error" style="margin-bottom:12px">Contraseña incorrecta.</div>' : ''}<button class="btn ok" style="width:100%">Comenzar →</button></form></div>`;
-    $('#gate').addEventListener('submit', async (e) => { e.preventDefault(); const h = await sha256($('#gate-pw').value.trim()); if (h === HASH) { try { sessionStorage.setItem(KEY_OK, '1'); } catch (x) { /* nada */ } arrancar(); } else renderGate(true); });
+    $('#gate').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const h = await sha256($('#gate-pw').value.trim());
+      if (h === HASH) { demo = false; try { sessionStorage.setItem(KEY_OK, '1'); sessionStorage.removeItem(KEY_DEMO); } catch (x) { /* nada */ } arrancar(); }
+      else if (HASH_DEMO && DEMO_URL && h === HASH_DEMO) arrancarDemo();
+      else renderGate(true);
+    });
   }
   function arrancar() { A = cargarLocal(); modIdx = 0; render(); }
+  async function arrancarDemo() {
+    // Carga las respuestas de ejemplo (empresa ficticia) y las guarda como si el cliente las hubiera escrito.
+    try {
+      const d = await fetch(DEMO_URL, { cache: 'no-store' }).then((r) => r.json());
+      A = Object.assign({}, d.respuestas || {}); demo = true;
+      try { sessionStorage.setItem(KEY_OK, '1'); sessionStorage.setItem(KEY_DEMO, '1'); } catch (x) { /* nada */ }
+      guardarLocal(); modIdx = 0; render(); toast('Respuestas de ejemplo cargadas');
+    } catch (x) { root.innerHTML = '<div class="card"><p class="error">No se pudieron cargar las respuestas de ejemplo. Recarga la página.</p></div>'; }
+  }
   fetch(DATA_URL, { cache: 'no-store' }).then((r) => r.json()).then((d) => {
     D = d;
-    let ok = false; try { ok = sessionStorage.getItem(KEY_OK) === '1'; } catch (x) { /* nada */ }
+    let ok = false; try { ok = sessionStorage.getItem(KEY_OK) === '1'; demo = sessionStorage.getItem(KEY_DEMO) === '1'; } catch (x) { /* nada */ }
     if (!HASH || ok) arrancar(); else renderGate(false);
   }).catch(() => { root.innerHTML = '<div class="card"><p class="error">No se pudo cargar la entrevista. Recarga la página.</p></div>'; });
 

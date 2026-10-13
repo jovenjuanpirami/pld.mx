@@ -27,6 +27,7 @@
 .ent .nota { font-size:.86rem; color:#8a4b0f; background:var(--amber); border-radius:12px; padding:8px 12px; margin:0 0 10px; }
 .ent .error { color:#b42323; font-size:.9rem; margin:8px 0 0; background:var(--red); padding:8px 12px; border-radius:12px; }
 .ent .aviso { color:#8a4b0f; background:var(--amber); padding:10px 14px; border-radius:12px; margin:0 0 14px; }
+.ent .aviso.demo { color:#1b4b7a; background:#e8f1fb; } .ent .aviso.demo a { color:#1b4b7a; font-weight:700; }
 .ent .opciones { display:flex; flex-direction:column; gap:8px; }
 .ent .opciones label { display:flex; align-items:center; padding:11px 14px; border:1.5px solid var(--border); border-radius:14px; cursor:pointer; background:#fff; max-width:640px; }
 .ent .opciones label:hover { border-color:var(--mint-dark); }
