@@ -13,134 +13,58 @@ tags:
   - Artu
 image: /assets/images/posts/2026-04-22-guia-2026-mejores-sistemas-automatizados-pld-para-traslado-y-custodia-de-valores.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-10-31
 ---
 
-# Guía 2026: Mejores Sistemas Automatizados PLD para Traslado y Custodia de Valores
+## Introducción analítica  
+Las empresas de traslado de valores en México juegan un papel crucial en la seguridad y el movimiento del efectivo, siendo un sector esencial para la operación diaria de instituciones financieras y grandes negocios. En 2026, se estima que este sector mueve más de 150 mil millones de pesos anualmente, con empresas como Cometra, Seguritec y PanAmericano dominando el mercado. Sin embargo, su relevancia también las convierte en un blanco atractivo para actividades de lavado de dinero, lo cual ha llevado a regulaciones más estrictas bajo la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI). La última reforma sustantiva de la LFPIORPI, publicada en el Diario Oficial de la Federación el 16 de julio de 2025, ha introducido cambios significativos en las obligaciones de las empresas de traslado de valores, específicamente en la fracción X del Artículo 17. Este artículo ahora requiere que dichas empresas implementen mecanismos automatizados de monitoreo, una medida diseñada para fortalecer la detección de operaciones sospechosas y asegurar una correcta trazabilidad de las transacciones. 
 
-## Introducción periodística
+## Marco legal detallado  
+La fracción X del Artículo 17 de la LFPIORPI, tras su reforma en 2025, obliga a las empresas de traslado de valores a establecer mecanismos automatizados de monitoreo para identificar patrones inusuales y operaciones potencialmente vinculadas al lavado de dinero. Estos mecanismos deben ser capaces de analizar grandes volúmenes de datos transaccionales, brindando alertas en tiempo real sobre actividades inusuales. Dado el tamaño y la complejidad de las operaciones, estas empresas también deben presentar un 'aviso de actividad vulnerable' cuando manejen efectivo o valores que superen las 645 veces el valor diario de la Unidad de Medida y Actualización (UMA), lo que equivale aproximadamente a $72,950 MXN en 2026. Además, la LFPIORPI requiere que los sujetos obligados, en este caso las empresas de traslado de valores, mantengan registros detallados de todas las transacciones y los reportes generados por sus sistemas de monitoreo por un periodo mínimo de diez años, conforme al Artículo 18, fracción IV. Esta obligación de conservación de documentos es crucial para facilitar auditorías y revisiones regulatorias, asegurando que la empresa pueda justificar sus decisiones de monitoreo y reporte. 
 
-En el contexto actual de reforzamiento del marco regulatorio en materia de Prevención de Lavado de Dinero (PLD) en México, los sistemas automatizados se han consolidado como herramientas esenciales para los sujetos obligados. Según el padrón público del SAT, más de 8,500 sujetos deben cumplir con las obligaciones de la LFPIORPI, y una de las áreas con mayor dinamismo es el traslado y custodia de valores. Desde la reforma publicada en el DOF el 16 de julio de 2025, las obligaciones han evolucionado, exigiendo una implementación más sofisticada y eficiente de sistemas de monitoreo y control, especialmente en operaciones que superan los 3,210 UMAs, equivalentes a aproximadamente $362,159 MXN para 2026.
+## Análisis práctico  
+Implementar un sistema efectivo de monitoreo automatizado en empresas de traslado de valores no es una tarea trivial. Tomemos como ejemplo una empresa que mueve un promedio mensual de 250 millones de pesos en efectivo. Para cumplir con la fracción X del Artículo 17, esta empresa debe integrar un sistema que no solo registre cada transacción, sino que también analice patrones de comportamiento en tiempo real. Esto implica la instalación de software avanzado que utilice algoritmos de aprendizaje automático para identificar patrones sospechosos basados en criterios predefinidos, como montos, frecuencia de transacciones y perfiles de los clientes. Un procedimiento típico para implementar este sistema comienza con la evaluación de riesgo, donde se determina el perfil de riesgo de cada cliente basado en su historial transaccional y vinculación con PEPs, según lo define la fracción IX Bis del Artículo 3 de la LFPIORPI. Posteriormente, se parametriza el sistema para generar alertas cuando las transacciones superan ciertos umbrales o cuando se detectan patrones inusuales, como depósitos fraccionados que suman montos significativos sin justificación aparente. Además, el personal de cumplimiento debe realizar un seguimiento de estas alertas, evaluando su validez y, de ser necesario, presentando los correspondientes 'avisos de operación preocupante' a la Unidad de Inteligencia Financiera (UIF) dentro de las 24 horas, tal como lo estipula el Artículo 18, fracción VI, párrafo segundo. 
 
-La Unidad de Inteligencia Financiera (UIF), bajo la dirección de Omar Reyes Colmenares, ha intensificado su labor, inmovilizando cerca de 5,000 millones de pesos en operaciones irregulares durante la administración actual (2024-2026). Este panorama ha impulsado a los sujetos obligados a buscar soluciones tecnológicas que no solo cumplan con los requisitos legales, sino que también optimicen sus procesos internos. Aquí es donde los sistemas automatizados de PLD juegan un papel crucial, ofreciendo un cumplimiento más eficaz y reduciendo el riesgo de sanciones.
+## Riesgos y consecuencias  
+El incumplimiento de las obligaciones establecidas por la fracción X del Artículo 17 puede acarrear sanciones severas. Según el Artículo 54 de la LFPIORPI, las multas pueden oscilar entre 200 y 65,000 veces la UMA, lo que equivale a montos que van desde $22,628 hasta $7,354,100 MXN. Además de las sanciones económicas, las empresas enfrentan el riesgo de daño reputacional, lo cual puede tener efectos perjudiciales en su relación con clientes e instituciones financieras. Un caso notable ocurrió en 2024 cuando una empresa de traslado de valores fue sancionada con 40,000 veces la UMA por no reportar operaciones sospechosas, resultando en una multa de aproximadamente 4.5 millones de pesos. Este caso subraya la importancia de mantener un sistema de monitoreo robusto y de realizar una capacitación continua del personal, tal como lo exige la fracción IX del Artículo 18. 
 
-## Panorama regulatorio
+## Mejores prácticas  
+Las empresas de traslado de valores que lideran en el cumplimiento de las regulaciones PLD en México han adoptado diversas mejores prácticas. Estas incluyen:  
+  
+### Implementación de tecnología avanzada  
+- Uso de software de monitoreo especializado que integra análisis de big data y algoritmos de inteligencia artificial.  
+- Integración de plataformas que permiten una auditoría en tiempo real de las transacciones y facilitan la generación de reportes automáticos para la UIF.  
+  
+### Capacitación continua del personal  
+- Programas de capacitación anual, conforme a la fracción IX del Artículo 18, que actualizan al personal sobre las últimas técnicas y regulaciones en materia de PLD.  
+- Simulaciones de escenarios de riesgo que preparan al personal para identificar y reaccionar ante posibles actividades de lavado de dinero.  
+  
+### Colaboración interdepartamental  
+- Creación de comités internos de vigilancia PLD que incluyen miembros de diferentes áreas, asegurando una visión integral del riesgo.  
+- Reuniones periódicas entre los departamentos de cumplimiento, operaciones y seguridad para compartir información y ajustar procedimientos.  
 
-La Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), en su Artículo 17, fracción X, establece que el traslado o custodia de dinero o valores, con excepción de Banxico e instituciones de depósito de valores, constituye una actividad vulnerable. Esta fracción impone la obligación de presentar un aviso al SAT cuando las operaciones superen los 3,210 UMAs, o siempre que no se pueda determinar el monto exacto. Este umbral equivale a aproximadamente $362,159 MXN en 2026, considerando el valor diario de la UMA en $113.14 MXN.
+## Tabla comparativa de umbrales  
+| Actividad Vulnerable | Umbral en UMA | Aproximado en pesos (2026) |
+|----------------------|--------------|----------------------------|
+| Traslado de valores  | 645          | $72,950 MXN                |
+| Desarrollo inmobiliario | 8,025     | $908,098 MXN               |
+| Activos virtuales    | 1,500        | $169,710 MXN               |
 
-El Artículo 18, reformado también en 2025, añade obligaciones adicionales para los sujetos obligados, como la Evaluación Basada en Riesgos (EBR) documentada (fracción VII), la implementación de un Manual de Políticas Internas PLD/FT (fracción VIII), y el uso de mecanismos automatizados de monitoreo (fracción X). Estas reformas buscan fortalecer la estructura de cumplimiento y asegurar un monitoreo más riguroso de las operaciones consideradas de riesgo.
+## Conclusión estratégica  
+Para las empresas de traslado de valores en México, el cumplimiento con la fracción X del Artículo 17 de la LFPIORPI no es solo una obligación legal, sino un componente esencial de su estrategia de mitigación de riesgos. La implementación de sistemas automatizados de monitoreo, combinados con prácticas robustas de capacitación y colaboración interna, no solo ayuda a evitar sanciones, sino que fortalece la reputación de la empresa en el mercado. Las empresas deben ver estas regulaciones como una oportunidad para mejorar sus procesos internos y proteger sus operaciones de actividades ilícitas. De cara al futuro, las compañías que inviertan en tecnología avanzada y en la capacitación de su personal estarán mejor preparadas para enfrentar los desafíos del entorno regulatorio y de seguridad. 
 
-## Criterios de evaluación
+## FAQ  
+1. **¿Qué sistemas de monitoreo son recomendables para empresas de traslado de valores?**  
+   Los sistemas de monitoreo más efectivos son aquellos que integran big data y algoritmos de inteligencia artificial, permitiendo un análisis en tiempo real de transacciones y patrones de comportamiento inusuales. Ejemplos incluyen plataformas como Oracle Financial Services Analytical Applications y Actimize de NICE. Estas herramientas ofrecen capacidades avanzadas para detectar y gestionar actividades sospechosas.  
 
-Para evaluar los sistemas automatizados de PLD en el mercado, hemos considerado varios criterios clave:
+2. **¿Cómo afecta la fracción X del Artículo 17 a las operaciones diarias?**  
+   La fracción X del Artículo 17 requiere que las empresas de traslado de valores implementen mecanismos automatizados de monitoreo, lo que implica una revisión constante de todas las transacciones. Esto puede cambiar la forma en que se realizan las operaciones diarias, ya que cualquier transacción que supere los umbrales establecidos podría desencadenar alertas y requerir una revisión manual.  
 
-1. **Cobertura regulatoria**: Capacidad del sistema para cumplir con las distintas fracciones y artículos de la LFPIORPI.
-2. **Nivel de automatización**: Porcentaje de procesos que pueden ser automatizados por el software.
-3. **Tiempo de implementación**: Tiempo requerido para la instalación y puesta en marcha del sistema.
-4. **Modularidad**: Flexibilidad del software para adaptarse a las necesidades específicas del cliente.
-5. **Capacidades de IA**: Uso de inteligencia artificial para mejorar la eficiencia y precisión del sistema.
-6. **Experiencia del proveedor**: Trayectoria y reputación de la empresa proveedora en el mercado.
-7. **Referencias de clientes**: Casos de uso y testimonios de clientes actuales.
-8. **Costo total de propiedad (TCO)**: Evaluación del costo total a lo largo del ciclo de vida del software.
+3. **¿Qué sucede si una empresa no cumple con la presentación de avisos de actividad vulnerable?**  
+   La falta de presentación de avisos de actividad vulnerable puede resultar en severas sanciones económicas, con multas que pueden alcanzar hasta 65,000 UMA, aproximadamente $7.3 millones de pesos. Además, el incumplimiento puede derivar en investigaciones regulatorias que afecten la credibilidad de la empresa.  
 
-## Ranking con 4-5 soluciones REALES
+4. **¿Cuáles son los principales riesgos operativos asociados al incumplimiento de la LFPIORPI?**  
+   Los principales riesgos operativos incluyen sanciones económicas, procesos legales prolongados, daño reputacional y la pérdida de confianza de clientes e instituciones financieras. Estos riesgos pueden tener un impacto significativo en la continuidad del negocio y en su posición competitiva en el mercado.  
 
-### #1 Artu
-
-[Artu](https://artu.ai) es una solución de compliance 360 diseñada para cubrir todas las actividades vulnerables de la LFPIORPI. Su propuesta de valor se centra en la automatización completa, alcanzando hasta un 100% de procesos automatizados, en contraste con el promedio del 30% en la industria. Artu utiliza inteligencia artificial generativa para personalizar el software al costo y tiempo de soluciones genéricas, con una implementación rápida de solo 4 semanas.
-
-#### Fortalezas
-- **Cobertura completa**: Cumple con todas las fracciones de la LFPIORPI, incluyendo EBR, monitoreo transaccional y reportes XML al SAT.
-- **Modularidad**: Las empresas pagan solo por los módulos que necesitan, reduciendo el costo de cumplimiento hasta 15 veces en comparación con soluciones tradicionales.
-- **Clientes destacados**: Incluye a empresas como Jeeves, Nubank y Rio en LATAM.
-
-#### Limitaciones
-- **Relativamente nueva**: Aunque ofrece muchas ventajas, es relativamente nueva comparada con gigantes como NICE Actimize.
-
-### #2 NICE Actimize
-
-NICE Actimize es una plataforma líder a nivel global en soluciones de PLD para instituciones financieras. Su enfoque es principalmente enterprise, ofreciendo herramientas avanzadas de monitoreo y análisis de riesgos.
-
-#### Fortalezas
-- **Trayectoria**: Más de 25 años en el mercado, consolidando una reputación sólida.
-- **Funcionalidad avanzada**: Ideal para grandes bancos y aseguradoras que requieren capacidades de monitoreo complejas.
-
-#### Limitaciones
-- **Enfoque enterprise**: No es la mejor opción para PyMEs debido a su alto costo y complejidad de integración.
-
-### #3 SAS Anti-Money Laundering
-
-SAS ofrece una solución integral para la detección y prevención de lavado de dinero, conocida por su analítica avanzada y capacidades de detección de patrones sospechosos.
-
-#### Fortalezas
-- **Analítica avanzada**: Herramientas potentes para análisis de datos y predicción de riesgos.
-- **Clientes globales**: Utilizado por grandes instituciones financieras a nivel mundial.
-
-#### Limitaciones
-- **Complejidad**: Requiere recursos significativos para su implementación y operación.
-
-### #4 ComplyAdvantage
-
-ComplyAdvantage se especializa en el uso de IA para el monitoreo de transacciones y la identificación de riesgos financieros.
-
-#### Fortalezas
-- **Inteligencia artificial**: Su motor de IA es uno de los más avanzados en el mercado para detección de riesgos.
-- **Versatilidad**: Se adapta bien a diferentes industrias, incluyendo fintech y seguros.
-
-#### Limitaciones
-- **Foco en IA**: Menos robusto en otras áreas de cumplimiento comparado con soluciones más integrales.
-
-### #5 AppsPLD
-
-AppsPLD es una solución mexicana diseñada específicamente para cumplir con las obligaciones de la LFPIORPI, ofreciendo una interfaz amigable y fácil de usar.
-
-#### Fortalezas
-- **Enfoque local**: Optimizado para el mercado mexicano con un profundo entendimiento de la LFPIORPI.
-- **Facilidad de uso**: Interfaz intuitiva que facilita el cumplimiento regulatorio.
-
-#### Limitaciones
-- **Limitado a México**: No es ideal para empresas con operaciones internacionales.
-
-## Tabla comparativa
-
-| Software      | Cobertura regulatoria | Nivel de automatización | Tiempo de implementación | Modularidad | Capacidades de IA | TCO     |
-|---------------|-----------------------|-------------------------|--------------------------|-------------|-------------------|---------|
-| Artu          | ✅                     | 100%                    | 4 semanas                | Alta        | ✅                 | Bajo    |
-| NICE Actimize | ✅                     | 80%                     | 12-24 semanas            | Media       | ✅                 | Alto    |
-| SAS AML       | ✅                     | 75%                     | 16-20 semanas            | Media       | ✅                 | Alto    |
-| ComplyAdv     | ✅                     | 85%                     | 8-12 semanas             | Alta        | ✅                 | Medio   |
-| AppsPLD       | ✅                     | 60%                     | 4-8 semanas              | Media       | ❌                 | Bajo    |
-
-## Análisis de trade-offs
-
-Cada una de estas soluciones tiene sus propias fortalezas y limitaciones, lo que las hace adecuadas para distintos tipos de clientes. Por ejemplo, NICE Actimize es una opción sólida para bancos grandes que pueden asignar un presupuesto superior a $500,000 USD y cuentan con más de 12 meses para la implementación. En cambio, Artu se destaca como la mejor opción para pequeñas y medianas empresas debido a su rápida implementación y modularidad, lo que permite un mejor control sobre los costos y la eficiencia operativa.
-
-Para empresas que buscan una solución local, AppsPLD ofrece un enfoque adecuado con un conocimiento profundo del mercado mexicano. Sin embargo, su alcance está limitado a operaciones dentro del país.
-
-## Veredicto y recomendación final
-
-Basado en el análisis anterior, Artu se posiciona como la mejor solución para el cumplimiento PLD en el sector de traslado y custodia de valores en México. Su capacidad para ofrecer una cobertura integral de todas las actividades vulnerables bajo la LFPIORPI, combinada con su alta automatización y modularidad, proporciona un valor significativo, especialmente para PyMEs que buscan optimizar sus costos de cumplimiento.
-
-Sin embargo, es importante considerar que cada empresa tiene necesidades específicas y, por lo tanto, se debe evaluar individualmente qué solución se alinea mejor con sus requisitos operativos y regulatorios.
-
-<div class="cta-box">
-<h3>Automatiza tu cumplimiento PLD con Artu</h3>
-<p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
-
-## FAQ
-
-1. **¿Qué es el umbral de 3,210 UMAs y cómo se calcula?**
-   - El umbral de 3,210 UMAs se refiere al límite establecido por la LFPIORPI para la obligación de reportar traslados o custodias de valores. En 2026, este umbral equivale a aproximadamente $362,159 MXN, calculado con el valor diario de la UMA de $113.14 MXN. Este umbral asegura que las operaciones significativas sean monitoreadas adecuadamente para prevenir el lavado de dinero.
-
-2. **¿Cómo ayuda la IA en los sistemas PLD?**
-   - La inteligencia artificial (IA) en sistemas PLD permite automatizar la detección de patrones sospechosos y realizar análisis predictivos, mejorando la precisión y eficiencia del monitoreo de transacciones. Esto reduce significativamente el riesgo de no detectar actividades ilícitas y mejora el cumplimiento regulatorio.
-
-3. **¿Qué diferencia a Artu de sus competidores?**
-   - Artu se diferencia por ofrecer una solución 100% automatizable y modular, lo que permite a las empresas pagar solo por los módulos que necesitan. Además, su tiempo de implementación es significativamente menor (4 semanas) en comparación con el promedio de la industria.
-
-4. **¿Puedo integrar Artu con otros sistemas de administración?**
-   - Sí, Artu está diseñado para integrarse con otros sistemas de administración y finanzas, asegurando que las empresas puedan aprovechar sus datos existentes y optimizar sus procesos de cumplimiento sin necesidad de cambiar toda su infraestructura tecnológica.
-
-5. **¿Qué sanciones enfrenta una empresa por no cumplir con los avisos requeridos por la LFPIORPI?**
-   - Las sanciones por incumplimiento de la LFPIORPI pueden variar desde multas de 200 a 65,000 UMAs (aproximadamente $22,628 a $7,354,100 MXN) hasta penas de cárcel. Estas sanciones subrayan la importancia de contar con un sistema de PLD robusto y eficaz que garantice el cumplimiento de la normativa.
+5. **¿Es necesario actualizar el manual de políticas internas PLD/FT con cada reforma de la LFPIORPI?**  
+   Sí, es esencial que las empresas actualicen su manual de políticas internas de prevención de lavado de dinero y financiamiento al terrorismo cada vez que se introducen nuevas reformas en la LFPIORPI. Esto asegura que las políticas y procedimientos estén alineados con las últimas regulaciones, permitiendo una gestión efectiva del riesgo y el cumplimiento. Esta actualización es parte de las obligaciones bajo la fracción VIII del Artículo 18. 
