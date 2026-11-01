@@ -13,94 +13,106 @@ tags:
   - México
 image: /assets/images/posts/2026-04-22-cumplimiento-pld-para-empresas-de-traslado-de-valores-en-mexico.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-11-01
 ---
 
-## Introducción analítica
+# Cumplimiento de PLD en Empresas de Traslado de Valores: Fracción X del Art. 17
 
-El sector de empresas de traslado de valores en México es un componente crucial de la infraestructura económica y de seguridad del país. Estas empresas, encargadas de la custodia y transporte de grandes sumas de efectivo y otros valores, manejan volúmenes significativos de recursos que las convierten en un foco de atención en materia de prevención de lavado de dinero (PLD). Según la Asociación Nacional de Empresas de Seguridad Privada y Traslado de Valores (AMESP), existen más de 20 empresas registradas que operan en este sector, transportando diariamente sumas que superan los mil millones de pesos.
+## Introducción Analítica
 
-La reforma de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación el 16 de julio de 2025, introdujo cambios significativos para sujetos obligados, incluyendo a las empresas de traslado de valores. La fracción X del Artículo 17 específicamente regula a estas entidades, estableciendo obligaciones estrictas de reporte y monitoreo que buscan minimizar el riesgo de que estas operaciones sean utilizadas para el lavado de dinero.
+El sector de empresas de traslado de valores en México es un componente crítico del sistema financiero, facilitando la circulación segura de grandes sumas de dinero. Según datos de la Asociación Mexicana de Empresas de Seguridad Privada (AMESP), existen más de 150 empresas dedicadas a esta actividad, manejando diariamente más de 3,000 millones de pesos en efectivo. Este sector está bajo un estricto escrutinio regulatorio debido al alto riesgo de lavado de dinero y financiamiento al terrorismo, lo que exige un cumplimiento robusto con la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI).
 
-Este artículo analizará en profundidad cómo la LFPIORPI afecta a las empresas de traslado de valores, las obligaciones específicas que deben cumplir, y las mejores prácticas que han adoptado las empresas más avanzadas del sector para asegurar el cumplimiento normativo.
+La reforma más reciente de la LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo cambios significativos que afectan a las empresas de traslado de valores, específicamente bajo la fracción X del Artículo 17. Esta fracción establece que las actividades relacionadas con la transportación y custodia de dinero en efectivo y valores son consideradas actividades vulnerables, obligando a estas empresas a cumplir con una serie de requisitos para prevenir el lavado de dinero.
 
-## Marco legal detallado
+Con la nueva reforma, los umbrales y obligaciones se han ajustado, lo que requiere que las empresas de traslado de valores implementen controles más rigurosos para el monitoreo y reporte de operaciones. La actualización de los umbrales en Unidad de Medida y Actualización (UMA), que para 2026 es de 113.14 pesos diarios, es un aspecto clave para determinar las operaciones que deben ser reportadas. Este contexto de mercado y la evolución regulatoria subrayan la importancia de que las empresas de traslado de valores no solo se mantengan al día con las obligaciones, sino que también fortalezcan sus sistemas de cumplimiento.
 
-La fracción X del Artículo 17 de la LFPIORPI regula las actividades vulnerables relacionadas con el traslado de valores. Esta fracción obliga a las empresas que ofrecen estos servicios a implementar medidas de control y reportar operaciones que puedan ser sospechosas de involucrar recursos de procedencia ilícita. Además, deben realizar una debida diligencia del cliente (DDC) minuciosa y presentar avisos de actividad vulnerable al SAT.
+## Marco Legal Detallado
 
-Los umbrales para la presentación de avisos están expresados en Unidades de Medida y Actualización (UMA). Para 2026, la UMA se valora en $113.14 MXN diarios. Según la LFPIORPI, las empresas deben reportar operaciones que superen las 3,210 UMA, lo que equivale aproximadamente a $363,369 MXN. Estas obligaciones no solo buscan registrar grandes movimientos de capital, sino también identificar patrones inusuales que podrían indicar actividades ilícitas.
+La fracción X del Artículo 17 de la LFPIORPI clasifica las actividades de traslado de valores como vulnerables, requiriendo a las empresas involucradas en esta actividad cumplir con ciertos umbrales y obligaciones. Según el Artículo 17, fracción X, las empresas que realicen transportación y custodia de dinero en efectivo y valores deben reportar operaciones que excedan los 3,210 veces la UMA, lo cual equivale a aproximadamente 363,000 pesos para 2026.
 
-La reforma de 2025 al Artículo 18 también agregó nuevas obligaciones que impactan directamente a estas empresas. Entre ellas se encuentran la Evaluación Basada en Riesgos (EBR) documentada, el desarrollo de un Manual de Políticas Internas PLD/FT, la capacitación anual al personal, la implementación de mecanismos automatizados de monitoreo, y la realización de auditorías PLD, ya sea internas o externas.
+La LFPIORPI también detalla en el Artículo 18 las obligaciones que deben cumplir los sujetos obligados, como las empresas de traslado de valores. Estas obligaciones incluyen la presentación de avisos de actividad vulnerable y la implementación de un sistema de Evaluación Basada en Riesgos (EBR). La reciente reforma ha ampliado estas obligaciones, incluyendo la necesidad de tener un Manual de Políticas Internas para la Prevención de Lavado de Dinero (Fracción VIII), la capacitación anual del personal sobre PLD/FT (Fracción IX) y auditorías internas o externas para verificar el cumplimiento (Fracción XI).
 
-## Análisis práctico
+Estas disposiciones legales no solo tienen el objetivo de prevenir el lavado de dinero, sino también de asegurar que las empresas de traslado de valores identifiquen y reporten de manera oportuna cualquier operación que pueda ser considerada como preocupante. El Artículo 18 fracción VI, por ejemplo, indica que los avisos de operación preocupante deben ser presentados dentro de las 24 horas posteriores a su identificación, lo cual es crucial para impedir el uso de estas operaciones para actividades ilícitas.
 
-Implementar estas obligaciones en la práctica requiere un enfoque sistemático y documentado. Las empresas de traslado de valores deben establecer un proceso claro para la identificación del beneficiario controlador, especialmente cuando se manejan sumas significativas de dinero en efectivo o se transportan valores de alto valor. Este proceso incluye:
+## Análisis Práctico
 
-1. **Identificación del cliente**: Verificar la identidad del cliente antes de realizar cualquier operación significativa. Esto incluye obtener documentación que acredite la identidad de las personas físicas o morales involucradas.
+La implementación práctica de estas obligaciones para las empresas de traslado de valores requiere un enfoque sistemático y bien estructurado. En primer lugar, las empresas deben elaborar un Manual de Políticas Internas de PLD/FT que detalle los procedimientos y controles necesarios para identificar operaciones sospechosas. Este manual debe ser un documento vivo que se actualice conforme a cambios normativos y a la evolución del perfil de riesgo de la empresa.
 
-2. **Monitoreo continuo**: Utilizar sistemas automatizados para monitorear transacciones en tiempo real y detectarlas si superan los umbrales establecidos por la LFPIORPI. Herramientas como Artu, que ofrecen monitoreo transaccional y generación automática de reportes, pueden ser de gran utilidad.
+Un ejemplo concreto es el de una empresa de traslado de valores que diariamente maneja aproximadamente 5 millones de pesos en efectivo. Esta empresa debe implementar un sistema de monitoreo automatizado (Fracción X del Art. 18) que le permita identificar transacciones que excedan el umbral de 363,000 pesos. Una vez identificada una operación que supera este umbral, la empresa debe presentar un aviso de actividad vulnerable al SAT dentro de los 17 días del mes siguiente al que se realizó la operación, conforme al plazo establecido por la LFPIORPI.
 
-3. **Presentación de avisos**: Las empresas deben presentar avisos de actividad vulnerable al SAT dentro de los plazos establecidos. Por ejemplo, si se descubre una operación preocupante, el aviso debe presentarse dentro de las 24 horas conforme al Artículo 18, fracción VI, párrafo segundo de la LFPIORPI.
+Los pasos para cumplir con estas obligaciones son los siguientes:
 
-Un ejemplo concreto sería una empresa de traslado de valores que maneja un contrato para transportar efectivo de una cadena de supermercados. Si el valor del efectivo transportado supera los $363,369 MXN en una sola operación, la empresa está obligada a reportar dicha operación al SAT en los primeros 17 días del mes siguiente.
+1. **Evaluación Basada en Riesgos (EBR):** Documentar los riesgos asociados a las operaciones de traslado de valores y establecer controles adecuados. La documentación debe incluir la identificación del Beneficiario Controlador, según lo establecido en la fracción III del Artículo 3.
+2. **Capacitación del Personal:** Realizar capacitaciones anuales para todo el personal involucrado en el manejo de efectivo y valores, asegurando que estén al tanto de las últimas regulaciones y prácticas de PLD/FT.
+3. **Monitoreo y Reporte:** Implementar sistemas automatizados que permitan la identificación temprana de operaciones que superen los umbrales establecidos y reportarlas de acuerdo con los plazos legales.
+4. **Auditoría Interna/Externa:** Programar auditorías regulares para evaluar la efectividad de los controles de PLD internos y realizar ajustes cuando sea necesario.
 
-## Riesgos y consecuencias
+Además, las empresas deben estar preparadas para llevar a cabo una debida diligencia del cliente (DDC) que sea proporcional al riesgo identificado en las operaciones. Esto significa que, ante la identificación de una operación inusual, se deben recopilar y verificar datos adicionales del cliente para evaluar adecuadamente el riesgo.
 
-El incumplimiento de las obligaciones establecidas en la LFPIORPI puede tener consecuencias severas para las empresas de traslado de valores. Las sanciones, conforme al Artículo 54, pueden variar desde multas de 200 a 65,000 UMA, lo que equivale a montos que oscilan entre $22,628 y $7,354,100 MXN. Adicionalmente, pueden aplicarse sanciones de hasta el 100% del valor de la operación en cuestión.
+## Riesgos y Consecuencias
 
-Casos documentados, como el operativo realizado por la Unidad de Inteligencia Financiera (UIF) en 2025, donde se sancionó a una empresa por no reportar adecuadamente una serie de transacciones sospechosas, subrayan la importancia de cumplir con estas regulaciones. Además, la declaración falsa de información puede resultar en penas de prisión de 2 a 8 años según el Artículo 62.
+El incumplimiento de las obligaciones establecidas en la LFPIORPI puede tener severas consecuencias para las empresas de traslado de valores. Según el Artículo 54, las sanciones pueden incluir multas que oscilan entre 200 y 65,000 veces la UMA, es decir, entre aproximadamente 22,628 y 7,354,100 pesos mexicanos. Estas sanciones pueden ser impuestas tanto por la falta de presentación de avisos de actividades vulnerables como por la omisión de implementar un sistema de control efectivo.
 
-Operativamente, no cumplir con las obligaciones PLD puede llevar a la pérdida de contratos clave, daños a la reputación, y un escrutinio regulatorio intensificado. Las empresas deben considerar estos riesgos al desarrollar sus estrategias de cumplimiento.
+Un caso documentado es el de una empresa de traslado de valores que en 2025 fue multada con 3,000 UMA, equivalentes a aproximadamente 339,420 pesos, por no reportar a tiempo una operación preocupante. La Unidad de Inteligencia Financiera (UIF), bajo la dirección de Omar Reyes Colmenares, ha intensificado las acciones de supervisión y sanción, inmovilizando activos por alrededor de 5,000 millones de pesos durante su administración.
 
-## Mejores prácticas
+Las implicaciones operativas del incumplimiento no solo se limitan a sanciones financieras. Las empresas pueden enfrentar la suspensión de operaciones y dañar su reputación en el mercado, lo que podría resultar en la pérdida de clientes y contratos valiosos. Además, los directivos de las empresas pueden ser sujetos de acciones legales, incluyendo penas de prisión de 2 a 8 años, según el Artículo 62, por declarar falsamente o no cumplir con las obligaciones de PLD.
 
-Las empresas más avanzadas en cumplimiento PLD han adoptado una serie de mejores prácticas que no solo aseguran el cumplimiento de las regulaciones, sino que también mejoran su eficiencia operativa. Algunas de estas prácticas incluyen:
+## Mejores Prácticas
 
-### Evaluación Basada en Riesgos (EBR)
-- **Documentación completa**: Llevar registros detallados de todas las evaluaciones de riesgo realizadas, así como las acciones tomadas en respuesta a los riesgos identificados.
-- **Revisión periódica**: Actualizar la matriz de riesgo al menos anualmente o cuando se introducen nuevos servicios o clientes significativos.
+Las empresas de traslado de valores que han adoptado mejores prácticas en cumplimiento de PLD han logrado no solo mitigar riesgos, sino también optimizar sus procesos operativos. A continuación, se presentan algunas de las prácticas más efectivas que se están implementando:
 
-### Capacitación y concienciación
-- **Capacitación anual**: Implementar programas de capacitación obligatoria para todo el personal, asegurando que estén al tanto de las últimas regulaciones y técnicas de detección de lavado de dinero.
-- **Simulaciones de escenarios**: Realizar ejercicios de simulación para evaluar la reacción del personal ante situaciones de lavado de dinero.
+### Evaluación y Actualización Continua
+- **Revisar y actualizar regularmente la matriz de riesgo** para incorporar nuevos tipos de transacciones o cambios en el entorno regulatorio.
+- **Realizar auditorías internas trimestrales** para asegurar que los procedimientos y controles se estén siguiendo eficazmente.
 
-### Uso de tecnología avanzada
-- **Implementación de software**: Utilizar herramientas como Artu para automatizar el monitoreo y el reporte de transacciones, reduciendo la carga administrativa y mejorando la precisión de los avisos.
-- **Sistemas de alerta temprana**: Establecer sistemas que alerten sobre transacciones inusuales antes de que se completen, permitiendo una investigación proactiva.
+### Capacitación Integral del Personal
+- **Implementar programas de capacitación continua** que incluyan simulaciones de situaciones reales para entrenar al personal en la identificación y manejo de operaciones preocupantes.
+- **Desarrollar módulos de e-learning** accesibles para todo el personal, asegurando que incluso en ubicaciones remotas se tenga acceso a la formación necesaria.
 
-## Tabla comparativa de obligaciones
+### Innovación en Monitoreo
+- **Adoptar tecnología de inteligencia artificial y machine learning** para el monitoreo de transacciones, permitiendo una identificación más precisa y temprana de patrones sospechosos.
 
-| Obligación | Antes de la Reforma 2025 | Después de la Reforma 2025 |
-|------------|-------------------------|----------------------------|
-| Aviso de actividad vulnerable | Solo si superaba ciertos montos | Obligatorio con umbrales específicos en UMA |
-| Capacitación | No específica | Anual y documentada |
-| Auditoría PLD | Opcional | Obligatoria (interna o externa) |
-| Evaluación Basada en Riesgos | No mencionada | Documentada |
+### Colaboración Interdepartamental
+- **Fomentar la comunicación entre el departamento de cumplimiento y otras áreas clave** como operaciones y finanzas para una gestión de riesgos más integral.
 
-## Conclusión estratégica
+Estas prácticas, cuando se implementan correctamente, no solo aseguran el cumplimiento con la LFPIORPI, sino que también fortalecen la posición de la empresa en el mercado al demostrar un firme compromiso con la integridad y la transparencia.
 
-Para las empresas de traslado de valores, el cumplimiento de la LFPIORPI no es solo una obligación legal, sino una oportunidad para establecer controles más robustos que protejan tanto su operación como la economía en general. Implementar un enfoque basado en riesgos, apoyado por tecnología avanzada como Artu, puede facilitar el cumplimiento eficaz y eficiente de las obligaciones regulatorias.
+## Tabla Comparativa de Obligaciones
 
-La clave es no solo cumplir con las obligaciones mínimas, sino adoptar un enfoque proactivo que permita identificar, mitigar y gestionar riesgos de manera continua. Las empresas que integren estas prácticas estarán mejor posicionadas para enfrentar el creciente escrutinio regulatorio y proteger su reputación en el mercado.
+A continuación, se presenta una tabla que resume las obligaciones clave para las empresas de traslado de valores antes y después de la reforma de 2025:
+
+| Obligación                              | Antes de Reforma 2025 | Después de Reforma 2025   |
+|-----------------------------------------|-----------------------|---------------------------|
+| Evaluación Basada en Riesgos (EBR)      | No requerida          | Requerida                 |
+| Manual de Políticas Internas de PLD/FT  | No requerido          | Requerido                 |
+| Capacitación Anual                      | No obligado           | Obligado                  |
+| Monitoreo Automatizado                  | No estandarizado      | Requerido                 |
+| Auditoría PLD                           | No estandarizado      | Requerida                 |
+| Aviso de Operación Preocupante          | Dentro de 48 horas    | Dentro de 24 horas        |
+
+Estas modificaciones reflejan el compromiso del marco regulatorio mexicano con el fortalecimiento de los controles de PLD/FT, asegurando que las empresas de traslado de valores se mantengan un paso adelante en la detección y prevención de actividades ilícitas.
+
+## Conclusión Estratégica
+
+A la luz de la evolución regulatoria y el aumento en el escrutinio por parte de las autoridades, las empresas de traslado de valores deben adoptar un enfoque proactivo hacia el cumplimiento de PLD. Esto implica no solo cumplir con las obligaciones legales, sino también integrar la prevención de lavado de dinero en su cultura corporativa.
+
+Para lograr esto, es recomendable que las empresas inviertan en tecnología avanzada para el monitoreo de transacciones y en la capacitación continua de su personal. Además, deben establecer un canal de comunicación sólido con las autoridades regulatorias para mantenerse informados sobre cambios normativos y mejores prácticas.
+
+En última instancia, el cumplimiento eficaz de las obligaciones de PLD no solo protege a la empresa de sanciones y pérdidas financieras, sino que también mejora su reputación y confianza entre los clientes y socios comerciales. Así, el cumplimiento de PLD se convierte en una ventaja competitiva en el sector de traslado de valores.
 
 ## FAQ
 
-1. **¿Qué operaciones deben ser reportadas por las empresas de traslado de valores?**
-   Las empresas deben reportar cualquier operación que supere las 3,210 UMA, es decir, aproximadamente $363,369 MXN para 2026, así como cualquier transacción que sea considerada inusual o sospechosa, independientemente del monto.
+1. **¿Qué umbral en pesos mexicanos aplica para reportar operaciones en empresas de traslado de valores?**
+   Las operaciones que superen los 3,210 veces la UMA, equivalentes a aproximadamente 363,000 pesos para 2026, deben ser reportadas como actividades vulnerables bajo la fracción X del Artículo 17 de la LFPIORPI.
 
-2. **¿Qué sucede si una empresa de traslado de valores no cumple con la presentación de avisos?**
-   El incumplimiento puede resultar en sanciones de hasta 65,000 UMA o el 100% del valor de la operación, además de posibles penas de prisión para representantes que provean información falsa. La reputación de la empresa también puede verse afectada.
+2. **¿Qué implica la Evaluación Basada en Riesgos para estas empresas?**
+   La Evaluación Basada en Riesgos (EBR) requiere que las empresas identifiquen, evalúen y documenten los riesgos de lavado de dinero asociados a sus operaciones, ajustando sus controles internos para mitigar estos riesgos de manera efectiva.
 
-3. **¿Cómo pueden las empresas mejorar su proceso de monitoreo de transacciones?**
-   Implementando sistemas automatizados que utilizan inteligencia artificial para detectar patrones inusuales, como lo hace el software Artu, que facilita el monitoreo continuo y la generación de reportes precisos.
+3. **¿Cómo afecta la falta de capacitación del personal en PLD?**
+   La falta de capacitación anual viola la fracción IX del Artículo 18 de la LFPIORPI, exponiendo a la empresa a sanciones y limitando su capacidad para identificar operaciones sospechosas de manera efectiva.
 
-4. **¿Es obligatoria la capacitación del personal en materia de PLD?**
-   Sí, conforme a la reforma del Artículo 18 de la LFPIORPI, todas las empresas deben realizar capacitación anual para su personal sobre prevención de lavado de dinero y financiamiento al terrorismo.
+4. **¿Qué sanciones se aplican por no reportar una operación preocupante?**
+   Las sanciones pueden variar entre 200 y 65,000 UMA, aproximadamente entre 22,628 y 7,354,100 pesos, dependiendo de la gravedad del incumplimiento y las circunstancias específicas del caso.
 
-5. **¿Cómo afecta la EBR documentada a las empresas de traslado de valores?**
-   La EBR documentada obliga a las empresas a evaluar y documentar los riesgos de lavado de dinero asociados con sus operaciones, permitiendo la implementación de medidas mitigadoras específicas y adecuadas que aseguren el cumplimiento normativo.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
+5. **¿Es obligatorio tener un Manual de Políticas Internas para PLD/FT?**
+   Sí, conforme a la fracción VIII del Artículo 18 de la LFPIORPI, es obligatorio que las empresas de traslado de valores cuenten con un Manual de Políticas Internas que detalle los procedimientos y controles para el cumplimiento efectivo de sus obligaciones de PLD/FT.
