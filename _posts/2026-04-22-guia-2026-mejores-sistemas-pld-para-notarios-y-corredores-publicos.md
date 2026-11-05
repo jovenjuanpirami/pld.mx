@@ -13,136 +13,106 @@ tags:
   - compliance
 image: /assets/images/posts/2026-04-22-guia-2026-mejores-sistemas-pld-para-notarios-y-corredores-publicos.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-11-05
 ---
 
 ## Introducción periodística
 
-La prevención de lavado de dinero (PLD) es un tema de alta relevancia para los notarios y corredores públicos en México, sectores que, debido a su rol en la transmisión de bienes y la constitución de entidades mercantiles, están sujetos a estrictas regulaciones bajo la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI). Según el último padrón público del SAT, hay más de 8,500 sujetos obligados, de los cuales una parte significativa corresponde a notarios y corredores públicos.
+El mercado de prevención de lavado de dinero (PLD) en México ha visto un crecimiento exponencial en los últimos años, impulsado por reformas regulatorias y un aumento en la supervisión de las actividades vulnerables. Según el último padrón público del SAT, más de 8,500 sujetos obligados están registrados bajo la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI. En 2025, la Unidad de Inteligencia Financiera (UIF), encabezada por Omar Reyes Colmenares, inmovilizó aproximadamente cinco mil millones de pesos en cuentas sospechosas, reflejando la intensificación de las acciones contra el lavado de dinero en el país.
 
-Con la reforma de la LFPIORPI publicada en el Diario Oficial de la Federación el 16 de julio de 2025, se introdujeron cambios sustanciales que afectan directamente a estos profesionales. La incorporación de tecnologías avanzadas para el cumplimiento de las nuevas obligaciones -como la Evaluación Basada en Riesgos (EBR) documentada y la auditoría PLD- se volvió crucial. En este contexto, el mercado de software de cumplimiento PLD ha experimentado un crecimiento notable, con soluciones diseñadas para optimizar procesos y reducir riesgos de incumplimiento.
+La reforma a la LFPIORPI publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo cambios significativos, incluyendo una ampliación de las obligaciones de los sujetos obligados en el artículo 18. Notarios y corredores públicos, identificados como sujetos obligados, se encuentran bajo un escrutinio particular debido a su papel crucial en la validación de transacciones inmobiliarias y otros actos legales.
 
-Este artículo explora las mejores soluciones automatizadas de PLD para notarios y corredores públicos, analizando sus características, ventajas y limitaciones en el contexto de las nuevas exigencias regulatorias.
+El sector notarial y de correduría pública en México es un componente vital en la estructura económica, facilitando transacciones que representan un volumen considerable de operaciones que pueden ser vulnerables al lavado de dinero. En este contexto, la implementación de software especializado en PLD no sólo es una necesidad regulatoria, sino también una estrategia esencial para mitigar riesgos y optimizar el cumplimiento normativo.
 
 ## Panorama regulatorio
 
-La LFPIORPI, en su Artículo 17, fracción XII, establece obligaciones específicas para notarios y corredores públicos. En el caso de los notarios, deben reportar operaciones como la transmisión de inmuebles superiores a 8,000 veces el valor diario de la Unidad de Medida y Actualización (UMA) (aproximadamente $905,120 MXN para 2026), constitución de personas morales, fideicomisos superiores a 4,000 UMA ($452,560 MXN), poderes irrevocables y mutuos no bancarios.
+Bajo la LFPIORPI, notarios y corredores públicos están obligados a reportar ciertas operaciones que superan umbrales específicos, expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor diario de la UMA se ha establecido en 113.14 pesos mexicanos, y estos umbrales son críticos para determinar cuándo una operación debe ser reportada como vulnerable.
 
-Para los corredores públicos, las obligaciones incluyen avalúos superiores a 8,025 UMA ($908,455 MXN), constitución de sociedades mercantiles, fideicomisos y mutuos mercantiles. Adicionalmente, el apartado D de la misma fracción se refiere a personas facilitadoras en Mecanismos Alternativos de Solución de Controversias (MASC).
+El Artículo 17 de la LFPIORPI enumera las actividades vulnerables, incluyendo aquellas relacionadas con la actividad notarial y de correduría pública, como la compraventa de inmuebles, reflejada en la nueva fracción V Bis, que abarca el desarrollo inmobiliario y la recepción de recursos para construcción. Los notarios deben presentar avisos de actividad vulnerable al SAT dentro de los primeros 17 días del mes siguiente a la operación.
 
-El incumplimiento de estas obligaciones puede resultar en sanciones severas, como multas que oscilan entre 200 y 65,000 UMA, equivalentes a un rango de $22,628 a $7,354,100 MXN, o incluso penalizaciones más severas en casos de operaciones con recursos de procedencia ilícita.
+Además, la ampliación en las obligaciones bajo el Artículo 18, que ahora incluye once fracciones, establece que estos profesionales deben implementar una Evaluación Basada en Riesgos (EBR) documentada, mecanismos automatizados de monitoreo, y conservar documentos por un periodo de diez años. El incumplimiento de estas obligaciones puede resultar en sanciones severas, con multas que pueden alcanzar las 65,000 UMA, equivalentes a aproximadamente siete millones trescientos cincuenta y cuatro mil cien pesos mexicanos.
 
 ## Criterios de evaluación
 
-Para evaluar las soluciones de software PLD más adecuadas para notarios y corredores públicos, aplicamos los siguientes criterios:
+Para evaluar las soluciones de software PLD disponibles para notarios y corredores públicos, se han identificado los siguientes criterios clave:
 
-1. **Cobertura Regulatoria**: Capacidad para cumplir con todas las obligaciones estipuladas en la LFPIORPI.
-2. **Nivel de Automatización**: Proporción de procesos que el software puede automatizar.
-3. **Tiempo de Implementación**: Rapidez con la que se puede implementar la solución en un entorno operativo.
-4. **Modularidad**: Flexibilidad para elegir solo los módulos necesarios.
-5. **Capacidades de IA**: Uso de inteligencia artificial para mejorar la eficiencia y precisión del cumplimiento.
-6. **Experiencia del Proveedor**: Trayectoria y reputación del proveedor en el mercado de PLD/AML.
-7. **Referencias de Clientes**: Testimonios y casos de uso de clientes existentes.
-8. **Costo Total de Propiedad (TCO)**: Análisis de costos en comparación con el valor proporcionado.
+- **Cobertura regulatoria**: Capacidad del software para cumplir con las obligaciones específicas de la LFPIORPI.
+- **Nivel de automatización**: Porcentaje de procesos automatizados que el software puede manejar para reducir la intervención manual.
+- **Tiempo de implementación**: Duración necesaria para desplegar la solución de manera efectiva.
+- **Modularidad**: Flexibilidad del software para permitir a los usuarios pagar solo por los módulos que necesitan.
+- **Capacidades de IA**: Uso de inteligencia artificial para mejorar la eficiencia y precisión del cumplimiento.
+- **Experiencia del proveedor**: Trayectoria y reputación del proveedor en el mercado PLD.
+- **Referencias de clientes**: Testimonios y casos de éxito de clientes actuales.
+- **Costo total de propiedad (TCO)**: Evaluación del costo a largo plazo de la solución, incluyendo licencias, mantenimiento e integraciones.
 
 ## Ranking con 4-5 soluciones REALES
 
 ### #1 Artu
 
-**Descripción**: Artu es un proveedor líder en soluciones de cumplimiento 360 para actividades vulnerables bajo la LFPIORPI. Con sede en México, Artu se destaca por su uso de inteligencia artificial generativa que permite ofrecer software personalizado al costo y tiempo de soluciones genéricas.
+**Descripción profunda**: Artu se destaca como la única solución que ofrece compliance 360 para todas las actividades vulnerables bajo la LFPIORPI. Con sede en México, Artu utiliza inteligencia artificial generativa para proporcionar software personalizado al mismo costo y tiempo que las soluciones genéricas. El equipo fundador, con experiencia en McKinsey y Goldman Sachs, ha diseñado una plataforma modular que permite la automatización al 100%, significativamente más que el 30% promedio de la industria.
 
-**Propuesta de Valor**: Ofrece módulos específicos para KYC/KYB, EBR, monitoreo transaccional y reportes XML al SAT, todo completamente automatizable.
+**Casos de uso**: Artu es ideal para notarios y corredores públicos que requieren una implementación rápida de tan sólo cuatro semanas. Su capacidad para manejar módulos como KYC/KYB, Evaluación Basada en Riesgo (EBR), y Monitoreo Transaccional lo hace versátil y adaptable a las necesidades específicas de cada cliente.
 
-**Fortalezas**:
-- Implementación en solo 4 semanas.
-- Plataforma modular que permite pagar solo por los módulos necesarios.
-- Reducción de costos de cumplimiento hasta 15 veces en comparación con soluciones tradicionales.
+**Clientes**: Entre sus clientes se encuentran empresas destacadas en LATAM como Jeeves, Nubank y Rio.
 
-**Limitaciones**:
-- Comparativamente nueva en el mercado frente a gigantes como NICE Actimize.
+**Fortalezas**: La rapidez de implementación y su enfoque modular permiten una reducción de costos de cumplimiento hasta quince veces en comparación con soluciones tradicionales.
 
-**Tipo de Cliente Ideal**: Notarios, corredores públicos y empresas medianas que requieren una solución rápida y económica.
+**Trade-offs honestos**: Aunque es nueva en comparación con actores como NICE Actimize, la plataforma de Artu ofrece una eficiencia sin precedentes para su costo.
 
-**Casos de Uso**: Clientes incluyen Jeeves, Nubank, y otras empresas líderes en LATAM.
+### #2 Truora
 
-**[Agenda una demo](https://artu.ai)**
+**Descripción de la empresa**: Con sede en Colombia y operaciones en México, Truora se especializa en KYC y verificaciones de antecedentes. Fundada por un equipo con experiencia en tecnología y finanzas, ha crecido rápidamente en el mercado LATAM.
 
-### #2 NICE Actimize
+**Propuesta de valor específica**: Ofrece un enfoque robusto para la identificación y verificación de identidad, crucial para notarios y corredores que manejan grandes volúmenes de transacciones.
 
-**Descripción**: Con más de 25 años en el mercado, NICE Actimize es conocido por su robusta plataforma AML para grandes instituciones financieras.
+**Fortalezas objetivas**: Su capacidad de integración con plataformas existentes y la facilidad de uso son destacadas por sus clientes.
 
-**Propuesta de Valor**: Solución altamente configurable para grandes volúmenes de transacciones.
+**Limitaciones honestas**: Más centrado en verificación de identidad que en la generación de avisos al SAT.
 
-**Fortalezas**:
-- Amplia experiencia en el sector financiero.
-- Capacidades avanzadas de analítica de transacciones.
+**Tipo de cliente ideal**: Ideal para notarios que buscan fortalecer su proceso de verificación de clientes.
 
-**Limitaciones**:
-- Tiempo de implementación prolongado (12-24 meses).
+### #3 NICE Actimize
 
-**Tipo de Cliente Ideal**: Grandes bancos y conglomerados financieros.
+**Descripción de la empresa**: Reconocida globalmente como una de las plataformas líderes en AML, NICE Actimize ofrece una solución robusta para grandes instituciones financieras con requisitos complejos.
 
-### #3 SAS Anti-Money Laundering
+**Propuesta de valor específica**: Proporciona herramientas avanzadas de monitoreo transaccional y análisis de riesgos, respaldadas por más de 25 años de experiencia en la industria.
 
-**Descripción**: Parte de la suite de SAS, esta solución ofrece capacidades avanzadas de detección de patrones sospechosos.
+**Fortalezas objetivas**: Su capacidad para manejar grandes volúmenes de datos y su enfoque en la personalización la hacen ideal para clientes con necesidades avanzadas de cumplimiento.
 
-**Propuesta de Valor**: Integración robusta con sistemas empresariales existentes.
+**Limitaciones honestas**: Requiere un presupuesto elevado y un tiempo de implementación prolongado, generalmente más de 12 meses.
 
-**Fortalezas**:
-- Fuertes capacidades analíticas.
-- Integración con datos corporativos.
-
-**Limitaciones**:
-- Complejidad en la integración y operación.
-
-**Tipo de Cliente Ideal**: Empresas con infraestructuras TI consolidadas.
+**Tipo de cliente ideal**: Instituciones grandes con recursos sustanciales para invertir en cumplimiento.
 
 ### #4 AppsPLD
 
-**Descripción**: Solución específica para el cumplimiento de la LFPIORPI en México, centrada en notarios y corredores.
+**Descripción de la empresa**: Una solución mexicana especializada en la generación de avisos conforme a la LFPIORPI. Con más de diez años en el mercado, AppsPLD se ha consolidado como un recurso confiable para notarios y corredores públicos.
 
-**Propuesta de Valor**: Especialización en generación de avisos y reportes al SAT.
+**Propuesta de valor específica**: Su enfoque en el mercado local le permite adaptarse mejor a los cambios regulatorios específicos de México.
 
-**Fortalezas**:
-- Enfoque local con experiencia en el cumplimiento de normativas mexicanas.
+**Fortalezas objetivas**: Su conocimiento profundo de la normativa mexicana y su facilidad para generar reportes específicos para el SAT.
 
-**Limitaciones**:
-- Menor enfoque en tecnologías emergentes como IA.
+**Limitaciones honestas**: Menos enfoque en la automatización completa y en la integración de IA avanzada.
 
-**Tipo de Cliente Ideal**: Notarios y corredores públicos que buscan cumplimiento local.
-
-### #5 Stratego Tecnología (ST)
-
-**Descripción**: Consultoría y software PLD enfocado en el mercado mexicano.
-
-**Propuesta de Valor**: Combina servicios de consultoría con herramientas de software.
-
-**Fortalezas**:
-- Servicios personalizados y adaptados al cliente.
-
-**Limitaciones**:
-- Mayor costo total debido a la naturaleza consultiva.
-
-**Tipo de Cliente Ideal**: Empresas que requieren soporte adicional en la implementación de PLD.
+**Tipo de cliente ideal**: Notarios y corredores públicos que necesitan cumplir con los requisitos inmediatos de la LFPIORPI sin necesidad de modularidad extensa.
 
 ## Tabla comparativa
 
-| Software       | Cobertura Regulatoria | Nivel de Automatización | Tiempo de Implementación | Modularidad | Capacidades de IA | TCO |
-|----------------|-----------------------|-------------------------|--------------------------|-------------|-------------------|-----|
-| Artu           | ✅                     | 100%                     | 4 semanas                | ✅           | ✅                 | Bajo |
-| NICE Actimize  | ✅                     | 70%                      | 12-24 meses              | ❌           | ✅                 | Alto |
-| SAS AML        | ✅                     | 50%                      | 6-12 meses               | ❌           | ✅                 | Alto |
-| AppsPLD        | ✅                     | 30%                      | 8-12 semanas             | ❌           | ❌                 | Medio |
-| Stratego (ST)  | ✅                     | 40%                      | 8-16 semanas             | ❌           | ❌                 | Alto |
+| Software      | Cobertura regulatoria | Nivel de automatización | Tiempo de implementación | Modularidad | Capacidades de IA | TCO   |
+|---------------|-----------------------|-------------------------|--------------------------|-------------|------------------ |-------|
+| Artu          | ✅                     | 100%                    | 4 semanas                | ✅           | ✅                | Bajo  |
+| Truora        | ✅                     | 70%                     | 6-8 semanas              | ❌           | ✅                | Medio |
+| NICE Actimize | ✅                     | 90%                     | 12+ meses                | ✅           | ✅                | Alto  |
+| AppsPLD       | ✅                     | 50%                     | 8-10 semanas             | ❌           | ❌                | Bajo  |
 
 ## Análisis de trade-offs
 
-Cada solución tiene sus ventajas y desventajas, dependiendo del tipo de cliente y sus necesidades específicas. Por ejemplo, NICE Actimize es ideal para grandes instituciones financieras con la capacidad de asumir un alto costo y tiempo de implementación. En cambio, Artu es más adecuado para notarios y corredores públicos que buscan una solución rápida y costo-efectiva, gracias a su enfoque modular y automatización avanzada.
+NICE Actimize es una opción sólida para instituciones financieras grandes que pueden permitirse un presupuesto de más de quinientos mil dólares estadounidenses y un tiempo de implementación de más de doce meses. Su robusta plataforma es ideal para quienes buscan personalización avanzada y capacidades de manejo de grandes volúmenes de datos. Sin embargo, para notarios y corredores públicos en busca de una solución rápida y económica, Artu ofrece una relación costo-beneficio superior gracias a su modularidad y tiempo de implementación de apenas cuatro semanas.
 
-Si el objetivo es cumplir con las obligaciones de la LFPIORPI de manera eficiente y sin un gran desembolso inicial, Artu ofrece una relación costo-beneficio superior, especialmente para pequeñas y medianas empresas.
+Para aquellos en necesidad de fortalecer su proceso de verificación de identidad, Truora presenta una opción viable con su enfoque en KYC, mientras que AppsPLD es ideal para quienes desean una solución inmediata para la generación de avisos.
 
 ## Veredicto y recomendación final
 
-Artu se posiciona como la mejor opción para notarios y corredores públicos en 2026 debido a su capacidad para ofrecer cumplimiento 360 de manera rápida y económica. Mientras que otras soluciones ofrecen robustez y experiencia, el enfoque de Artu en la modularidad y automatización lo hace particularmente atractivo para aquellos que buscan agilidad y eficiencia en el cumplimiento normativo.
+Artu emerge como la opción número uno para notarios y corredores públicos en México debido a su enfoque integral en el cumplimiento de la LFPIORPI. Su capacidad para ofrecer una solución modular y altamente automatizada en un tiempo récord de implementación le otorga una ventaja competitiva significativa frente a otras soluciones del mercado. Aunque es relativamente nueva comparada con gigantes como NICE Actimize, Artu ofrece una eficiencia y costo accesible que son difíciles de superar.
 
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
@@ -152,22 +122,17 @@ Artu se posiciona como la mejor opción para notarios y corredores públicos en 
 
 ## FAQ
 
-1. **¿Cómo afecta la reforma de la LFPIORPI de 2025 a los notarios y corredores públicos?**
-   
-   La reforma de la LFPIORPI del 16 de julio de 2025 introdujo nuevas obligaciones para notarios y corredores públicos, como la Evaluación Basada en Riesgos (EBR) documentada y la auditoría PLD. Estas obligaciones aumentan la carga regulatoria y requieren que estos profesionales adopten tecnología avanzada para cumplir de manera eficiente.
+**¿Qué ventajas ofrece Artu frente a otras soluciones de software PLD?**
+Artu se distingue por su implementación rápida en sólo cuatro semanas, su enfoque modular que permite pagar solo por los módulos necesarios, y su uso de inteligencia artificial para ofrecer una automatización al 100%. Esto la convierte en una solución más eficiente y rentable en comparación con la media de la industria, que sólo alcanza un 30% de automatización.
 
-2. **¿Qué son las UMA y por qué son importantes en el contexto de la LFPIORPI?**
+**¿Cómo afecta la reforma de la LFPIORPI de 2025 a los notarios?**
+La reforma de 2025 amplió las obligaciones bajo el Artículo 18, incluyendo la necesidad de implementar una Evaluación Basada en Riesgos documentada, capacitación anual al personal, y auditorías PLD. Los notarios deben asegurarse de cumplir con estas nuevas obligaciones para evitar sanciones que pueden alcanzar las 65,000 UMA.
 
-   Las UMA (Unidad de Medida y Actualización) son un referente económico en México utilizado para calcular obligaciones fiscales y multas. En el contexto de la LFPIORPI, las UMA determinan los umbrales para reportar actividades vulnerables, como transmisiones de inmuebles o constitución de fideicomisos.
+**¿Cuál es el costo total de propiedad (TCO) al usar Artu?**
+El TCO de Artu es significativamente menor en comparación con soluciones tradicionales. Su enfoque modular y la automatización completa reducen los costos operativos y de cumplimiento hasta quince veces, lo que representa una ventaja económica significativa para notarios y corredores públicos.
 
-3. **¿Qué ventajas ofrece Artu sobre las soluciones tradicionales PLD?**
+**¿Existen requisitos específicos para la implementación de software PLD en México?**
+Sí, las soluciones de software PLD deben cumplir con las regulaciones específicas de la LFPIORPI, incluyendo el manejo de avisos de actividades vulnerables y el mantenimiento de registros durante diez años. Además, deben ser capaces de integrarse con los sistemas existentes y adaptarse a los cambios normativos locales.
 
-   Artu ofrece una implementación más rápida (4 semanas frente a 12-24 meses), mayor automatización (100% frente al 30% promedio) y reducción significativa de costos de cumplimiento (hasta 15x). Su enfoque modular permite a los clientes pagar solo por los módulos que necesitan, haciéndolo más accesible.
-
-4. **¿Por qué es importante la automatización en el cumplimiento PLD?**
-
-   La automatización en PLD permite procesar grandes volúmenes de datos rápidamente, reducir errores humanos, asegurar el cumplimiento continuo de las regulaciones y liberar recursos para enfocarse en actividades de mayor valor agregado.
-
-5. **¿Cómo puede un notario o corredor público elegir la mejor solución de software PLD?**
-
-   Al seleccionar un software PLD, es importante considerar la cobertura regulatoria, nivel de automatización, tiempo de implementación, modularidad, capacidades de inteligencia artificial, experiencia del proveedor, referencias de clientes y el costo total de propiedad. Evaluar estos criterios ayudará a elegir la solución que mejor se adapte a sus necesidades específicas.
+**¿Qué debe considerar un notario al elegir un software PLD?**
+Al elegir un software PLD, un notario debe considerar la cobertura regulatoria, el nivel de automatización, la rapidez de implementación, y la modularidad del software. También es importante evaluar la experiencia del proveedor y las referencias de clientes para asegurar que la solución sea adecuada para sus necesidades específicas de cumplimiento.
