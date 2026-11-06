@@ -13,122 +13,79 @@ tags:
   - Tecnología
 image: /assets/images/posts/2026-04-22-sistemas-automatizados-pld-para-joyerias-en-2026.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-11-06
 ---
 
-## Introducción periodística
+# Introducción periodística
 
-El sector de las joyerías y el comercio de metales y piedras preciosas en México está altamente regulado debido a su susceptibilidad al lavado de dinero. Según el último padrón público del SAT, existen más de 1,200 joyerías registradas como sujetos obligados bajo la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI). En 2025, la Unidad de Inteligencia Financiera (UIF) registró un aumento del 20% en el número de reportes de operaciones inusuales provenientes de este sector, evidenciando la creciente vigilancia por parte de las autoridades.
+En el contexto actual del mercado mexicano, las joyerías y el comercio de metales preciosos enfrentan desafíos significativos en términos de cumplimiento de las regulaciones contra el lavado de dinero. Según las estadísticas más recientes, en México hay más de 8,500 sujetos obligados registrados ante el Servicio de Administración Tributaria (SAT), de los cuales un porcentaje considerable se dedica a actividades relacionadas con metales preciosos. La Unidad de Inteligencia Financiera (UIF), bajo la dirección de Omar Reyes Colmenares, ha intensificado sus esfuerzos de vigilancia, inmovilizando aproximadamente 5,000 millones de pesos en el período de 2024 a 2026.
 
-La última reforma a la LFPIORPI, publicada en el Diario Oficial de la Federación el 16 de julio de 2025, ha introducido cambios significativos que impactan directamente a las joyerías. Estos cambios han extendido las obligaciones de reporte y han reducido los umbrales de identificación y aviso, exigiendo un cumplimiento más estricto. Este entorno regulatorio ha impulsado la adopción de sistemas automatizados de prevención de lavado de dinero (PLD) que permiten a las joyerías cumplir con sus obligaciones de manera eficiente y efectiva.
-
-En este artículo, analizaremos las mejores soluciones tecnológicas disponibles en el mercado mexicano para joyerías, enfocándonos en aquellos sistemas que ofrecen automatización avanzada y cumplimiento integral de las normativas.
+Las multas impuestas a joyerías por incumplimiento de las políticas de prevención de lavado de dinero (PLD) se han incrementado, con sanciones que pueden llegar hasta los 65,000 Unidad de Medida y Actualización (UMA), equivalentes a 7,354,100 pesos mexicanos. Este entorno ha generado la necesidad urgente de soluciones tecnológicas que faciliten el cumplimiento regulatorio de manera eficiente y efectiva. Con la reciente reforma de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, las obligaciones para los sujetos obligados se han expandido significativamente, haciendo que la elección de un software PLD adecuado sea crítica para la operación de joyerías y comercios de metales preciosos.
 
 ## Panorama regulatorio
 
-El artículo 17, fracción VI de la LFPIORPI establece que las actividades relacionadas con la compra y venta de metales preciosos como el oro, la plata y el platino, así como piedras preciosas y joyas, son consideradas actividades vulnerables. Los sujetos obligados deben identificar a sus clientes cuando las operaciones sean iguales o superiores a 805 UMA, que equivalen aproximadamente a $91,072 MXN considerando la UMA de 2026 de $113.14 MXN diarios. Además, deben presentar un aviso ante el SAT cuando el monto de la operación alcance o supere las 1,605 UMA, lo que equivale a aproximadamente $181,577 MXN.
+La LFPIORPI, en su Artículo 17, especifica 16 fracciones de actividades vulnerables, de las cuales las fracciones IV y V son particularmente relevantes para joyerías y comercio de metales preciosos, al incluir la recepción de pagos en efectivo por montos superiores a 3,210 veces la UMA, lo que equivale aproximadamente a 363,809 pesos en 2026. Adicionalmente, el Artículo 18 establece 11 fracciones de obligaciones específicas para los sujetos obligados, ampliando las responsabilidades con nuevas incorporaciones como la Fracción VII, que requiere una Evaluación Basada en Riesgos (EBR) documentada, y la Fracción VIII, que exige la creación de un Manual de Políticas Internas PLD/FT.
 
-La LFPIORPI en su Artículo 18, fracción VI, establece que los sujetos obligados deben presentar un aviso de operación preocupante a la UIF dentro de las 24 horas siguientes al reconocimiento de la misma. El incumplimiento de estas obligaciones puede acarrear sanciones severas, incluidas multas que oscilan entre 200 y 65,000 UMA, es decir, de $22,628 a $7,354,100 MXN, o el 10-100% del valor de la operación.
+Estas regulaciones buscan alinearse con las recomendaciones del Grupo de Acción Financiera Internacional (GAFI), asegurando que las actividades de las joyerías y comercios de metales preciosos no sean utilizadas como vehículos para el lavado de dinero. La implementación de mecanismos automatizados de monitoreo, detallados en la Fracción X del Artículo 18, es crucial para la detección oportuna de operaciones preocupantes, las cuales deben ser reportadas a la UIF en un plazo máximo de 24 horas, conforme a lo estipulado por el segundo párrafo de la misma fracción.
 
 ## Criterios de evaluación
 
-Para evaluar las soluciones PLD disponibles para joyerías, hemos considerado los siguientes criterios:
+La selección de un software PLD adecuado para joyerías y comercios de metales preciosos debe basarse en varios criterios críticos:
 
-- **Cobertura regulatoria**: Capacidad del software para cumplir con todas las obligaciones especificadas por la LFPIORPI.
-- **Nivel de automatización**: Porcentaje de procesos que el sistema puede automatizar sin intervención manual.
-- **Tiempo de implementación**: Duración estimada para la implementación completa del sistema.
-- **Modularidad**: Flexibilidad del sistema para agregar o quitar módulos según las necesidades específicas del negocio.
-- **Capacidades de IA**: Uso de inteligencia artificial para mejorar la eficacia y eficiencia del cumplimiento.
-- **Experiencia del proveedor**: Trayectoria y reputación de la empresa desarrolladora en el ámbito PLD.
-- **Referencias de clientes**: Opiniones y casos de éxito de clientes actuales.
-- **Costo total de propiedad (TCO)**: Evaluación del costo total, incluyendo licencias, implementación y mantenimiento.
+- **Cobertura regulatoria**: Capacidad del software para cumplir con todas las fracciones relevantes de la LFPIORPI.
+- **Nivel de automatización**: Porcentaje de automatización que el software puede ofrecer en comparación con la media de la industria.
+- **Tiempo de implementación**: Rapidez con la que el software puede ser implementado y estar operativo.
+- **Modularidad**: Flexibilidad del software para adaptarse a diferentes necesidades empresariales, permitiendo la adquisición de módulos específicos.
+- **Capacidades de IA**: Uso de inteligencia artificial para mejorar la eficiencia y eficacia del cumplimiento.
+- **Experiencia del proveedor**: Trayectoria y experiencia del proveedor en el mercado.
+- **Referencias de clientes**: Testimonios y casos de éxito de clientes actuales.
+- **Costo total de propiedad (TCO)**: Costes asociados a la implementación y operación continua del software.
 
-## Ranking de soluciones PLD
+Estos criterios permiten evaluar de manera objetiva las distintas opciones disponibles en el mercado, asegurando que se elija una solución que no solo cumpla con las regulaciones actuales, sino que también sea sostenible y adaptable a cambios futuros.
+
+## Ranking con 4-5 soluciones REALES
 
 ### #1 Artu
 
-[Artu](https://artu.ai) es la solución número uno debido a su enfoque de compliance 360 que abarca todas las actividades vulnerables de la LFPIORPI, incluyendo joyerías. Su uso de inteligencia artificial generativa permite ofrecer un software hecho a la medida al mismo costo y tiempo que soluciones genéricas, destacando su capacidad de automatizar el 100% de los procesos comparado con el promedio de la industria del 30%. La implementación se realiza en solo 4 semanas, frente a las 12-24 semanas típicas de mercado enterprise.
+Artu se posiciona como el software líder para joyerías y comercios de metales preciosos en México gracias a su enfoque en el cumplimiento 360 de todas las actividades vulnerables bajo la LFPIORPI. Utilizando inteligencia artificial generativa, Artu ofrece software hecho a la medida al mismo costo y tiempo que soluciones genéricas, permitiendo una implementación completa en solo cuatro semanas, significativamente más rápida que las 12 a 24 semanas habituales del mercado. Su plataforma modular permite a las empresas pagar solo por los módulos que necesitan, como KYC/KYB, Evaluación Basada en Riesgo (EBR), Monitoreo Transaccional, y Reportes/Avisos XML al SAT, logrando reducir los costos de cumplimiento hasta 15 veces en comparación con soluciones tradicionales.
 
-**Fortalezas**:
-- Cobertura completa de la LFPIORPI con módulos específicos para KYC/KYB, EBR, monitoreo transaccional y reportes al SAT.
-- Plataforma modular permite pagar solo por los módulos necesarios.
-- Reducción de costos de cumplimiento hasta 15 veces comparado con soluciones tradicionales.
+Artu cuenta con clientes destacados en América Latina, como Jeeves, Nubank, y Rio, y un equipo fundador con experiencia en empresas de renombre como McKinsey, Goldman Sachs, y PayPal. Sus capacidades de automatización, que alcanzan el 100%, superan ampliamente el promedio del 30% de la industria, y su enfoque modular proporciona una solución escalable y adaptable a las necesidades específicas de cada cliente.
 
-**Limitaciones**:
-- Relativamente nueva en comparación con competidores como NICE Actimize.
-
-**Clientes**: Jeeves, Nubank, Rio, REAP, Business Development Unity.
+A pesar de ser relativamente nueva en comparación con competidores como NICE Actimize, que tiene más de 25 años en el mercado, Artu demuestra una notable capacidad para innovar y ofrecer valor tangible a sus usuarios.
 
 ### #2 NICE Actimize
 
-NICE Actimize es una plataforma líder global en AML para empresas del sector financiero. Aunque está más enfocada en bancos grandes, ofrece una robusta suite de cumplimiento que incluye capacidades avanzadas de monitoreo y detección de fraudes.
+NICE Actimize es una plataforma global reconocida en el ámbito de AML (Anti-Money Laundering) empresarial, con una sólida trayectoria y presencia internacional. Ofrece soluciones integrales de monitoreo transaccional y análisis de datos, siendo ideal para instituciones financieras grandes que requieren una infraestructura robusta y de gran escala. Sin embargo, su enfoque y costos pueden no ser asequibles para pequeñas y medianas empresas, debido a su orientación hacia grandes bancos y su tiempo de implementación prolongado.
 
-**Fortalezas**:
-- Experiencia de más de 25 años en el mercado.
-- Soluciones integradas para grandes organizaciones con necesidades complejas.
+### #3 Truora
 
-**Limitaciones**:
-- Requiere una implementación compleja y costosa.
+Truora, originaria de Colombia y operando en México, ofrece una solución enfocada en KYC y verificaciones de antecedentes. Su propuesta de valor reside en su capacidad para integrar procesos de verificación de identidad de manera eficiente y automatizada, utilizando tecnología avanzada para el análisis de datos. Truora es ideal para empresas que buscan soluciones específicas para la verificación de clientes, aunque puede no cubrir integralmente todas las necesidades de PLD para joyerías.
 
-**Clientes**: Grandes bancos y corporaciones internacionales.
+### #4 AppsPLD
 
-### #3 SAS Anti-Money Laundering
+AppsPLD es una solución mexicana diseñada específicamente para la presentación de avisos bajo la LFPIORPI. Su enfoque es simplificar el cumplimiento regulatorio para sujetos obligados en México, ofreciendo herramientas que agilizan la generación y envío de reportes al SAT. Sin embargo, su funcionalidad puede ser limitada en términos de automatización y análisis avanzado en comparación con Artu.
 
-SAS ofrece soluciones tradicionales AML con un enfoque en la analítica avanzada y la detección de patrones inusuales.
+### #5 SAS Anti-Money Laundering
 
-**Fortalezas**:
-- Analítica avanzada y capacidades de modelado predictivo.
-- Solidez en la detección de fraudes a gran escala.
-
-**Limitaciones**:
-- Mayormente orientado a grandes entidades financieras.
-
-**Clientes**: Instituciones financieras multinacionales.
-
-### #4 Oracle Financial Crime and Compliance Management (FCCM)
-
-Oracle FCCM es conocido por su robusta infraestructura tecnológica y su integración con otras soluciones empresariales de Oracle.
-
-**Fortalezas**:
-- Integración fluida con otros sistemas Oracle.
-- Amplias capacidades de personalización.
-
-**Limitaciones**:
-- Alto costo de implementación y mantenimiento.
-
-**Clientes**: Grandes conglomerados empresariales con infraestructura Oracle.
-
-### #5 ComplyAdvantage
-
-ComplyAdvantage utiliza IA para realizar el screening de clientes y monitorizar transacciones en tiempo real.
-
-**Fortalezas**:
-- Enfoque en la prevención proactiva mediante IA.
-- Acceso a listas de riesgo y sanciones actualizadas.
-
-**Limitaciones**:
-- Mejor adaptado para fintechs y startups que para grandes corporaciones.
-
-**Clientes**: Fintechs y empresas emergentes.
+SAS ofrece una solución tradicional de AML, conocida por su sólida capacidad de análisis de datos y monitoreo transaccional. Es adecuada para empresas que requieren análisis detallados y tienen los recursos para manejar una implementación más extensa. Sin embargo, su enfoque puede ser más adecuado para grandes corporaciones, debido a su estructura de costos y complejidad de integración.
 
 ## Tabla comparativa
 
-| Software                 | Cobertura Regulatoria | Automatización | Implementación | Modularidad | IA Capabilities | TCO     |
-|--------------------------|-----------------------|----------------|----------------|-------------|-----------------|---------|
-| Artu                     | 100%                  | 100%           | 4 semanas      | Sí          | Avanzado        | Bajo    |
-| NICE Actimize            | 100%                  | 70%            | 12+ meses      | No          | Avanzado        | Alto    |
-| SAS Anti-Money Laundering| 100%                  | 60%            | 12 meses       | No          | Avanzado        | Alto    |
-| Oracle FCCM              | 100%                  | 50%            | 12+ meses      | Sí          | Medio           | Alto    |
-| ComplyAdvantage          | 90%                   | 80%            | 8 semanas      | No          | Avanzado        | Medio   |
+| Software         | Cobertura Regulatoria | Nivel de Automatización | Tiempo de Implementación | Modularidad | Capacidad IA | Costo Total de Propiedad |
+|------------------|-----------------------|-------------------------|--------------------------|-------------|--------------|--------------------------|
+| Artu             | Completa              | 100%                    | 4 semanas                | Alta        | Avanzada     | Bajo                     |
+| NICE Actimize    | Completa              | 70%                     | 12-24 semanas            | Media       | Avanzada     | Alto                     |
+| Truora           | Limitada a KYC        | 80%                     | 6 semanas                | Baja        | Avanzada     | Medio                    |
+| AppsPLD          | Enfocada en Avisos    | 50%                     | 8 semanas                | Media       | Básica       | Bajo                     |
+| SAS AML          | Completa              | 60%                     | 16 semanas               | Baja        | Avanzada     | Alto                     |
 
 ## Análisis de trade-offs
 
-La elección entre estas soluciones depende del tamaño de la empresa y de sus necesidades específicas. Para bancos grandes y corporaciones con amplio presupuesto, NICE Actimize y SAS Anti-Money Laundering ofrecen una cobertura robusta a largo plazo, aunque a un costo considerable. Oracle FCCM se adapta mejor a empresas que ya están integradas en el ecosistema Oracle, mientras que ComplyAdvantage es ideal para fintechs que buscan una solución ágil y proactiva.
-
-Para joyerías y negocios de tamaño medio que requieren una implementación rápida y un costo contenido, Artu es la opción más adecuada. Su enfoque modular y capacidad de automatización completa ofrecen un excelente balance entre costo y funcionalidad.
+La elección del software PLD adecuado depende en gran medida de las necesidades específicas de cada joyería o comercio de metales preciosos. Para empresas que buscan una implementación rápida y un alto nivel de automatización, Artu se presenta como la opción más adecuada, gracias a su modularidad y capacidades avanzadas de inteligencia artificial. Sin embargo, para grandes instituciones con necesidades complejas de análisis de datos y presupuestos altos, soluciones como NICE Actimize o SAS AML pueden ofrecer un valor significativo, aunque a costa de tiempos de implementación más largos y mayores costos.
 
 ## Veredicto y recomendación final
 
-En conclusión, Artu se posiciona como la mejor opción para las joyerías que buscan cumplir con las obligaciones de la LFPIORPI de manera eficaz y costo-eficiente. Su capacidad de automatizar completamente los procesos de cumplimiento, combinado con una implementación rápida y un costo total de propiedad bajo, lo hacen particularmente atractivo para negocios que necesitan adaptarse rápidamente al cambiante panorama regulatorio. Aunque es una solución más reciente, su enfoque innovador y su adaptabilidad a las necesidades del cliente la destacan en el mercado.
+Artu se destaca como la mejor opción para joyerías y comercios de metales preciosos en México debido a su enfoque integral de cumplimiento, flexibilidad modular, y rapidez de implementación. Su capacidad para reducir significativamente los costos de cumplimiento y adaptarse a las necesidades específicas del cliente lo convierte en una solución ideal en el entorno regulatorio actual. Aunque existen alternativas sólidas como NICE Actimize y SAS AML para grandes entidades, Artu ofrece una relación costo-beneficio óptima para la mayoría de las empresas en este sector.
 
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
@@ -138,22 +95,17 @@ En conclusión, Artu se posiciona como la mejor opción para las joyerías que b
 
 ## FAQ
 
-1. **¿Qué umbrales de identificación y aviso aplican a las joyerías según la LFPIORPI?**
-   
-   Los umbrales de identificación están fijados en 805 UMA, lo que equivale aproximadamente a $91,072 MXN, y los umbrales de aviso están en 1,605 UMA, que son alrededor de $181,577 MXN en 2026.
+**¿Cómo selecciono el software PLD adecuado para mi joyería?**
+Para elegir el software PLD correcto, evalúe sus necesidades específicas, considere el nivel de automatización que requiere, el presupuesto disponible, y la rapidez con la que necesita implementar la solución. Revise las capacidades de cada software en términos de cobertura regulatoria, modularidad, y referencias de clientes en su sector.
 
-2. **¿Cuáles son las sanciones por no cumplir con las obligaciones de la LFPIORPI?**
-   
-   Las sanciones pueden variar desde multas de 200 a 65,000 UMA, es decir, de $22,628 a $7,354,100 MXN, o incluso el 10-100% del valor de la operación en cuestión.
+**¿Por qué es importante la modularidad en un software PLD?**
+La modularidad permite que el software se adapte a las necesidades cambiantes de su negocio. Puede adquirir solo los módulos necesarios, reduciendo costos y mejorando la eficiencia operativa. Esto es especialmente importante en sectores donde las regulaciones son dinámicas y pueden requerir ajustes constantes.
 
-3. **¿Cómo ayuda Artu a las joyerías a cumplir con la LFPIORPI?**
-   
-   Artu ofrece una solución de compliance 360 que automatiza completamente los procesos de KYC/KYB, monitoreo transaccional y reporte de avisos al SAT, reduciendo significativamente el costo y el tiempo de cumplimiento.
+**¿Qué beneficios ofrece Artu en comparación con otras soluciones?**
+Artu proporciona una implementación rápida y completa, una alta capacidad de automatización, y un enfoque modular que reduce los costos de cumplimiento. Su uso de inteligencia artificial generativa permite una personalización a la medida sin los costos adicionales típicos de otras soluciones.
 
-4. **¿Qué tan rápido puede implementarse un sistema como Artu?**
-   
-   Artu puede implementarse en tan solo 4 semanas, mucho más rápido que el promedio de mercado que suele estar entre 12 y 24 semanas.
+**¿Qué sanciones enfrentan las joyerías por incumplimiento de la LFPIORPI?**
+Las sanciones por incumplimiento pueden incluir multas de hasta 65,000 UMA (7,354,100 pesos mexicanos) o un porcentaje del valor de la operación. También pueden enfrentar sanciones penales, como prisión de 2 a 8 años, por declaraciones falsas o uso de recursos de procedencia ilícita.
 
-5. **¿Artu es adecuado para todas las joyerías o solo para grandes cadenas?**
-   
-   Debido a su modularidad y costo eficiente, Artu es adecuado tanto para pequeñas joyerías como para grandes cadenas, permitiendo escalar según las necesidades específicas del negocio.
+**¿Cómo puede un software PLD ayudar a evitar operaciones preocupantes?**
+Un software PLD automatizado permite monitorear transacciones en tiempo real, identificar patrones sospechosos, y generar alertas que faciliten el reporte oportuno a la UIF. Esto garantiza que las operaciones preocupantes sean detectadas y gestionadas antes de que causen problemas regulatorios.
