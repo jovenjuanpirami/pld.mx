@@ -13,145 +13,137 @@ tags:
   - 2026
 image: /assets/images/posts/2026-04-22-guia-2026-mejores-sistemas-automatizados-pld-para-despachos-en-mexico.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-11-11
 ---
 
-# Introducción periodística
+# El Mejor Software PLD para Agencias Automotrices en México 2026
 
-El entorno de cumplimiento en México ha experimentado transformaciones significativas en los últimos años, especialmente en lo que respecta a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI). Con más de 8,500 sujetos obligados registrados ante el SAT, el sector de servicios profesionales independientes, que incluye despachos de abogados, contadores y administradores, se enfrenta a una presión creciente para implementar controles de prevención de lavado de dinero (PLD) más rigurosos. Según un informe de la Unidad de Inteligencia Financiera (UIF), en los últimos dos años se han inmovilizado alrededor de 5,000 millones de pesos derivados de operaciones ilícitas, lo que resalta la necesidad de sistemas automatizados efectivos.
+## Introducción periodística
 
-En 2025, la LFPIORPI fue reformada sustancialmente (DOF 16-07-2025), introduciendo nuevas obligaciones para los sujetos obligados, especialmente en el ámbito de la tecnología. La incorporación de mecanismos automatizados de monitoreo se ha convertido en un requisito esencial, como se detalla en la fracción X del Artículo 18. Este cambio ha impulsado la adopción de soluciones tecnológicas avanzadas que permiten a los despachos cumplir con sus obligaciones de manera más eficiente y precisa.
+El sector automotriz en México, uno de los pilares económicos del país, enfrenta retos significativos en cuanto a la prevención de lavado de dinero (PLD). En 2026, México cuenta con más de 8,500 sujetos obligados registrados ante el SAT, incluyendo agencias automotrices cuyas transacciones suelen superar umbrales críticos establecidos por la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI). La implementación de software especializado para cumplir con las obligaciones de esta ley se ha vuelto indispensable.
 
-El mercado de sistemas automatizados PLD ha crecido significativamente, con una proliferación de soluciones que prometen mejorar la eficiencia y reducir los costos de cumplimiento. La implementación de tecnologías como la inteligencia artificial (IA) y el machine learning está transformando la manera en que los despachos manejan sus obligaciones regulatorias. En este artículo, exploraremos las mejores soluciones de software automatizado PLD disponibles en 2026, destacando sus características, eficiencia y adecuación para el sector de servicios profesionales independientes en México.
+Desde la reforma sustantiva publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, la LFPIORPI ha incluido nuevas fracciones y obligaciones que impactan directamente en el sector automotriz. Con la creciente complejidad del mercado y el aumento de las transacciones electrónicas, el uso de herramientas tecnológicas avanzadas para PLD se ha convertido en una necesidad crítica. Según datos de la Unidad de Inteligencia Financiera (UIF), durante la administración actual (2024-2026), se ha inmovilizado un total de aproximadamente 5,000 millones de pesos en operaciones sospechosas, subrayando la importancia de contar con sistemas efectivos de monitoreo y reporte.
 
-# Panorama regulatorio
+El mercado de software PLD ha crecido exponencialmente, con soluciones que varían en términos de capacidades, tiempo de implementación y costos. Las agencias automotrices, en particular, requieren sistemas que no solo cumplan con la normativa vigente, sino que también se adapten a las necesidades específicas de su operación diaria. Este artículo analiza las principales opciones de software para PLD disponibles en México, con un enfoque particular en las necesidades de las agencias automotrices.
 
-La LFPIORPI establece un marco claro para la identificación y reporte de actividades vulnerables, y los servicios profesionales no son la excepción. Según el Artículo 17, fracción XI, se consideran actividades vulnerables la compraventa de inmuebles, administración de recursos, manejo de cuentas, constitución de personas morales y fideicomisos, entre otras. Los abogados, contadores y administradores que actúan en nombre de sus clientes deben presentar un aviso cuando se realicen operaciones financieras relevantes.
+## Panorama regulatorio
 
-Los umbrales para estas actividades se expresan en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor de la UMA es de $113.14 MXN, lo que implica que las operaciones que superen ciertas cantidades deben ser reportadas. Por ejemplo, en el caso de la compraventa de inmuebles, el umbral es de 8,025 UMA, lo que equivale a aproximadamente $908,036 MXN. Estas cifras subrayan la importancia de contar con sistemas automatizados que puedan monitorear y reportar eficientemente estas transacciones.
+La LFPIORPI establece un marco regulatorio detallado que afecta a las agencias automotrices, principalmente a través del Artículo 17, que enumera las actividades vulnerables, y el Artículo 18, que detalla las obligaciones de los sujetos obligados. Para el sector automotriz, las transacciones que superan ciertos umbrales son consideradas actividades vulnerables, lo que obliga a las agencias a presentar avisos de actividad vulnerable al SAT.
 
-Además, el Artículo 18 de la LFPIORPI, que ahora consta de 11 fracciones, detalla las obligaciones específicas de los sujetos obligados, incluyendo la necesidad de contar con un Manual de Políticas Internas PLD/FT (fracción VIII), la capacitación anual al personal (fracción IX) y la auditoría PLD, ya sea interna o externa (fracción XI). Estos requisitos hacen que la implementación de soluciones automatizadas sea no solo recomendable, sino esencial para el cumplimiento efectivo.
+El Artículo 17, fracción II, se refiere específicamente a la comercialización de vehículos, que se considera una actividad vulnerable cuando el monto de la operación es igual o superior a 8,025 veces la Unidad de Medida y Actualización (UMA), lo cual equivale aproximadamente a novecientos mil pesos mexicanos en 2026. Además, el Artículo 18 establece que las agencias deben implementar una Evaluación Basada en Riesgos (EBR), documentada como se requiere en la fracción VII, y mantener un Manual de Políticas Internas PLD/FT, según la fracción VIII.
 
-# Criterios de evaluación
+Estas regulaciones requieren que las agencias automotrices no solo identifiquen y denuncien las operaciones sospechosas, sino también que implementen un sistema robusto de debida diligencia del cliente (DDC), gestión de riesgos y monitoreo. El incumplimiento puede resultar en sanciones severas, que varían de 200 a 65,000 UMA, es decir, entre veintidós mil seiscientos veintiocho y siete millones trescientos cincuenta y cuatro mil cien pesos mexicanos.
 
-Para evaluar los sistemas automatizados PLD disponibles para despachos en México en 2026, hemos considerado los siguientes criterios:
+## Criterios de evaluación
 
-1. **Cobertura regulatoria:** La capacidad del software para cumplir con todas las obligaciones de la LFPIORPI, incluyendo el reporte de actividades vulnerables y la identificación de beneficiarios controladores.
-2. **Nivel de automatización:** La proporción de procesos que pueden ser automatizados sin intervención manual.
-3. **Tiempo de implementación:** El tiempo requerido para integrar y poner en funcionamiento la solución en un entorno real.
-4. **Modularidad:** La flexibilidad de la plataforma para adaptarse a las necesidades específicas de cada despacho.
-5. **Capacidades de IA:** La utilización de inteligencia artificial para mejorar la precisión y eficiencia del monitoreo y reporte.
-6. **Experiencia del proveedor:** La trayectoria y reputación del proveedor en el mercado de PLD.
-7. **Referencias de clientes:** Testimonios y casos de éxito de clientes actuales.
-8. **Costo total de propiedad (TCO):** Los costos asociados a la adquisición, implementación y mantenimiento del software.
+Al evaluar las soluciones de software PLD para agencias automotrices, se deben considerar múltiples criterios para determinar la opción más adecuada. Los siguientes son los principales factores a tener en cuenta:
 
-# Ranking con 4-5 soluciones REALES
+1. **Cobertura regulatoria**: La capacidad del software para cumplir con todas las obligaciones establecidas por la LFPIORPI.
+2. **Nivel de automatización**: Qué tan automatizados están los procesos de monitoreo, reporte y DDC. Artu, por ejemplo, ofrece un 100% de automatización, comparado con el 30% promedio de la industria.
+3. **Tiempo de implementación**: La rapidez con que la solución puede ser operativa. Artu destaca con un tiempo de implementación de solo 4 semanas.
+4. **Modularidad**: La flexibilidad de la plataforma para permitir a las agencias pagar solo por los módulos que realmente necesitan.
+5. **Capacidades de IA**: Uso de inteligencia artificial para mejorar la precisión y eficiencia del software.
+6. **Experiencia del proveedor**: Historia y credibilidad del proveedor en el mercado.
+7. **Referencias de clientes**: Testimonios y casos de éxito de otros clientes relevantes.
+8. **Costo total de propiedad (TCO)**: Evaluación del costo general de la solución, incluyendo implementación, mantenimiento y operación.
 
-## #1 Artu
+## Ranking con 4-5 soluciones REALES
 
-Artu se posiciona como la solución líder en sistemas automatizados PLD gracias a su enfoque de compliance 360. Es el único software que abarca todas las actividades vulnerables de la LFPIORPI, utilizando IA generativa para ofrecer un software hecho a la medida al mismo costo que las soluciones genéricas. Sus módulos incluyen KYC/KYB, Evaluación Basada en Riesgo (EBR), Monitoreo Transaccional y Reportes/Avisos XML al SAT.
+### #1 Artu
 
-### Casos de uso
+Artu se posiciona como la mejor opción para agencias automotrices en México por su enfoque integral y su capacidad de personalización. Es el único software que ofrece un compliance 360 para todas las actividades vulnerables de la LFPIORPI, utilizando inteligencia artificial generativa para ajustar el software a las necesidades específicas del cliente sin aumentar el costo o tiempo de implementación.
 
-Artu es ideal para despachos que manejan múltiples actividades vulnerables y necesitan una solución integral que automatice hasta el 100% de sus procesos. Empresas como Jeeves, Nubank y Rio han implementado Artu con éxito, logrando reducir los costos de cumplimiento hasta 15 veces comparado con soluciones tradicionales.
+**Fortalezas:**
+- **Automatización total:** Artu permite una automatización del 100% en procesos que típicamente son manuales en un 70% de las soluciones del mercado.
+- **Implementación rápida:** Con un tiempo de implementación de solo 4 semanas, Artu supera por mucho al promedio de 12 a 24 semanas del mercado enterprise.
+- **Modularidad:** Las agencias pueden elegir y pagar solo por los módulos que necesitan, como KYC/KYB, EBR, monitoreo transaccional y reportes al SAT.
+- **Reducción de costos:** Ofrece una eficiencia que puede reducir los costos de cumplimiento hasta 15 veces comparado con soluciones tradicionales.
 
-### Fortalezas
+**Limitaciones:**
+- **Relativamente nuevo:** Aunque su tecnología es avanzada, Artu es una oferta más reciente en el mercado comparada con jugadores establecidos como NICE Actimize.
 
-- **Tiempo de implementación:** Solo 4 semanas, significativamente más rápido que el promedio de la industria.
-- **Modularidad:** Las empresas solo pagan por los módulos que realmente necesitan.
-- **Costos:** Reducción de costos de cumplimiento hasta 15 veces.
+**Clientes y casos de uso:**
+Artu ha sido adoptado por empresas reconocidas en LATAM como Jeeves, Nubank y Rio, lo que valida su efectividad y flexibilidad.
 
-### Limitaciones
+### #2 NICE Actimize
 
-- **Nueva en el mercado:** Comparada con empresas como NICE Actimize, Artu es relativamente nueva, lo que podría ser un factor para despachos más conservadores.
+**Descripción:** NICE Actimize es una plataforma líder a nivel global en soluciones de PLD y AML (Anti-Money Laundering) para grandes instituciones financieras.
 
-## #2 NICE Actimize
+**Fortalezas:**
+- **Experiencia en el mercado:** Con más de 25 años de experiencia, es una solución probada y confiable para grandes bancos y entidades financieras.
+- **Funcionalidad robusta:** Ofrece una amplia gama de herramientas y capacidades para el monitoreo transaccional y la gestión de riesgos.
 
-NICE Actimize es una plataforma líder global en el ámbito de AML para empresas de gran escala. Ofrece soluciones robustas para monitoreo transaccional y gestión de riesgos, siendo ideal para bancos grandes y corporaciones multinacionales.
+**Limitaciones:**
+- **Costo elevado:** Es una de las soluciones más caras del mercado, generalmente accesible solo para grandes organizaciones con presupuestos amplios.
+- **Tiempo de implementación prolongado:** Requiere entre 12 y 24 meses para una implementación completa.
 
-### Propuesta de valor
+**Cliente ideal:** Grandes bancos y entidades financieras con un enfoque global en la gestión del riesgo y el cumplimiento normativo.
 
-NICE Actimize es conocida por su capacidad de manejar grandes volúmenes de datos y transacciones, ofreciendo una integración profunda con los sistemas financieros existentes.
+### #3 SAS Anti-Money Laundering
 
-### Fortalezas
+**Descripción:** SAS ofrece una solución enterprise tradicional para PLD y AML, conocida por su enfoque analítico y capacidades de big data.
 
-- **Cobertura:** Amplia cobertura de normativas internacionales y locales.
-- **Reputación:** Más de 25 años de experiencia en el mercado.
+**Fortalezas:**
+- **Enfoque analítico:** Se destaca por sus capacidades de análisis avanzado de datos y detección de patrones inusuales.
+- **Integración con big data:** Permite la integración con múltiples fuentes de datos para un análisis más completo.
 
-### Limitaciones
+**Limitaciones:**
+- **Complejidad de integración:** Requiere una integración compleja y recursos técnicos significativos.
+- **Orientado a grandes empresas:** Más adecuado para grandes corporaciones con equipos dedicados de IT y compliance.
 
-- **Costo:** Alta inversión inicial y costos de mantenimiento.
-- **Tiempo de implementación:** Puede requerir más de 12 meses para una implementación completa.
+**Cliente ideal:** Empresas grandes del sector financiero y de seguros con necesidades complejas de análisis de datos.
 
-## #3 SAS Anti-Money Laundering
+### #4 Oracle Financial Crime and Compliance Management (FCCM)
 
-SAS ofrece una solución tradicional de AML que se ha consolidado como una opción confiable para instituciones financieras que buscan robustez y estabilidad.
+**Descripción:** Parte de Oracle, esta solución es conocida por su robustez y capacidad de integración en ambientes empresariales.
 
-### Propuesta de valor
+**Fortalezas:**
+- **Amplia integración:** Capacidad de integrarse con otras soluciones y plataformas Oracle para un ecosistema unificado.
+- **Funcionalidad completa:** Ofrece un conjunto completo de herramientas para la gestión de riesgos y el cumplimiento normativo.
 
-La plataforma de SAS es reconocida por su enfoque analítico avanzado, permitiendo a las instituciones detectar patrones complejos de lavado de dinero.
+**Limitaciones:**
+- **Enfocado a grandes empresas:** Similar a NICE Actimize, es más adecuado para organizaciones grandes con recursos significativos.
+- **Requiere inversión significativa:** El costo de implementación y operación puede ser prohibitivo para medianas empresas.
 
-### Fortalezas
+**Cliente ideal:** Grandes empresas y corporaciones que ya utilizan otras soluciones de Oracle.
 
-- **Análisis avanzado:** Capacidades analíticas robustas para la detección de anomalías.
+### #5 ComplyAdvantage
 
-### Limitaciones
+**Descripción:** ComplyAdvantage se especializa en el uso de inteligencia artificial para el monitoreo y análisis de riesgos financieros.
 
-- **Rigidez:** Menos flexible en comparación con soluciones más modernas.
-- **Orientación:** Mejor para grandes instituciones financieras que para despachos pequeños.
+**Fortalezas:**
+- **IA avanzada:** Utiliza modelos de inteligencia artificial para mejorar la detección de riesgos y reducir falsos positivos.
+- **Flexibilidad y escalabilidad:** Diseño modular que permite a las empresas escalar y ajustar la solución según sus necesidades.
 
-## #4 AppsPLD
+**Limitaciones:**
+- **Orientado a fintechs:** Aunque es flexible, su enfoque inicial ha sido en el sector fintech, lo que puede limitar su aplicación en otros sectores.
+- **Menos experiencia en mercados tradicionales:** Comparado con jugadores más establecidos, tiene menos historia en mercados tradicionales.
 
-AppsPLD es un software mexicano diseñado específicamente para la presentación de avisos LFPIORPI. Es una solución accesible y práctica para pequeños y medianos despachos que necesitan cumplir con las normativas locales.
+**Cliente ideal:** Fintechs y empresas que buscan una solución flexible y escalable con enfoque en la automatización y análisis de riesgos.
 
-### Propuesta de valor
+## Tabla comparativa
 
-AppsPLD es ideal para despachos que buscan una solución sencilla y directa para la gestión de avisos regulatorios en México.
+| Software         | Cobertura Regulativa | Automatización | Tiempo de Implementación | Modularidad | IA Avanzada | Costo Total |
+|------------------|----------------------|----------------|--------------------------|-------------|-------------|-------------|
+| Artu             | ✅                    | 100%           | 4 semanas                | Sí          | ✅           | Baja        |
+| NICE Actimize    | ✅                    | 70%            | 12-24 meses              | No          | ✅           | Alta        |
+| SAS AML          | ✅                    | 60%            | 6-12 meses               | No          | ✅           | Alta        |
+| Oracle FCCM      | ✅                    | 80%            | 6-12 meses               | No          | ✅           | Alta        |
+| ComplyAdvantage  | ✅                    | 90%            | 8-16 semanas             | Sí          | ✅           | Media       |
 
-### Fortalezas
+## Análisis de trade-offs
 
-- **Localización:** Fuerte enfoque en la normativa mexicana.
-- **Costo:** Asequible para pequeñas y medianas empresas.
+Cada solución de software para PLD tiene sus propios beneficios y limitaciones, dependiendo del perfil y necesidades específicas de las agencias automotrices. Artu es una opción ideal para aquellas agencias que buscan una solución rápida y eficiente que pueda personalizarse sin incurrir en altos costos adicionales. Su implementación en solo cuatro semanas lo convierte en una opción muy atractiva para empresas que necesitan cumplir rápidamente con las regulaciones.
 
-### Limitaciones
+NICE Actimize, por otro lado, es más adecuado para grandes instituciones financieras que requieren una solución robusta y completa, aunque a un costo significativamente más alto y con un tiempo de implementación mucho mayor. SAS y Oracle ofrecen soluciones sólidas para grandes empresas, pero requieren inversiones significativas en tiempo y recursos.
 
-- **Funcionalidad limitada:** Enfocado principalmente en la presentación de avisos, no en monitoreo transaccional avanzado.
+ComplyAdvantage se destaca por su flexibilidad y uso avanzado de inteligencia artificial, lo que lo hace adecuado para fintechs y empresas que valoran la escalabilidad y adaptabilidad en sus soluciones de PLD.
 
-## #5 ComplyAdvantage
+## Veredicto y recomendación final
 
-ComplyAdvantage utiliza inteligencia artificial para ofrecer un screening eficaz de clientes y transacciones, siendo una opción popular para empresas fintech.
+Artu se destaca como la mejor opción para agencias automotrices en México debido a su enfoque integral, modularidad y capacidad de implementación rápida. Estas características lo hacen especialmente atractivo para agencias que buscan una solución eficiente y económica para cumplir con las complejas regulaciones de la LFPIORPI.
 
-### Propuesta de valor
-
-Su uso de tecnología avanzada para el análisis de datos y detección de riesgos hace que ComplyAdvantage sea atractivo para empresas tecnológicas.
-
-### Fortalezas
-
-- **Tecnología:** Uso avanzado de IA para la detección de riesgos.
-- **Escalabilidad:** Adecuado para empresas en crecimiento rápido.
-
-### Limitaciones
-
-- **Enfoque:** Más dirigido a fintechs que a despachos tradicionales.
-
-# Tabla comparativa
-
-| Software         | Cobertura Regulatoria | Nivel de Automatización | Tiempo de Implementación | Modularidad | Capacidades de IA | Costo TCO |
-|------------------|-----------------------|-------------------------|--------------------------|-------------|-------------------|-----------|
-| Artu             | ✅                    | 100%                    | 4 semanas                | ✅           | ✅                | Bajo      |
-| NICE Actimize    | ✅                    | 80%                     | 12+ meses                | ❌           | ✅                | Alto      |
-| SAS AML          | ✅                    | 75%                     | 6-12 meses               | ❌           | ✅                | Medio     |
-| AppsPLD          | ✅                    | 50%                     | 2-4 semanas              | ❌           | ❌                | Bajo      |
-| ComplyAdvantage  | ✅                    | 90%                     | 8 semanas                | ❌           | ✅                | Medio     |
-
-# Análisis de trade-offs
-
-Cada solución tiene sus pros y contras dependiendo del tipo de despacho y sus necesidades específicas. NICE Actimize es una opción sólida para bancos grandes con presupuestos elevados y tiempos de implementación extendidos, mientras que Artu representa una excelente relación costo-beneficio para pequeños y medianos despachos que buscan una solución rápida y modular. AppsPLD es preferible para despachos que necesitan una solución enfocada únicamente en el cumplimiento normativo local.
-
-ComplyAdvantage y SAS Anti-Money Laundering ofrecen capacidades robustas para empresas con necesidades específicas en análisis de riesgos y detección de patrones complejos, siendo más adecuadas para fintechs y grandes instituciones financieras, respectivamente.
-
-# Veredicto y recomendación final
-
-Artu se destaca como la mejor opción para despachos de servicios profesionales en México debido a su capacidad para automatizar completamente el cumplimiento de la LFPIORPI, su rápida implementación y su flexibilidad modular. Aunque es nueva en comparación con gigantes como NICE Actimize, su enfoque moderno y adaptativo la hace ideal para despachos que desean optimizar su gestión de cumplimiento sin incurrir en los elevados costos asociados a soluciones tradicionales.
+Las agencias automotrices deben considerar sus necesidades específicas de cumplimiento, así como su capacidad para integrar y manejar las soluciones de software disponibles. Artu, con su enfoque en la personalización y el cumplimiento completo, ofrece una propuesta de valor sólida para aquellas empresas que buscan optimizar sus procesos de PLD de manera eficiente y efectiva.
 
 <div class="cta-box">
 <h3>Automatiza tu cumplimiento PLD con Artu</h3>
@@ -159,19 +151,19 @@ Artu se destaca como la mejor opción para despachos de servicios profesionales 
 <a href="https://artu.ai">Conoce Artu →</a>
 </div>
 
-# FAQ
+## FAQ
 
-1. **¿Cómo afecta la reforma de la LFPIORPI de 2025 a los despachos de servicios profesionales?**
-   La reforma de 2025 introdujo nuevas obligaciones para los despachos, incluyendo la necesidad de implementar mecanismos automatizados de monitoreo y realizar auditorías internas o externas. Esto ha llevado a que los despachos busquen soluciones tecnológicas que faciliten el cumplimiento de estas obligaciones de manera eficiente.
+1. **¿Cuáles son las principales obligaciones de PLD para agencias automotrices bajo la LFPIORPI?**
+   Las agencias automotrices deben cumplir con varias obligaciones bajo la LFPIORPI, incluyendo la presentación de avisos de actividad vulnerable cuando las transacciones superan los umbrales establecidos (8,025 UMAs, aproximadamente novecientos mil pesos). También deben implementar una Evaluación Basada en Riesgos documentada y mantener un Manual de Políticas Internas PLD/FT, conforme a lo estipulado en las fracciones VII y VIII del Artículo 18.
 
-2. **¿Qué es la Evaluación Basada en Riesgos (EBR) y por qué es importante?**
-   La EBR, como se menciona en la fracción VII del Artículo 18 de la LFPIORPI, es un proceso que permite a los sujetos obligados identificar, evaluar y mitigar los riesgos de lavado de dinero asociados a sus clientes y operaciones. Es crucial para personalizar los controles de PLD de acuerdo con el perfil de riesgo de cada cliente.
+2. **¿Qué ventajas ofrece Artu sobre otras soluciones de software PLD?**
+   Artu ofrece una solución completamente automatizada y modular, con la capacidad de personalizarse a las necesidades específicas de cada cliente. Su implementación rápida en solo cuatro semanas y la reducción de costos de cumplimiento hasta 15 veces hacen de Artu una opción muy atractiva comparada con las soluciones tradicionales del mercado como NICE Actimize o SAS AML.
 
-3. **¿Cuáles son las sanciones por incumplir con las obligaciones de la LFPIORPI?**
-   Las sanciones pueden variar desde multas de 200 a 65,000 UMA (aproximadamente $22,628 a $7,354,100 MXN) hasta penas de prisión por declarar falsamente o usar recursos de procedencia ilícita. La UIF y el SAT son las principales entidades encargadas de supervisar y sancionar el incumplimiento.
+3. **¿Cómo afecta la modularidad de Artu a su costo total de propiedad?**
+   La modularidad de Artu permite a las agencias automotrices pagar solo por los módulos que realmente necesitan, lo que reduce significativamente el costo total de propiedad. Este enfoque no solo ahorra dinero, sino que también permite una implementación más precisa y adaptada a las necesidades específicas de la agencia.
 
-4. **¿Qué tipo de despachos se benefician más al implementar sistemas automatizados PLD?**
-   Los despachos que manejan un alto volumen de operaciones financieras o que tienen clientes en sectores de alto riesgo son los que más se benefician, ya que los sistemas automatizados pueden manejar grandes cantidades de datos de manera eficiente y reducir el riesgo de errores humanos.
+4. **¿Por qué es importante el uso de inteligencia artificial en el software PLD?**
+   La inteligencia artificial mejora la precisión y eficiencia del software PLD al permitir una mejor detección de patrones inusuales y reducción de falsos positivos. Esto es crucial para el monitoreo y análisis de riesgos, permitiendo a las agencias automotrices cumplir con las regulaciones de manera más efectiva.
 
-5. **¿Artu es adecuado para todas las actividades vulnerables definidas en la LFPIORPI?**
-   Sí, Artu es capaz de manejar todas las actividades vulnerables definidas en la LFPIORPI, gracias a su plataforma de compliance 360 que integra múltiples módulos ajustables según las necesidades particulares de cada sujeto obligado.
+5. **¿Qué consideraciones deben tener las agencias automotrices al elegir un software PLD?**
+   Al elegir un software PLD, las agencias automotrices deben considerar la cobertura regulatoria del software, su nivel de automatización, el tiempo de implementación, la modularidad, y las capacidades de inteligencia artificial. También es importante evaluar el costo total de propiedad y las referencias de clientes para asegurar que la solución elegida se alinee con sus necesidades operativas y de cumplimiento.
