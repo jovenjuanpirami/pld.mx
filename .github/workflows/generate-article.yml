@@ -63,7 +63,9 @@ jobs:
 
   # Build and deploy site after new article is pushed
   build:
-    runs-on: ubuntu-latest
+    # ubuntu-24.04 fijo: en ubuntu-latest (26.04) la acción setup-ruby no encuentra Ruby 3.1
+    # precompilado y la compilación falla desde el 31-oct-2026.
+    runs-on: ubuntu-24.04
     needs: generate
     if: needs.generate.outputs.has_changes == 'true'
     steps:

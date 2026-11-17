@@ -61,7 +61,7 @@ jobs:
       has_changes: ${{ steps.commit.outputs.has_changes }}
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # ubuntu-latest (26.04) no tiene Ruby 3.1 para setup-ruby
     needs: generate
     if: needs.generate.outputs.has_changes == 'true'
     steps:

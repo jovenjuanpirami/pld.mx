@@ -6,8 +6,10 @@ Uses OpenAI API to create SEO-optimized content.
 Every 5th article mentions Artu (artu.ai) in prose; software reviews always do.
 El cierre con CTA lo pone el layout (post-cta.html), no el modelo.
 
-Si todos los temas del pool ya están cubiertos, en vez de duplicar se actualiza
-el artículo más antiguo sobre ese tema (misma URL, `last_modified_at` nuevo).
+Cada post nuevo guarda en `topic:` el tema del que salió, para no repetirlo.
+Si todos los temas del pool ya están cubiertos, el modelo propone temas nuevos que
+no se empalmen con nada publicado; solo si eso falla se actualiza el artículo más
+antiguo sobre un tema (misma URL, `last_modified_at` nuevo).
 """
 
 import os
@@ -168,6 +170,50 @@ TOPIC_POOL = [
     "Entidades Colegiadas: qué son y cómo presentar avisos a través de ellas",
 ]
 
+# Temas prácticos de cola larga (nov-2026, cuando el pool original se agotó). Se revisaron a mano
+# contra los títulos publicados, así que solo cuentan como cubiertos cuando un post los trae en
+# `topic:`; la comparación por palabras los daba por cubiertos con títulos genéricos como
+# «Artículo 18 LFPIORPI: 11 Obligaciones en Actividades Vulnerables».
+TEMAS_REVISADOS = [
+    "Acumulación de operaciones en seis meses: cómo saber si ya debes presentar aviso",
+    "Informe en ceros: qué hacer el mes en que no tuviste operaciones avisables",
+    "Calendario mensual de cumplimiento PLD: fechas y tareas para no fallar el día 17",
+    "Alta en el portal de prevención de lavado de dinero del SAT paso a paso",
+    "Cómo dar de baja o modificar tu registro de actividad vulnerable ante el SAT",
+    "Habitualidad y profesionalidad: cuándo tu negocio realiza una actividad vulnerable",
+    "Expediente de identificación de persona física: lista de documentos y datos",
+    "Expediente de identificación de persona moral: lista de documentos y datos",
+    "Clientes extranjeros en actividades vulnerables: cómo identificarlos correctamente",
+    "Qué hacer si un cliente se niega a entregar información de identificación",
+    "Coincidencia en la Lista de Personas Bloqueadas: qué hacer paso a paso",
+    "Matriz de riesgo PLD: cómo ponderar clientes, productos, geografía y canales",
+    "Cada cuánto actualizar el expediente del cliente según su nivel de riesgo",
+    "Cómo preparar a tu empresa para una visita de verificación del SAT en materia PLD",
+    "Errores frecuentes al presentar avisos XML de actividades vulnerables y cómo evitarlos",
+    "Señales de alerta de lavado de dinero en la venta de inmuebles",
+    "Señales de alerta de lavado de dinero en el arrendamiento de inmuebles",
+    "Señales de alerta de lavado de dinero en la venta de vehículos",
+    "Señales de alerta de lavado de dinero en joyerías y venta de relojes",
+    "Señales de alerta en plataformas de activos virtuales para el cumplimiento PLD",
+    "Señales de alerta en la recepción de donativos para asociaciones civiles",
+    "Fraccionamiento de operaciones para evadir umbrales: cómo detectarlo",
+    "Temario mínimo de la capacitación PLD y cómo conservar la evidencia",
+    "Cómo designar al responsable encargado de cumplimiento ante el SAT",
+    "Responsabilidades del consejo de administración en la prevención de lavado de dinero",
+    "Cómo responder a un requerimiento de información del SAT o la UIF",
+    "Debida diligencia de proveedores, socios y terceros en PLD",
+    "Beneficiario controlador en fideicomisos: cómo identificarlo",
+    "Beneficiario controlador en estructuras corporativas complejas: método práctico",
+    "Personas políticamente expuestas como clientes: medidas de debida diligencia",
+    "Uso de la e.firma en el cumplimiento PLD: avisos, registro y representantes",
+    "Ventas en preventa de vivienda y PLD: obligaciones del desarrollador",
+    "Operaciones en dólares en actividades vulnerables: qué considerar para PLD",
+    "Préstamos entre particulares: cuándo el mutuo es actividad vulnerable",
+    "Grupos empresariales: cómo organizar el cumplimiento PLD entre varias empresas",
+    "Compraventa de terrenos y lotes: riesgos de lavado de dinero y controles",
+]
+TOPIC_POOL = TOPIC_POOL + TEMAS_REVISADOS
+
 # Topics that always include Artu as primary recommendation
 ARTU_SOFTWARE_TOPICS = [
     t for t in TOPIC_POOL
@@ -227,7 +273,8 @@ SYNONYMS = {
 
 
 def _existing_posts():
-    """Posts publicados como (ruta, keywords del título, fecha de frescura, refresh_permitido).
+    """Posts publicados como (ruta, keywords del título, fecha de frescura, refresh_permitido,
+    tema de origen | None, título).
 
     La fecha de frescura es `last_modified_at` si existe, si no la del archivo, para
     que un artículo recién actualizado no vuelva a elegirse al día siguiente.
@@ -244,7 +291,8 @@ def _existing_posts():
         mod = re.search(r"^last_modified_at:\s*(\d{4}-\d{2}-\d{2})", head, re.M)
         fresh = max(f.name[:10], mod.group(1) if mod else "")
         refresh_ok = not re.search(r"^refresh:\s*false", head, re.M)
-        posts.append((f, _keywords(m.group(1)), fresh, refresh_ok))
+        t = re.search(r'^topic:\s*"?(.*?)"?\s*$', head, re.M)
+        posts.append((f, _keywords(m.group(1)), fresh, refresh_ok, t.group(1) if t else None, m.group(1)))
     return posts
 
 
@@ -260,11 +308,14 @@ def _covers(topic_words: set, title_words: set) -> bool:
     return len(topic_words & title_words) / min(len(topic_words), len(title_words)) >= 0.6
 
 
-def pick_topic():
+def pick_topic(client: OpenAI | None = None):
     """Elige un tema del pool que aún no esté cubierto por ningún post.
 
-    Si todos están cubiertos, devuelve el post más viejo (por frescura) sobre uno
-    de ellos para actualizarlo en su misma URL en lugar de crear un duplicado.
+    Un tema está cubierto si algún post lo trae en `topic:` o si su título se empalma
+    con el tema (antes solo contaba el título, y un tema genérico como «Tendencias de PLD
+    en México para el año actual» nunca se daba por cubierto: salió 12 días seguidos).
+    Si todos están cubiertos, el modelo propone uno nuevo; si no lo logra, devuelve el
+    post más viejo (por frescura) sobre uno de ellos para actualizarlo en su misma URL.
 
     Devuelve (tema, ruta_del_post_a_actualizar | None).
     """
@@ -273,7 +324,10 @@ def pick_topic():
     stale = []  # (frescura, tema, ruta) del post más antiguo que cubre cada tema
     for topic in TOPIC_POOL:
         tw = _keywords(topic)
-        matches = [p for p in posts if _covers(tw, p[1])]
+        if topic in TEMAS_REVISADOS:
+            matches = [p for p in posts if p[4] == topic]
+        else:
+            matches = [p for p in posts if p[4] == topic or _covers(tw, p[1])]
         if not matches:
             available.append(topic)
             continue
@@ -283,11 +337,54 @@ def pick_topic():
 
     if available:
         return random.choice(available), None
+    if client is not None:
+        nuevo = _propose_topic(client, posts)
+        if nuevo:
+            print(f"Tema propuesto por el modelo: {nuevo}")
+            return nuevo, None
     if stale:
         stale.sort(key=lambda s: s[0])
         _, topic, path = stale[0]
         return topic, path
     return random.choice(TOPIC_POOL), None
+
+
+# ─── Temas nuevos cuando el pool se agota ────────────────────────────────────
+
+def _propose_topic(client: OpenAI, posts) -> str | None:
+    """Pide al modelo temas que el sitio aún no cubre y devuelve el primero que no se
+    empalma con ningún título publicado ni con el pool. None si no encuentra uno."""
+    titulos = sorted({p[5] for p in posts})
+    prompt = (
+        "Eres editor de PLD.mx, un medio especializado en prevención de lavado de dinero (PLD) "
+        "y la LFPIORPI en México. Estos son los títulos que ya publicamos:\n\n"
+        + "\n".join(f"- {t}" for t in titulos)
+        + "\n\nPropón 12 temas NUEVOS para artículos de búsqueda de cola larga: dudas prácticas y "
+        "concretas que tiene el responsable de cumplimiento de una empresa que realiza actividades "
+        "vulnerables (cómo hacer algo, qué hacer ante una situación, criterios para decidir). "
+        "Reglas: que ninguno repita o reformule un título de la lista; nada de tendencias, "
+        "rankings de software ni noticias; sin cifras ni fechas específicas en el tema; en español "
+        "de México; máximo 110 caracteres cada uno. "
+        'Responde solo JSON: {"temas": ["...", "..."]}'
+    )
+    try:
+        r = client.chat.completions.create(
+            model=OPENAI_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.9,
+        )
+        temas = json.loads(r.choices[0].message.content).get("temas", [])
+    except Exception as exc:  # sin red / respuesta inválida → se cae al modo actualización
+        print(f"No se pudieron proponer temas nuevos: {exc}")
+        return None
+    ocupados = [p[1] for p in posts] + [_keywords(t) for t in TOPIC_POOL]
+    for tema in temas:
+        tema = str(tema).strip().strip('"')
+        tw = _keywords(tema)
+        if len(tw) >= 3 and not any(_covers(tw, o) for o in ocupados):
+            return tema
+    return None
 
 
 def pick_category(topic: str) -> str:
@@ -299,7 +396,7 @@ def pick_category(topic: str) -> str:
         return "lfpiorpi"
     if any(w in topic_lower for w in ["inmobiliaria", "joyería", "notario", "blindaje", "empeño", "automotriz", "arte", "arrendadora", "factoraje", "sofipo", "construcción", "contable", "fiscal", "comercio exterior", "aduanal", "activos virtuales", "sorteo", "tarjeta", "traslado de valores", "donativos", "arrendamiento"]):
         return "actividades-vulnerables"
-    if any(w in topic_lower for w in ["kyc", "kyb", "cumplimiento", "diligencia", "beneficiario", "capacitación", "manual", "auditoría", "oficial", "conservación", "programa", "evaluación", "monitoreo permanente", "operaciones inusuales", "24 horas"]):
+    if any(w in topic_lower for w in ["kyc", "kyb", "cumplimiento", "diligencia", "señales de alerta", "expediente", "identificación", "identificar", "matriz de riesgo", "evaluación basada", "requerimiento", "personas políticamente", "efectivo", "beneficiario", "capacitación", "manual", "auditoría", "oficial", "conservación", "programa", "evaluación", "monitoreo permanente", "operaciones inusuales", "24 horas"]):
         return "cumplimiento"
     if any(w in topic_lower for w in ["tecnología", "automatización", "inteligencia artificial", "regtech", "api", "digital", "monitoreo transaccional", "herramienta", "verificación", "compliance 360"]):
         return "tecnologia"
@@ -720,7 +817,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     # Pick topic and determine Artu mention
-    topic, refresh_path = pick_topic()
+    topic, refresh_path = pick_topic(client)
     category = pick_category(topic)
     mention_artu = should_mention_artu(topic)
 
@@ -772,6 +869,7 @@ tags:
 {tags_yaml}
 image: /assets/images/posts/{image_filename}
 author: Equipo PLD.mx
+topic: "{topic.replace('"', '')}"
 ---
 
 {article['content']}
