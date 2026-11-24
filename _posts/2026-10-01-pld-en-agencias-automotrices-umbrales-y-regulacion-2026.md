@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-10-01-pld-en-agencias-automotrices-umbrales-y-regulacion-2026.svg
 author: Equipo PLD.mx
+artu_tema: automotriz
 ---
 
 ## Introducción analítica
@@ -25,9 +26,9 @@ Este cambio regula de manera más estricta las operaciones susceptibles de ser u
 
 ## Marco legal detallado
 
-La LFPIORPI, publicada originalmente el 17 de octubre de 2012 y reformada sustancialmente el 16 de julio de 2025, establece un marco regulatorio claro para las actividades vulnerables, incluyendo las realizadas por agencias automotrices. Según el Artículo 17, fracción VIII, las operaciones de compra-venta de vehículos son consideradas actividades vulnerables cuando superan ciertos umbrales.
+La LFPIORPI, publicada originalmente el 17 de octubre de 2012 y reformada sustancialmente el 16 de julio de 2025, establece un marco regulatorio claro para las actividades vulnerables, incluyendo las realizadas por agencias automotrices. Según el Artículo 17, fracción VIII, las operaciones de compra-[venta de vehículos](https://artu.ai/articles/guia-sistema-automatizado-pld-vehiculos-aereos-maritimos-terrestres/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-agencias-automotrices-umbrales-y-regulacion-2026) son consideradas actividades vulnerables cuando superan ciertos umbrales.
 
-Conforme al Artículo 17, las agencias automotrices deben presentar un aviso de actividad vulnerable cuando realicen transacciones que superen los 3,210 UMA, es decir, aproximadamente 363,000 pesos mexicanos. Este aviso debe ser presentado al SAT dentro de los primeros 17 días del mes siguiente a la operación.
+Conforme al Artículo 17, las agencias automotrices deben presentar un [aviso de actividad vulnerable](https://artu.ai/avisos-sppld/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-agencias-automotrices-umbrales-y-regulacion-2026) cuando realicen transacciones que superen los 3,210 UMA, es decir, aproximadamente 363,000 pesos mexicanos. Este aviso debe ser presentado al SAT dentro de los primeros 17 días del mes siguiente a la operación.
 
 Adicionalmente, el Artículo 18 detalla las obligaciones que deben cumplir las agencias, incluyendo la debida diligencia del cliente (DDC) y la identificación del beneficiario controlador. La identificación del beneficiario controlador resulta especialmente relevante tras la reforma de 2025, que amplió su definición en la fracción III del Artículo 3, considerando a cualquier persona con control efectivo directo o indirecto del 25% del capital o derechos de voto.
 

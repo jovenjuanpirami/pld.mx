@@ -15,6 +15,7 @@ tags:
   - Sinaloa
 image: /assets/images/posts/2026-06-12-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 6 al 12 de junio de 2026 estuvo marcada por desarrollos que tocan los flancos más sensibles del sistema antilavado de México: la exposición de Personas Políticamente Expuestas vinculadas al narcotráfico y las implicaciones operativas de sus cuentas bloqueadas, la presión continua de la evaluación internacional del Grupo de Acción Financiera Internacional sobre el país, los plazos regulatorios que se acercan a su límite para los sujetos obligados, la fase de implementación de la guía que la Unidad de Inteligencia Financiera publicó contra extorsiones desde penales, y una nueva señal de alerta sobre el uso de inteligencia artificial por parte del crimen organizado. Cada uno de estos ejes lleva implicaciones directas para los profesionales de cumplimiento en México. Pasemos a detallarlos.

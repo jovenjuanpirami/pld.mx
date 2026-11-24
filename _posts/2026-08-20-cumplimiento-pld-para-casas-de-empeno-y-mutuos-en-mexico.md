@@ -13,9 +13,8 @@ tags:
   - compliance
 image: /assets/images/posts/2026-08-20-cumplimiento-pld-para-casas-de-empeno-y-mutuos-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: prestamos
 ---
-
-# PLD para Casas de Empeño y Operaciones de Mutuo: Un Enfoque Detallado
 
 ## Introducción analítica
 
@@ -136,8 +135,3 @@ La capacitación continua del personal y el establecimiento de políticas intern
    
    Artu es una solución tecnológica que ofrece asistencia completa para el cumplimiento de las obligaciones bajo la LFPIORPI. Proporciona módulos para la identificación de clientes (KYC/KYB), monitoreo transaccional y generación automática de reportes en formato XML para el SAT. Además, permite la implementación de evaluaciones basadas en riesgos, facilitando que las casas de empeño cumplan de manera eficiente y oportuna con sus obligaciones regulatorias.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

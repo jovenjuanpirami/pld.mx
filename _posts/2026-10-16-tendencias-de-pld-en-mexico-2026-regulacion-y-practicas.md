@@ -13,6 +13,7 @@ tags:
   - 2026
 image: /assets/images/posts/2026-10-16-tendencias-de-pld-en-mexico-2026-regulacion-y-practicas.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

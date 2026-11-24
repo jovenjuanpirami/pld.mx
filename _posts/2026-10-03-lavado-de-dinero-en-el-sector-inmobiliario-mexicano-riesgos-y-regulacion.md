@@ -13,13 +13,14 @@ tags:
   - México
 image: /assets/images/posts/2026-10-03-lavado-de-dinero-en-el-sector-inmobiliario-mexicano-riesgos-y-regulacion.svg
 author: Equipo PLD.mx
+artu_tema: inmobiliarias
 ---
 
 ## Introducción analítica
 
 El sector inmobiliario en México ha sido históricamente uno de los más vulnerables al lavado de dinero, representando una parte significativa de la economía nacional. Según datos recientes del Instituto Nacional de Estadística y Geografía (INEGI), el sector contribuyó con alrededor del 11% al Producto Interno Bruto (PIB) durante 2025. Este crecimiento se ha acompañado de un incremento en las actividades ilícitas, particularmente debido a la alta liquidez y al valor de las transacciones que se manejan en bienes raíces.
 
-En 2025, la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) fue reformada (DOF 16-07-2025) para incorporar medidas más estrictas en el sector. Estas reformas se implementaron en respuesta a la creciente presión internacional, particularmente del Grupo de Acción Financiera Internacional (GAFI), que ha señalado a México como un país de alto riesgo para el lavado de dinero en bienes raíces. En 2026, México fue evaluado por el GAFI, lo que resultó en recomendaciones específicas para endurecer las medidas de control en el sector inmobiliario.
+En 2025, la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) fue reformada (DOF 16-07-2025) para incorporar medidas más estrictas en el sector. Estas reformas se implementaron en respuesta a la creciente presión internacional, particularmente del Grupo de Acción Financiera Internacional (GAFI), que ha señalado a México como un país de alto riesgo para el lavado de dinero en bienes raíces. En 2026, México fue evaluado por el GAFI, lo que resultó en recomendaciones específicas para endurecer las medidas de control en el [sector inmobiliario](https://artu.ai/pld-inmobiliarias/?utm_source=pldmx&utm_medium=referral&utm_campaign=lavado-de-dinero-en-el-sector-inmobiliario-mexicano-riesgos-).
 
 Los datos muestran que, en 2025, la Unidad de Inteligencia Financiera (UIF) congeló activos por un valor aproximado de cinco mil millones de pesos mexicanos, una parte significativa de estos vinculados a operaciones inmobiliarias. El crecimiento del sector y su vulnerabilidad han llevado a las autoridades a reforzar la supervisión, haciendo que los sujetos obligados, como corredores y desarrolladores inmobiliarios, implementen estrictas medidas de cumplimiento.
 
@@ -27,7 +28,7 @@ Los datos muestran que, en 2025, la Unidad de Inteligencia Financiera (UIF) cong
 
 La reforma a la LFPIORPI en 2025 introdujo cambios fundamentales para el sector inmobiliario. El Artículo 17, fracción V Bis, específicamente menciona el desarrollo inmobiliario y la recepción de recursos para construcción como actividades vulnerables, obligando a sus participantes a cumplir con medidas de prevención de lavado de dinero. 
 
-Para entender el impacto de estas reformas, es esencial examinar los umbrales establecidos. Las transacciones que involucren montos superiores a 8,025 veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 es de $113.14 MXN, deben ser reportadas. Esto equivale aproximadamente a 908,098.50 pesos mexicanos. Cualquier operación que supere este umbral requiere de un aviso de actividad vulnerable. Según el Artículo 18, fracción V, estos avisos deben presentarse dentro de los primeros 17 días del mes siguiente a la operación.
+Para entender el impacto de estas reformas, es esencial examinar los umbrales establecidos. Las transacciones que involucren montos superiores a 8,025 veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 es de $113.14 MXN, deben ser reportadas. Esto equivale aproximadamente a 908,098.50 pesos mexicanos. Cualquier operación que supere este umbral requiere de un [aviso de actividad vulnerable](https://artu.ai/avisos-sppld/?utm_source=pldmx&utm_medium=referral&utm_campaign=lavado-de-dinero-en-el-sector-inmobiliario-mexicano-riesgos-). Según el Artículo 18, fracción V, estos avisos deben presentarse dentro de los primeros 17 días del mes siguiente a la operación.
 
 Además, el Artículo 18, ahora con 11 fracciones, destaca nuevas obligaciones como la Evaluación Basada en Riesgos (EBR) documentada, la creación de un Manual de Políticas Internas PLD/FT, y la implementación de mecanismos automatizados de monitoreo. Estas obligaciones buscan garantizar que los sujetos obligados no solo identifiquen, sino que también gestionen de manera proactiva los riesgos asociados al lavado de dinero en sus transacciones.
 

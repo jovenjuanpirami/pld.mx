@@ -13,9 +13,10 @@ tags:
   - Artu
 image: /assets/images/posts/2026-09-06-regtech-en-mexico-soluciones-para-la-prevencion-de-lavado-de-dinero.svg
 author: Equipo PLD.mx
+artu_tema: software
+redirect_from:
+  - /tecnologia/2026/09/06/regtech-en-mexico-soluciones-tecnologicas-para-la-prevencion-de-lavado-de-dinero/
 ---
-
-# RegTech en México: Soluciones Tecnológicas para PLD
 
 ## Introducción analítica
 
@@ -137,8 +138,3 @@ Las sanciones por incumplimiento de la LFPIORPI pueden incluir multas de 200 a 6
 
 Sí, la matriz de riesgo debe ser una herramienta dinámica que se actualice regularmente para reflejar cambios en el entorno de negocio, nuevas amenazas o modificaciones regulatorias. Esto asegura que las evaluaciones de riesgo sean precisas y que las medidas de mitigación sean efectivas.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

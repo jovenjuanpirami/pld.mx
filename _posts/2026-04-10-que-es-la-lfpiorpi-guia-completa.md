@@ -13,6 +13,7 @@ tags:
   - reforma 2025
 image: /assets/images/posts/2026-04-10-que-es-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 La **LFPIORPI** (Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita) es la ley que regula cómo las empresas en México deben prevenir y detectar el lavado de dinero fuera del sistema financiero. Si tu empresa realiza alguna de las 16 actividades vulnerables que establece esta ley, **estás obligado a cumplirla** — y las sanciones por no hacerlo pueden llegar a 65,000 veces la UMA.
@@ -155,4 +156,4 @@ Sí. La fracción XVI del Art. 17 regula el intercambio de activos virtuales, y 
 
 La LFPIORPI no es opcional — es una obligación legal con consecuencias severas por incumplimiento. Con la reforma de julio 2025, las obligaciones se ampliaron significativamente, especialmente en materia de evaluación de riesgos, monitoreo automatizado y auditoría.
 
-La buena noticia es que cumplir no tiene que ser complicado. En **PLD.mx** publicamos artículos diarios para ayudarte a navegar cada aspecto de la ley. Y si buscas automatizar tu cumplimiento, plataformas como [Artu](https://artu.ai) pueden reducir la carga operativa hasta 15 veces.
+La buena noticia es que cumplir no tiene que ser complicado. En **PLD.mx** publicamos artículos diarios para ayudarte a navegar cada aspecto de la ley. Y si buscas automatizar tu cumplimiento, plataformas como [Artu](https://artu.ai) concentran el expediente del cliente, las listas, la matriz de riesgo y los avisos al SAT en un solo lugar.

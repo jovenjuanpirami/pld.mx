@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-19-cumplimiento-pld-en-grupos-empresariales-estrategias-y-desafios.svg
 author: Equipo PLD.mx
 topic: "Grupos empresariales: cómo organizar el cumplimiento PLD entre varias empresas"
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

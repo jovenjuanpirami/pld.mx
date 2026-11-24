@@ -13,6 +13,7 @@ tags:
   - sujeto obligado
 image: /assets/images/posts/2026-06-17-mecanismos-automatizados-de-monitoreo-obligacion-clave-bajo-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: acuerdo-115
 ---
 
 ## Introducción analítica

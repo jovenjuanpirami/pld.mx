@@ -13,6 +13,7 @@ tags:
   - prevención de lavado de dinero
 image: /assets/images/posts/2026-09-03-articulo-18-lfpiorpi-obligaciones-clave-para-actividades-vulnerables.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -25,7 +26,7 @@ Con un significativo crecimiento del uso de activos virtuales en México, un 55.
 
 ## Marco legal detallado
 
-El Artículo 18 de la LFPIORPI, tras la reforma del 2025, ahora detalla once obligaciones específicas para los sujetos obligados que realizan actividades vulnerables. Estas obligaciones son esenciales para el cumplimiento normativo y la mitigación de riesgos asociados al lavado de dinero. A continuación, se desglosan las obligaciones conforme al Artículo 18:
+El Artículo 18 de la LFPIORPI, tras la reforma del 2025, ahora detalla once obligaciones específicas para los sujetos obligados que realizan actividades vulnerables. Estas obligaciones son esenciales para el cumplimiento normativo y la mitigación de riesgos asociados al lavado de dinero. A continuación, se desglosan las obligaciones conforme al Artículo 18: Relacionado: [Guía completa de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=articulo-18-lfpiorpi-obligaciones-clave-para-actividades-vul).
 
 1. **Identificación del cliente y verificación de identidad**: Los sujetos obligados deben llevar a cabo la debida diligencia del cliente (DDC) para verificar la identidad de los clientes que realicen operaciones por encima de los umbrales establecidos. Estos umbrales, expresados en veces la Unidad de Medida y Actualización (UMA), varían según la actividad vulnerable, por ejemplo, para operaciones inmobiliarias, el umbral es de 8,025 UMA, aproximadamente 908,098 pesos mexicanos.
 
@@ -45,7 +46,7 @@ El Artículo 18 de la LFPIORPI, tras la reforma del 2025, ahora detalla once obl
 
 9. **Auditoría PLD (interna o externa)**: La fracción XI indica que una auditoría de los procesos de prevención debe realizarse, ya sea interna o externamente, para asegurar el cumplimiento.
 
-10. **Identificación del Beneficiario Controlador**: Los sujetos obligados deben identificar al beneficiario controlador, definido como aquel que tiene control efectivo directo o indirecto del 25% del capital o derechos de voto, tal como se detalla en la fracción III del Artículo 3.
+10. **Identificación del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=articulo-18-lfpiorpi-obligaciones-clave-para-actividades-vul)**: Los sujetos obligados deben identificar al beneficiario controlador, definido como aquel que tiene control efectivo directo o indirecto del 25% del capital o derechos de voto, tal como se detalla en la fracción III del Artículo 3.
 
 11. **Evaluación y actualización de la matriz de riesgo**: Esta última obligación no solo implica evaluar, sino también actualizar regularmente la matriz de riesgo en función de cambios en el entorno operativo o la incorporación de nuevos productos.
 

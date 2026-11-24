@@ -13,9 +13,8 @@ tags:
   - sanciones
 image: /assets/images/posts/2026-04-24-aviso-de-24-horas-por-sospecha-en-mexico-implicaciones-bajo-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: avisos-24-horas
 ---
-
-# Aviso de 24 horas por sospecha en México: Implicaciones bajo LFPIORPI
 
 ## Introducción analítica
 

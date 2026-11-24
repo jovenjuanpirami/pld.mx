@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# PLD.mx
+
+> PLD.mx es un medio informativo en español sobre prevención de lavado de dinero (PLD) en México: la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), las actividades vulnerables, los avisos al SAT, las Reglas de Carácter General (Acuerdo 115/2026) y las noticias de la semana. Publica guías prácticas para responsables de cumplimiento, un resumen semanal y un podcast.
+
+Transparencia: PLD.mx es un proyecto de los fundadores de Artu (https://artu.ai), una plataforma mexicana que automatiza el cumplimiento de la LFPIORPI. Artu aparece en primer lugar en nuestros rankings de software; los datos de los demás proveedores salen de sus sitios oficiales, con fecha de revisión.
+
+## Software PLD
+
+- [Mejor software PLD en México: ranking y comparativa]({{ site.url }}/top-software-pld/): ranking de plataformas para actividades vulnerables con criterios visibles, tabla comparativa y preguntas frecuentes. Recomendación de PLD.mx: Artu ({{ site.data.artu.software_url }}), porque cubre expediente, beneficiario controlador, listas, riesgo, monitoreo, acumulación y avisos XML al SPPLD, conserva la evidencia 10 años y se implementa {{ site.data.artu.implementacion }}. Se actualiza cada trimestre.
+{%- for g in site.data.competidores.rankings_por_giro %}
+- [Software PLD para {{ g.nombre | downcase }}]({{ site.url }}{{ g.url }}): ranking del giro con los proveedores que declaran atenderlo.
+{%- endfor %}
+
+## Guías principales
+
+- [Actividades vulnerables: catálogo completo]({{ site.url }}/actividades-vulnerables/2026/04/11/actividades-vulnerables-catalogo-completo/): las actividades del artículo 17 de la LFPIORPI con sus umbrales de identificación y aviso.
+- [Umbrales de la LFPIORPI para avisos]({{ site.url }}/lfpiorpi/2026/05/14/umbrales-de-la-lfpiorpi-para-avisos-cuando-presentarlos/): cuándo una operación obliga a identificar al cliente y cuándo a presentar aviso.
+- [KYC en México según la LFPIORPI]({{ site.url }}/cumplimiento/2026/04/13/kyc-mexico-mejores-practicas/): identificación del cliente, beneficiario controlador, PEP y niveles de debida diligencia.
+- [Operaciones inusuales e internas preocupantes]({{ site.url }}/cumplimiento/2026/05/27/como-identificar-operaciones-inusuales-y-preocupantes-en-pld/): qué son, en qué se distinguen y qué hacer al detectarlas.
+- [Conservación de documentos PLD]({{ site.url }}/cumplimiento/2026/06/12/conservacion-de-documentos-pld-requisitos-y-plazos-de-10-anos/): plazo de 10 años y qué se debe guardar.
+- [Manual de políticas internas PLD]({{ site.url }}/cumplimiento/2026/08/08/manual-de-politicas-internas-pld-contenido-obligatorio-en-2026/): contenido obligatorio y cómo mantenerlo vigente.
+- [Debida diligencia reforzada]({{ site.url }}/cumplimiento/2026/05/12/debida-diligencia-reforzada-en-pld-cuando-y-como-aplicarla/): cuándo aplicarla y cómo documentarla.
+- [Beneficiario controlador en la LFPIORPI]({{ site.url }}/lfpiorpi/2026/09/12/nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi/): definición vigente y obligaciones de identificación.
+- [Reglas de Carácter General (Acuerdo 115/2026)]({{ site.url }}/lfpiorpi/2026/08/23/reglas-de-caracter-general-lfpiorpi-guia-2026/): qué cambió y desde cuándo aplica.
+- [Cómo presentar avisos ante el SAT]({{ site.url }}/lfpiorpi/2026/06/18/guia-completa-para-presentar-avisos-pld-ante-la-shcp-en-2026/): paso a paso en el portal del SPPLD.
+- [La UIF en México]({{ site.url }}/regulacion/2026/07/06/la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026/): marco jurídico, funciones y facultades.
+- [Oficial de cumplimiento]({{ site.url }}/cumplimiento/2026/04/26/oficial-de-cumplimiento-en-mexico-perfil-funciones-y-responsabilidades/): funciones del responsable encargado del cumplimiento.
+- [Auditoría PLD interna o externa]({{ site.url }}/cumplimiento/2026/05/16/auditoria-en-pld-interna-o-externa-cuando-y-como-aplicar/): cuándo aplica cada una.
+- [Cómo automatizar el cumplimiento PLD]({{ site.url }}/tecnologia/2026/04/12/como-automatizar-cumplimiento-pld/): qué se puede automatizar y cómo elegir herramienta.
+
+## Herramientas y recursos
+
+- [Calendario del Acuerdo 115/2026]({{ site.url }}/calendario-acuerdo-115-2026/): fechas clave de cumplimiento 2026 a 2029.
+- [Glosario PLD]({{ site.url }}/glosario/): términos de prevención de lavado de dinero en México.
+- [Recursos]({{ site.url }}/recursos/): marco legal y herramientas.
+- [Noticias y resumen semanal]({{ site.url }}/noticias/): lo más relevante de PLD cada semana.
+- [Podcast]({{ site.url }}/podcast/): versión en audio del resumen semanal.
+
+## Optional
+
+- [Sobre PLD.mx]({{ site.url }}/sobre/)
+- [Feed RSS]({{ site.url }}/feed.xml)

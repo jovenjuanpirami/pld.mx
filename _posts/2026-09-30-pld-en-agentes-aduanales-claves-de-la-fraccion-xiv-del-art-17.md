@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-09-30-pld-en-agentes-aduanales-claves-de-la-fraccion-xiv-del-art-17.svg
 author: Equipo PLD.mx
+artu_tema: aduanas
 ---
 
 ## Introducción analítica

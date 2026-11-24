@@ -14,6 +14,7 @@ tags:
   - Mundial 2026
 image: /assets/images/posts/2026-05-29-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 23 al 29 de mayo de 2026 dejó un panorama antilavado particularmente activo en México. Las autoridades financieras emitieron dos instrumentos técnicos de alto impacto en pocos días: primero, una guía coordinada entre la Unidad de Inteligencia Financiera, o UIF, y la Asociación de Bancos de México para combatir las extorsiones que se dirigen desde penales, y luego un alertamiento conjunto de la UIF y la Comisión Nacional Bancaria y de Valores, la CNBV, ante los riesgos que trae consigo el Mundial de Futbol 2026. A esto se suma el efecto práctico del Acuerdo de Simplificación de Trámites PLD/FT que la CNBV publicó en el Diario Oficial de la Federación la semana anterior y que entró en vigor el 19 de mayo, transformando la manera en que los sujetos obligados del sector financiero interactúan con el regulador. Pasemos a detallar cada uno de estos desarrollos.

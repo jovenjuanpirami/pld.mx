@@ -13,6 +13,7 @@ tags:
   - UMAs
 image: /assets/images/posts/2026-06-26-pld-en-el-comercio-de-obras-de-arte-umbrales-y-regulaciones-clave.svg
 author: Equipo PLD.mx
+artu_tema: arte
 ---
 
 ## Introducción analítica  
@@ -69,8 +70,4 @@ El comercio de obras de arte en México debe ajustarse a un entorno regulatorio 
 5. **¿Cómo puede Artu ayudar a cumplir las obligaciones de la LFPIORPI en el sector arte?**  
    Artu ofrece una solución de compliance 360 que automatiza desde la identificación de clientes hasta la presentación de avisos al SAT. Con módulos específicos para KYC/KYB, monitoreo transaccional, y evaluación basada en riesgo, Artu permite a los sujetos obligados optimizar sus procesos de cumplimiento y reducir la exposición a sanciones.  
   
-<div class="cta-box">  
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>  
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>  
-<a href="https://artu.ai">Conoce Artu →</a>  
-</div>
+

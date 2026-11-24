@@ -15,6 +15,7 @@ tags:
   - Cártel del Noreste
 image: /assets/images/posts/2026-10-16-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 10 al 16 de octubre de 2026 resultó una de las más movidas del año en materia antilavado para México. La Unidad de Inteligencia Financiera, o UIF, ejecutó el bloqueo de cuentas bancarias de cuatro personas físicas y once empresas presuntamente vinculadas al Cártel del Noreste, en una acción coordinada con las autoridades de Estados Unidos que pone en el centro del debate el papel de las estructuras corporativas como vehículos para mover recursos ilícitos. En paralelo, el Grupo de Acción Financiera Internacional, conocido como GAFI, celebra su plenaria de octubre con la evaluación mutua de México sobre la mesa, y los analistas del sector no ocultan que los resultados — esperados para las próximas semanas — podrían tener consecuencias importantes para el sistema financiero nacional. A esto se suman la confirmación de que la certificación obligatoria para las actividades vulnerables quedó formalmente pospuesta a 2027, y el dato de que los avisos ante la UIF por operaciones con activos virtuales crecieron 52 por ciento en lo que va del año. Pasemos a revisar cada uno de estos desarrollos.

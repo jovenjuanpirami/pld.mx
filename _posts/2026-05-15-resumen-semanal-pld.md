@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-05-15-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 9 al 15 de mayo de 2026 resultó especialmente intensa en materia de prevención de lavado de dinero en México. Se destapó uno de los esquemas de blanqueo de activos más grandes de la última década, un juez federal puso punto final al caso de CIBanco con una orden de liquidación judicial, y expertos e instituciones internacionales volvieron a encender las alarmas sobre el riesgo de que México sea incluido en la lista gris del Grupo de Acción Financiera Internacional, conocido como GAFI. Todo esto en un contexto en que la Unidad de Inteligencia Financiera, o UIF, continúa ampliando sus capacidades tras el fallo histórico de la Suprema Corte de Justicia de la Nación que validó su poder para bloquear cuentas bancarias sin necesidad de orden judicial. Pasemos a revisar cada uno de estos temas.

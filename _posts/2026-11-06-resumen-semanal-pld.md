@@ -15,6 +15,7 @@ tags:
   - Ley de Economía Digital
 image: /assets/images/posts/2026-11-06-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 31 de octubre al 6 de noviembre de 2026 concentra varias historias que, vistas en conjunto, dibujan con precisión el momento que atraviesa el sistema antilavado mexicano: una semana de resultados, de acción institucional y de cuenta regresiva regulatoria. México cerró formalmente su proceso de evaluación ante el Grupo de Acción Financiera Internacional —conocido por sus siglas como GAFI—, confirmando que se mantiene fuera de las listas de jurisdicciones con deficiencias en la materia, aunque la calificación técnica definitiva no se conocerá sino hasta diciembre. Al mismo tiempo, la Unidad de Inteligencia Financiera, o UIF, protagonizó dos acciones de alto impacto: la firma de un convenio de colaboración con la Unión de Instituciones Financieras Mexicanas, o UNIFIMEX, y el bloqueo de 40 objetivos financieros vinculados con proveedores electorales del Instituto Nacional Electoral. El poder judicial detuvo al presunto líder de una red de lavado de dinero en la Ciudad de México, con un aseguramiento de más de 43 millones de pesos en efectivo. Y como cierre de semana, la presidenta Claudia Sheinbaum promulgó la Ley de Economía Digital, con implicaciones directas para el marco antilavado. A todo ello se suma la cuenta regresiva que ya corre hacia el 30 de noviembre, fecha en que entra en vigor la mayor parte del Acuerdo 115 de 2026. Pasemos a revisar cada uno de estos ejes.

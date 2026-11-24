@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-09-20-automatizacion-del-cumplimiento-pld-en-mexico-con-ia.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica

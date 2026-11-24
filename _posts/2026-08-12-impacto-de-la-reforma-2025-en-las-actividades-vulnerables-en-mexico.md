@@ -13,6 +13,7 @@ tags:
   - sujetos obligados
 image: /assets/images/posts/2026-08-12-impacto-de-la-reforma-2025-en-las-actividades-vulnerables-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -86,12 +87,6 @@ Esta tabla resume algunos de los umbrales claves tras la reforma de 2025. Los su
 ## Conclusión estratégica
 
 La reforma 2025 a la LFPIORPI trae consigo desafíos significativos para los sujetos obligados en México. Sin embargo, también ofrece una oportunidad para que las empresas fortalezcan sus prácticas de cumplimiento y adopten un enfoque más proactivo en la gestión del riesgo de lavado de dinero. La clave para enfrentar estos desafíos radica en adoptar tecnologías avanzadas que permitan automatizar procesos, invertir en capacitación continua y desarrollar políticas internas robustas. Implementar soluciones como Artu puede ser una estrategia efectiva para asegurar el cumplimiento y mitigar riesgos.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

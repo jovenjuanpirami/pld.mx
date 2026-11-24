@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-08-13-delitos-bajo-la-lfpiorpi-prision-de-2-a-10-anos-arts-62-65.svg
 author: Equipo PLD.mx
+artu_tema: conservacion
 ---
 
 ## Introducción analítica

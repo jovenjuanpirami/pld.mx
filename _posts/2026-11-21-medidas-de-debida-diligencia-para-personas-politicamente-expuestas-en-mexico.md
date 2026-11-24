@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-21-medidas-de-debida-diligencia-para-personas-politicamente-expuestas-en-mexico.svg
 author: Equipo PLD.mx
 topic: "Personas políticamente expuestas como clientes: medidas de debida diligencia"
+artu_tema: pep
 ---
 
 ## Introducción analítica  

@@ -13,6 +13,7 @@ tags:
   - tendencias 2026
 image: /assets/images/posts/2026-10-12-tendencias-y-desafios-de-pld-en-mexico-para-2026.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

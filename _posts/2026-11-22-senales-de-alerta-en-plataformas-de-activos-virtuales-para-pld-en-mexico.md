@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-22-senales-de-alerta-en-plataformas-de-activos-virtuales-para-pld-en-mexico.svg
 author: Equipo PLD.mx
 topic: "Señales de alerta en plataformas de activos virtuales para el cumplimiento PLD"
+artu_tema: activos-virtuales
 ---
 
 ## Introducción analítica
@@ -98,8 +99,3 @@ Pasemos ahora a las preguntas más frecuentes sobre este tema.
 5. **¿Cuál es la frecuencia recomendada para las auditorías de cumplimiento?**
    Se recomienda realizar auditorías de cumplimiento al menos una vez al año, aunque algunas plataformas optan por auditorías semestrales para asegurar una revisión continua y adaptativa a medida que surgen nuevas amenazas o cambios regulatorios.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-24-implementacion-pld-en-juegos-concursos-y-sorteos-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: juegos
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - Tecnología
 image: /assets/images/posts/2026-05-25-compliance-360-la-clave-para-la-prevencion-del-lavado-de-dinero-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

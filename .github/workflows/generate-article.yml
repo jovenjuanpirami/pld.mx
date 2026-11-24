@@ -2,9 +2,15 @@ name: Generate Daily PLD Article
 
 on:
   schedule:
-    # Run daily at 8:00 AM Mexico City time (14:00 UTC)
+    # Diario a las 8:00 AM de CDMX (14:00 UTC). El script decide: lunes, miércoles y viernes artículo
+    # nuevo; martes y jueves actualiza uno de los posts con más impresiones (_data/top_posts.yml); fin de semana nada.
     - cron: '0 14 * * *'
   workflow_dispatch: # Allow manual trigger
+    inputs:
+      modo:
+        description: 'nuevo | actualizar | vacío = según el día (L-M-V nuevo, M-J actualizar)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -31,11 +37,12 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install openai
+        run: pip install openai pyyaml
 
       - name: Generate article
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODO: ${{ github.event.inputs.modo }}
         run: python scripts/generate_article.py
 
       - name: Commit and push
@@ -53,8 +60,10 @@ jobs:
           fi
 
           DATE=$(date +%Y-%m-%d)
-          TITLE=$(ls -t _posts/*.md | head -1 | xargs head -3 | grep "title:" | sed 's/title: "//;s/"//')
-          git commit -m "Nuevo artículo: ${TITLE:-$DATE}"
+          CAMBIADO=$(git diff --staged --name-only -- _posts | head -1)
+          TITLE=$(grep -m1 '^title:' "$CAMBIADO" | sed 's/^title: *"//;s/"$//')
+          if git diff --staged --name-status -- _posts | grep -q '^A'; then ACCION="Nuevo artículo"; else ACCION="Actualización"; fi
+          git commit -m "$ACCION: ${TITLE:-$DATE}"
           git push origin main
           echo "has_changes=true" >> $GITHUB_OUTPUT
 

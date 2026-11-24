@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-06-03-verificacion-digital-de-identidad-en-cumplimiento-pld-mexico-2026.svg
 author: Equipo PLD.mx
+artu_tema: kyc
 ---
 
 ## Introducción analítica
@@ -100,8 +101,3 @@ El cumplimiento efectivo requiere una combinación de tecnología, capacitación
 5. **¿Qué sanciones enfrenta una empresa por no verificar adecuadamente la identidad de un beneficiario controlador?**
    Las sanciones por incumplimiento pueden incluir multas de hasta 65,000 UMA, lo que equivale a aproximadamente siete millones trescientos cincuenta y cuatro mil cien pesos mexicanos. Además, el artículo 62 establece penas de prisión de dos a ocho años por declarar falsamente, subrayando la importancia de implementar procesos precisos de verificación de identidad.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

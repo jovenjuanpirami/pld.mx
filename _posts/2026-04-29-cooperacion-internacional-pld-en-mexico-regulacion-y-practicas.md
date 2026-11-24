@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-04-29-cooperacion-internacional-pld-en-mexico-regulacion-y-practicas.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

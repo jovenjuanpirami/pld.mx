@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-08-17-automatizacion-pld-con-tecnologia-e-ia-en-mexico-cumplimiento-eficiente.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica
@@ -113,8 +114,3 @@ Recomendamos que las empresas evalúen rápidamente su estado actual de cumplimi
 5. **¿Qué beneficios ofrece la automatización del monitoreo transaccional?**
    La automatización del monitoreo transaccional permite la detección de patrones inusuales de manera más rápida y precisa que los métodos manuales. Además, reduce el error humano y permite escalar el monitoreo de manera más eficiente, lo que es crucial para cumplir con las obligaciones en tiempo real y minimizar el riesgo de sanciones regulatorias.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

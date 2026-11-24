@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-12-capacitacion-pld-anual-bajo-la-lfpiorpi-obligacion-y-practica.svg
 author: Equipo PLD.mx
+artu_tema: capacitacion
 ---
 
 ## Introducción analítica

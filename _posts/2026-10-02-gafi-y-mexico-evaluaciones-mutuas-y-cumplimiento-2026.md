@@ -13,6 +13,7 @@ tags:
   - evaluaciones mutuas
 image: /assets/images/posts/2026-10-02-gafi-y-mexico-evaluaciones-mutuas-y-cumplimiento-2026.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -23,7 +24,7 @@ El contexto regulatorio ha experimentado cambios sustanciales. La Ley Federal pa
 
 ## Marco legal detallado
 
-La LFPIORPI, desde su reforma en 2025, presenta un marco legal robusto que busca mitigar los riesgos asociados con el lavado de dinero y el financiamiento del terrorismo. El artículo 17 de la ley enumera dieciséis fracciones de actividades vulnerables, mientras que el artículo 18, tras la reforma, ahora contiene once fracciones de obligaciones para los sujetos obligados. Este artículo detalla obligaciones como la Evaluación Basada en Riesgos (EBR), documentada en la fracción VII, y la implementación de un Manual de Políticas Internas PLD/FT, según la fracción VIII. Los umbrales para la presentación de avisos se expresan en veces el valor diario de la Unidad de Medida y Actualización (UMA), que en 2026 es de 113.14 pesos mexicanos. Por ejemplo, para las actividades de desarrollo inmobiliario, la recepción de recursos para la construcción que exceda de 8,025 veces la UMA, aproximadamente novecientos mil pesos, debe ser reportada.
+La LFPIORPI, desde su reforma en 2025, presenta un marco legal robusto que busca mitigar los riesgos asociados con el lavado de dinero y el financiamiento del terrorismo. El artículo 17 de la ley enumera dieciséis fracciones de [actividades vulnerables](https://artu.ai/software-pld-para-actividades-vulnerables/?utm_source=pldmx&utm_medium=referral&utm_campaign=gafi-y-mexico-evaluaciones-mutuas-y-cumplimiento-2026), mientras que el artículo 18, tras la reforma, ahora contiene once fracciones de obligaciones para los sujetos obligados. Este artículo detalla obligaciones como la Evaluación Basada en Riesgos (EBR), documentada en la fracción VII, y la implementación de un Manual de Políticas Internas PLD/FT, según la fracción VIII. Los umbrales para la presentación de avisos se expresan en veces el valor diario de la Unidad de Medida y Actualización (UMA), que en 2026 es de 113.14 pesos mexicanos. Por ejemplo, para las actividades de desarrollo inmobiliario, la recepción de recursos para la construcción que exceda de 8,025 veces la UMA, aproximadamente novecientos mil pesos, debe ser reportada.
 
 Además, el artículo 18 también introduce mecanismos automatizados de monitoreo y auditorías PLD, que pueden ser internas o externas. Estas obligaciones buscan fortalecer el control interno y la vigilancia constante sobre las operaciones de los sujetos obligados, reforzando así la capacidad de identificar y reportar actividades sospechosas de manera oportuna.
 
@@ -81,7 +82,7 @@ Los actores del sector deben aprovechar las mejores prácticas y colaborar estre
 
 ## FAQ
 
-1. **¿Cómo afecta la reforma de la LFPIORPI de 2025 a las obligaciones de mi empresa?**
+1. **¿Cómo afecta la [reforma de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=gafi-y-mexico-evaluaciones-mutuas-y-cumplimiento-2026) de 2025 a las obligaciones de mi empresa?**
    La reforma de 2025 amplía significativamente las obligaciones de los sujetos obligados, introduciendo requisitos como la Evaluación Basada en Riesgos documentada, la implementación de un Manual de Políticas Internas detallado, y la capacitación anual del personal. También se requiere el uso de mecanismos automatizados para el monitoreo y la auditoría regular de los procesos PLD.
 
 2. **¿Qué sucede si mi empresa no cumple con las nuevas obligaciones de la LFPIORPI?**

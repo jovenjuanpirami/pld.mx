@@ -15,6 +15,7 @@ tags:
   - huachicol
 image: /assets/images/posts/2026-07-17-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 11 al 17 de julio de 2026 llegó cargada de fechas límite y movimientos institucionales que marcarán el segundo semestre del año para todos los sujetos obligados en México. En el plano regulatorio, el plazo que la Secretaría de Hacienda y Crédito Público, conocida como SHCP, tenía para publicar las nuevas Reglas Generales de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, venció el 16 de julio — y el sector espera con atención lo que esas reglas disponen. En paralelo, la Unidad de Inteligencia Financiera, o UIF, sumó un nuevo convenio de colaboración con la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros, la Condusef, enfocado en perseguir las llamadas "cuentas mula". Los bancos, por su parte, están en plena fase de implementación de la nueva obligación de identificación biométrica para movimientos de efectivo de 140,000 pesos o más, en vigor desde el 1 de julio. Y en el frente del crimen organizado, la UIF y la Comisión Nacional Bancaria y de Valores, o CNBV, publicaron una alerta conjunta contra el huachicol fiscal vinculado al Cártel Jalisco Nueva Generación. Pasemos a analizar cada uno de estos desarrollos con la profundidad que merecen.

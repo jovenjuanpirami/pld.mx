@@ -13,6 +13,9 @@ tags:
   - México
 image: /assets/images/posts/2026-07-27-obligaciones-de-la-lfpiorpi-para-empresas-en-mexico-guia-2026.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
+redirect_from:
+  - /obligaciones/
 ---
 
 ## Introducción analítica

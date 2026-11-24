@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-10-17-tendencias-clave-en-pld-para-mexico-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

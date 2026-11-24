@@ -13,6 +13,9 @@ tags:
   - regulación
 image: /assets/images/posts/2026-08-22-tipologias-de-lavado-de-dinero-mas-comunes-en-mexico-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: monitoreo
+redirect_from:
+  - /regulacion/2026/08/22/tipologias-de-lavado-dinero-mas-comunes-en-mexico-en-2026/
 ---
 
 ## Introducción analítica
@@ -96,10 +99,5 @@ Además, es fundamental que las organizaciones desarrollen y mantengan una cultu
    El artículo 54 de la LFPIORPI establece multas que van de 200 a 65,000 UMA para quienes no cumplan con la obligación de presentar avisos de operaciones preocupantes dentro de las 24 horas siguientes a su identificación. Esto equivale a sanciones de entre 22,628 y 7,354,100 pesos mexicanos aproximadamente en 2026.
 
 5. **¿Cómo puede ayudar Artu en el cumplimiento de la LFPIORPI?**
-   Artu ofrece una solución de compliance 360 que automatiza cada obligación del artículo 18 de la LFPIORPI. Sus módulos de KYC/KYB, monitoreo transaccional y generación de reportes XML permiten a los sujetos obligados gestionar eficazmente los riesgos de lavado de dinero y cumplir con las regulaciones de manera eficiente. La implementación de Artu generalmente se completa en un plazo de cuatro semanas.
+   Artu ofrece una solución de compliance 360 que automatiza cada obligación del artículo 18 de la LFPIORPI. Sus módulos de KYC/KYB, monitoreo transaccional y generación de reportes XML permiten a los sujetos obligados gestionar eficazmente los riesgos de lavado de dinero y cumplir con las regulaciones de manera eficiente. La implementación de Artu toma 24 horas con carga por Excel.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

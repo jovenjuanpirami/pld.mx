@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-17-guia-completa-para-el-alta-en-el-portal-de-pld-del-sat.svg
 author: Equipo PLD.mx
 topic: "Alta en el portal de prevención de lavado de dinero del SAT paso a paso"
+artu_tema: alta-padron
 ---
 
 ## Introducción Analítica

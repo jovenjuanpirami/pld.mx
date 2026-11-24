@@ -13,13 +13,14 @@ tags:
   - sujeto obligado
 image: /assets/images/posts/2026-09-29-pld-en-arrendamiento-de-inmuebles-umbral-y-regulacion-2026.svg
 author: Equipo PLD.mx
+artu_tema: arrendadoras
 ---
 
 ## Introducción analítica
 
 El sector inmobiliario en México ha experimentado un crecimiento sostenido en los últimos años, con un valor de mercado que supera los 500 mil millones de pesos anualmente. En este contexto, el arrendamiento de inmuebles se ha consolidado como una de las actividades más dinámicas, representando un porcentaje significativo del mercado total. Sin embargo, esta expansión también ha incrementado la exposición del sector a prácticas ilícitas, como el lavado de dinero, destacando la importancia de un marco regulatorio sólido.
 
-La Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, regula específicamente el arrendamiento de inmuebles como actividad vulnerable en su Artículo 17. Con la reforma publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, se estableció un umbral para el arrendamiento de inmuebles de 1,605 veces el valor diario de la Unidad de Medida y Actualización (UMA) mensual. Para el año 2026, con una UMA diaria de 113.14 pesos, este umbral se traduce en aproximadamente 181,677 pesos mensuales.
+La Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, regula específicamente el [arrendamiento de inmuebles](https://artu.ai/pld-arrendadoras/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-arrendamiento-de-inmuebles-umbral-y-regulacion-2026) como actividad vulnerable en su Artículo 17. Con la reforma publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, se estableció un umbral para el arrendamiento de inmuebles de 1,605 veces el valor diario de la Unidad de Medida y Actualización (UMA) mensual. Para el año 2026, con una UMA diaria de 113.14 pesos, este umbral se traduce en aproximadamente 181,677 pesos mensuales.
 
 Este ajuste tiene implicaciones significativas para los sujetos obligados, incluyendo agentes inmobiliarios y arrendadores, quienes deben cumplir con nuevas obligaciones de reporte y debida diligencia del cliente (DDC). La creciente vigilancia por parte de la Unidad de Inteligencia Financiera (UIF) y el Servicio de Administración Tributaria (SAT) ha intensificado la necesidad de cumplir estrictamente con estas regulaciones para evitar sanciones severas.
 
@@ -27,7 +28,7 @@ Este ajuste tiene implicaciones significativas para los sujetos obligados, inclu
 
 El marco legal de la LFPIORPI es fundamental para entender cómo se regula el arrendamiento de inmuebles en México. Según el Artículo 17 de la LFPIORPI, el arrendamiento de inmuebles se considera una actividad vulnerable cuando el monto de la operación supera 1,605 veces la UMA mensual. Este umbral, equivalente a aproximadamente 181,677 pesos mexicanos para 2026, implica que cualquier contrato de arrendamiento que exceda esta cantidad debe ser reportado a las autoridades correspondientes.
 
-La fracción XI del mismo artículo especifica que estas operaciones deben ser notificadas a la UIF a través de un aviso de actividad vulnerable, que debe presentarse dentro de los primeros 17 días del mes siguiente a la transacción. Además, conforme al Artículo 18, los sujetos obligados deben conservar toda la documentación relacionada durante un periodo mínimo de 10 años y estar preparados para presentarla a las autoridades si así se requiere.
+La fracción XI del mismo artículo especifica que estas operaciones deben ser notificadas a la UIF a través de un [aviso de actividad vulnerable](https://artu.ai/avisos-sppld/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-arrendamiento-de-inmuebles-umbral-y-regulacion-2026), que debe presentarse dentro de los primeros 17 días del mes siguiente a la transacción. Además, conforme al Artículo 18, los sujetos obligados deben conservar toda la documentación relacionada durante un periodo mínimo de 10 años y estar preparados para presentarla a las autoridades si así se requiere.
 
 Entre las obligaciones más relevantes introducidas por la reforma de 2025, se incluye la necesidad de realizar una Evaluación Basada en Riesgos (EBR) documentada, como lo establece la fracción VII del Artículo 18. Asimismo, se requiere la implementación de un Manual de Políticas Internas de Prevención de Lavado de Dinero (PLD) y Financiamiento al Terrorismo (FT), especificado en la fracción VIII, y la capacitación del personal de manera anual, según la fracción IX.
 

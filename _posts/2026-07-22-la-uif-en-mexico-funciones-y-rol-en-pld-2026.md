@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-22-la-uif-en-mexico-funciones-y-rol-en-pld-2026.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica

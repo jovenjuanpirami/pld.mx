@@ -13,6 +13,7 @@ tags:
   - Tecnología
 image: /assets/images/posts/2026-06-06-regtech-en-mexico-soluciones-tecnologicas-para-pld-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - 2026
 image: /assets/images/posts/2026-07-03-cumplimiento-pld-en-el-comercio-electronico-en-mexico-retos-y-estrategias.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

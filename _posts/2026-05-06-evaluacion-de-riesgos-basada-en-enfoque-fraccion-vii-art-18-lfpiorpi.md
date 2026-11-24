@@ -13,6 +13,7 @@ tags:
   - Regulación
 image: /assets/images/posts/2026-05-06-evaluacion-de-riesgos-basada-en-enfoque-fraccion-vii-art-18-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: riesgo
 ---
 
 ## Introducción analítica
@@ -111,8 +112,3 @@ Implementar soluciones tecnológicas como Artu puede ser una estrategia efectiva
 
 Se recomienda al menos una vez al año para asegurar que la EBR sea efectiva y cumpla con los requisitos regulatorios. Las auditorías ayudan a identificar áreas de mejora y asegurar que los controles implementados están funcionando adecuadamente.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

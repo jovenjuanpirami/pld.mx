@@ -1,31 +1,23 @@
 {%- comment -%}
-Cierre editorial de cada artículo. Elige la variante según el tema:
-- "demo": temas de software, automatización, sectoriales -> demo de Artu.
-- "calculadora": temas de multas, riesgo, auditoría, sanciones -> calculadora de riesgo.
+Cierre editorial de cada artículo. El botón principal lleva a la página de artu.ai del giro o tema
+del post (front matter `artu_tema`, mapa en _data/artu_links.yml), no a la home.
+Variantes:
+- "demo" (por defecto): automatización para el giro -> página del giro + demo.
+- "calculadora": temas de multas, riesgo, auditoría y sanciones -> calculadora + página del tema.
 Se puede forzar con {% include post-cta.html variant="calculadora" %}.
-El sector se infiere del título para personalizar el titular.
+Los datos de Artu salen de _data/artu.yml.
 {%- endcomment -%}
+{%- assign links = site.data.artu_links -%}
+{%- assign tema = nil -%}
+{%- if page.artu_tema -%}{%- assign tema = links.temas | where: "clave", page.artu_tema | first -%}{%- endif -%}
+{%- unless tema -%}{%- assign tema = links.temas | where: "clave", links.default | first -%}{%- endunless -%}
+{%- assign campania = page.slug | default: page.url | slugify | truncate: 60, "" -%}
+{%- assign tema_href = tema.url | append: "?utm_source=pldmx&utm_medium=referral&utm_campaign=" | append: campania -%}
 {%- assign t = page.title | downcase -%}
-{%- assign sector = "" -%}
-{%- if t contains "inmobiliar" or t contains "desarrollador" or t contains "arrendamiento" or t contains "construcci" -%}{%- assign sector = "inmobiliarias y desarrolladores" -%}
-{%- elsif t contains "joyer" or t contains "metales" -%}{%- assign sector = "joyerías y comercio de metales" -%}
-{%- elsif t contains "notari" or t contains "corredor" or t contains "fedatari" -%}{%- assign sector = "notarías y corredurías" -%}
-{%- elsif t contains "automotri" or t contains "vehícul" or t contains "vehicul" -%}{%- assign sector = "agencias automotrices" -%}
-{%- elsif t contains "cripto" or t contains "activos virtuales" -%}{%- assign sector = "plataformas de activos virtuales" -%}
-{%- elsif t contains "sofom" or t contains "préstamo" or t contains "prestamo" or t contains "crédito" or t contains "credito" or t contains "mutuo" or t contains "empeño" -%}{%- assign sector = "otorgantes de crédito y casas de empeño" -%}
-{%- elsif t contains "donativ" or t contains "sin fines de lucro" -%}{%- assign sector = "asociaciones y donatarias" -%}
-{%- elsif t contains "tarjeta" or t contains "prepago" or t contains "monedero" -%}{%- assign sector = "emisores de tarjetas y prepago" -%}
-{%- elsif t contains "juego" or t contains "sorteo" or t contains "apuesta" -%}{%- assign sector = "juegos y sorteos" -%}
-{%- elsif t contains "aduan" or t contains "comercio exterior" -%}{%- assign sector = "agentes aduanales y comercio exterior" -%}
-{%- elsif t contains "blindaje" or t contains "traslado" or t contains "custodia" -%}{%- assign sector = "blindaje, traslado y custodia de valores" -%}
-{%- elsif t contains "despacho" or t contains "contad" or t contains "abogad" or t contains "servicios profesionales" -%}{%- assign sector = "despachos y servicios profesionales" -%}
-{%- endif -%}
 
 {%- assign variant = include.variant -%}
 {%- unless variant -%}
-  {%- if page.categories contains "tecnologia" or t contains "software" or t contains "plataforma" or t contains "herramienta" or t contains "top " or t contains "mejor" or t contains "ranking" or t contains "comparativa" or t contains "automatiza" or t contains "regtech" -%}
-    {%- assign variant = "demo" -%}
-  {%- elsif t contains "multa" or t contains "sanci" or t contains "infracci" or t contains "riesgo" or t contains "auditor" or t contains "visita" or t contains "incumpl" -%}
+  {%- if t contains "multa" or t contains "sanci" or t contains "infracci" or t contains "auditor" or t contains "visita" or t contains "incumpl" -%}
     {%- assign variant = "calculadora" -%}
   {%- else -%}
     {%- assign variant = "demo" -%}
@@ -41,16 +33,16 @@ El sector se infiere del título para personalizar el titular.
   <h3>¿Cuánto podría costarte un incumplimiento?</h3>
   <p>Antes de decidir cuánto invertir en cumplimiento conviene saber cuánto arriesgas. La calculadora de riesgo estima el monto de multas al que está expuesta una empresa según su actividad vulnerable y su volumen de operaciones. Toma dos minutos.</p>
   <div class="post-cta__actions">
-    <a class="post-cta__btn" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-calculadora" data-cta="post-calculadora" target="_blank" rel="noopener">Calcular mi riesgo &rarr;</a>
-    <a class="post-cta__link" href="{{ site.artu.demo }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-demo" data-cta="post-demo" target="_blank" rel="noopener">Ver cómo automatizarlo</a>
+    <a class="post-cta__btn" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign={{ campania }}" data-cta="post-calculadora" target="_blank" rel="noopener">Calcular mi riesgo &rarr;</a>
+    <a class="post-cta__link" href="{{ tema_href }}" data-cta="post-tema-{{ tema.clave }}" target="_blank" rel="noopener">{% if tema.giro %}Ver cómo automatizarlo para {{ tema.giro }}{% else %}Ver cómo automatizarlo{% endif %}</a>
   </div>
   {%- else %}
   <span class="post-cta__label">Recomendación de PLD.mx</span>
-  <h3>Automatiza el cumplimiento PLD {% if sector != "" %}para {{ sector }}{% else %}de tu empresa{% endif %}</h3>
-  <p>Artu concentra en una sola plataforma el expediente del cliente, la matriz de riesgo, la acumulación de operaciones y los avisos al SAT: las funciones que el Acuerdo 115/2026 exige a los mecanismos automatizados. Se implementa en semanas, no en meses.</p>
+  <h3>Automatiza el cumplimiento PLD {% if tema.giro %}para {{ tema.giro }}{% else %}de tu empresa{% endif %}</h3>
+  <p>{{ site.data.artu.nombre }} concentra en una sola plataforma el expediente del cliente, la matriz de riesgo, la acumulación de operaciones y los avisos al SAT: las funciones que el Acuerdo 115/2026 exige a los mecanismos automatizados. Se implementa {{ site.data.artu.implementacion }}.</p>
   <div class="post-cta__actions">
-    <a class="post-cta__btn" href="{{ site.artu.demo }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-demo" data-cta="post-demo" target="_blank" rel="noopener">Ver una demo &rarr;</a>
-    <a class="post-cta__link" href="{{ site.artu.calculadora }}?utm_source=pldmx&utm_medium=referral&utm_campaign=post-calculadora" data-cta="post-calculadora" target="_blank" rel="noopener">Calcular mi exposición a multas</a>
+    <a class="post-cta__btn" href="{{ tema_href }}" data-cta="post-tema-{{ tema.clave }}" target="_blank" rel="noopener">{% if tema.giro %}Ver la solución para {{ tema.giro }}{% else %}Ver cómo lo resuelve {{ site.data.artu.nombre }}{% endif %} &rarr;</a>
+    <a class="post-cta__link" href="{{ site.artu.demo }}?utm_source=pldmx&utm_medium=referral&utm_campaign={{ campania }}" data-cta="post-demo" target="_blank" rel="noopener">Agendar una demo</a>
   </div>
   {%- endif %}
   {%- if regulatorio %}

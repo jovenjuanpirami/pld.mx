@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-07-07-pld-en-plataformas-de-activos-virtuales-aplicacion-de-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: activos-virtuales
 ---
 
 ## Introducción analítica

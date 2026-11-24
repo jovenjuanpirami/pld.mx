@@ -13,6 +13,7 @@ tags:
   - Regulación Mexicana
 image: /assets/images/posts/2026-05-19-reforma-2025-a-la-lfpiorpi-cambios-clave-y-su-impacto.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica  

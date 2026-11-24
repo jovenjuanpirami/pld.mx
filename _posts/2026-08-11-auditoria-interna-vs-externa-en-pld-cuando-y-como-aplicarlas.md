@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-08-11-auditoria-interna-vs-externa-en-pld-cuando-y-como-aplicarlas.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica

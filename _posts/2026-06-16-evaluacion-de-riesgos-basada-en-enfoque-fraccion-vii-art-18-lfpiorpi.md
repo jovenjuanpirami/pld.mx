@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-06-16-evaluacion-de-riesgos-basada-en-enfoque-fraccion-vii-art-18-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: riesgo
 ---
 
 ## Introducción analítica
@@ -87,12 +88,6 @@ Para cumplir con la fracción VII del Artículo 18 de la LFPIORPI, los sujetos o
 ## Conclusión estratégica
 
 La implementación de una Evaluación Basada en Riesgos documentada no solo es una obligación legal según la LFPIORPI, sino una herramienta esencial para proteger a las entidades y al sistema financiero mexicano contra el lavado de dinero. Los sujetos obligados deben adoptar un enfoque proactivo, utilizando tecnología como Artu para automatizar y optimizar sus procesos de cumplimiento. Un enfoque robusto y bien documentado no solo asegura el cumplimiento, sino que también fortalece la resiliencia de la organización ante el riesgo de PLD/FT.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

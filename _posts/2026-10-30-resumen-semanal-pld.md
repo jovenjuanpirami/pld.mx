@@ -15,6 +15,7 @@ tags:
   - Acuerdo 115/2026
 image: /assets/images/posts/2026-10-30-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 24 al 30 de octubre de 2026 está siendo, sin exageración, la más importante del año para el sistema antilavado mexicano. Mientras escribimos estas líneas, la plenaria del Grupo de Acción Financiera Internacional —o GAFI, conocido internacionalmente como FATF por sus siglas en inglés— se encuentra reunida en París para discutir y votar el resultado de la quinta ronda de evaluación mutua de México; el veredicto se conocerá en los próximos días. Al mismo tiempo, el sector financiero termina de procesar las consecuencias de un hecho sin precedentes: CIBanco inició formalmente su proceso de liquidación tras la entrada en vigor de las medidas del Departamento del Tesoro de los Estados Unidos el pasado 20 de octubre. En paralelo, la Unidad de Inteligencia Financiera —o UIF— presentó ante la Organización de los Estados Americanos los avances de México en la detección de flujos ilícitos vinculados al crimen organizado transnacional, y el reloj del Acuerdo 115/2026 avanza: al cierre de esta semana, quedan exactamente 31 días para que la mayor parte de las nuevas Reglas de Carácter General de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita sean exigibles. Pasemos a examinar cada uno de estos ejes.

@@ -18,7 +18,8 @@ que promete al cliente que nada sale de su navegador).
 </script>
 <!-- End Google Tag Manager -->
 {% endif %}
-{% if site.google_analytics and site.google_analytics != "" %}
+{% comment %}GA4 directo solo si NO hay Tag Manager: con GTM, google_analytics queda como referencia y no se carga dos veces.{% endcomment %}
+{% if site.google_analytics and site.google_analytics != "" %}{% unless site.google_tag_manager and site.google_tag_manager != "" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -26,7 +27,7 @@ que promete al cliente que nada sale de su navegador).
   gtag('js', new Date());
   gtag('config', '{{ site.google_analytics }}', { anonymize_ip: true });
 </script>
-{% endif %}
+{% endunless %}{% endif %}
 {% if site.meta_pixel and site.meta_pixel != "" %}
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');

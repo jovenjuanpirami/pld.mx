@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-10-04-regulacion-de-criptomonedas-en-mexico-desafios-y-obligaciones.svg
 author: Equipo PLD.mx
+artu_tema: activos-virtuales
 ---
 
 ## Introducción analítica

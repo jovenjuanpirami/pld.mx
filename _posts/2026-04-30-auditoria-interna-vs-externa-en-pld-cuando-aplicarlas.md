@@ -13,6 +13,9 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-04-30-auditoria-interna-vs-externa-en-pld-cuando-aplicarlas.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
+redirect_from:
+  - /cumplimiento/2026/04/30/auditoria-interna-vs-externa-pld-cuando-aplicarlas/
 ---
 
 ## Introducción analítica
@@ -33,10 +36,10 @@ Además, el artículo 18, fracción IV, exige la conservación de documentos dur
 
 ## Análisis práctico
 
-Implementar una auditoría interna o externa en el contexto de PLD requiere un enfoque sistemático que considere la estructura y necesidades específicas de la organización. Un banco con un volumen de transacciones mensuales de $50 millones MXN, por ejemplo, podría optar por una auditoría externa para garantizar la objetividad de los resultados y cumplir con los requisitos normativos de la CNBV y la UIF.
+Implementar una auditoría interna o externa en el contexto de PLD requiere un enfoque sistemático que considere la estructura y necesidades específicas de la organización. Un banco con un volumen de transacciones mensuales de $50 millones MXN, por ejemplo, podría optar por una [auditoría externa](https://artu.ai/articles/auditoria-interna-vs-externa-pld-cuando-aplica-cada-una/?utm_source=pldmx&utm_medium=referral&utm_campaign=auditoria-interna-vs-externa-en-pld-cuando-aplicarlas) para garantizar la objetividad de los resultados y cumplir con los requisitos normativos de la CNBV y la UIF.
 
 ### Pasos para la implementación de una auditoría interna:
-1. **Definición del alcance y objetivos:** Identificar las áreas de riesgo más relevantes basándose en la matriz de riesgo de la organización.
+1. **Definición del alcance y objetivos:** Identificar las áreas de riesgo más relevantes basándose en la [matriz de riesgo](https://artu.ai/calculadora-de-riesgo/?utm_source=pldmx&utm_medium=referral&utm_campaign=auditoria-interna-vs-externa-en-pld-cuando-aplicarlas) de la organización.
 2. **Asignación de recursos:** Designar personal capacitado en PLD y asegurar que cuenten con acceso a la documentación necesaria.
 3. **Ejecución:** Realizar revisiones periódicas de los controles internos y procesos de DDC, así como de los registros de avisos de actividad vulnerable.
 4. **Informe de hallazgos:** Documentar las deficiencias encontradas y proponer mejoras.

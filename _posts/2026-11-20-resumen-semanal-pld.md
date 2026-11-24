@@ -15,6 +15,7 @@ tags:
   - INE
 image: /assets/images/posts/2026-11-20-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 14 al 20 de noviembre de 2026 concentró desarrollos de alto impacto en el ecosistema antilavado de México y en su relación con los estándares internacionales: el país se acerca al momento más importante del año en materia de evaluación externa, la Unidad de Inteligencia Financiera, o UIF, continuó ejerciendo su facultad de bloqueo de cuentas con nuevos acuerdos de alto perfil, el Departamento de Estado de los Estados Unidos elevó la presión financiera contra los cárteles con una millonaria oferta de recompensa, y múltiples casos judiciales confirmaron que el lavado de dinero con criptomonedas es hoy una de las rutas más documentadas de blanqueo del narcotráfico mexicano. A continuación presentamos los detalles de cada uno de estos desarrollos.

@@ -13,9 +13,8 @@ tags:
   - México
 image: /assets/images/posts/2026-09-08-impacto-de-la-reforma-2025-en-actividades-vulnerables-de-pld.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
-
-# Impacto de la Reforma 2025 en Actividades Vulnerables de PLD
 
 ## Introducción analítica
 

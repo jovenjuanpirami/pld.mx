@@ -13,13 +13,14 @@ tags:
   - compliance
 image: /assets/images/posts/2026-09-18-pld-para-agentes-aduanales-obligaciones-bajo-el-art-17.svg
 author: Equipo PLD.mx
+artu_tema: aduanas
 ---
 
 ## Introducción analítica
 
 El comercio exterior es un pilar fundamental de la economía mexicana, representando un volumen de aproximadamente 1.5 billones de dólares en 2025, según datos de la Secretaría de Economía. Dentro de este contexto, los agentes y agencias aduanales desempeñan un rol crucial, facilitando la entrada y salida de mercancías y cumpliendo con las regulaciones aduaneras. Sin embargo, debido al volumen y valor de las operaciones que gestionan, también se convierten en puntos críticos para la prevención del lavado de dinero (PLD). La Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, establece obligaciones específicas para este sector bajo la fracción XIV del Artículo 17.
 
-La reforma sustantiva más reciente de la LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido cambios significativos en las obligaciones de los sujetos obligados, incluyendo a los agentes aduanales. La regulación busca fortalecer el marco de prevención de lavado de dinero a través de medidas más estrictas y un mejor control de las actividades vulnerables.
+La reforma sustantiva más reciente de la LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido cambios significativos en las obligaciones de los sujetos obligados, incluyendo a los [agentes aduanales](https://artu.ai/articles/guia-sistema-automatizado-pld-servicios-comercio-exterior-agentes-aduanales/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-agentes-aduanales-obligaciones-bajo-el-art-17). La regulación busca fortalecer el marco de prevención de lavado de dinero a través de medidas más estrictas y un mejor control de las actividades vulnerables.
 
 En este artículo, analizaremos en profundidad el marco legal específico para agentes y agencias aduanales, su aplicación práctica, riesgos asociados y mejores prácticas para el cumplimiento efectivo. Con más de 8,500 sujetos obligados registrados ante el Servicio de Administración Tributaria (SAT), la industria enfrenta un desafío creciente para mantenerse alineada con las nuevas exigencias regulatorias.
 
@@ -41,7 +42,7 @@ Por ejemplo, supongamos que una agencia aduanal gestiona la importación de merc
 
 1. **Identificación de operaciones:** Monitorear todas las transacciones para identificar aquellas que superen el umbral de 8,025 UMA.
 2. **Verificación de beneficiarios controladores:** Asegurar que se cuenta con la información suficiente para identificar a los beneficiarios controladores de cada operación.
-3. **Documentación:** Mantener registros detallados de cada operación, incluyendo documentos de soporte, durante al menos 10 años, según lo estipulado en el Artículo 18, fracción IV.
+3. **Documentación:** Mantener registros detallados de cada operación, incluyendo documentos de soporte, durante al menos [10 años](https://artu.ai/articles/de-5-a-10-anos-resguardo-de-evidencia-y-expediente-digital-auditable-en-compliance-pld-(lfpiorpi-2025)-y-como-lograrlo-con-software-pld/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-agentes-aduanales-obligaciones-bajo-el-art-17), según lo estipulado en el Artículo 18, fracción IV.
 4. **Presentación de avisos:** Utilizar los sistemas electrónicos del SAT para informar las operaciones que superan el umbral dentro del plazo establecido.
 
 ## Riesgos y consecuencias

@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-20-calendario-de-cumplimiento-pld-fechas-clave-para-el-17.svg
 author: Equipo PLD.mx
 topic: "Calendario mensual de cumplimiento PLD: fechas y tareas para no fallar el día 17"
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

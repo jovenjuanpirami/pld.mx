@@ -13,6 +13,7 @@ tags:
   - Regulación
 image: /assets/images/posts/2026-08-31-compliance-360-impulsa-la-integridad-de-tu-empresa-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

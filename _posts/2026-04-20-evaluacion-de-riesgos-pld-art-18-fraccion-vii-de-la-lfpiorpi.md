@@ -13,6 +13,7 @@ tags:
 image: /assets/images/posts/2026-04-20-evaluacion-de-riesgos-pld-art-18-fraccion-vii-de-la-lfpiorpi.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-27
+artu_tema: riesgo
 ---
 
 ## Introducción analítica
@@ -98,12 +99,6 @@ Una vez entendida esta comparación, podemos concluir con una recomendación est
 La implementación efectiva de la Evaluación Basada en Riesgos bajo el Artículo 18 fracción VII es crucial para los sujetos obligados en México. Dado el rigor y las consecuencias del incumplimiento, es vital que las organizaciones inviertan en tecnología y capacitación para cumplir con estos nuevos requerimientos. Herramientas como Artu pueden ser un recurso valioso para automatizar y eficientar este proceso, permitiendo a las organizaciones no solo cumplir con la normativa, sino también fortalecer su posición en el mercado al demostrar un compromiso con la transparencia y la legalidad.
 
 Finalmente, es recomendable que las organizaciones revisen y actualicen continuamente sus matrices de riesgo, asegurando que estas reflejen los cambios en el entorno operativo y regulatorio, y que estén alineadas con las mejores prácticas internacionales.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

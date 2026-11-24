@@ -13,9 +13,8 @@ tags:
 image: /assets/images/posts/2026-04-16-automatizacion-del-cumplimiento-pld-con-tecnologia-e-ia-en-mexico.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-24
+artu_tema: software
 ---
-
-# Automatización del Cumplimiento PLD con Tecnología e IA
 
 ## Introducción analítica
 
@@ -40,7 +39,7 @@ Un ejemplo ilustrativo es el de una inmobiliaria que vende 12 unidades por 2.8 m
 La implementación de automatización generalmente sigue estos pasos:
 
 1. **Evaluación de Necesidades**: Identificar las áreas de cumplimiento que pueden beneficiarse de la automatización, considerando los costos, riesgos y beneficios.
-2. **Selección de Tecnología**: Elegir una solución tecnológica que se alinee con las necesidades específicas de la entidad. Artu, por ejemplo, ofrece módulos de KYC/KYB, monitoreo transaccional, reportes XML al SAT, y más, con una implementación típica de cuatro semanas.
+2. **Selección de Tecnología**: Elegir una solución tecnológica que se alinee con las necesidades específicas de la entidad. Artu, por ejemplo, ofrece módulos de KYC/KYB, monitoreo transaccional, reportes XML al SAT, y más, con una implementación de 24 horas cuando los datos se cargan por Excel.
 3. **Integración y Capacitación**: Integrar la tecnología en los sistemas existentes y capacitar al personal para maximizar el uso de la nueva herramienta.
 4. **Monitoreo y Evaluación Continua**: Evaluar regularmente la efectividad del sistema automatizado y hacer ajustes según sea necesario para asegurar el cumplimiento continuo.
 
@@ -87,7 +86,7 @@ Para los sujetos obligados, implementar una solución como Artu puede ser el dif
 
 2. **¿La implementación de tecnología automatizada requiere cambios en la estructura organizacional?**
    
-   No necesariamente, pero sí puede implicar ajustes en procesos internos y capacitación del personal para asegurar que todos los empleados comprendan y sepan utilizar las nuevas herramientas. La implementación de tecnología como Artu, que es modular y con un tiempo de implementación de cuatro semanas, puede integrarse de manera fluida con los procesos existentes.
+   No necesariamente, pero sí puede implicar ajustes en procesos internos y capacitación del personal para asegurar que todos los empleados comprendan y sepan utilizar las nuevas herramientas. La implementación de tecnología como Artu, que es modular y se implementa en 24 horas con carga por Excel, puede integrarse de manera fluida con los procesos existentes.
 
 3. **¿Qué ventajas específicas ofrece Artu para el cumplimiento PLD?**
    
@@ -101,8 +100,3 @@ Para los sujetos obligados, implementar una solución como Artu puede ser el dif
    
    Los principales desafíos incluyen la integración de nuevas tecnologías con sistemas existentes, la capacitación del personal y la adaptación a cambios regulatorios frecuentes. Además, las empresas deben asegurar que sus sistemas automatizados estén continuamente actualizados para manejar nuevas amenazas y cumplir con las normativas vigentes. La elección de un proveedor confiable, como Artu, puede ayudar a mitigar estos desafíos y facilitar una transición más suave hacia un cumplimiento automatizado.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

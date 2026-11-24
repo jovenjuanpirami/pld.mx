@@ -13,6 +13,7 @@ tags:
   - artículo 20
 image: /assets/images/posts/2026-09-24-reformas-del-art-20-de-la-lfpiorpi-y-su-impacto-en-el-cumplimiento.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-15-pld-en-juegos-con-apuesta-obligaciones-y-retos-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: juegos
 ---
 
 ## Introducción analítica

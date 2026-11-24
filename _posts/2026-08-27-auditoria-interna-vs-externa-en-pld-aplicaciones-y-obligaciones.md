@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-27-auditoria-interna-vs-externa-en-pld-aplicaciones-y-obligaciones.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica
@@ -122,8 +123,3 @@ No, las auditorías internas y externas son complementarias, no sustitutas. Mien
 
 ---
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

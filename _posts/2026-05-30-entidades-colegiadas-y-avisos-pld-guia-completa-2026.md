@@ -13,6 +13,7 @@ tags:
   - avisos
 image: /assets/images/posts/2026-05-30-entidades-colegiadas-y-avisos-pld-guia-completa-2026.svg
 author: Equipo PLD.mx
+artu_tema: avisos
 ---
 
 ## Introducción analítica

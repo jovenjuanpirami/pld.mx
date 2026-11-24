@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "La UIF en México: funciones, facultades y rol en PLD 2026"
-description: "Explora el papel crítico de la UIF en la prevención del lavado de dinero en México, incluyendo cambios regulatorios y mejores prácticas."
+title: "Qué es la UIF en México: marco jurídico y funciones"
+description: "Qué es la Unidad de Inteligencia Financiera (UIF), en qué normas se basa, qué funciones y facultades tiene en PLD y cómo se relaciona con el SAT."
 date: 2026-07-06
 categories:
   - regulacion
@@ -13,7 +13,23 @@ tags:
   - México
 image: /assets/images/posts/2026-07-06-la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
+last_modified_at: 2026-11-23
 ---
+
+**Respuesta corta:** la Unidad de Inteligencia Financiera (UIF) es una unidad administrativa de la Secretaría de Hacienda y Crédito Público que recibe y analiza los reportes y avisos de prevención de lavado de dinero, requiere información, presenta denuncias ante el Ministerio Público e integra la Lista de Personas Bloqueadas. Sus atribuciones están en el artículo 10 del Reglamento Interior de la Secretaría de Hacienda.
+
+## Marco jurídico de la UIF
+
+| Norma | Qué establece sobre la UIF |
+|---|---|
+| Reglamento Interior de la SHCP, artículo 10 (DOF 6 de marzo de 2023, reformado el 27 de mayo de 2025) | Sus atribuciones: recibir y analizar reportes y avisos, requerir información, denunciar ante el Ministerio Público, integrar la Lista de Personas Bloqueadas y la Evaluación Nacional de Riesgos, entre otras. Los artículos 10 A a 10 O regulan sus direcciones generales |
+| LFPIORPI, artículos 5 y 6 | Otorgan las facultades de aplicación de la ley a la Secretaría de Hacienda, de la que la UIF forma parte |
+| Reglamento de la LFPIORPI, artículos 2, 3 y 4 | Define a la UIF y le da atribuciones para interpretar, requerir información y emitir formatos; el SAT lleva el padrón, recibe los avisos y realiza las visitas |
+| Reglas de Carácter General de la LFPIORPI, artículo 1 | Los avisos de actividades vulnerables se presentan a la UIF por conducto del SAT |
+| Ley de Instituciones de Crédito, artículo 115 | Las entidades financieras reportan a la Secretaría de Hacienda por conducto de su supervisor; base de la lista de personas bloqueadas |
+| Código Fiscal de la Federación, artículos 69 y 32-B Ter | El secreto fiscal no aplica a investigaciones de lavado; la UIF coadyuva con el SAT en la información de beneficiario controlador |
+| Código Penal Federal, artículo 400 Bis | Para perseguir el lavado de dinero se requiere la denuncia de la Secretaría de Hacienda |
 
 ## Introducción analítica  
 La Unidad de Inteligencia Financiera (UIF) de México ha cobrado una importancia creciente en el ecosistema de prevención de lavado de dinero (PLD) y financiamiento al terrorismo. Desde la reforma sustantiva a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, la UIF ha reforzado su papel en la supervisión y regulación de actividades vulnerables. En la actualidad, México enfrenta un contexto complejo, siendo el segundo destino global de dinero de ciberdelitos, con 1,782 operaciones reportadas, según el FBI Internet Crime Report 2025. Además, la UIF ha inmovilizado aproximadamente 5,000 millones de pesos en la administración actual (2024-2026), una cifra que subraya su eficacia y relevancia en el combate financiero ilícito.
@@ -23,11 +39,11 @@ Con la integración de nuevas obligaciones en la LFPIORPI, como la Evaluación B
 Pasemos ahora a desglosar el marco legal que sustenta las actividades de la UIF, así como las implicaciones prácticas y los riesgos asociados al incumplimiento de la normativa vigente.
 
 ## Marco legal detallado  
-La LFPIORPI, desde su publicación en 2012 y con la última reforma en 2025, establece un marco legal detallado para la identificación y prevención de operaciones con recursos de procedencia ilícita. La UIF, bajo la Secretaría de Hacienda y Crédito Público (SHCP), funge como el ente central encargado de supervisar y coordinar la implementación de estas normativas. Según el Artículo 17, las actividades vulnerables se dividen en 16 fracciones, cada una con umbrales específicos expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA).
+La LFPIORPI, desde su publicación en 2012 y con la última reforma en 2025, establece un marco legal detallado para la identificación y prevención de operaciones con recursos de procedencia ilícita. La UIF, bajo la Secretaría de Hacienda y Crédito Público (SHCP), funge como el ente central encargado de supervisar y coordinar la implementación de estas normativas. Según el Artículo 17, las actividades vulnerables se dividen en 16 fracciones, cada una con umbrales específicos expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA). Relacionado: [Guía completa de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026).
 
 Por ejemplo, una fracción relevante es la V Bis, que incluye el desarrollo inmobiliario, donde la recepción de recursos para construcción es considerada una actividad vulnerable. Aquí, los umbrales están definidos para operaciones que superen las 8,025 UMA, lo que equivale a aproximadamente novecientos mil pesos mexicanos. La reforma más reciente también incrementó las obligaciones de debida diligencia para los sujetos obligados, como se indica en el Artículo 18, que ahora contiene 11 fracciones. Estas incluyen la EBR documentada (Fracción VII), el Manual de Políticas Internas PLD/FT (Fracción VIII) y auditorías PLD (Fracción XI).
 
-El Capítulo IV Bis, que abarca los Artículos 33 Bis, Ter y Quáter, se centra en el régimen del Beneficiario Controlador, definiendo a estos individuos como aquellos que ejercen control efectivo directo o indirecto sobre al menos el 25% del capital o de los derechos de voto de una entidad. Esto amplía significativamente el alcance de la identificación y reporte de información sobre beneficiarios finales, alineando la normativa mexicana con las mejores prácticas internacionales.
+El Capítulo IV Bis, que abarca los Artículos 33 Bis, Ter y Quáter, se centra en el régimen del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026), definiendo a estos individuos como aquellos que ejercen control efectivo directo o indirecto sobre al menos el 25% del capital o de los derechos de voto de una entidad. Esto amplía significativamente el alcance de la identificación y reporte de información sobre beneficiarios finales, alineando la normativa mexicana con las mejores prácticas internacionales.
 
 ## Análisis práctico  
 Implementar estas medidas en la práctica requiere un enfoque meticuloso por parte de los sujetos obligados. Consideremos el caso de una notaría pública que autoriza la compraventa de propiedades. Si una transacción supera los 8,025 UMA, el notario debe presentar un aviso de actividad vulnerable dentro de los primeros 17 días del mes siguiente, según la normativa vigente.

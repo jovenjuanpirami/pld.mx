@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-23-designacion-del-responsable-de-cumplimiento-ante-el-sat-en-2026.svg
 author: Equipo PLD.mx
 topic: "Cómo designar al responsable encargado de cumplimiento ante el SAT"
+artu_tema: alta-padron
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - Regulación
 image: /assets/images/posts/2026-05-18-marco-regulatorio-en-mexico-contra-el-financiamiento-al-terrorismo.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica
@@ -87,8 +88,3 @@ Dado que el financiamiento al terrorismo es una amenaza dinámica en constante e
 5. **¿Cuál es el papel de la capacitación en la prevención del financiamiento al terrorismo?**
    La capacitación es fundamental para la prevención del financiamiento al terrorismo, ya que asegura que el personal esté al tanto de las últimas tendencias y metodologías de financiamiento ilícito. Los sujetos obligados pueden fortalecer su capacidad de detección y respuesta implementando programas de capacitación continua, más allá de la obligación anual establecida por la LFPIORPI.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

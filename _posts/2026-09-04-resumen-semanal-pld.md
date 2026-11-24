@@ -15,6 +15,7 @@ tags:
   - Pemex
 image: /assets/images/posts/2026-09-04-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 29 de agosto al 4 de septiembre de 2026 trajo consigo una cadena de desarrollos que revelan el estado actual del sistema antilavado mexicano desde varios ángulos a la vez. La Unidad de Inteligencia Financiera fortaleció su capacidad operativa con nuevas cifras históricas de cuentas bloqueadas y un convenio inédito con Petróleos Mexicanos. La Secretaría de Gobernación impulsó una reforma legislativa para cerrar brechas antilavado en el sector de casinos. Y en el plano regulatorio, el Acuerdo 115/2026 —la reforma más ambiciosa a las Reglas de Carácter General de la ley antilavado en más de una década— se acerca a su primer umbral de entrada en vigor. Todo esto ocurre mientras México aguarda los resultados de la evaluación del Grupo de Acción Financiera Internacional, que se esperan para octubre. Pasemos a detallar cada uno de estos ejes.

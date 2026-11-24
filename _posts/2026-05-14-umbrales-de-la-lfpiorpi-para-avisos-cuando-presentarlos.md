@@ -13,6 +13,7 @@ tags:
   - Avisos
 image: /assets/images/posts/2026-05-14-umbrales-de-la-lfpiorpi-para-avisos-cuando-presentarlos.svg
 author: Equipo PLD.mx
+artu_tema: umbrales
 ---
 
 ## Introducción analítica
@@ -25,7 +26,7 @@ En este artículo, exploraremos detalladamente cómo estos umbrales afectan la o
 
 ## Marco legal detallado
 
-La LFPIORPI, en su Artículo 17, establece 16 fracciones de actividades consideradas vulnerables, cada una con sus respectivos umbrales en UMA para la presentación de avisos ante la Unidad de Inteligencia Financiera (UIF). Por ejemplo, la fracción I del Artículo 17 regula las actividades de juegos con apuestas y sorteos, donde el umbral se ha establecido en 645 veces la UMA, es decir, $72,971.30 MXN.
+La LFPIORPI, en su Artículo 17, establece 16 fracciones de actividades consideradas vulnerables, cada una con sus respectivos [umbrales en UMA](https://artu.ai/articles/umbrales-uma-2026-valor-diario-117-mxn-actualizado/?utm_source=pldmx&utm_medium=referral&utm_campaign=umbrales-de-la-lfpiorpi-para-avisos-cuando-presentarlos) para la presentación de avisos ante la Unidad de Inteligencia Financiera (UIF). Por ejemplo, la fracción I del Artículo 17 regula las actividades de juegos con apuestas y sorteos, donde el umbral se ha establecido en 645 veces la UMA, es decir, $72,971.30 MXN.
 
 Otra actividad vulnerable notable es la relacionada con el desarrollo inmobiliario, recientemente adicionada en la fracción V Bis. Esta fracción exige la presentación de avisos cuando las operaciones superan las 8,025 UMA, lo que equivale aproximadamente a $908,098.50 MXN para 2026. Estos umbrales son esenciales para que los sujetos obligados determinen cuándo deben reportar operaciones sospechosas a la UIF.
 
@@ -35,7 +36,7 @@ Además, el Artículo 18, que detalla las obligaciones de los sujetos, ahora inc
 
 La implementación de estos umbrales en la práctica requiere una comprensión meticulosa y la integración de procesos claros dentro de las operaciones diarias de los sujetos obligados. Por ejemplo, una empresa inmobiliaria que desarrolla un conjunto habitacional, vendiendo cada unidad en $2.8 millones de pesos, estaría obligada a presentar un aviso si la operación individual o acumulada supera las 8,025 UMA.
 
-Para los casinos, otra entidad comúnmente sujeta a la regulación de la LFPIORPI, el umbral mencionado anteriormente implica que cualquier cliente que coloque apuestas o gane premios que superen los $72,971.30 MXN debe ser reportado. Esto se traduce en la necesidad de sistemas automatizados de monitoreo que permitan identificar estas transacciones en tiempo real, cumpliendo así con la fracción X del Artículo 18, reformada para incluir la obligación de contar con mecanismos automatizados de monitoreo.
+Para los casinos, otra entidad comúnmente sujeta a la regulación de la LFPIORPI, el umbral mencionado anteriormente implica que cualquier cliente que coloque apuestas o gane premios que superen los $72,971.30 MXN debe ser reportado. Esto se traduce en la necesidad de sistemas automatizados de monitoreo que permitan identificar estas transacciones en tiempo real, cumpliendo así con la fracción X del Artículo 18, reformada para incluir la obligación de contar con [mecanismos automatizados](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=umbrales-de-la-lfpiorpi-para-avisos-cuando-presentarlos) de monitoreo.
 
 El SAT, a través de la Administración General de Auditoría de Comercio Exterior (AGACE), coordina la supervisión de estas actividades, verificando no solo el cumplimiento con los umbrales establecidos, sino también la debida diligencia del cliente (DDC) y la correcta identificación del beneficiario controlador. Este último, definido en la fracción III del Artículo 3, se refiere a cualquier persona con control efectivo directo o indirecto del 25% del capital.
 

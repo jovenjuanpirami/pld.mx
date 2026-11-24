@@ -13,11 +13,12 @@ tags:
   - regulación
 image: /assets/images/posts/2026-07-24-nuevas-obligaciones-para-entidades-publicas-y-peps-en-pld.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
 ## Introducción Analítica
 
-En el cambiante escenario de la prevención de lavado de dinero (PLD) en México, las recientes reformas a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) han introducido nuevas obligaciones para entidades públicas y Personas Políticamente Expuestas (PEPs). Publicadas en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, estas modificaciones son parte de los esfuerzos del gobierno mexicano para alinearse con los estándares internacionales, en particular con las recomendaciones del Grupo de Acción Financiera Internacional (GAFI).
+En el cambiante escenario de la prevención de lavado de dinero (PLD) en México, las recientes reformas a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) han introducido nuevas obligaciones para entidades públicas y [Personas Políticamente Expuestas](https://artu.ai/articles/peps-(personas-politicamente-expuestas)-en-mexico-quien-es-pep-que-pasa-con-familiares-y-relacionados-y-cuando-aplicar-debida-diligencia-reforzada/?utm_source=pldmx&utm_medium=referral&utm_campaign=nuevas-obligaciones-para-entidades-publicas-y-peps-en-pld) (PEPs). Publicadas en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, estas modificaciones son parte de los esfuerzos del gobierno mexicano para alinearse con los estándares internacionales, en particular con las recomendaciones del Grupo de Acción Financiera Internacional (GAFI).
 
 La creciente preocupación por el uso indebido de recursos por parte de PEPs y entidades públicas ha llevado a una intensificación de las regulaciones. Según la Unidad de Inteligencia Financiera (UIF), en los últimos dos años se han detectado aproximadamente 1,782 operaciones sospechosas vinculadas a PEPs, lo que representa un aumento significativo en comparación con períodos anteriores. Este incremento subraya la necesidad de un marco regulatorio más robusto para controlar y mitigar los riesgos asociados.
 
@@ -31,7 +32,7 @@ El artículo 51 Ter, por otro lado, impone a las entidades públicas la obligaci
 
 Un aspecto crítico de estas obligaciones es el umbral para la identificación de operaciones sospechosas, que se ha establecido en 1,500 veces el valor diario de la Unidad de Medida y Actualización (UMA), es decir, aproximadamente 169,710 pesos mexicanos en 2026. Este enfoque basado en umbrales busca lograr un balance entre el control efectivo y la viabilidad operativa para las entidades obligadas.
 
-Las entidades públicas deben implementar mecanismos automatizados de monitoreo, como lo requiere el artículo 18, fracción X, para asegurar un seguimiento constante de las actividades de las PEPs. Estos mecanismos deben estar diseñados para detectar patrones inusuales que puedan indicar el lavado de dinero.
+Las entidades públicas deben implementar [mecanismos automatizados](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=nuevas-obligaciones-para-entidades-publicas-y-peps-en-pld) de monitoreo, como lo requiere el artículo 18, fracción X, para asegurar un seguimiento constante de las actividades de las PEPs. Estos mecanismos deben estar diseñados para detectar patrones inusuales que puedan indicar el lavado de dinero.
 
 ## Análisis Práctico
 

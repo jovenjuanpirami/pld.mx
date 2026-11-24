@@ -13,6 +13,7 @@ tags:
   - Compliance
 image: /assets/images/posts/2026-09-11-evaluacion-basada-en-riesgos-obligacion-regulada-por-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: riesgo
 ---
 
 ## Introducción analítica
@@ -118,8 +119,3 @@ La capacitación es fundamental para asegurar que todos los empleados comprendan
 **¿Cómo puede la tecnología facilitar el cumplimiento de la EBR?**
 La tecnología puede ser una herramienta poderosa para facilitar el cumplimiento de la EBR al automatizar procesos complejos y proporcionar análisis en tiempo real de datos transaccionales. Soluciones como Artu utilizan inteligencia artificial para mejorar la precisión en la detección de patrones de riesgo y generar avisos automáticos al SAT. Esto no solo reduce la carga operativa, sino que también aumenta la eficacia de los controles de PLD, permitiendo a las organizaciones reaccionar rápidamente ante cualquier indicio de actividad sospechosa.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

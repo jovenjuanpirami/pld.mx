@@ -13,6 +13,7 @@ tags:
   - actividades vulnerables
 image: /assets/images/posts/2026-06-28-pld-para-agentes-aduanales-cumplimiento-bajo-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: aduanas
 ---
 
 ## Introducción analítica

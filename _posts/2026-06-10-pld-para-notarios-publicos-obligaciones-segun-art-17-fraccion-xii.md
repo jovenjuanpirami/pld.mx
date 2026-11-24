@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-06-10-pld-para-notarios-publicos-obligaciones-segun-art-17-fraccion-xii.svg
 author: Equipo PLD.mx
+artu_tema: notarios
 ---
 
 ## Introducción analítica

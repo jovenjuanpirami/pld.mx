@@ -13,6 +13,7 @@ tags:
   - sujeto obligado
 image: /assets/images/posts/2026-05-15-impacto-de-la-reforma-2025-en-actividades-vulnerables-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -103,8 +104,3 @@ Recomendamos a las empresas revisar y actualizar sus procedimientos internos de 
 5. **¿Cómo puede Artu facilitar el cumplimiento de la LFPIORPI?**
    Artu ofrece un sistema de compliance 360 que cubre todas las obligaciones del Artículo 18 de la LFPIORPI. Con módulos para KYC, monitoreo transaccional, y generación de reportes XML, Artu permite a los sujetos obligados automatizar sus procesos de cumplimiento, mejorando la eficiencia y reduciendo el riesgo de sanciones.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

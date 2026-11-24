@@ -13,6 +13,7 @@ tags:
   - tecnología
 image: /assets/images/posts/2026-07-18-regtech-en-mexico-impulsando-la-prevencion-de-lavado-de-dinero.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica
@@ -99,10 +100,5 @@ Las sanciones por incumplimiento de la LFPIORPI pueden incluir multas que van de
 Las auditorías internas de PLD deben evaluar la efectividad de los controles implementados para detectar y prevenir el lavado de dinero. Esto incluye revisar la documentación de la Evaluación Basada en Riesgos, verificar la capacitación del personal y evaluar los sistemas de monitoreo transaccional. La auditoría debe ser exhaustiva y realizada periódicamente para asegurar el cumplimiento continuo con la LFPIORPI.
 
 **¿Cómo puede Artu ayudar a cumplir con la LFPIORPI?**
-Artu ofrece una solución RegTech integral que ayuda a los sujetos obligados a automatizar sus obligaciones de PLD, desde la identificación del cliente hasta la presentación de avisos al SAT. Sus módulos incluyen KYC/KYB, monitoreo transaccional y reportes automatizados, lo que facilita el cumplimiento de cada una de las fracciones del Artículo 18 de la LFPIORPI. Con una implementación rápida de cuatro semanas, Artu permite a las empresas adaptarse de manera eficiente a las regulaciones.
+Artu ofrece una solución RegTech integral que ayuda a los sujetos obligados a automatizar sus obligaciones de PLD, desde la identificación del cliente hasta la presentación de avisos al SAT. Sus módulos incluyen KYC/KYB, monitoreo transaccional y reportes automatizados, lo que facilita el cumplimiento de cada una de las fracciones del Artículo 18 de la LFPIORPI. Con una implementación de 24 horas, Artu permite a las empresas adaptarse de manera eficiente a las regulaciones.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

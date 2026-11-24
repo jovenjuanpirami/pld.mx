@@ -13,6 +13,7 @@ tags:
   - KYC
 image: /assets/images/posts/2026-07-21-verificacion-digital-de-identidad-en-pld-claves-para-el-cumplimiento.svg
 author: Equipo PLD.mx
+artu_tema: kyc
 ---
 
 ## Introducción analítica
@@ -93,12 +94,6 @@ Esta tabla muestra los umbrales para diferentes actividades vulnerables según l
 La verificación digital de identidad es más que una mera herramienta de cumplimiento; es una inversión en la capacidad de una organización para operar con seguridad y eficiencia en el entorno financiero contemporáneo. Dada la creciente sofisticación de las técnicas de lavado de dinero y financiamiento del terrorismo, los sujetos obligados deben adoptar tecnologías avanzadas que no solo cumplan con las normativas vigentes, sino que también anticipen futuros requerimientos regulatorios.
 
 Implementar un sistema de verificación de identidad robusto y automatizado, como el ofrecido por Artu, puede transformar radicalmente la capacidad de una entidad para cumplir con las obligaciones del artículo 18 de la LFPIORPI, desde la documentación de la debida diligencia del cliente hasta la presentación precisa y oportuna de avisos al SAT.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

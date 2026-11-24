@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-04-pld-para-notarios-publicos-obligaciones-bajo-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: notarios
 ---
 
 ## Introducción analítica  
@@ -23,7 +24,7 @@ La reciente reforma del 16 de julio de 2025 al Diario Oficial de la Federación 
 El sector inmobiliario en México, donde los notarios desempeñan un papel esencial, representa una parte significativa de la economía nacional, con un crecimiento estimado del 7% en 2025. Esta expansión destaca la necesidad de robustecer las prácticas de debida diligencia del cliente (DDC) y monitoreo por parte de los notarios, quienes deben adaptarse a las regulaciones actualizadas para evitar sanciones y contribuir eficazmente a la lucha contra el lavado de dinero.  
   
 ## Marco legal detallado  
-La LFPIORPI establece un marco regulatorio detallado para combatir el lavado de dinero en México, designando actividades vulnerables específicas que deben ser monitoreadas y reportadas por los sujetos obligados. El Artículo 17 de la LFPIORPI enumera 16 fracciones de actividades vulnerables, siendo la fracción XII la que aplica directamente a los notarios públicos.  
+La LFPIORPI establece un marco regulatorio detallado para combatir el lavado de dinero en México, designando actividades vulnerables específicas que deben ser monitoreadas y reportadas por los sujetos obligados. El Artículo 17 de la LFPIORPI enumera 16 fracciones de actividades vulnerables, siendo la fracción XII la que aplica directamente a los [notarios públicos](https://artu.ai/articles/guia-sistema-automatizado-pld-fe-publica-notarios-corredores/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-notarios-publicos-obligaciones-bajo-la-lfpiorpi).  
   
 Según esta disposición, los notarios están obligados a reportar cualquier operación inmobiliaria que exceda las ocho mil veinte UMA, que para 2026, al valor de $113.14 MXN por UMA, equivale a aproximadamente novecientos mil pesos mexicanos. Este umbral se aplica a todas las transacciones que los notarios autoricen, incluyendo compraventas, donaciones y fideicomisos que involucran bienes raíces.  
   
@@ -34,7 +35,7 @@ Implementar las obligaciones de la LFPIORPI en la práctica requiere que los not
   
 ### Procedimiento paso a paso:  
 1. **Identificación de Actividad Vulnerable:** Verificar si la transacción supera el umbral de ocho mil veinte UMA.  
-2. **Debida Diligencia del Cliente (DDC):** Recopilar y verificar la información del cliente, incluyendo identificación oficial, comprobante de domicilio y, si corresponde, la identificación del beneficiario controlador.  
+2. **Debida Diligencia del Cliente (DDC):** Recopilar y verificar la información del cliente, incluyendo identificación oficial, comprobante de domicilio y, si corresponde, la identificación del [beneficiario controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-notarios-publicos-obligaciones-bajo-la-lfpiorpi).  
 3. **Evaluación Basada en Riesgos (EBR):** Documentar los riesgos asociados con la transacción, considerando factores como la nacionalidad del cliente, el origen de los fondos y la naturaleza de la transacción.  
 4. **Registro y Reporte:** Completar el aviso de actividad vulnerable en el sistema electrónico del SAT, asegurando la precisión y completitud de la información.  
 5. **Conservación de Documentos:** Mantener registros de la transacción y los documentos relacionados durante al menos diez años, conforme al Artículo 18, fracción IV de la LFPIORPI.  

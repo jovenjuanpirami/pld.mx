@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-08-16-automatizacion-de-avisos-xml-en-actividades-vulnerables-implicaciones-y-mejores-.svg
 author: Equipo PLD.mx
+artu_tema: avisos
 ---
 
 ## Introducción Analítica

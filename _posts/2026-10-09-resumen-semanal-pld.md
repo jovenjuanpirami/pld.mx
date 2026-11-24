@@ -13,6 +13,7 @@ tags:
   - GAFI
 image: /assets/images/posts/2026-10-09-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La primera semana de octubre de 2026 marcó un momento de alta tensión regulatoria para el ecosistema de prevención de lavado de dinero en México. Tres frentes simultáneos concentraron la atención: la plenaria del Grupo de Acción Financiera Internacional, conocido como GAFI, donde se discuten los resultados de la evaluación mutua a nuestro país; el anuncio oficial de que las certificaciones de la Unidad de Inteligencia Financiera, o UIF, se realizarán en 2027 y no en 2026; y el refuerzo de la cooperación financiera entre México y los Estados Unidos para seguir los flujos de dinero ilícito a ambos lados de la frontera. A estas noticias se suman los bloqueos continuos de cuentas de exfuncionarios de Sinaloa y las recomendaciones de organismos civiles para fortalecer a la UIF. La semana, en síntesis, confirma que el cumplimiento en materia de prevención de lavado de dinero y financiamiento al terrorismo, o PLD y FT, vive su momento de mayor presión institucional en años recientes.

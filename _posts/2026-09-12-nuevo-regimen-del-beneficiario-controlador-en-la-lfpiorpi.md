@@ -13,6 +13,9 @@ tags:
   - México
 image: /assets/images/posts/2026-09-12-nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: beneficiario-controlador
+redirect_from:
+  - /lfpiorpi/2026/09/12/nuevo-regimen-del-beneficiario-controlador-en-lfpiorpi/
 ---
 
 ## Introducción analítica
@@ -21,7 +24,7 @@ La Ley Federal para la Prevención e Identificación de Operaciones con Recursos
 
 ## Marco legal detallado
 
-El Capítulo IV Bis de la LFPIORPI introduce disposiciones específicas sobre el régimen del Beneficiario Controlador. Conforme al Artículo 33 Bis, las entidades deben identificar a los beneficiarios controladores que posean al menos un 25% de capital o derechos de voto. El Artículo 33 Ter estipula la obligación de mantener registros actualizados de los beneficiarios controladores, los cuales deben conservarse durante un periodo mínimo de 10 años, tal como lo establece el Artículo 18, fracción IV. Además, el Artículo 33 Quáter impone la necesidad de remitir información, a solicitud de las autoridades competentes, en un plazo máximo de 5 días hábiles. Estos requerimientos amplían las obligaciones de los sujetos obligados, que ahora deben implementar procedimientos internos para la identificación, verificación y monitoreo continuo de sus beneficiarios controladores.
+El Capítulo IV Bis de la LFPIORPI introduce disposiciones específicas sobre el régimen del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi). Conforme al Artículo 33 Bis, las entidades deben identificar a los beneficiarios controladores que posean al menos un 25% de capital o derechos de voto. El Artículo 33 Ter estipula la obligación de mantener registros actualizados de los beneficiarios controladores, los cuales deben conservarse durante un periodo mínimo de [10 años](https://artu.ai/articles/de-5-a-10-anos-resguardo-de-evidencia-y-expediente-digital-auditable-en-compliance-pld-(lfpiorpi-2025)-y-como-lograrlo-con-software-pld/?utm_source=pldmx&utm_medium=referral&utm_campaign=nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi), tal como lo establece el Artículo 18, fracción IV. Además, el Artículo 33 Quáter impone la necesidad de remitir información, a solicitud de las autoridades competentes, en un plazo máximo de 5 días hábiles. Estos requerimientos amplían las obligaciones de los sujetos obligados, que ahora deben implementar procedimientos internos para la identificación, verificación y monitoreo continuo de sus beneficiarios controladores.
 
 En términos de umbrales, el régimen del Beneficiario Controlador no establece un monto mínimo en UMA para la identificación, sino que se centra en la estructura de propiedad y control. Sin embargo, el incumplimiento de estas obligaciones puede resultar en sanciones significativas, tal como se detalla en el Artículo 54 de la LFPIORPI, donde se contemplan multas que van de 200 a 65,000 UMA, equivalentes aproximadamente a entre 22,628 y 7,354,100 pesos mexicanos, dependiendo de la gravedad de la infracción.
 

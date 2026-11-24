@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-30-regulacion-de-criptomonedas-y-pld-en-mexico-desafios-y-oportunidades.svg
 author: Equipo PLD.mx
+artu_tema: activos-virtuales
 ---
 
 ## Introducción analítica

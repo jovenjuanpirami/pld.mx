@@ -13,6 +13,7 @@ tags:
   - riesgos
 image: /assets/images/posts/2026-05-17-estructura-de-integracion-en-pld-marco-y-prevencion-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -29,7 +30,7 @@ La LFPIORPI, desde su publicación en 2012 y con la reforma de julio de 2025, es
 
 Uno de los cambios más significativos en las reformas recientes es el uso de la Unidad de Medida y Actualización (UMA) como referencia para umbrales, en lugar del salario mínimo. En 2026, la UMA está fijada en $113.14 MXN diarios. Por ejemplo, la Fracción V Bis del Artículo 17 incluye el desarrollo inmobiliario como actividad vulnerable, un sector clave donde la estructura de integración puede proliferar si no se controla adecuadamente.
 
-Las obligaciones ampliadas en el Artículo 18, que ahora incluye 11 fracciones, requieren que los sujetos obligados implementen una Evaluación Basada en Riesgos (EBR) documentada, un Manual de Políticas Internas PLD/FT, y mecanismos automatizados de monitoreo. Estas obligaciones buscan asegurar que las entidades puedan identificar patrones de comportamiento anómalos que podrían indicar el uso de estructuras de integración para el lavado de dinero.
+Las obligaciones ampliadas en el Artículo 18, que ahora incluye 11 fracciones, requieren que los sujetos obligados implementen una Evaluación Basada en Riesgos (EBR) documentada, un Manual de Políticas Internas PLD/FT, y [mecanismos automatizados](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=estructura-de-integracion-en-pld-marco-y-prevencion-lfpiorpi) de monitoreo. Estas obligaciones buscan asegurar que las entidades puedan identificar patrones de comportamiento anómalos que podrían indicar el uso de estructuras de integración para el lavado de dinero.
 
 Los umbrales de reporte para actividades vulnerables, tales como el manejo de activos virtuales, se establecen en función de la UMA. Por ejemplo, para operaciones en efectivo que superen las 645 UMA (aproximadamente $72,988 MXN), los sujetos obligados deben presentar un aviso a la Unidad de Inteligencia Financiera (UIF) dentro de los 24 horas, conforme al Artículo 18, fracción VI, párrafo segundo.
 
@@ -106,7 +107,7 @@ Adoptar estas prácticas no solo mitiga riesgos legales y financieros, sino que 
    La LFPIORPI establece un marco detallado que enumera actividades vulnerables y define obligaciones para los sujetos obligados, como la evaluación basada en riesgos y el reporte de operaciones preocupantes. Estas disposiciones están diseñadas para identificar y mitigar la creación de estructuras de integración.
 
 3. **¿Qué sanciones se aplican por no detectar una estructura de integración?**
-   Las sanciones por incumplimiento de las obligaciones de la LFPIORPI pueden incluir multas de hasta 65,000 UMA, lo que equivale a más de siete millones de pesos, y penas de prisión de hasta diez años para quienes faciliten el uso de recursos de procedencia ilícita.
+   Las sanciones por incumplimiento de las [obligaciones de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=estructura-de-integracion-en-pld-marco-y-prevencion-lfpiorpi) pueden incluir multas de hasta 65,000 UMA, lo que equivale a más de siete millones de pesos, y penas de prisión de hasta diez años para quienes faciliten el uso de recursos de procedencia ilícita.
 
 4. **¿Qué papel juega la tecnología en prevenir la estructura de integración?**
    La tecnología juega un papel crucial al proporcionar herramientas para el monitoreo en tiempo real de transacciones y el análisis de datos masivos para detectar patrones inusuales. Implementar software avanzado y tecnologías como blockchain puede mejorar significativamente la capacidad de identificar estructuras de integración.

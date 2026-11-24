@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-04-14-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 7 al 13 de abril de 2026 fue particularmente intensa para el ecosistema de prevención de lavado de dinero en México. La resolución histórica de la Suprema Corte de Justicia de la Nación que valida las facultades de bloqueo de cuentas de la UIF acaparó el debate jurídico y empresarial, mientras que el informe anual del FBI ubicó a México en el segundo lugar mundial como destino de transferencias ilícitas provenientes de ciberdelitos. A esto se suma la entrada en vigor del nuevo Reglamento de la LFPIORPI y el creciente uso de criptomonedas para el lavado de activos. A continuación, el análisis de las principales noticias de la semana.

@@ -13,6 +13,7 @@ tags:
   - PLD
 image: /assets/images/posts/2026-06-29-nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: beneficiario-controlador
 ---
 
 ## Introducción analítica
@@ -95,12 +96,6 @@ Estas cifras subrayan la necesidad de un cumplimiento riguroso y la importancia 
 La implementación del nuevo régimen del Beneficiario Controlador bajo el Capítulo IV Bis de la LFPIORPI representa un cambio estratégico en la lucha contra el lavado de dinero en México. Los sujetos obligados deben adoptar un enfoque proactivo, invirtiendo en formación continua, herramientas tecnológicas avanzadas y procesos de auditoría interna regular.
 
 La identificación adecuada del Beneficiario Controlador no solo es una obligación legal, sino un pilar fundamental para preservar la integridad del sistema financiero. Las empresas deben asegurarse de que sus programas de cumplimiento estén alineados con los estándares internacionales, y soluciones como Artu pueden ser fundamentales para lograr una implementación eficaz y en tiempo.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-05-22-pld-en-construccion-y-desarrollo-inmobiliario-en-mexico-2026.svg
 author: Equipo PLD.mx
+artu_tema: desarrolladoras
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-21-auditoria-pld-obligatoria-claves-de-la-lfpiorpi-2026.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica

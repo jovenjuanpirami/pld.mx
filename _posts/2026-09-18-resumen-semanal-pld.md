@@ -15,6 +15,7 @@ tags:
   - Acuerdo 115
 image: /assets/images/posts/2026-09-18-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 12 al 18 de septiembre de 2026 concentró noticias con peso regulatorio y operativo para el sistema antilavado mexicano. La Unidad de Inteligencia Financiera, o UIF, acaparó los titulares con dos historias de signo opuesto: por un lado, la publicación de su nueva estrategia para desarticular las finanzas del crimen organizado mediante un modelo analítico de doscientas cuarenta variables; por el otro, la detención de un exfuncionario que usurpaba la identidad de su director general para extorsionar a personas con cuentas bloqueadas. Al mismo tiempo, el Banco de México consolidó un mecanismo de trazabilidad de remesas dentro del Sistema de Pagos Electrónicos Interbancarios que transforma el panorama de la supervisión del canal más importante de divisas del país. En el plano normativo, el sector sigue asimilando las implicaciones del Acuerdo 115/2026 — el mayor rediseño reglamentario de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, desde su publicación original. Pasemos a revisar cada uno de estos desarrollos.

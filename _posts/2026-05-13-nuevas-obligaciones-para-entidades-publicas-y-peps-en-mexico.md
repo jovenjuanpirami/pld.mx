@@ -13,9 +13,9 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-05-13-nuevas-obligaciones-para-entidades-publicas-y-peps-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
-# Introducción analítica  
 La Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) en México ha sido un pilar fundamental en la lucha contra el lavado de dinero y el financiamiento del terrorismo. Con la publicación en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, se introdujeron reformas significativas que incluyen los artículos 51 Bis y 51 Ter. Estas reformas subrayan la obligación de las entidades públicas y las Personas Políticamente Expuestas (PEPs) de mantenerse en conformidad con los estándares internacionales de transparencia financiera. México, evaluado por el Grupo de Acción Financiera Internacional (GAFI) en 2026, ha buscado alinear sus prácticas con las recomendaciones del organismo internacional, especialmente en cuanto a la transparencia de los beneficiarios controladores y las obligaciones de debida diligencia.
 
 La inclusión de entidades públicas y PEPs bajo un escrutinio más riguroso refleja un cambio en la política de transparencia financiera del país, considerando que, según datos del Instituto Nacional de Estadística y Geografía (INEGI), cerca del 15% del Producto Interno Bruto (PIB) de México proviene de actividades económicas que involucran al gobierno y a funcionarios públicos. Esta cifra destaca la importancia de tener controles estrictos para minimizar riesgos de corrupción y mal uso de fondos públicos.

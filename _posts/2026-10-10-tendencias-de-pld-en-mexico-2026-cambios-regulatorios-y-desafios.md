@@ -13,6 +13,7 @@ tags:
   - regulación
 image: /assets/images/posts/2026-10-10-tendencias-de-pld-en-mexico-2026-cambios-regulatorios-y-desafios.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica
@@ -110,8 +111,3 @@ En este entorno dinámico y regulado, la capacidad para adaptarse rápidamente a
 5. **¿Qué papel juegan las tecnologías avanzadas en el cumplimiento de la LFPIORPI?**
    Las tecnologías avanzadas, como las que ofrece Artu, juegan un papel crucial en el cumplimiento de la LFPIORPI. Estas soluciones automatizan procesos como la identificación del cliente, el monitoreo transaccional y la generación de reportes para el SAT, lo que reduce la carga operativa y mejora la precisión del cumplimiento. Además, permiten a los sujetos obligados responder más rápidamente a cambios regulatorios y auditar sus procesos de manera eficaz.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-06-24-prevencion-de-lavado-de-dinero-para-asociaciones-sin-fines-de-lucro-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: donativos
 ---
 
 ## Introducción analítica
@@ -87,12 +88,6 @@ La tabla anterior resume las principales obligaciones de las ASFL bajo la LFPIOR
 Dada la creciente atención regulatoria y los riesgos asociados, las ASFL deben adoptar un enfoque proactivo hacia el cumplimiento de PLD. No solo es esencial para evitar sanciones, sino también para garantizar la confianza de los donantes y la continuidad de sus operaciones. La implementación de tecnología, como la que ofrece Artu, puede simplificar significativamente este proceso, permitiendo a las ASFL concentrarse en su misión principal mientras cumplen con todas las obligaciones legales.
 
 Recomendamos a las ASFL realizar una revisión exhaustiva de sus políticas y procedimientos actuales de PLD, asegurándose de que estén alineados con las últimas reformas de la LFPIORPI. Además, es clave capacitar continuamente al personal y utilizar herramientas tecnológicas para optimizar el monitoreo y reporte de actividades vulnerables.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

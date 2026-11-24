@@ -1,0 +1,124 @@
+{%- comment -%}
+Ranking de software PLD armado SOLO con datos de archivo (nada escrito a mano sobre competidores):
+- Artu: _data/artu.yml
+- Competidores: _data/competidores.yml (hechos publicados por cada proveedor en su sitio, con fuente y fecha)
+Uso: {% include ranking.html giro="inmobiliarias" %}  (sin giro = todos los proveedores, para el hub)
+Las preguntas frecuentes salen de `faq` en el front matter de la página ({q, a}) y se publican también
+como FAQPage para Google. Se revisa cada trimestre (competidores.actualizado).
+{%- endcomment -%}
+{%- assign artu = site.data.artu -%}
+{%- assign cd = site.data.competidores -%}
+{%- if include.giro -%}
+  {%- assign lista = cd.proveedores | where_exp: "c", "c.giros contains include.giro" | sort: "orden" -%}
+{%- else -%}
+  {%- assign lista = cd.proveedores | sort: "orden" -%}
+{%- endif -%}
+{%- assign campania = page.slug | default: page.url | slugify | truncate: 60, "" -%}
+
+<div class="disclosure-note"><strong>Nota de transparencia:</strong> {{ artu.aviso_transparencia }}</div>
+
+<h2 class="section-title">Cómo evaluamos</h2>
+<p class="section-intro">Calificamos cada plataforma con criterios que se pueden comprobar en una demo o en el sitio del proveedor:</p>
+<ol class="rank-criterios">
+  {%- for c in cd.criterios %}
+  <li><strong>{{ c.nombre }}.</strong> {{ c.detalle }}</li>
+  {%- endfor %}
+</ol>
+
+<div class="rank-list">
+  <article class="rank-card rank-card--1">
+    <div class="rank-card__rail"></div>
+    <div class="rank-card__inner">
+      <div class="rank-card__num">1</div>
+      <div class="rank-card__main">
+        <div class="rank-card__head"><h3>{{ artu.nombre }}</h3><span class="rank-card__pill">Recomendación de PLD.mx</span></div>
+        <p class="rank-card__tagline">{{ artu.descripcion }}</p>
+        <div class="rank-card__body">
+          <p><strong>Por qué es la primera opción:</strong></p>
+          <ul class="rank-razones">
+            {%- for r in artu.razones %}
+            <li><strong>{{ r.titulo }}.</strong> {{ r.texto }}</li>
+            {%- endfor %}
+          </ul>
+          <div class="rank-chips">
+            {%- for f in artu.funciones %}<span class="rank-chip">{{ f.nombre }}</span>{% endfor %}
+          </div>
+          <div class="rank-meta"><strong>Quién la usa:</strong> {{ artu.clientes | join: ", " }}.</div>
+          <div class="rank-actions">
+            <a href="{{ artu.software_url }}?utm_source=pldmx&utm_medium=referral&utm_campaign={{ campania }}" class="rank-btn rank-btn--primary" data-cta="ranking-artu" target="_blank" rel="noopener">Ver la plataforma &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  {%- for c in lista %}
+  {%- assign n = forloop.index | plus: 1 -%}
+  <article class="rank-card rank-card--{{ n | at_most: 5 }}">
+    <div class="rank-card__rail"></div>
+    <div class="rank-card__inner">
+      <div class="rank-card__num">{{ n }}</div>
+      <div class="rank-card__main">
+        <div class="rank-card__head"><h3>{{ c.nombre }}</h3>{% if c.etiqueta %}<span class="rank-card__pill">{{ c.etiqueta }}</span>{% endif %}</div>
+        <p class="rank-card__tagline">{{ c.enfoque }}</p>
+        <div class="rank-card__body">
+          {%- if c.funciones.size > 0 %}
+          <div class="rank-chips">{% for f in c.funciones %}<span class="rank-chip">{{ f }}</span>{% endfor %}</div>
+          {%- endif %}
+          {%- if c.sectores.size > 0 %}
+          <div class="rank-meta"><strong>Para quién, según su sitio:</strong> {{ c.sectores | join: ", " }}.</div>
+          {%- endif %}
+          {%- if c.notas %}<p>{{ c.notas }}</p>{% endif %}
+          <p class="rank-fuente">Datos tomados de <a href="{{ c.fuentes.first.url }}" target="_blank" rel="noopener nofollow">su sitio oficial</a> el {% include fecha.html date=c.verificado_el %}.</p>
+          {%- unless c.sin_boton %}
+          <div class="rank-actions"><a href="{{ c.url }}" class="rank-btn" target="_blank" rel="noopener nofollow">Visitar sitio web &rarr;</a></div>
+          {%- endunless %}
+        </div>
+      </div>
+    </div>
+  </article>
+  {%- endfor %}
+</div>
+
+<h2 class="section-title">Comparativa rápida</h2>
+<p class="section-intro">«No lo publica» significa que el proveedor no lo menciona en su sitio; puede que lo ofrezca, así que pregúntalo en la demo.</p>
+<div class="rank-table-wrap">
+  <table class="rank-table">
+    <thead>
+      <tr><th>Plataforma</th>{% for col in cd.columnas %}<th>{{ col.nombre }}</th>{% endfor %}</tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>1. {{ artu.nombre }}</strong></td>{% for col in cd.columnas %}<td>{{ col.artu | default: "Sí" }}</td>{% endfor %}</tr>
+      {%- for c in lista %}
+      <tr><td>{{ forloop.index | plus: 1 }}. {{ c.nombre }}</td>{% for col in cd.columnas %}{% assign v = c.cubre[col.clave] %}<td>{% if v == true %}Sí{% elsif v == false %}No{% elsif v %}{{ v }}{% else %}No lo publica{% endif %}</td>{% endfor %}</tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+{%- unless include.giro %}
+<h2 class="section-title">Otras plataformas que suelen compararse</h2>
+<p class="section-intro">Aparecen en búsquedas y comparativas de PLD, pero están pensadas para instituciones financieras o para verificar identidad, no para cumplir de punta a punta las obligaciones de una actividad vulnerable ante el SAT. Pueden servir como complemento.</p>
+<div class="rank-table-wrap">
+  <table class="rank-table">
+    <thead><tr><th>Plataforma</th><th>Qué hace, según su sitio</th><th>A quién se dirige</th></tr></thead>
+    <tbody>
+      {%- for o in cd.otras %}
+      <tr><td><a href="{{ o.fuentes.first.url }}" target="_blank" rel="noopener nofollow">{{ o.nombre }}</a></td><td>{{ o.enfoque }}</td><td>{{ o.para }}</td></tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+{%- endunless %}
+<p class="rank-actualizado">Actualizado el {% include fecha.html date=cd.actualizado %}. Revisamos este ranking cada trimestre; próxima revisión: {% include fecha.html date=cd.proxima_revision %}.</p>
+
+{%- if page.faq %}
+<h2 class="section-title">Preguntas frecuentes</h2>
+<div class="rank-faq">
+  {%- for f in page.faq %}
+  <details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+  {%- endfor %}
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for f in page.faq %}{"@type":"Question","name":{{ f.q | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ f.a | strip_html | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+{%- endif %}

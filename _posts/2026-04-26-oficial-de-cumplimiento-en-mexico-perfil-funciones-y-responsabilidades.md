@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Oficial de Cumplimiento en México: Perfil, Funciones y Responsabilidades"
-description: "Descubre el perfil, funciones y responsabilidades del oficial de cumplimiento bajo la LFPIORPI en 2026."
+title: "Funciones del oficial de cumplimiento PLD en México"
+description: "Funciones del oficial de cumplimiento y del responsable encargado del cumplimiento PLD: qué hace, cómo se designa ante el SAT y de qué responde."
 date: 2026-04-26
 categories:
   - cumplimiento
@@ -13,7 +13,28 @@ tags:
   - México
 image: /assets/images/posts/2026-04-26-oficial-de-cumplimiento-en-mexico-perfil-funciones-y-responsabilidades.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
+last_modified_at: 2026-11-23
 ---
+
+**Respuesta corta:** en las entidades financieras, el **oficial de cumplimiento** coordina el programa de prevención de lavado de dinero: propone las políticas de identificación del cliente, coordina el seguimiento de operaciones y las investigaciones, envía los reportes urgentes, define la capacitación y es el enlace con la autoridad. En las actividades vulnerables, la figura equivalente se llama **persona representante encargada del cumplimiento** (artículo 20 de la LFPIORPI) y sus funciones deben quedar escritas en el manual de políticas internas.
+
+## Oficial de cumplimiento o representante encargado: cuál te aplica
+
+| | Entidades financieras | Actividades vulnerables |
+|---|---|---|
+| Nombre de la figura | Oficial de cumplimiento | Persona representante encargada del cumplimiento |
+| Dónde se regula | Disposiciones de carácter general de cada sector; para bancos, las disposiciones del artículo 115 de la Ley de Instituciones de Crédito (47ª y 48ª) | LFPIORPI, artículos 3, fracción XII Bis, y 20; Reglas de Carácter General, artículo 10 |
+| Quién la designa | La entidad, que avisa de la designación a su supervisor | Las personas morales y quienes actúan a través de fideicomisos u otras figuras; las personas físicas cumplen por sí mismas |
+| Requisitos | Certificación vigente de la CNBV | Debe ser persona física y aceptar la designación en el portal del SAT con su e.firma; puede certificarse ante la UIF (vigencia de cinco años) |
+| Si no hay designación | La entidad incumple sus disposiciones | Responden el órgano de administración o el administrador único (o el fideicomitente o administrador de la figura) |
+
+Funciones que la norma asigna en las actividades vulnerables:
+
+- Es la persona encargada de que se cumplan las obligaciones de la LFPIORPI.
+- Recibe capacitación anual y, con la reforma de 2025, la capacitación de todo el personal se vuelve obligatoria.
+- Sus funciones y responsabilidades deben definirse en el manual de políticas internas (artículo 37 Bis, fracción X, de las Reglas de Carácter General).
+- Su identidad es confidencial, y no puede ser auditor de la misma empresa.
 
 ## Introducción analítica
 
@@ -27,7 +48,7 @@ Este contexto regulatorio y de mercado subraya la creciente importancia del ofic
 
 La LFPIORPI, en su Artículo 18, establece las obligaciones específicas que los sujetos obligados deben cumplir para mitigar riesgos de lavado de dinero y financiamiento al terrorismo. Con la reforma de 2025, estas obligaciones incluyen desde la debida diligencia del cliente (DDC) hasta mecanismos automatizados de monitoreo. Específicamente, la Fracción VIII del Artículo 18 requiere que los sujetos obligados mantengan un manual de políticas internas PLD/FT, mientras que la Fracción IX impone la obligación de capacitación anual para todo el personal.
 
-El papel del oficial de cumplimiento, definido en la Fracción XII Bis del Artículo 3, es central para asegurar el cumplimiento de estas obligaciones. Este representante encarado de cumplimiento debe estar debidamente registrado ante las autoridades competentes y es responsable de coordinar la implementación de las políticas PLD/FT, supervisar la correcta presentación de avisos de actividad vulnerable y asegurar que la documentación se conserve por un periodo mínimo de 10 años, conforme a la Fracción IV del Artículo 18.
+El papel del oficial de cumplimiento, definido en la Fracción XII Bis del Artículo 3, es central para asegurar el cumplimiento de estas obligaciones. Este representante encarado de cumplimiento debe estar debidamente registrado ante las autoridades competentes y es responsable de coordinar la implementación de las políticas PLD/FT, supervisar la correcta presentación de avisos de [actividad vulnerable](https://artu.ai/software-pld-para-actividades-vulnerables/?utm_source=pldmx&utm_medium=referral&utm_campaign=oficial-de-cumplimiento-en-mexico-perfil-funciones-y-respons) y asegurar que la documentación se conserve por un periodo mínimo de 10 años, conforme a la Fracción IV del Artículo 18.
 
 Los umbrales para la presentación de avisos se expresan ahora en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 es de $113.14 MXN. Por ejemplo, para las operaciones en efectivo que superen las 645 UMA (aproximadamente $72,986 MXN), se requiere la presentación de un aviso de actividad vulnerable. Además, el Artículo 18, Fracción VI, establece un plazo máximo de 24 horas para reportar una operación preocupante.
 
@@ -41,7 +62,7 @@ El procedimiento típico para el oficial de cumplimiento incluye:
 2. **Monitoreo de Operaciones**: Utilizar mecanismos automatizados para el monitoreo continuo de operaciones, identificando operaciones inusuales o preocupantes que podrían indicar potenciales actividades de lavado de dinero.
 3. **Presentación de Avisos**: Coordinar la elaboración y presentación de avisos de actividad vulnerable o de operaciones preocupantes dentro de los plazos legales establecidos.
 4. **Capacitación Interna**: Organizar y documentar programas de capacitación anual para el personal, asegurando que todos los empleados comprendan y puedan identificar indicadores de riesgo relevantes.
-5. **Revisión y Actualización de Políticas**: Supervisar la revisión regular de las políticas internas PLD/FT y la matriz de riesgo, asegurando que reflejen los cambios regulatorios y las mejores prácticas del sector.
+5. **Revisión y Actualización de Políticas**: Supervisar la revisión regular de las políticas internas PLD/FT y la [matriz de riesgo](https://artu.ai/calculadora-de-riesgo/?utm_source=pldmx&utm_medium=referral&utm_campaign=oficial-de-cumplimiento-en-mexico-perfil-funciones-y-respons), asegurando que reflejen los cambios regulatorios y las mejores prácticas del sector.
 6. **Evaluación Basada en Riesgos (EBR)**: Documentar y actualizar regularmente la evaluación basada en riesgos, conforme a la Fracción VII del Artículo 18, para adaptar las medidas de control a las amenazas específicas que enfrenta la organización.
 
 ## Riesgos y consecuencias

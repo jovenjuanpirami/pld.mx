@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-26-cumplimiento-pld-para-notarios-obligaciones-en-art-17-fraccion-xii.svg
 author: Equipo PLD.mx
+artu_tema: notarios
 ---
 
 ## Introducción analítica

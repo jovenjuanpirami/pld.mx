@@ -15,6 +15,7 @@ tags:
   - Acuerdo 115/2026
 image: /assets/images/posts/2026-08-21-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 15 al 21 de agosto de 2026 estuvo marcada por tres grandes vectores del sistema antilavado mexicano que convergieron de manera simultánea. El primero: la cooperación bilateral con Estados Unidos alcanzó un nuevo escalón con la firma de una declaración de intención para reforzar el intercambio de inteligencia financiera, publicada este viernes 21 de agosto en La Jornada. El segundo: el sector privado comenzó a dimensionar el verdadero desafío que representa implementar el Acuerdo 115/2026 —cuya publicación en el Diario Oficial de la Federación el 7 de agosto trajo al menos once plazos escalonados distintos, con el más lejano venciendo en enero de 2028—. El tercero: el Grupo de Acción Financiera Internacional, conocido también por sus siglas en inglés como FATF, se aproxima a la plenaria de octubre donde se debatirá el informe de evaluación de México, un evento que podría determinar si el país permanece en seguimiento regular o enfrenta consecuencias más severas para su sistema financiero. En este contexto, repasemos los desarrollos más importantes de la semana.
