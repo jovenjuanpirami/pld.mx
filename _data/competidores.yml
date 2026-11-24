@@ -1,11 +1,277 @@
-# PROVISIONAL: se reemplaza con los datos verificados de cada proveedor antes de publicar.
-actualizado: 2026-11-23
-proxima_revision: 2027-02-23
+# Proveedores de software PLD para el ranking de PLD.mx (hub /top-software-pld/ y rankings por giro).
+# REGLA: solo hechos que cada proveedor publica en su sitio oficial, con la URL y la cita que lo respaldan
+# (verificados el 23-nov-2026). Nada de opiniones, precios, clientes o limitaciones que el proveedor no publique.
+# cubre: true = lo publica; null = no lo publica (se muestra 'No lo publica'); texto = lo que publica tal cual.
+# Revisión trimestral: actualizar actualizado y proxima_revision y volver a verificar cada fuente.
+actualizado: '2026-11-23'
+proxima_revision: '2027-02-23'
+regla: Solo hechos que cada proveedor publica en su sitio oficial, con fuente y fecha. Sin opiniones, precios ni limitaciones inferidas.
 criterios:
-  - nombre: Cobertura de la LFPIORPI
-    detalle: qué obligaciones del artículo 18 resuelve la plataforma.
+- nombre: Cobertura de la LFPIORPI
+  detalle: 'cuántas obligaciones del artículo 18 resuelve: expediente, beneficiario controlador, riesgo, avisos y conservación.'
+- nombre: Avisos listos para el SPPLD
+  detalle: si genera avisos mensuales, por acumulación, de 24 horas e informes en ceros en el formato que pide el SAT.
+- nombre: Evidencia y conservación
+  detalle: si guarda búsquedas en listas, cambios de riesgo y documentos con fecha, y por cuántos años.
+- nombre: Enfoque en actividades vulnerables
+  detalle: si está pensada para las fracciones del artículo 17 o adaptada desde el sector financiero.
+- nombre: Puesta en marcha y trabajo mensual
+  detalle: cuánto tarda en operar con datos reales y cuánto trabajo deja al equipo cada mes.
 columnas:
-  - clave: kyc
-    nombre: Expediente KYC/KYB
-rankings_por_giro: []
-proveedores: []
+- clave: kyc
+  nombre: Expediente del cliente
+- clave: listas
+  nombre: Listas restrictivas
+- clave: riesgo
+  nombre: Matriz de riesgo
+- clave: monitoreo
+  nombre: Monitoreo y acumulación
+- clave: avisos
+  nombre: Avisos XML para el SPPLD
+- clave: conservacion
+  nombre: Conservación
+  artu: 10 años
+rankings_por_giro:
+- giro: inmobiliarias
+  nombre: Inmobiliarias y desarrolladoras
+  url: /tecnologia/2026/04/22/guia-2026-sistemas-automatizados-pld-para-inmobiliarias/
+- giro: automotriz
+  nombre: Agencias de autos
+  url: /tecnologia/2026/09/10/top-software-pld-para-el-sector-automotriz-en-mexico-2026/
+- giro: credito
+  nombre: SOFOM y otorgantes de crédito
+  url: /tecnologia/2026/04/22/los-mejores-sistemas-automatizados-pld-para-prestamos-no-bancarios-en-2026/
+- giro: activos-virtuales
+  nombre: Activos virtuales
+  url: /tecnologia/2026/05/02/top-software-aml-para-criptomonedas-en-mexico-2026/
+- giro: joyeria
+  nombre: Joyerías y relojerías
+  url: /tecnologia/2026/04/22/sistemas-automatizados-pld-para-joyerias-en-2026/
+proveedores:
+- nombre: ArmorAML
+  orden: 2
+  url: https://armor-aml.com/
+  verificado_el: '2026-11-23'
+  etiqueta: Financiero y actividades vulnerables
+  enfoque: Solución de PLD para el ecosistema financiero mexicano y para actividades vulnerables, con integración por API.
+  funciones:
+  - KYC por API
+  - Listas SAT, UIF, OFAC y ONU
+  - Matriz de riesgo
+  - Monitoreo y acumulados a 6 meses
+  - Avisos XML e informes en cero
+  - Gestión de casos
+  sectores:
+  - actividades vulnerables (inmobiliario, vehículos, metales y joyas, juegos y sorteos, entre otras)
+  - fintech
+  - bancos, SOFIPO y SOCAP
+  - SOFOM y uniones de crédito
+  - casas de cambio y transmisores de dinero
+  - aseguradoras
+  notas: Se presenta como la división de cumplimiento normativo de Spot IT Solutions. Declara certificación ISO/IEC 27001:2022, validaciones por API en menos de un segundo y que no cobra por usuario, volumen
+    de operaciones ni número de avisos.
+  giros:
+  - inmobiliarias
+  - automotriz
+  - joyeria
+  - credito
+  cubre:
+    kyc: true
+    listas: true
+    riesgo: true
+    monitoreo: true
+    avisos: true
+    conservacion: null
+  fuentes:
+  - url: https://armor-aml.com/
+    cita: ArmorAML® es la Solución Integral de Prevención de Lavado de Dinero Especializada para el Ecosistema Financiero Mexicano (Entidades Financieras y Actividades Vulnerables)
+  - url: https://armor-aml.com/nosotros/
+    cita: ArmorAML® es la división especializada en cumplimiento normativo de Spot IT Solutions.
+  - url: https://armor-aml.com/software-de-prevencion-lavado-de-dinero-para-actividades-vulnerables/
+    cita: genera automáticamente los archivos XML de tus Avisos e Informes en Cero, listos para cargarse en el Portal de Lavado de Dinero (SPPLD)
+- nombre: PreveNet
+  orden: 3
+  url: https://prevenet.com.mx/
+  verificado_el: '2026-11-23'
+  etiqueta: Actividades vulnerables
+  enfoque: Plataforma en la nube para que empresas con actividades vulnerables cumplan la LFPIORPI con automatización, monitoreo y control documental.
+  funciones:
+  - Enfoque basado en riesgos
+  - Matriz de riesgos
+  - Perfil transaccional con alertas
+  - Listas PEP y negras
+  - Beneficiario controlador
+  - Avisos XML individuales o masivos
+  sectores:
+  - desarrollo inmobiliario e inmuebles
+  - arrendamiento
+  - metales y joyas
+  - vehículos
+  - mutuo, préstamo y crédito
+  - activos virtuales
+  - y otras actividades vulnerables
+  notas: Declara nueve años en el mercado, infraestructura en Microsoft Azure, integración con ERP y plataformas contables y webinars gratuitos para usuarios.
+  giros:
+  - inmobiliarias
+  - automotriz
+  - joyeria
+  - credito
+  - activos-virtuales
+  cubre:
+    kyc: true
+    listas: true
+    riesgo: true
+    monitoreo: true
+    avisos: true
+    conservacion: null
+  fuentes:
+  - url: https://prevenet.com.mx/
+    cita: PreveNet ayuda a empresas que cuenten con Actividades Vulnerables a cumplir con las obligaciones de la LFPIORPI mediante automatización, monitoreo y control documental.
+  - url: https://prevenet.com.mx/software/
+    cita: Genera y envía avisos individuales o masivos a la UIF en formato XML
+  - url: https://prevenet.com.mx/faqs1/
+    cita: PreveNet automatiza la generación y envío de avisos individuales y masivos en formato XML directamente a la UIF
+- nombre: ALDDA
+  orden: 4
+  url: https://aldda.mx/
+  verificado_el: '2026-11-23'
+  etiqueta: Avisos al SAT
+  enfoque: Software para personas físicas y morales con actividades vulnerables que prepara los avisos en XML para el portal del SAT.
+  funciones:
+  - Expedientes por cliente, bien y contrato
+  - Avisos XML para el portal del SAT
+  - Avisos por acumulación e informes en cero
+  - Listas negras
+  - Validación de identificaciones
+  - Uso por despachos contables
+  sectores:
+  - venta, desarrollo y construcción de inmuebles
+  - arrendamiento de inmuebles
+  - préstamo, crédito y mutuo
+  - venta de vehículos
+  - recepción de donativos
+  - blindaje
+  - despachos contables
+  notas: Declara atender nueve actividades vulnerables y a más de 100 empresas. Publica que conserva el historial y los expedientes de los últimos 5 años.
+  giros:
+  - inmobiliarias
+  - automotriz
+  - credito
+  cubre:
+    kyc: true
+    listas: true
+    riesgo: null
+    monitoreo: true
+    avisos: true
+    conservacion: 5 años
+  fuentes:
+  - url: https://aldda.mx/
+    cita: ALDDA es un software PLD, diseñado para empresas y personas físicas consideradas como Actividades Vulnerables
+  - url: https://aldda.mx/software-prevencion-de-lavado-de-dinero-antilavado-mexico/
+    cita: En ALDDA generamos un solo reporte XML con todas tus operaciones que requieren aviso
+  - url: https://aldda.mx/sistema-pld-apoyo-al-portal-de-antilavado-de-dinero-mexico/
+    cita: certificadas por la Comisión Nacional Bancaria y de Valores y el Instituto Mexicano de Contadores Públicos.
+- nombre: Regcheq
+  orden: 5
+  url: https://regcheq.com.mx/
+  verificado_el: '2026-11-23'
+  etiqueta: Financiero y actividades vulnerables
+  sin_boton: true
+  enfoque: RegTech de PLD/FT con un producto para entidades financieras (Regcheq PLD) y otro para actividades vulnerables (Regcheq PLD X).
+  funciones:
+  - Expediente digital
+  - Listas de vigilancia y PEP
+  - EBR para actividades vulnerables
+  - Monitoreo y alertas
+  - Avisos por umbral
+  - Capacitación e-learning
+  - Canal de denuncias
+  sectores:
+  - entidades financieras (banca, SOFOM, SOFIPO, SOCAP, fintech y otras)
+  - actividades vulnerables, incluidas inmobiliario, vehículos, metales y joyas, mutuo y activos virtuales
+  notas: 'Fundada en Chile en 2021 y en México desde 2023; opera también en Perú y Brasil. Aclara que no presenta los avisos: los deja listos para que los presente el oficial de cumplimiento. La conservación
+    por 10 años la publica para su producto de entidades financieras.'
+  giros:
+  - inmobiliarias
+  - automotriz
+  - joyeria
+  - credito
+  - activos-virtuales
+  cubre:
+    kyc: true
+    listas: true
+    riesgo: true
+    monitoreo: true
+    avisos: null
+    conservacion: 10 años (producto para entidades financieras)
+  fuentes:
+  - url: https://regcheq.com/
+    cita: Más de 600 empresas en Chile, México, Perú y Brasil ya operan su compliance con nosotros.
+  - url: https://regcheq.com.mx/
+    cita: 'Regcheq tiene un producto para cada grupo: Regcheq PLD y Regcheq PLD X.'
+  - url: https://regcheq.com.mx/productos
+    cita: Canal de denuncias totalmente anónimo, habilitado para toda la organización.
+otras:
+- nombre: NICE Actimize
+  url: https://www.niceactimize.com/
+  enfoque: Suite de prevención de fraude y AML para instituciones financieras.
+  para: Instituciones financieras; su sitio no menciona México.
+  fuentes:
+  - url: https://www.niceactimize.com/
+    cita: NICE Actimize provides AI-driven fraud prevention and AML solutions that help financial institutions detect financial crime, reduce risk and meet regulatory compliance
+  - url: https://www.niceactimize.com/anti-money-laundering
+    cita: The NICE Actimize AML platform modernizes KYC-AML programs by bringing together machine learning and domain expertise to help you better combat money laundering and terrorist financing.
+- nombre: SAS Anti-Money Laundering
+  url: https://www.sas.com/es_mx/software/anti-money-laundering.html
+  enfoque: Solución AML/CFT con monitoreo, diligencia debida y analítica de redes.
+  para: Instituciones financieras; tiene oficina en la Ciudad de México.
+  fuentes:
+  - url: https://www.sas.com/es_mx/software/anti-money-laundering.html
+    cita: Lucha contra el lavado de dinero y la financiación del terrorismo con IA, machine learning, automatización inteligente y visualización avanzada de redes.
+  - url: https://www.sas.com/es_mx/contact.html
+    cita: Torre Mayor, Piso 38
+- nombre: Oracle FCCM
+  url: https://www.oracle.com/latam/financial-services/aml-financial-crime-compliance/
+  enfoque: Suite en la nube de AML, KYC y sanciones.
+  para: Servicios financieros.
+  fuentes:
+  - url: https://www.oracle.com/latam/financial-services/aml-financial-crime-compliance/
+    cita: Brindamos a los líderes de cumplimiento y prevención de lavado de dinero (AML) las herramientas adecuadas para proteger sus instituciones de actores ilícitos y sanciones regulatorias
+- nombre: ComplyAdvantage
+  url: https://complyadvantage.com/
+  enfoque: 'Detección de riesgo AML y fraude: screening, monitoreo y medios adversos.'
+  para: Bancos y empresas de servicios financieros.
+  fuentes:
+  - url: https://complyadvantage.com/mesh/
+    cita: A cloud-based compliance platform, ComplyAdvantage Mesh combines industry-leading AML risk intelligence with actionable risk signals to screen customers and monitor their behavior in near real
+      time.
+  - url: https://complyadvantage.com/industries/aml-banks/
+    cita: We have ISO 27001 certification across all our systems and locations.
+- nombre: Truora
+  url: https://www.truora.com/
+  enfoque: Validación de identidad, antecedentes, listas y firma electrónica, con flujos en WhatsApp.
+  para: Banca, fintech, marketplaces, inmobiliaria, seguros y SOFOM; tiene oficina en la Ciudad de México.
+  fuentes:
+  - url: https://www.truora.com/
+    cita: Automatiza la consulta de antecedentes, PEP, sanciones, listas restrictivas y señales financieras para tomar decisiones más fácil y rápido.
+  - url: https://www.truora.com/es/politica-de-seguridad
+    cita: ISO 27001, ISO 27017, ISO 27018 y mejores prácticas de seguridad y protección de datos personales
+- nombre: MetaMap (Incode)
+  url: https://www.metamap.com/
+  enfoque: Verificación de identidad; su sitio indica que ya es parte de Incode.
+  para: Empresas que necesitan verificar identidad a distancia.
+  fuentes:
+  - url: https://www.metamap.com/
+    cita: Incode has acquired MetaMap.
+  - url: https://www.incode.com/blog/metamap-joins-the-incode-family-a-new-era-of-identity-verification/
+    cita: MetaMap is now part of the Incode family!
+- nombre: Sumsub
+  url: https://sumsub.com/mx/
+  enfoque: Verificación KYC y KYB, AML y monitoreo de transacciones, con página para México.
+  para: Servicios financieros, pagos, cripto, crédito y marketplaces.
+  fuentes:
+  - url: https://sumsub.com/mx/
+    cita: Cumplir con los requisitos de las leyes, los reglamentos y las guias de la Comisión Nacional Bancaria y de Valores (CNBV) en materia de Prevención de Lavado de Dinero y Financiamiento al Terrorismo
+      (PBC/FT) en México.
+  - url: https://sumsub.com/mobility/
+    cita: Sumsub holds a SOC 2 Type II attestation and ISO/IEC 27001 certification for information security management, along with ISO/IEC 27017 and ISO/IEC 27018 certifications

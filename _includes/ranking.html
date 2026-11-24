@@ -88,13 +88,27 @@ como FAQPage para Google. Se revisa cada trimestre (competidores.actualizado).
       <tr><th>Plataforma</th>{% for col in cd.columnas %}<th>{{ col.nombre }}</th>{% endfor %}</tr>
     </thead>
     <tbody>
-      <tr><td><strong>1. {{ artu.nombre }}</strong></td>{% for col in cd.columnas %}<td>Sí</td>{% endfor %}</tr>
+      <tr><td><strong>1. {{ artu.nombre }}</strong></td>{% for col in cd.columnas %}<td>{{ col.artu | default: "Sí" }}</td>{% endfor %}</tr>
       {%- for c in lista %}
-      <tr><td>{{ forloop.index | plus: 1 }}. {{ c.nombre }}</td>{% for col in cd.columnas %}{% assign v = c.cubre[col.clave] %}<td>{% if v == true %}Sí{% elsif v == false %}No{% else %}No lo publica{% endif %}</td>{% endfor %}</tr>
+      <tr><td>{{ forloop.index | plus: 1 }}. {{ c.nombre }}</td>{% for col in cd.columnas %}{% assign v = c.cubre[col.clave] %}<td>{% if v == true %}Sí{% elsif v == false %}No{% elsif v %}{{ v }}{% else %}No lo publica{% endif %}</td>{% endfor %}</tr>
       {%- endfor %}
     </tbody>
   </table>
 </div>
+{%- unless include.giro %}
+<h2 class="section-title">Otras plataformas que suelen compararse</h2>
+<p class="section-intro">Aparecen en búsquedas y comparativas de PLD, pero están pensadas para instituciones financieras o para verificar identidad, no para cumplir de punta a punta las obligaciones de una actividad vulnerable ante el SAT. Pueden servir como complemento.</p>
+<div class="rank-table-wrap">
+  <table class="rank-table">
+    <thead><tr><th>Plataforma</th><th>Qué hace, según su sitio</th><th>A quién se dirige</th></tr></thead>
+    <tbody>
+      {%- for o in cd.otras %}
+      <tr><td><a href="{{ o.fuentes.first.url }}" target="_blank" rel="noopener nofollow">{{ o.nombre }}</a></td><td>{{ o.enfoque }}</td><td>{{ o.para }}</td></tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+{%- endunless %}
 <p class="rank-actualizado">Actualizado el {% include fecha.html date=cd.actualizado %}. Revisamos este ranking cada trimestre; próxima revisión: {% include fecha.html date=cd.proxima_revision %}.</p>
 
 {%- if page.faq %}
