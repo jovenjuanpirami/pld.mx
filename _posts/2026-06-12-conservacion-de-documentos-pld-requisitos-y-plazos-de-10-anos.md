@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Conservación de documentos PLD: requisitos y plazos de 10 años"
-description: "Explora las obligaciones de conservación de documentos PLD por 10 años en México según la LFPIORPI."
+title: "Plazo de conservación de documentos PLD: 10 años"
+description: "Quien realiza actividades vulnerables debe conservar 10 años la documentación de operaciones y clientes. Qué guardar, cómo contar el plazo y el formato."
 date: 2026-06-12
 categories:
   - cumplimiento
 tags:
-  - PLD
   - conservación de documentos
   - LFPIORPI
-  - cumplimiento
-  - riesgos
+  - artículo 18
+  - expediente
+  - actividades vulnerables
 image: /assets/images/posts/2026-06-12-conservacion-de-documentos-pld-requisitos-y-plazos-de-10-anos.svg
 author: Equipo PLD.mx
 artu_tema: conservacion
@@ -23,90 +23,94 @@ redirect_from:
   - /cumplimiento/2026/08/14/conservacion-de-documentos-pld-en-mexico-requisitos-y-plazos/
   - /cumplimiento/2026/08/14/conservacion-de-documentos-pld-mexico-requisitos-y-plazos/
   - /lfpiorpi/2026/04/23/plazos-de-conservacion-de-documentos-segun-lfpiorpi-2026/
+last_modified_at: 2026-11-23
 ---
 
-## Introducción analítica
+**Respuesta corta:** quienes realizan actividades vulnerables deben conservar durante **10 años** la información y la documentación que respaldan cada actividad vulnerable y la identificación de sus clientes. Así lo establece el artículo 18, fracción IV, de la LFPIORPI, que la reforma publicada en el Diario Oficial de la Federación el 16 de julio de 2025 amplió de cinco a diez años. El plazo se cuenta a partir de la fecha en que se realizó la actividad vulnerable, y la información puede conservarse de manera física o electrónica en el domicilio registrado ante la Secretaría de Hacienda.
 
-En un contexto donde la regulación de prevención de lavado de dinero es cada vez más estricta, los sujetos obligados en México enfrentan el reto de mantener la integridad de su documentación durante un periodo específico. Según el padrón público del SAT, más de 8,500 sujetos obligados están registrados, lo que ilustra la amplia aplicación de estas normativas en el país. Con la reforma de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, se reafirmó la obligación de conservar documentos por un periodo de diez años.
+Esta guía reúne en un solo lugar qué hay que guardar, cómo contar el plazo, en qué formato se puede conservar y qué revisa el SAT en una visita de verificación.
 
-Este requerimiento no solo implica una carga administrativa significativa, sino que también es crucial para asegurar la transparencia y trazabilidad de las operaciones financieras y comerciales. En un mercado donde el uso de activos virtuales ha crecido un 55.8% en 2025, según SILIKN, y México ha sido identificado como el segundo destino global de dinero de ciberdelitos con 1,782 operaciones, el resguardo adecuado de la información es más relevante que nunca.
+## Qué se debe conservar
 
-La capacidad de las instituciones para cumplir con estos requisitos no solo responde a un mandato legal, sino que también puede ser un diferenciador competitivo en términos de reputación y confianza del cliente. Este artículo explora los detalles de las obligaciones de conservación de documentos, los riesgos asociados al incumplimiento y las mejores prácticas para mantenerse en línea con las expectativas regulatorias.
+La obligación cubre la información y la documentación que sirven de soporte a la actividad vulnerable y la que identifica a los clientes y usuarios. En la práctica, el expediente de cada operación debe permitir reconstruir quién fue el cliente, qué se hizo, por cuánto y qué se reportó. Conviene organizarlo en cuatro bloques:
 
-## Marco legal detallado
+| Bloque | Qué incluye | Para qué sirve en una revisión |
+|---|---|---|
+| Identificación del cliente | Identificación oficial, comprobante de domicilio, RFC y CURP; en personas morales, acta constitutiva, poderes del representante y datos del beneficiario controlador | Demostrar que se identificó y verificó al cliente |
+| Soporte de la operación | Contratos, facturas, comprobantes de pago y cualquier documento que acredite la actividad | Reconstruir la operación y su monto |
+| Avisos e informes | Avisos presentados, informes en ceros y sus acuses del SPPLD | Probar que se reportó a tiempo |
+| Evidencia del sistema de cumplimiento | Búsquedas en listas, calificación de riesgo, alertas y su resolución, constancias de capacitación y resultados de auditoría | Mostrar que los controles funcionaron, no solo que existen |
 
-La LFPIORPI, en su Artículo 18 fracción IV, establece que los sujetos obligados deben conservar por un periodo de diez años los documentos e información que acrediten el cumplimiento de sus obligaciones. Esta disposición es crucial para las actividades vulnerables enumeradas en el Artículo 17, que cubre desde el desarrollo inmobiliario hasta el comercio de activos virtuales.
+El último bloque es el que más se olvida. Desde la reforma de 2025, la ley exige también una evaluación basada en riesgos, un manual de políticas internas, capacitación anual, mecanismos automatizados de monitoreo y auditoría, y todo eso deja evidencia que hay que poder mostrar.
 
-Con la reforma del 2025, el Artículo 18 ahora detalla once fracciones de obligaciones, entre las cuales la conservación de documentos ocupa un lugar central. La documentación debe incluir evidencias de la debida diligencia del cliente (DDC), avisos de actividad vulnerable y registros de la evaluación basada en riesgos (EBR) documentada, conforme a la fracción VII del mismo artículo. 
+## Cómo contar los 10 años
 
-El valor de la Unidad de Medida y Actualización (UMA) en 2026 es de 113.14 pesos mexicanos diarios. Así, los umbrales para las actividades vulnerables, que se calculan en veces la UMA, deben ser comprendidos tanto en esta unidad como en su equivalente en pesos. Por ejemplo, una operación que requiera reporte podría estar sujeta a un umbral de 1,500 UMA, lo cual equivale aproximadamente a 169,710 pesos mexicanos.
+La ley fija el plazo como «al menos diez años contado a partir de la fecha de la realización de la Actividad Vulnerable». Eso tiene dos consecuencias prácticas:
 
-Además, conforme al Artículo 33 Bis de la LFPIORPI, los sujetos obligados deben identificar y verificar al beneficiario controlador, asegurándose de que los registros relacionados se mantengan durante el mismo periodo decenal. Este marco legal robusto exige un sistema de archivo que no solo sea seguro, sino también accesible para auditorías internas y externas.
+- **Cada operación tiene su propio reloj.** Si un cliente opera contigo en 2026 y en 2029, los documentos de la operación de 2029 se conservan hasta 2039, aunque los de 2026 venzan antes.
+- **La identificación del cliente acompaña a sus operaciones.** Como el expediente de identificación soporta todas las operaciones de ese cliente, lo prudente es conservarlo al menos diez años después de su última operación.
 
-## Análisis práctico
+Las Reglas de Carácter General modificadas por el Acuerdo 115/2026, que entran en vigor el 30 de noviembre de 2026, también piden diez años para otra evidencia: las constancias de capacitación y el historial de los cambios de grado de riesgo y de perfil transaccional de cada cliente.
 
-Implementar la conservación de documentos por diez años requiere de una estrategia bien estructurada que aborde tanto la capacidad de almacenamiento como la seguridad de la información. Consideremos el caso de una empresa inmobiliaria que efectúa ventas mensuales por un total de 2.8 millones de pesos mexicanos. Esta entidad estaría obligada a presentar un aviso de actividad vulnerable dado que sus transacciones superan los umbrales establecidos por la LFPIORPI.
+No confundas el plazo de conservación con el periodo que el SAT puede revisar: el artículo 34 de la LFPIORPI limita las visitas de verificación a los cinco años inmediatos anteriores. Que la autoridad revise cinco años no te autoriza a destruir antes de los diez.
 
-### Procedimientos para la conservación:
+Un error frecuente es aplicar el plazo nuevo solo a las operaciones posteriores a la reforma y destruir documentos anteriores al cumplir cinco años. Si tienes dudas sobre documentos de operaciones previas a julio de 2025, lo prudente es conservarlos y consultarlo con tu asesor legal antes de destruir nada.
 
-1. **Evaluación del volumen de documentos:** Estimar la cantidad de información generada anualmente para prever la capacidad de almacenamiento necesaria.
-2. **Selección de métodos de archivo:** Determinar si se utilizarán archivos físicos, digitales o una combinación de ambos. Las soluciones digitales pueden incluir almacenamiento en la nube con redundancia de datos para evitar pérdidas.
-3. **Seguridad de la información:** Implementar protocolos de cifrado para proteger datos sensibles y establecer controles de acceso para evitar brechas de seguridad.
-4. **Revisión y auditoría periódica:** Establecer ciclos de auditoría internos y externos para asegurar que los documentos se mantengan conforme a los estándares requeridos. La fracción XI del Artículo 18 exige auditorías regulares.
-5. **Capacitación del personal:** Asegurarse de que el personal esté capacitado anualmente en las políticas de conservación, tal como lo requiere la fracción IX del Artículo 18.
+## Papel o digital
 
-Un ejemplo ilustrativo podría ser una correduría de seguros que debe archivar tanto contratos de pólizas como registros de sus clientes y beneficiarios controladores. Implementar un sistema de digitalización de documentos podría no solo optimizar su proceso de archivo sino también facilitar el acceso a la información cuando se requiera.
+La fracción IV del artículo 18 permite conservar la información «de manera física o electrónica», en el domicilio registrado ante la Secretaría de Hacienda. Un archivo digital funciona siempre que garantice tres cosas:
 
-## Riesgos y consecuencias
+- **Integridad**: que el documento no se pueda alterar sin dejar rastro, idealmente con historial de versiones.
+- **Disponibilidad**: que se pueda entregar completo y a tiempo cuando la autoridad lo pida.
+- **Control de acceso**: que solo lo consulten las personas autorizadas, con bitácora de quién entró y cuándo.
 
-El incumplimiento de las obligaciones de conservación de documentos puede resultar en severas sanciones económicas. Según el Artículo 54 de la LFPIORPI, estas multas pueden oscilar entre 200 y 65,000 UMA, lo que equivale aproximadamente a entre 22,628 y 7,354,100 pesos mexicanos. Adicionalmente, existe la posibilidad de imponer multas de hasta el 100% del valor de la operación involucrada.
+## Qué revisa el SAT en una visita
 
-Un caso notorio de sanción fue el de una entidad financiera en 2025, que fue multada con 30,000 UMA, casi 3,393,420 pesos mexicanos, por no conservar adecuadamente los registros de beneficiarios controladores conforme al Capítulo IV Bis de la LFPIORPI. Este tipo de incumplimientos no solo afecta financieramente a las organizaciones, sino que también puede dañar gravemente su reputación y credibilidad ante clientes y reguladores.
+En una visita de verificación el SAT pide expedientes de clientes y operaciones de periodos específicos y compara lo que encuentra con los avisos presentados. Lo que más complica una visita no es la falta de un documento aislado, sino no poder demostrar el proceso: que el cliente se identificó antes de operar, que se buscó en listas, que el riesgo se calificó y que el aviso salió en tiempo. Por eso conviene que cada expediente guarde también la fecha de cada paso.
 
-La falta de documentación adecuada también puede dificultar la defensa en caso de auditorías por parte de la Unidad de Inteligencia Financiera (UIF) o el Servicio de Administración Tributaria (SAT), y en situaciones extremas, podría llevar a la revocación de licencias o permisos operativos.
+Las multas por incumplir las obligaciones del artículo 18 están en el artículo 54 de la LFPIORPI y se fijan en veces la UMA, que en 2026 vale $117.31 diarios. Con frecuencia la falta de conservación se detecta junto con otras omisiones, como avisos no presentados, y las sanciones se suman.
 
-## Mejores prácticas
+## Cómo organizar el archivo
 
-Para asegurar el cumplimiento efectivo con la obligación de conservación de documentos por diez años, los sujetos obligados más avanzados están implementando una serie de prácticas que optimizan tanto la eficiencia operativa como el cumplimiento regulatorio.
+1. **Un expediente por cliente** que concentre la identificación y todas sus operaciones, en lugar de carpetas por mes.
+2. **Un índice por operación** con la fecha, el monto, el aviso presentado y su acuse.
+3. **Fecha de vencimiento** calculada para cada expediente, para no destruir antes de tiempo ni conservar sin control.
+4. **Respaldo** fuera del equipo de trabajo, con pruebas periódicas de recuperación.
+5. **Bitácora** de accesos y cambios.
 
-### Estrategias efectivas:
+Una plataforma especializada puede llevar este control de forma automática y dejar un [expediente digital auditable por 10 años](https://artu.ai/articles/de-5-a-10-anos-resguardo-de-evidencia-y-expediente-digital-auditable-en-compliance-pld-(lfpiorpi-2025)-y-como-lograrlo-con-software-pld/?utm_source=pldmx&utm_medium=referral&utm_campaign=conservacion-de-documentos-pld-requisitos-y-plazos-de-10-anos), con cada documento y búsqueda fechados.
 
-- **Automatización del proceso de archivo:** Uso de software de gestión documental que automatiza la clasificación y almacenamiento de documentos, asegurando una recuperación rápida y precisa cuando sea necesario.
-- **Integración de sistemas:** Conexión de plataformas de gestión de clientes (CRM) con sistemas de archivo para mantener la coherencia y actualización de los datos.
-- **Backups regulares:** Realización de copias de seguridad regulares para prevenir la pérdida de datos, con políticas claras de recuperación ante desastres.
-- **Evaluación continua de riesgos:** Implementación de matrices de riesgo que se actualizan conforme cambian las circunstancias del mercado y la regulación.
-- **Colaboración con expertos:** Contratación de auditores externos especializados en PLD para revisar y mejorar los procesos de archivo.
+## Preguntas frecuentes
 
-Un caso de éxito es el de un banco que, mediante la implementación de un sistema de gestión documental basado en la nube, logró reducir en un 30% los costos operativos asociados a la conservación de documentos, al tiempo que aumentó su capacidad de respuesta ante auditorías regulatorias.
+### ¿Cuál es el plazo de conservación de la documentación de actividades vulnerables?
 
-## Tabla comparativa de umbrales de actividad vulnerable
+Diez años. La reforma a la LFPIORPI publicada el 16 de julio de 2025 amplió el plazo de cinco a diez años para la información y documentación que soporta la actividad vulnerable y la identificación de clientes.
 
-| Actividad Vulnerable                    | Umbral en UMA | Equivalente en MXN (aprox.) |
-|-----------------------------------------|---------------|----------------------------|
-| Juegos y sorteos                        | 645           | 72,999                     |
-| Desarrollo inmobiliario                 | 8,025         | 908,098.50                 |
-| Comercio de metales o piedras preciosas | 2,165         | 244,906.10                 |
-| Transferencias internacionales          | 1,500         | 169,710                    |
+### ¿Cuánto tiempo se conserva la información de identificación del cliente?
 
-## Conclusión estratégica
+El mismo plazo de 10 años. La identificación del cliente forma parte de la documentación que la ley obliga a conservar.
 
-Dado el rigor y las consecuencias financieras asociadas con el incumplimiento de las obligaciones de conservación de documentos, es imperativo que los sujetos obligados desarrollen sistemas robustos que no solo cumplan con la normativa, sino que también sean capaces de adaptarse a evoluciones futuras en el panorama regulatorio. El uso de tecnología de vanguardia, junto con prácticas de auditoría continua y capacitación del personal, son elementos clave para mantener la conformidad.
+### ¿Se puede conservar la documentación en formato electrónico?
 
-En un entorno donde la transparencia es una exigencia creciente, aquellos que inviertan en mejorar sus procesos de conservación de documentos no solo evitarán sanciones, sino que también fortalecerán su posición en el mercado, ganando la confianza de clientes y reguladores por igual.
+Sí. La fracción IV del artículo 18 permite conservarla de manera física o electrónica. Antes de destruir originales en papel, confirma con tu asesor legal que la copia digital es suficiente para tu caso y que garantiza integridad y disponibilidad.
 
-## FAQ
+### ¿Los acuses de los avisos también se conservan?
 
-**1. ¿Qué tipos de documentos deben conservarse durante diez años según la LFPIORPI?**
-La LFPIORPI requiere que los sujetos obligados conserven registros de debida diligencia del cliente, avisos de actividad vulnerable, y cualquier documentación relacionada con beneficiarios controladores. Esto incluye contratos, actas, y cualquier evidencia que respalde el cumplimiento de las obligaciones bajo la ley.
+Sí. Los avisos, los informes en ceros y sus acuses del SPPLD son la prueba de que cumpliste en tiempo; deben conservarse junto con el expediente de la operación.
 
-**2. ¿Cómo afecta el valor de la UMA a las obligaciones de conservación de documentos?**
-El valor de la UMA, que en 2026 es de 113.14 pesos mexicanos diarios, se utiliza para calcular los umbrales de reporte de actividades vulnerables. Estos umbrales determinan cuándo se debe presentar un aviso y, por lo tanto, qué documentos deben ser almacenados. Cambios en el valor de la UMA pueden afectar qué transacciones caen bajo la obligación de conservación.
+### ¿Las entidades financieras tienen el mismo plazo?
 
-**3. ¿Es suficiente con tener documentos en formato digital, o se requiere también versión física?**
-La LFPIORPI no especifica el formato en que deben conservarse los documentos, permitiendo que sean físicos, digitales o ambos. Sin embargo, es crucial que los documentos digitales estén debidamente cifrados y que exista un sistema de recuperación ante desastres para asegurar su integridad.
+Las entidades financieras ya tenían un plazo de al menos diez años desde 2012, en el artículo 15, fracción IV, de la LFPIORPI y en sus propias disposiciones. La reforma de 2025 igualó el plazo de las actividades vulnerables, que antes era de cinco años.
 
-**4. ¿Qué sanciones se aplican si no se cumplen las obligaciones de conservación de documentos?**
-Las sanciones para el incumplimiento de la conservación de documentos pueden variar desde 200 hasta 65,000 UMA, lo que equivale a entre 22,628 y 7,354,100 pesos mexicanos. Adicionalmente, pueden imponerse multas de hasta el 100% del valor de la operación involucrada.
+### ¿Desde cuándo se cuentan los 10 años?
 
-**5. ¿La auditoría interna es obligatoria para todos los sujetos obligados?**
-Sí, conforme a la fracción XI del Artículo 18 reformado en 2025, todos los sujetos obligados deben realizar auditorías PLD, que pueden ser internas o externas. Estas auditorías son esenciales para verificar el cumplimiento de las obligaciones de conservación de documentos y otros requerimientos regulatorios.
+Desde la fecha en que se realizó la actividad vulnerable. Cada operación tiene su propio plazo.
+
+## Fuentes
+
+- Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, artículos 18, fracción IV, y 34; texto vigente con última reforma del 16 de julio de 2025 (Cámara de Diputados).
+- LFPIORPI, texto original publicado en el Diario Oficial de la Federación el 17 de octubre de 2012 (plazo anterior de cinco años).
+- Acuerdo 115/2026 que modifica las Reglas de Carácter General de la LFPIORPI, Diario Oficial de la Federación, 7 de agosto de 2026.
+- Valor de la UMA 2026: Diario Oficial de la Federación, 9 de enero de 2026.
+
+*Este artículo es informativo y no sustituye la asesoría legal de tu caso.*

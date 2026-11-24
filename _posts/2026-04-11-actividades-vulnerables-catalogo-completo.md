@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Las 16 Actividades Vulnerables de la LFPIORPI: Catálogo Completo con Umbrales"
-description: "Catálogo completo de las 16 actividades vulnerables del Art. 17 LFPIORPI con umbrales de identificación y aviso en UMA actualizados 2025."
+title: "Actividades vulnerables: las 17 fracciones del art. 17"
+description: "Ya no son 16: desde la reforma de 2025 el artículo 17 de la LFPIORPI tiene 17 fracciones (I a XVI y V Bis). Lista completa con umbrales en UMA."
 date: 2026-04-11
 categories:
   - actividades-vulnerables
@@ -13,10 +13,13 @@ tags:
   - artículo 17
 image: /assets/images/posts/2026-04-11-actividades-vulnerables.svg
 author: Equipo PLD.mx
+last_modified_at: 2026-11-23
 artu_tema: umbrales
 ---
 
-El **Artículo 17 de la LFPIORPI** establece el catálogo de actividades vulnerables en México — operaciones económicas que, por su naturaleza, son susceptibles de ser utilizadas para el lavado de dinero. Con la **reforma publicada el 16 de julio de 2025**, este catálogo se amplió a **16 fracciones** e incluye una nueva actividad: el Desarrollo Inmobiliario.
+El **Artículo 17 de la LFPIORPI** establece el catálogo de actividades vulnerables en México — operaciones económicas que, por su naturaleza, son susceptibles de ser utilizadas para el lavado de dinero. Con la **reforma publicada el 16 de julio de 2025**, el artículo tiene **17 fracciones**: de la I a la XVI más la nueva **V Bis**, que agrega la recepción de recursos para un desarrollo inmobiliario. La reforma también sumó un apartado D a la fracción XII.
+
+> **¿Buscabas «las 16 actividades vulnerables»?** Esa cifra corresponde al texto anterior a julio de 2025. Hoy son 17 fracciones; la XII, de fe pública, agrupa a su vez cuatro apartados.
 
 Si tu empresa realiza cualquiera de estas actividades, tienes la obligación de cumplir con la LFPIORPI. En esta guía detallamos cada una con sus umbrales actualizados.
 
@@ -195,7 +198,7 @@ La LFPIORPI **prohíbe** pagar con efectivo (monedas, billetes, divisas o metale
 
 ### ¿Cómo calculo el umbral en pesos?
 
-Multiplica el número de UMA por el valor diario vigente de la UMA. Consulta el valor actualizado en el sitio del INEGI.
+Multiplica el número de UMA por el valor diario vigente. En 2026 la UMA vale **$117.31** diarios desde el 1 de febrero (publicada en el Diario Oficial de la Federación el 9 de enero de 2026). Por ejemplo, un umbral de 8,025 UMA equivale a unos $941,413 pesos.
 
 ### ¿Qué pasa si hago operaciones por debajo del umbral?
 
@@ -207,7 +210,7 @@ Sí, a través de **Entidades Colegiadas** que tengan convenio con la SHCP (Arts
 
 ### Mi actividad no aparece en la lista, ¿estoy exento?
 
-Si tu actividad económica no está en las 16 fracciones del Art. 17, no estás obligado bajo la LFPIORPI. Sin embargo, si eres Entidad Financiera, te rigen las disposiciones de la Sección Primera.
+Si tu actividad económica no está en las 17 fracciones del Art. 17, no estás obligado bajo la LFPIORPI. Sin embargo, si eres Entidad Financiera, te rigen las disposiciones de la Sección Primera.
 
 ## Conclusión
 

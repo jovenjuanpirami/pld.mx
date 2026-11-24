@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Oficial de Cumplimiento en México: Perfil, Funciones y Responsabilidades"
-description: "Descubre el perfil, funciones y responsabilidades del oficial de cumplimiento bajo la LFPIORPI en 2026."
+title: "Funciones del oficial de cumplimiento PLD en México"
+description: "Funciones del oficial de cumplimiento y del responsable encargado del cumplimiento PLD: qué hace, cómo se designa ante el SAT y de qué responde."
 date: 2026-04-26
 categories:
   - cumplimiento
@@ -14,7 +14,27 @@ tags:
 image: /assets/images/posts/2026-04-26-oficial-de-cumplimiento-en-mexico-perfil-funciones-y-responsabilidades.svg
 author: Equipo PLD.mx
 artu_tema: actividades-vulnerables
+last_modified_at: 2026-11-23
 ---
+
+**Respuesta corta:** en las entidades financieras, el **oficial de cumplimiento** coordina el programa de prevención de lavado de dinero: propone las políticas de identificación del cliente, coordina el seguimiento de operaciones y las investigaciones, envía los reportes urgentes, define la capacitación y es el enlace con la autoridad. En las actividades vulnerables, la figura equivalente se llama **persona representante encargada del cumplimiento** (artículo 20 de la LFPIORPI) y sus funciones deben quedar escritas en el manual de políticas internas.
+
+## Oficial de cumplimiento o representante encargado: cuál te aplica
+
+| | Entidades financieras | Actividades vulnerables |
+|---|---|---|
+| Nombre de la figura | Oficial de cumplimiento | Persona representante encargada del cumplimiento |
+| Dónde se regula | Disposiciones de carácter general de cada sector; para bancos, las disposiciones del artículo 115 de la Ley de Instituciones de Crédito (47ª y 48ª) | LFPIORPI, artículos 3, fracción XII Bis, y 20; Reglas de Carácter General, artículo 10 |
+| Quién la designa | La entidad, que avisa de la designación a su supervisor | Las personas morales y quienes actúan a través de fideicomisos u otras figuras; las personas físicas cumplen por sí mismas |
+| Requisitos | Certificación vigente de la CNBV | Debe ser persona física y aceptar la designación en el portal del SAT con su e.firma; puede certificarse ante la UIF (vigencia de cinco años) |
+| Si no hay designación | La entidad incumple sus disposiciones | Responden el órgano de administración o el administrador único (o el fideicomitente o administrador de la figura) |
+
+Funciones que la norma asigna en las actividades vulnerables:
+
+- Es la persona encargada de que se cumplan las obligaciones de la LFPIORPI.
+- Recibe capacitación anual y, con la reforma de 2025, la capacitación de todo el personal se vuelve obligatoria.
+- Sus funciones y responsabilidades deben definirse en el manual de políticas internas (artículo 37 Bis, fracción X, de las Reglas de Carácter General).
+- Su identidad es confidencial, y no puede ser auditor de la misma empresa.
 
 ## Introducción analítica
 

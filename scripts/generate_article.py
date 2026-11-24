@@ -427,7 +427,7 @@ ESTÁNDAR PERIODÍSTICO (no negociable):
   servicios de PLD distintos de Artu, y nunca atribuyas a una empresa real clientes, precios o
   limitaciones
 - Usa la terminología técnica correcta: "sujeto obligado", "aviso de actividad vulnerable",
-  "beneficiario controlador", "debida diligencia del cliente (DDC)", "operación preocupante",
+  "beneficiario controlador", "debida diligencia del cliente (DDC)", "aviso de 24 horas",
   "matriz de riesgo", "ponderación de factores", etc.
 - Evita tópicos y lugares comunes. Si vas a decir algo obvio, no lo digas.
 - No uses lenguaje promocional ni adjetivos vacíos ("innovador", "de vanguardia", "líder del mercado")
@@ -438,8 +438,11 @@ CONTEXTO LEGAL CLAVE (LFPIORPI reforma DOF 16-07-2025):
 - El Reglamento de la LFPIORPI fue reformado el 27 de marzo de 2026 (primera reforma desde 2013)
 - Los umbrales ahora se expresan en veces el valor diario de la UMA (antes salario mínimo general)
   - UMA 2026: $117.31 MXN diarios (vigente desde el 1 de febrero de 2026)
-- Art. 17 enumera 16 fracciones de actividades vulnerables
-- Art. 18 ahora tiene 11 fracciones de obligaciones (antes eran 6)
+- Art. 17 tiene 17 fracciones de actividades vulnerables (I a XVI y V Bis); la XII (fe pública) tiene apartados A a D.
+  No digas «16 actividades vulnerables»: esa cifra es anterior a la reforma de 2025
+- Art. 18 tiene 12 fracciones (I a XI y IV Bis); IV Bis es el padrón. Las fracciones VII a XI entran en vigor
+  según las Reglas de Carácter General (Acuerdo 115/2026, DOF 07-08-2026, en vigor el 30-nov-2026): EBR y manual
+  01-03-2027; mecanismos automatizados 01-06-2027; capacitación desde 2027; primera auditoría en 2028
 - Nuevas obligaciones del Art. 18 tras reforma 2025:
   * Fracción VII: Evaluación Basada en Riesgos (EBR) documentada
   * Fracción VIII: Manual de Políticas Internas PLD/FT
@@ -453,8 +456,10 @@ CONTEXTO LEGAL CLAVE (LFPIORPI reforma DOF 16-07-2025):
   desde cualquier jurisdicción (alineado con FATF Recommendation 15)
 - PEP (Persona Políticamente Expuesta) definida en fracción IX Bis del Art. 3
 - Representante Encargada de Cumplimiento: fracción XII Bis del Art. 3
-- Conservación de documentos: 10 años (Art. 18 fracción IV)
-- Aviso de operación preocupante: 24 horas (Art. 18 fracción VI, párrafo segundo)
+- Conservación de documentos: al menos 10 años desde la fecha de la actividad vulnerable, física o electrónica (Art. 18 fracción IV)
+- Aviso de 24 horas por sospecha o indicios (Art. 18 fracción VI, párrafo segundo; art. 7 Bis del Reglamento).
+  «Operación inusual», «interna preocupante» y «relevante» son términos del sector financiero (disposiciones del
+  art. 115 de la Ley de Instituciones de Crédito), NO de la LFPIORPI: no los uses para actividades vulnerables
 - Capítulo IV Bis (Arts. 33 Bis, Ter, Quáter): régimen del Beneficiario Controlador
 - Sanciones Art. 54: multas de 200 a 65,000 UMA ($22,628 a $7,354,100 MXN aprox.) o 10-100% del valor
   de la operación

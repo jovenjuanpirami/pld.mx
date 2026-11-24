@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Manual de Políticas Internas PLD: Contenido Obligatorio en 2026"
-description: "Guía detallada sobre el contenido necesario para un Manual de Políticas Internas PLD en México bajo la LFPIORPI."
+description: "Qué debe contener el manual de políticas internas PLD según el artículo 18, fracción VIII, de la LFPIORPI, desde cuándo es exigible y errores comunes."
 date: 2026-08-08
 categories:
   - cumplimiento
 tags:
-  - PLD
-  - cumplimiento
-  - manual de políticas
+  - manual de políticas internas
   - LFPIORPI
-  - sujeto obligado
+  - artículo 18
+  - PEP
+  - cumplimiento
 image: /assets/images/posts/2026-08-08-manual-de-politicas-internas-pld-contenido-obligatorio-en-2026.svg
 author: Equipo PLD.mx
 artu_tema: manual
@@ -19,103 +19,91 @@ redirect_from:
   - /cumplimiento/2026/08/08/manual-de-politicas-pld-contenido-obligatorio-en-2026/
   - /lfpiorpi/2026/06/07/manual-de-politicas-internas-pld-requisitos-2026-segun-art-18/
   - /lfpiorpi/2026/07/01/manual-de-politicas-internas-pld-requisitos-del-art-18-fraccion-viii/
+last_modified_at: 2026-11-23
 ---
 
-## Introducción analítica
+**Respuesta corta:** desde la reforma a la LFPIORPI publicada el 16 de julio de 2025, quienes realizan actividades vulnerables deben elaborar y observar un **manual de políticas internas** con los criterios, medidas y procedimientos para cumplir sus obligaciones, incluido el tratamiento de las personas políticamente expuestas (PEP). La obligación está en el artículo 18, fracción VIII, de la LFPIORPI, que también pide incluir políticas de grupo cuando la empresa forma parte de uno. Un manual útil no se mide por sus páginas, sino por cuántas decisiones resuelve: quién identifica al cliente, cómo se califica el riesgo, qué se hace con una alerta y quién presenta el aviso.
 
-En el contexto actual de la prevención de lavado de dinero en México, el Manual de Políticas Internas PLD (Prevención de Lavado de Dinero) ha adquirido un papel fundamental. La última reforma sustantiva a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido nuevas obligaciones para los sujetos obligados. Ahora, según el Artículo 18 fracción VIII, es obligatorio para estos sujetos contar con un manual documentado que contemple políticas internas específicas para la prevención y detección de operaciones con recursos de procedencia ilícita.
+## Qué exige la ley
 
-La importancia de este documento no es trivial. En México, más de 8,500 sujetos obligados están registrados ante el Servicio de Administración Tributaria (SAT), cada uno de los cuales debe adaptarse a estos requerimientos para evitar sanciones. Con el crecimiento del uso de activos virtuales y la inclusión de operaciones internacionales en la Fracción XVI del Artículo 17, el manual se vuelve una herramienta esencial para gestionar los riesgos asociados y asegurar el cumplimiento legal.
+El manual forma parte de un paquete de obligaciones que la reforma de 2025 agregó o reforzó en el artículo 18 de la LFPIORPI. Vistas en conjunto explican por qué el manual ya no es opcional: es el documento que conecta todas las demás.
 
-La implementación de un Manual de Políticas Internas bien estructurado no solo ayuda a mitigar riesgos financieros y legales, sino que también fortalece la integridad del sistema financiero mexicano en su conjunto. Esta guía detallada explorará los elementos críticos que debe contener dicho manual, proporcionando un marco claro para los oficiales de cumplimiento y otros actores relevantes.
+| Fracción del artículo 18 | Obligación |
+|---|---|
+| I | Identificar al cliente y verificar su identidad con documentos oficiales |
+| II | En una relación de negocios, recabar su actividad u ocupación |
+| III | Identificar al beneficiario controlador (o recabar la declaración, si es persona física) |
+| IV | Conservar por al menos 10 años la información y la documentación de soporte |
+| IV Bis | Darse de alta, actualizar o dar de baja el registro en el padrón |
+| V | Dar facilidades para las visitas de verificación |
+| VI | Presentar avisos e informes, incluido el aviso de 24 horas por sospecha |
+| VII | Hacer una evaluación con enfoque basado en riesgos |
+| VIII | Elaborar y observar el manual de políticas internas, con el tratamiento de PEP y, en su caso, políticas de grupo |
+| IX | Selección de personal y capacitación anual |
+| X | Contar con mecanismos automatizados de monitoreo permanente |
+| XI | Someterse a una auditoría anual, interna o externa independiente según el riesgo |
 
-## Marco legal detallado
+Las fracciones VII a XI entran en vigor en los plazos que fijan las Reglas de Carácter General modificadas por el Acuerdo 115/2026: la evaluación de riesgos y el manual con su metodología, a partir del 1 de marzo de 2027; los mecanismos automatizados, a partir del 1 de junio de 2027; la capacitación anual, desde 2027; y la primera auditoría, en 2028.
 
-La LFPIORPI, específicamente en su Artículo 18 fracción VIII, establece la obligatoriedad para los sujetos obligados de contar con un Manual de Políticas Internas PLD. Este manual debe incluir, entre otros elementos, procedimientos para la identificación y debida diligencia del cliente (DDC), mecanismos de evaluación de riesgos, y políticas de reporte de operaciones relevantes y preocupantes.
+El manual debe describir cómo cumple la empresa cada una de esas obligaciones en su operación real. Si el manual dice una cosa y los expedientes muestran otra, el manual se vuelve evidencia en contra.
 
-Los umbrales para estas obligaciones están definidos en términos de la Unidad de Medida y Actualización (UMA), que para el año 2026 es de 113.14 pesos diarios. Por ejemplo, una operación que supere las 2,000 veces la UMA, equivalente a aproximadamente 226,280 pesos, requeriría una diligencia especial y posiblemente un aviso de actividad vulnerable, conforme al Artículo 17 de la LFPIORPI.
+## Contenido mínimo de un manual útil
 
-Adicionalmente, la reforma de 2025 ha expandido la definición de 'beneficiario controlador' en la fracción III del Artículo 3, lo que implica que el Manual debe contemplar procedimientos para identificar no solo a los propietarios legales, sino también a aquellos con control efectivo directo o indirecto del 25% o más del capital o los votos. Esto es crucial para cumplir con las obligaciones de identificación de beneficiarios finales, especialmente en estructuras corporativas complejas.
+| Sección | Qué debe resolver |
+|---|---|
+| Alcance y responsables | Qué actividades vulnerables realiza la empresa, quién es la persona representante encargada del cumplimiento y cuáles son sus funciones y responsabilidades, y qué áreas participan |
+| Identificación del cliente | Qué datos y documentos se piden según el tipo de cliente, en qué momento, cómo se verifican y qué pasa si el cliente no los entrega |
+| Beneficiario controlador | Cómo se identifica en personas morales y fideicomisos, y qué declaración se pide a personas físicas |
+| Evaluación de riesgo | Factores que se califican (cliente, producto, canal, geografía, monto, comportamiento), niveles y periodicidad de actualización |
+| PEP y alto riesgo | Cuándo se aplica debida diligencia reforzada, quién autoriza la relación y qué monitoreo adicional se hace |
+| Monitoreo y acumulación | Qué alertas genera el sistema, quién las analiza, en qué plazo y cómo se documenta la decisión |
+| Avisos | Quién prepara y presenta los avisos mensuales, los informes en ceros y el aviso de 24 horas, y cómo se conservan los acuses |
+| Conservación | Qué se guarda, dónde, por cuánto tiempo y quién tiene acceso |
+| Capacitación y selección de personal | Programa anual, temario mínimo, evaluación y evidencia |
+| Auditoría y actualización | Quién revisa el cumplimiento, con qué periodicidad y cómo se actualiza el manual cuando cambia la regulación o el negocio |
 
-El Artículo 18 también ha incrementado las obligaciones de capacitación (fracción IX) y auditoría PLD (fracción XI), requiriendo que dichas actividades sean reflejadas en el manual con procedimientos claros y documentados.
+## Errores que más se repiten
 
-## Análisis práctico
+- **Copiar un formato genérico.** Un manual de una inmobiliaria no sirve para una joyería; los umbrales, los clientes típicos y los riesgos son distintos.
+- **Describir procesos que no existen.** Si el manual dice que se consulta una lista en cada operación, los expedientes deben demostrarlo.
+- **No definir quién decide.** Detectar una señal de alerta sin ruta de escalamiento deja a la empresa sin evidencia de por qué actuó o no actuó.
+- **No actualizarlo.** La reforma de 2025, el Acuerdo 115/2026 y los cambios anuales de la UMA obligan a revisarlo; conviene hacerlo al menos una vez al año y cada vez que cambie la regulación o el negocio.
+- **Dejarlo en el cajón.** El manual debe conocerse: es materia obligada de la capacitación anual.
 
-Implementar un Manual de Políticas Internas PLD requiere un enfoque sistemático. Cada sujeto obligado debe evaluar su perfil de riesgo individual y adaptar el manual para abordar específicamente esos riesgos. Por ejemplo, una empresa inmobiliaria que regularmente realiza ventas por encima de los 2 millones de pesos podría tener políticas específicas para gestionar grandes transacciones y procedimientos para identificar a los beneficiarios finales de dichas operaciones.
+## Cómo pasar del documento a la operación
 
-### Procedimientos paso a paso
+El manual funciona cuando cada regla tiene un responsable, un registro y una fecha. Por eso conviene que las reglas que se pueden automatizar (umbrales, acumulación, búsqueda en listas, recordatorios de actualización de expedientes) queden configuradas en el sistema y que el manual remita a ese sistema en lugar de describir pasos manuales. Así se puede [convertir el manual en un sistema que se cumple](https://artu.ai/articles/manual-de-politicas-internas-pld-en-mexico-la-pieza-que-convierte-tu-compliance-en-un-sistema-real-(y-no-en-un-archivo-olvidado)/?utm_source=pldmx&utm_medium=referral&utm_campaign=manual-de-politicas-internas-pld-contenido-obligatorio-en-2026) y no en un archivo olvidado.
 
-1. **Evaluación Inicial de Riesgos**: Utilizando la Evaluación Basada en Riesgos (EBR) documentada, según la Fracción VII del Artículo 18, la empresa debe identificar los riesgos específicos de su sector y tamaño. Por ejemplo, una institución financiera deberá considerar tanto los riesgos asociados con el lavado de dinero como con la financiación del terrorismo.
+## Preguntas frecuentes
 
-2. **Desarrollo del Manual**: El manual debe ser un documento vivo que refleje políticas claras y procedimientos específicos. Debe incluir:
-   - **Identificación del Cliente**: Procedimientos para verificar la identidad del cliente, como se requiere para la debida diligencia del cliente (DDC), asegurando que se recolecta suficiente información para identificar al beneficiario controlador.
-   - **Monitoreo de Operaciones**: Mecanismos automatizados de monitoreo (fracción X del Artículo 18) para detectar operaciones inusuales o sospechosas.
-   - **Reporte de Operaciones**: Procedimientos para el aviso de operaciones preocupantes, que deben ser reportadas a la Unidad de Inteligencia Financiera (UIF) dentro de las 24 horas, conforme al Artículo 18 fracción VI.
+### ¿Es obligatorio tener un manual de políticas internas PLD?
 
-3. **Capacitación y Auditoría**: El manual debe detallar los programas de capacitación anual (fracción IX) y los procedimientos de auditoría interna o externa (fracción XI), asegurando que el personal esté al tanto de los cambios regulatorios y las mejores prácticas.
+Sí. Desde la reforma a la LFPIORPI de julio de 2025, el artículo 18, fracción VIII, obliga a quienes realizan actividades vulnerables a elaborar y observar un manual de políticas internas con criterios, medidas y procedimientos para cumplir sus obligaciones, incluido el tratamiento de PEP.
 
-Un caso hipotético podría ser una cadena de joyerías que, debido a la naturaleza de su negocio, debe manejar con especial cuidado las ventas en efectivo. Si cada sucursal realiza ventas superiores a 500 veces la UMA al mes, el manual debe incluir procedimientos específicos para manejar estas transacciones y reportarlas adecuadamente.
+### ¿Desde cuándo es exigible?
 
-## Riesgos y consecuencias
+Las Reglas de Carácter General modificadas por el Acuerdo 115/2026 fijan el 1 de marzo de 2027 para tener la evaluación de riesgos y el manual con su metodología. Conviene no esperar: el manual tiene que reflejar procesos que ya funcionen.
 
-El incumplimiento de las obligaciones establecidas en la LFPIORPI puede resultar en sanciones severas. Según el Artículo 54, las multas pueden oscilar entre 200 y 65,000 veces la UMA, lo que equivale a entre 22,628 y 7,354,100 pesos aproximadamente. Además, el Artículo 62 establece penas de prisión de 2 a 8 años por declarar falsamente, y el Artículo 63 prevé penas de 4 a 10 años por utilizar recursos de procedencia ilícita.
+### ¿Quién debe aprobar el manual?
 
-Un ejemplo de incumplimiento que resultó en sanciones es el caso de una empresa de bienes raíces que no reportó adecuadamente sus operaciones en 2024, lo que llevó a una multa significativa y a la revisión exhaustiva de sus políticas internas. Esto subraya la importancia de tener un manual robusto que sea revisado y actualizado periódicamente.
+Conviene que lo apruebe el órgano de administración o la dirección general, porque el manual compromete a toda la empresa y define responsables. Revisa si las Reglas de Carácter General vigentes fijan requisitos adicionales para tu caso.
 
-Desde una perspectiva operativa, el incumplimiento puede también resultar en la pérdida de reputación y la interrupción de operaciones. Las entidades financieras podrían enfrentar restricciones en su capacidad de operar internacionalmente si no cumplen con los estándares del Grupo de Acción Financiera Internacional (GAFI), que evaluó a México en 2026.
+### ¿Cada cuánto se actualiza?
 
-## Mejores prácticas
+Al menos una vez al año y cada vez que cambie la regulación, el negocio o la evaluación de riesgos. Guarda las versiones anteriores con su fecha: muestran que el manual se mantiene vivo.
 
-Los sujetos obligados que sobresalen en el cumplimiento de la LFPIORPI suelen implementar un conjunto de mejores prácticas para asegurar la efectividad de sus Manuales de Políticas Internas PLD. Aquí se detallan algunas de ellas:
+### ¿El manual sustituye a la evaluación basada en riesgos?
 
-### Documentación exhaustiva
+No. Son obligaciones distintas. La evaluación identifica y mide los riesgos de la empresa; el manual define cómo se gestionan en la operación diaria. El manual debe ser congruente con los resultados de la evaluación.
 
-- **Manual Actualizado Regularmente**: Revisar y actualizar el manual al menos una vez al año o después de cualquier cambio regulatorio relevante.
-- **Registro de Capacitación**: Documentar todas las sesiones de capacitación y mantener registros de asistencia y materiales utilizados.
+### ¿Sirve un manual genérico descargado de internet?
 
-### Procesos y Controles
+Como punto de partida, quizá. Como documento final, no: debe reflejar tus actividades, tus clientes, tus umbrales y tus procesos reales, porque eso es lo que se contrasta en una visita de verificación.
 
-- **Matriz de Riesgo Detallada**: Mantener una matriz de riesgo que identifique y evalúe los riesgos potenciales de cada operación y cliente específico.
-- **Controles Automatizados**: Implementar sistemas automatizados que alerten sobre transacciones sospechosas en tiempo real.
+## Fuentes
 
-### Involucramiento Directivo
+- Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, artículo 18, texto vigente con última reforma del 16 de julio de 2025 (Cámara de Diputados).
+- Acuerdo 115/2026 que modifica las Reglas de Carácter General de la LFPIORPI, Diario Oficial de la Federación, 7 de agosto de 2026 (artículo 37 Bis y transitorios).
+- Decreto de reforma a la LFPIORPI, Diario Oficial de la Federación, 16 de julio de 2025.
 
-- **Compromiso de la Alta Dirección**: La alta dirección debe estar activamente involucrada en el desarrollo y revisión del manual, asegurando que las políticas reflejen la cultura de cumplimiento de la organización.
-- **Auditorías Externas**: Contratar auditorías externas periódicas para obtener una revisión independiente de las políticas y su implementación.
-
-## Tabla comparativa
-
-| Obligación | Antes de 2025 | Después de 2025 |
-|------------|---------------|-----------------|
-| Manual de Políticas Internas | Opcional | Obligatorio (Art. 18 fracción VIII) |
-| Auditoría PLD | No requerida | Interna o externa obligatoria (Art. 18 fracción XI) |
-| Capacitación | Requerida pero no especificada | Anual, obligatoria (Art. 18 fracción IX) |
-| Evaluación Basada en Riesgos | No especificada | Documentada obligatoria (Art. 18 fracción VII) |
-
-## Conclusión estratégica
-
-La elaboración de un Manual de Políticas Internas PLD efectivo es un componente esencial para el cumplimiento de la LFPIORPI. Dado el aumento en la complejidad regulatoria y las multas potencialmente severas por incumplimiento, es crucial que los sujetos obligados inviertan en el desarrollo y la implementación de manuales robustos y actualizados.
-
-Recomendamos que las empresas adopten un enfoque proactivo, revisando regularmente sus procedimientos internos y asegurando que todo el personal esté adecuadamente capacitado. Asimismo, es fundamental que los directivos se involucren activamente en el proceso, promoviendo una cultura organizacional que priorice el cumplimiento normativo.
-
-## FAQ
-
-**1. ¿Qué elementos específicos debe incluir un Manual de Políticas Internas PLD?**
-
-El manual debe incluir procedimientos para la identificación del cliente, mecanismos de monitoreo de operaciones, políticas para la presentación de avisos de actividad vulnerable, programas de capacitación anual, y procedimientos de auditoría interna o externa. También debe contemplar la evaluación basada en riesgos documentada y procedimientos para identificar al beneficiario controlador.
-
-**2. ¿Con qué frecuencia debe actualizarse el Manual de Políticas Internas PLD?**
-
-El manual debe revisarse y actualizarse al menos una vez al año. Sin embargo, se recomienda una revisión inmediata tras cualquier cambio significativo en la legislación o en las operaciones de la empresa que pueda afectar los riesgos de lavado de dinero asociados.
-
-**3. ¿La revisión del Manual de Políticas Internas PLD debe ser interna o puede realizarse externamente?**
-
-Aunque la revisión puede ser interna, es altamente recomendable realizar auditorías externas periódicas. Esto proporciona una evaluación independiente de la efectividad del manual y puede ayudar a identificar áreas de mejora.
-
-**4. ¿Qué sanciones enfrenta una empresa por no contar con un Manual de Políticas Internas PLD adecuado?**
-
-Las sanciones pueden incluir multas de 200 a 65,000 veces la UMA, lo que equivale a entre 22,628 y 7,354,100 pesos, según el Artículo 54 de la LFPIORPI. Además, las entidades pueden enfrentar restricciones operativas y daños reputacionales.
-
-**5. ¿El Manual de Políticas Internas PLD es aplicable a todos los tipos de sujetos obligados?**
-
-Sí, todos los sujetos obligados bajo la LFPIORPI deben contar con un Manual de Políticas Internas PLD. Sin embargo, el contenido específico del manual puede variar dependiendo del tipo de actividad vulnerable y el perfil de riesgo de la entidad.
+*Este artículo es informativo y no sustituye la asesoría legal de tu caso.*
