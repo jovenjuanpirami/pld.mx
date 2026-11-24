@@ -14,9 +14,10 @@ tags:
 image: /assets/images/posts/2026-04-10-que-es-la-lfpiorpi.svg
 author: Equipo PLD.mx
 artu_tema: lfpiorpi
+last_modified_at: 2026-11-24
 ---
 
-La **LFPIORPI** (Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita) es la ley que regula cómo las empresas en México deben prevenir y detectar el lavado de dinero fuera del sistema financiero. Si tu empresa realiza alguna de las 16 actividades vulnerables que establece esta ley, **estás obligado a cumplirla** — y las sanciones por no hacerlo pueden llegar a 65,000 veces la UMA.
+La **LFPIORPI** (Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita) es la normativa que establece cómo las empresas en México deben prevenir y detectar el lavado de dinero fuera del sistema financiero. Si tu empresa realiza alguna de las 17 actividades vulnerables que define esta ley, **estás obligado a cumplirla** — y las sanciones por incumplimiento pueden alcanzar hasta 65,000 veces la UMA, lo que equivale a aproximadamente $7,354,100 MXN.
 
 Esta guía cubre todo lo que necesitas saber sobre la LFPIORPI con la **última reforma publicada el 16 de julio de 2025**.
 
@@ -24,7 +25,7 @@ Esta guía cubre todo lo que necesitas saber sobre la LFPIORPI con la **última 
 
 Según su **Artículo 2**, el objeto de la ley es *"proteger el sistema financiero y la economía nacional, estableciendo medidas y procedimientos para prevenir y detectar actos u operaciones que involucren recursos de procedencia ilícita"*.
 
-En palabras simples: la LFPIORPI obliga a ciertos negocios (los que realizan "actividades vulnerables") a identificar a sus clientes, monitorear sus operaciones y reportar a la SHCP cuando detectan operaciones sospechosas o que superen ciertos montos.
+En palabras simples: la LFPIORPI obliga a ciertos negocios (los que realizan "actividades vulnerables") a identificar a sus clientes, monitorear sus operaciones y reportar a la Secretaría de Hacienda y Crédito Público (SHCP) cuando detectan operaciones sospechosas o que superen ciertos montos.
 
 ## ¿Quién debe cumplir con la LFPIORPI?
 
@@ -32,11 +33,11 @@ La ley aplica a dos grandes grupos:
 
 ### 1. Entidades Financieras (Art. 14-16)
 
-Bancos, casas de bolsa, aseguradoras, SOFIPOS, fintechs y demás entidades reguladas por la CNBV. Estas se rigen por sus propias leyes especiales además de la LFPIORPI.
+Bancos, casas de bolsa, aseguradoras, Sociedades Financieras Populares (SOFIPOS), fintechs y demás entidades reguladas por la Comisión Nacional Bancaria y de Valores (CNBV). Estas se rigen por sus propias leyes especiales además de la LFPIORPI.
 
 ### 2. Quienes realizan Actividades Vulnerables (Art. 17)
 
-Este es el grupo más amplio y donde la mayoría de las empresas se ven afectadas. El **Artículo 17** establece **16 fracciones** de actividades vulnerables:
+Este es el grupo más amplio y donde la mayoría de las empresas se ven afectadas. El **Artículo 17** establece **17 fracciones** de actividades vulnerables:
 
 | Fracción | Actividad | Umbral de identificación |
 |---|---|---|
@@ -114,7 +115,7 @@ El **Artículo 62** establece prisión de **2 a 8 años** para quien proporcione
 
 ## ¿Cómo empezar a cumplir? Paso a paso
 
-1. **Determina si realizas una actividad vulnerable** — Revisa las 16 fracciones del Artículo 17.
+1. **Determina si realizas una actividad vulnerable** — Revisa las 17 fracciones del Artículo 17.
 
 2. **Alta en el padrón del SAT** — Regístrate como persona que realiza actividades vulnerables a través del portal electrónico (nueva fracción IV Bis del Art. 18).
 
@@ -134,6 +135,8 @@ El **Artículo 62** establece prisión de **2 a 8 años** para quien proporcione
 
 10. **Programa tu auditoría** — Interna (si tu riesgo es bajo o medio) o externa (si es alto).
 
+Para más detalles sobre cómo cumplir con estas obligaciones, consulta la [guía completa de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=que-es-la-lfpiorpi-guia-completa).
+
 ## Preguntas frecuentes
 
 ### ¿Cada cuándo debo presentar avisos?
@@ -152,8 +155,12 @@ Según el Art. 21, debes **abstenerte de realizar la operación** sin responsabi
 
 Sí. La fracción XVI del Art. 17 regula el intercambio de activos virtuales, y la reforma 2025 amplió su alcance para incluir operaciones con ciudadanos mexicanos realizadas desde otra jurisdicción.
 
+### ¿Qué es un Beneficiario Controlador?
+
+El Beneficiario Controlador es la persona que, directa o indirectamente, posee o controla al menos el 25% del capital o de los derechos de voto de una entidad, o que ejerce control efectivo sobre la misma, conforme a la fracción III del Artículo 3.
+
 ## Conclusión
 
 La LFPIORPI no es opcional — es una obligación legal con consecuencias severas por incumplimiento. Con la reforma de julio 2025, las obligaciones se ampliaron significativamente, especialmente en materia de evaluación de riesgos, monitoreo automatizado y auditoría.
 
-La buena noticia es que cumplir no tiene que ser complicado. En **PLD.mx** publicamos artículos diarios para ayudarte a navegar cada aspecto de la ley. Y si buscas automatizar tu cumplimiento, plataformas como [Artu](https://artu.ai) concentran el expediente del cliente, las listas, la matriz de riesgo y los avisos al SAT en un solo lugar.
+La buena noticia es que cumplir no tiene que ser complicado. En **PLD.mx** publicamos artículos diarios para ayudarte a navegar cada aspecto de la ley. Y si buscas automatizar tu cumplimiento, plataformas como [la Ley Antilavado explicada](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=que-es-la-lfpiorpi-guia-completa) concentran el expediente del cliente, las listas, la matriz de riesgo y los avisos al SAT en un solo lugar.
