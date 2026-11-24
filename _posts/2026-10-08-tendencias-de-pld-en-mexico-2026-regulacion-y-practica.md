@@ -13,9 +13,8 @@ tags:
   - mejores prácticas
 image: /assets/images/posts/2026-10-08-tendencias-de-pld-en-mexico-2026-regulacion-y-practica.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
-
-# Tendencias de PLD en México para el año 2026
 
 ## Introducción analítica
 

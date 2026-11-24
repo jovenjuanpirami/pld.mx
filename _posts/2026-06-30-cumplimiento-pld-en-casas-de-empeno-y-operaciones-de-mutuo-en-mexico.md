@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-06-30-cumplimiento-pld-en-casas-de-empeno-y-operaciones-de-mutuo-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: prestamos
 ---
 
 ## Introducción analítica

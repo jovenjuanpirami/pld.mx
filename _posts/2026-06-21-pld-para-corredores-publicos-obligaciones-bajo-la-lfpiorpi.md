@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-06-21-pld-para-corredores-publicos-obligaciones-bajo-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: notarios
 ---
 
 ## Introducción analítica
@@ -77,12 +78,6 @@ Los corredores públicos avanzados han adoptado una serie de mejores prácticas 
 ## Conclusión estratégica
 
 Para los corredores públicos en México, el cumplimiento con la LFPIORPI no es solo una obligación legal, sino una estrategia de mitigación de riesgos críticos. Implementar tecnologías como Artu para gestionar de manera eficiente las obligaciones de PLD puede ofrecer una ventaja competitiva en términos de eficacia y reducción de riesgos. La automatización y un enfoque proactivo en la capacitación y evaluación de riesgos son esenciales para evitar sanciones y proteger la reputación de la firma.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-05-29-auditoria-pld-obligatoria-segun-art-18-fraccion-xi-de-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica  

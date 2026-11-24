@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-08-28-auditoria-interna-vs-externa-en-pld-pautas-para-su-aplicacion.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica

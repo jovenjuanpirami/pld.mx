@@ -13,6 +13,7 @@ tags:
   - tecnología
 image: /assets/images/posts/2026-06-19-automatizacion-del-cumplimiento-pld-con-tecnologia-e-ia.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica

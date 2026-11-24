@@ -17,6 +17,7 @@ tags:
 image: /assets/images/posts/2026-08-23-reglas-de-caracter-general-lfpiorpi-guia-2026.svg
 author: Equipo PLD.mx
 refresh: false
+artu_tema: acuerdo-115
 ---
 
 Las **Reglas de Carácter General LFPIORPI** fueron modificadas por el **Acuerdo 115/2026**, publicado en el Diario Oficial de la Federación el **7 de agosto de 2026** y con entrada en vigor el **30 de noviembre de 2026**. Es la reforma más profunda a estas reglas desde su publicación original del 23 de agosto de 2013: agrega once capítulos nuevos, tres anexos, reescribe el régimen de avisos e informes y crea por primera vez un marco detallado de enfoque basado en riesgos, mecanismos automatizados y auditoría para actividades vulnerables.
@@ -25,7 +26,7 @@ Esta guía desglosa qué cambia en las Reglas de Carácter General de la LFPIORP
 
 ## Respuesta rápida: lo esencial en 8 puntos
 
-1. **Publicación:** DOF, 7 de agosto de 2026 (Acuerdo 115/2026, SHCP, firmado el 24 de julio de 2026).
+1. **Publicación:** DOF, 7 de agosto de 2026 ([Acuerdo 115/2026](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=reglas-de-caracter-general-lfpiorpi-guia-2026), SHCP, firmado el 24 de julio de 2026).
 2. **Entrada en vigor:** 30 de noviembre de 2026 (Transitorio Primero).
 3. **Obligaciones escalonadas:** de marzo de 2027 a marzo de 2029.
 4. **Enfoque basado en riesgos:** deja de ser un principio y se vuelve una metodología documentada y verificable (Capítulo II Quáter).
@@ -85,7 +86,7 @@ El artículo 10 Septies 2 exige consistencia entre la información que alimenta 
 
 La metodología se revisa al detectar nuevos riesgos, cuando se actualice la Evaluación Nacional de Riesgos de la UIF, o **cada doce meses como máximo**. Todo debe constar por escrito y conservarse **diez años**. Si la implementación revela riesgos nuevos o mayores, las políticas y mitigantes se modifican en un plazo máximo de doce meses contados desde que se tienen los resultados.
 
-El artículo 10 Septies 3 faculta al SAT para revisar la metodología, señalar los ajustes necesarios y **solicitar un plan de acción con medidas reforzadas**. Un supuesto expreso: que los criterios para abrir, limitar o terminar una relación comercial no sean congruentes con la metodología. Si estás evaluando herramientas, revisa nuestra comparativa de [plataformas de evaluación basada en riesgo PLD](/tecnologia/2026/06/01/las-mejores-plataformas-de-evaluacion-basada-en-riesgo-pld-en-mexico-2026/).
+El artículo 10 Septies 3 faculta al SAT para revisar la metodología, señalar los ajustes necesarios y **solicitar un plan de acción con medidas reforzadas**. Un supuesto expreso: que los criterios para abrir, limitar o terminar una relación comercial no sean congruentes con la metodología. Si estás evaluando herramientas, revisa nuestra comparativa de [plataformas de evaluación basada en riesgo PLD](/top-software-pld/).
 
 ## Clasificación del grado de riesgo del cliente
 
@@ -213,7 +214,7 @@ La mecánica de umbrales duales del artículo 24 Bis 5 resuelve una ambigüedad 
 - Si la contraprestación alcanza 4 UMA pero la operación es menor a 210 UMA, se avisa solo por el inciso b).
 - Si se cumplen ambos, **se presenta un solo aviso**, correspondiente al inciso a).
 
-Las contraprestaciones se determinan de forma individual por transacción y **no se acumulan**. Para el lado tecnológico, revisa nuestra selección de [software AML para criptomonedas en México](/tecnologia/2026/06/05/mejor-software-aml-para-criptomonedas-en-mexico-2026/).
+Las contraprestaciones se determinan de forma individual por transacción y **no se acumulan**. Para el lado tecnológico, revisa nuestra selección de [software AML para criptomonedas en México](/tecnologia/2026/05/02/top-software-aml-para-criptomonedas-en-mexico-2026/).
 
 ### Copropiedad en arrendamiento (art. 24 Bis 6)
 
@@ -257,9 +258,9 @@ Esa última condición es la que importa. La regla no valida la hoja de cálculo
 
 ## Manual de Políticas Internas
 
-El **Capítulo X** desarrolla el artículo 18, fracción VIII. El plazo se mantiene en **noventa días naturales** desde el alta y registro, y el artículo 37 Bis fija catorce contenidos mínimos: criterios de identificación y conocimiento del cliente; mecanismos de clasificación de riesgo; medidas de debida diligencia según el grado de riesgo; procedimientos de identificación y seguimiento reforzado de PEP; mecanismos para detectar desviaciones del perfil transaccional; procedimientos de presentación de avisos e informes; mecanismos de conservación de información; mecanismos de seguimiento y acumulación de operaciones; mecanismos para identificar personas en listas nacionales e internacionales; funciones y responsabilidades del Representante Encargado de Cumplimiento; programas de capacitación; mecanismos de control interno, supervisión y auditoría; medidas de confidencialidad; y procedimientos de actualización del propio Manual.
+El **Capítulo X** desarrolla el artículo 18, fracción VIII. El plazo se mantiene en **noventa días naturales** desde el alta y registro, y el artículo 37 Bis fija catorce contenidos mínimos: criterios de identificación y conocimiento del cliente; mecanismos de clasificación de riesgo; medidas de debida diligencia según el grado de riesgo; procedimientos de identificación y seguimiento reforzado de PEP; mecanismos para detectar desviaciones del perfil transaccional; procedimientos de [presentación de avisos](https://artu.ai/avisos-sppld/?utm_source=pldmx&utm_medium=referral&utm_campaign=reglas-de-caracter-general-lfpiorpi-guia-2026) e informes; mecanismos de conservación de información; mecanismos de seguimiento y acumulación de operaciones; mecanismos para identificar personas en listas nacionales e internacionales; funciones y responsabilidades del Representante Encargado de Cumplimiento; programas de capacitación; mecanismos de control interno, supervisión y auditoría; medidas de confidencialidad; y procedimientos de actualización del propio Manual.
 
-Además, el Manual debe incluir el diseño de la metodología de evaluación de riesgos y el procedimiento y criterios para determinar la apertura, limitación o terminación de relaciones comerciales, congruentes con esa metodología. Puedes contrastar estos requisitos con nuestra guía del [Manual de Políticas Internas PLD según el Art. 18](/lfpiorpi/2026/06/07/manual-de-politicas-internas-pld-requisitos-2026-segun-art-18/).
+Además, el Manual debe incluir el diseño de la metodología de evaluación de riesgos y el procedimiento y criterios para determinar la apertura, limitación o terminación de relaciones comerciales, congruentes con esa metodología. Puedes contrastar estos requisitos con nuestra guía del [Manual de Políticas Internas PLD según el Art. 18](/cumplimiento/2026/08/08/manual-de-politicas-internas-pld-contenido-obligatorio-en-2026/).
 
 **Grupos empresariales.** El artículo 37 Bis 1 introduce una obligación nueva: quienes formen parte de un grupo empresarial deben implementar **políticas y mecanismos centralizados de cumplimiento** aplicables a todas las sucursales y filiales de propiedad mayoritaria, **incluidas las extranjeras**, que permitan compartir información para identificar y mitigar riesgos y garanticen el cumplimiento individual de cada entidad.
 

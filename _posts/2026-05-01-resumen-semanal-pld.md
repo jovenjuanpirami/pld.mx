@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-05-01-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 25 de abril al 1 de mayo de 2026 consolida una tendencia clara: el sistema antilavado mexicano se está internacionalizando y digitalizando al mismo tiempo. La Unidad de Inteligencia Financiera reforzó sus vínculos con Italia y con el sistema de la ONU para combatir el crimen organizado y los delitos financieros, mientras que un análisis publicado en La Crónica de Hoy ubica a los criptoactivos como el nuevo frente más dinámico del lavado de dinero en México. En paralelo, la evaluación mutua del Grupo de Acción Financiera Internacional (GAFI) sigue avanzando con resultados que definirán la reputación financiera del país en los mercados globales, y el SAT mantiene la presión sobre abogados, contadores y empresas familiares que aún no han completado su inscripción en el sistema de actividades vulnerables. A continuación, el análisis detallado de las noticias más relevantes de la semana.

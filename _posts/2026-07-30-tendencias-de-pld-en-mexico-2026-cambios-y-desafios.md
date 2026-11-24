@@ -13,6 +13,7 @@ tags:
   - 2026
 image: /assets/images/posts/2026-07-30-tendencias-de-pld-en-mexico-2026-cambios-y-desafios.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

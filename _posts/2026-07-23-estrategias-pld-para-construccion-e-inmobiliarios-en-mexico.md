@@ -13,6 +13,7 @@ tags:
   - actividades vulnerables
 image: /assets/images/posts/2026-07-23-estrategias-pld-para-construccion-e-inmobiliarios-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: inmobiliarias
 ---
 
 ## Introducción analítica

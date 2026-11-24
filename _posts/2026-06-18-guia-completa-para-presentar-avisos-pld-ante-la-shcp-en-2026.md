@@ -13,6 +13,7 @@ tags:
   - Avisos
 image: /assets/images/posts/2026-06-18-guia-completa-para-presentar-avisos-pld-ante-la-shcp-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: avisos
 ---
 
 ## Introducción analítica
@@ -25,7 +26,7 @@ En 2026, con la reforma del Reglamento de la LFPIORPI del 27 de marzo de 2026, s
 
 La LFPIORPI, en su Artículo 17, define una serie de actividades vulnerables que requieren la presentación de avisos ante la SHCP. Estas actividades, distribuidas en 16 fracciones, abarcan desde la transmisión de derechos reales sobre inmuebles hasta operaciones con activos virtuales. La reforma de 2025 ha añadido la Fracción V Bis, que incluye el desarrollo inmobiliario, y la Fracción XVI, que abarca operaciones con activos virtuales, reflejando las recomendaciones del GAFI y alineando la regulación mexicana con estándares internacionales.
 
-El Artículo 18 establece once fracciones de obligaciones, siendo clave la obligación de presentar avisos de actividad vulnerable. Estos avisos deben presentarse cuando las operaciones excedan los umbrales establecidos, expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para el 2026 es de $113.14 MXN diarios. Por ejemplo, para operaciones con bienes raíces, el umbral es de 8,025 veces la UMA, lo que equivale aproximadamente a novecientos mil pesos.
+El Artículo 18 establece once fracciones de obligaciones, siendo clave la obligación de presentar [avisos de actividad vulnerable](https://artu.ai/avisos-sppld/?utm_source=pldmx&utm_medium=referral&utm_campaign=guia-completa-para-presentar-avisos-pld-ante-la-shcp-en-2026). Estos avisos deben presentarse cuando las operaciones excedan los umbrales establecidos, expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para el 2026 es de $113.14 MXN diarios. Por ejemplo, para operaciones con bienes raíces, el umbral es de 8,025 veces la UMA, lo que equivale aproximadamente a novecientos mil pesos.
 
 Además, la fracción VI del Artículo 18 establece que los sujetos obligados deben reportar cualquier operación preocupante dentro de las 24 horas de identificarla, subrayando la importancia de mecanismos de monitoreo en tiempo real.
 
@@ -98,7 +99,7 @@ La presentación de avisos ante la SHCP vía el portal del SAT es un componente 
 
 3. **¿Es obligatorio conservar los documentos de los avisos presentados?**
 
-   Sí, la conservación de documentos es obligatoria por un periodo mínimo de 10 años, según la fracción IV del Artículo 18 de la LFPIORPI. Este requisito garantiza que los sujetos obligados puedan proporcionar evidencia de cumplimiento en caso de auditorías o revisiones regulatorias.
+   Sí, la [conservación de documentos](https://artu.ai/articles/de-5-a-10-anos-resguardo-de-evidencia-y-expediente-digital-auditable-en-compliance-pld-(lfpiorpi-2025)-y-como-lograrlo-con-software-pld/?utm_source=pldmx&utm_medium=referral&utm_campaign=guia-completa-para-presentar-avisos-pld-ante-la-shcp-en-2026) es obligatoria por un periodo mínimo de 10 años, según la fracción IV del Artículo 18 de la LFPIORPI. Este requisito garantiza que los sujetos obligados puedan proporcionar evidencia de cumplimiento en caso de auditorías o revisiones regulatorias.
 
 4. **¿Qué es un Beneficiario Controlador y cómo se identifica?**
 

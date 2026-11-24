@@ -12,9 +12,10 @@ tags:
   - tecnología financiera
 image: /assets/images/posts/2026-04-17-inteligencia-artificial-en-pld-innovacion-y-cumplimiento-2026.svg
 author: Equipo PLD.mx
+artu_tema: software
+redirect_from:
+  - /tecnologia/2026/04/17/ia-aplicada-a-la-prevencion-de-lavado-de-dinero-innovacion-y-cumplimiento-2026/
 ---
-
-# Inteligencia Artificial Aplicada a la Prevención de Lavado de Dinero en México
 
 La inteligencia artificial (IA) se ha convertido en una herramienta esencial para la prevención de lavado de dinero (PLD) en México. En el contexto de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), las instituciones financieras y entidades obligadas están adoptando tecnologías avanzadas para mejorar sus procesos de cumplimiento.
 

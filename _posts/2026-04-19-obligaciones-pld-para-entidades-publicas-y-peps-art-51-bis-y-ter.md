@@ -13,6 +13,7 @@ tags:
 image: /assets/images/posts/2026-04-19-obligaciones-pld-para-entidades-publicas-y-peps-art-51-bis-y-ter.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-26
+artu_tema: pep
 ---
 
 ## Introducción analítica
@@ -102,12 +103,6 @@ Estos umbrales son críticos para determinar cuándo es necesario presentar un a
 El cumplimiento de las obligaciones de la LFPIORPI es esencial no solo para evitar sanciones, sino también para salvaguardar la integridad y la reputación de una empresa. Las reformas recientes han incrementado la complejidad del marco regulatorio, pero también han proporcionado herramientas para una mejor gestión del riesgo a través de mecanismos automatizados y evaluaciones basadas en riesgo.
 
 Las empresas deben adoptar un enfoque proactivo, utilizando tecnología avanzada y mejores prácticas para mantenerse al día con el entorno regulatorio. Implementar soluciones como Artu puede facilitar este proceso, permitiendo una automatización eficiente y un cumplimiento auditable que simplifique las obligaciones del Artículo 18.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

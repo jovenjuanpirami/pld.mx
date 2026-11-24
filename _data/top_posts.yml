@@ -1,0 +1,85 @@
+# Posts con más impresiones en Google (Search Console, 90 días al 20-nov-2026; los fusionados suman al que
+# se quedó). El generador actualiza dos por semana (martes y jueves) en su misma URL, empezando por el que
+# lleva más tiempo sin actualizarse. Regenerar esta lista cada trimestre con datos nuevos de Search Console.
+actualizado: 2026-11-23
+posts:
+  - archivo: _posts/2026-06-12-conservacion-de-documentos-pld-requisitos-y-plazos-de-10-anos.md
+    impresiones_90d: 5548
+  - archivo: _posts/2026-04-13-kyc-mexico-mejores-practicas.md
+    impresiones_90d: 4719
+  - archivo: _posts/2026-05-27-como-identificar-operaciones-inusuales-y-preocupantes-en-pld.md
+    impresiones_90d: 4302
+  - archivo: _posts/2026-08-08-manual-de-politicas-internas-pld-contenido-obligatorio-en-2026.md
+    impresiones_90d: 2943
+  - archivo: _posts/2026-07-06-la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026.md
+    impresiones_90d: 2140
+  - archivo: _posts/2026-05-12-debida-diligencia-reforzada-en-pld-cuando-y-como-aplicarla.md
+    impresiones_90d: 1367
+  - archivo: _posts/2026-04-11-actividades-vulnerables-catalogo-completo.md
+    impresiones_90d: 1281
+  - archivo: _posts/2026-05-14-umbrales-de-la-lfpiorpi-para-avisos-cuando-presentarlos.md
+    impresiones_90d: 1272
+  - archivo: _posts/2026-05-16-auditoria-en-pld-interna-o-externa-cuando-y-como-aplicar.md
+    impresiones_90d: 1239
+  - archivo: _posts/2026-08-23-reglas-de-caracter-general-lfpiorpi-guia-2026.md
+    impresiones_90d: 1033
+  - archivo: _posts/2026-04-12-como-automatizar-cumplimiento-pld.md
+    impresiones_90d: 551
+  - archivo: _posts/2026-05-17-estructura-de-integracion-en-pld-marco-y-prevencion-lfpiorpi.md
+    impresiones_90d: 536
+  - archivo: _posts/2026-08-01-tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026.md
+    impresiones_90d: 503
+  - archivo: _posts/2026-09-03-articulo-18-lfpiorpi-obligaciones-clave-para-actividades-vulnerables.md
+    impresiones_90d: 467
+  - archivo: _posts/2026-10-01-pld-en-agencias-automotrices-umbrales-y-regulacion-2026.md
+    impresiones_90d: 451
+  - archivo: _posts/2026-06-18-guia-completa-para-presentar-avisos-pld-ante-la-shcp-en-2026.md
+    impresiones_90d: 434
+  - archivo: _posts/2026-04-18-articulo-18-lfpiorpi-11-obligaciones-en-actividades-vulnerables.md
+    impresiones_90d: 410
+  - archivo: _posts/2026-09-29-pld-en-arrendamiento-de-inmuebles-umbral-y-regulacion-2026.md
+    impresiones_90d: 408
+  - archivo: _posts/2026-04-21-regulacion-pld-para-desarrolladores-inmobiliarios-en-mexico.md
+    impresiones_90d: 390
+  - archivo: _posts/2026-10-02-gafi-y-mexico-evaluaciones-mutuas-y-cumplimiento-2026.md
+    impresiones_90d: 385
+  - archivo: _posts/2026-04-22-cumplimiento-pld-para-empresas-de-traslado-de-valores-en-mexico.md
+    impresiones_90d: 371
+  - archivo: _posts/2026-04-30-auditoria-interna-vs-externa-en-pld-cuando-aplicarlas.md
+    impresiones_90d: 352
+  - archivo: _posts/2026-07-04-pld-para-notarios-publicos-obligaciones-bajo-la-lfpiorpi.md
+    impresiones_90d: 345
+  - archivo: _posts/2026-09-12-nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi.md
+    impresiones_90d: 330
+  - archivo: _posts/2026-04-26-oficial-de-cumplimiento-en-mexico-perfil-funciones-y-responsabilidades.md
+    impresiones_90d: 316
+  - archivo: _posts/2026-08-29-pld-para-notarios-publicos-requisitos-clave-bajo-la-lfpiorpi.md
+    impresiones_90d: 288
+  - archivo: _posts/2026-09-04-pld-en-joyerias-y-metales-preciosos-umbral-de-805-uma-en-2026.md
+    impresiones_90d: 274
+  - archivo: _posts/2026-07-20-tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026.md
+    impresiones_90d: 272
+  - archivo: _posts/2026-05-21-capacitacion-pld-anual-obligaciones-y-mejores-practicas-2026.md
+    impresiones_90d: 257
+  - archivo: _posts/2026-09-18-pld-para-agentes-aduanales-obligaciones-bajo-el-art-17.md
+    impresiones_90d: 254
+  - archivo: _posts/2026-07-24-nuevas-obligaciones-para-entidades-publicas-y-peps-en-pld.md
+    impresiones_90d: 252
+  - archivo: _posts/2026-09-09-cumplimiento-pld-en-construccion-obligaciones-y-estrategias.md
+    impresiones_90d: 233
+  - archivo: _posts/2026-10-03-lavado-de-dinero-en-el-sector-inmobiliario-mexicano-riesgos-y-regulacion.md
+    impresiones_90d: 205
+  - archivo: _posts/2026-08-31-compliance-360-impulsa-la-integridad-de-tu-empresa-en-mexico.md
+    impresiones_90d: 204
+  - archivo: _posts/2026-07-22-la-uif-en-mexico-funciones-y-rol-en-pld-2026.md
+    impresiones_90d: 203
+  - archivo: _posts/2026-06-29-nuevo-regimen-del-beneficiario-controlador-en-la-lfpiorpi.md
+    impresiones_90d: 186
+  - archivo: _posts/2026-08-26-cumplimiento-pld-para-notarios-obligaciones-en-art-17-fraccion-xii.md
+    impresiones_90d: 184
+  - archivo: _posts/2026-07-19-pld-para-tarjetas-de-servicio-y-prepago-en-mexico-normativa-y-practicas.md
+    impresiones_90d: 182
+  - archivo: _posts/2026-08-21-auditoria-pld-obligatoria-claves-de-la-lfpiorpi-2026.md
+    impresiones_90d: 180
+  - archivo: _posts/2026-04-10-que-es-la-lfpiorpi-guia-completa.md
+    impresiones_90d: 179

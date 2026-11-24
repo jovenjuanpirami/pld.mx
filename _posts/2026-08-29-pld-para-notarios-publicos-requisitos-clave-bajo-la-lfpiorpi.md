@@ -13,9 +13,11 @@ tags:
   - actividades vulnerables
 image: /assets/images/posts/2026-08-29-pld-para-notarios-publicos-requisitos-clave-bajo-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: notarios
+redirect_from:
+  - /lfpiorpi/2026/08/29/pld-for-notarios-publicos-requisitos-clave-bajo-la-lfpiorpi/
+  - /lfpiorpi/2026/08/29/pld-for-public-notaries-key-requirements-under-lfpiorpi/
 ---
-
-# PLD para Notarios Públicos: Apartado A fracción XII del Art. 17
 
 ## Introducción analítica
 
@@ -23,7 +25,7 @@ En el entorno actual de cumplimiento regulatorio en México, los notarios públi
 
 Desde la publicación de la LFPIORPI el 17 de octubre de 2012, y tras su última reforma significativa en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, se han incluido obligaciones adicionales que buscan fortalecer el control sobre las actividades vulnerables. La importancia de este marco legal es evidente, dado que el sector inmobiliario, donde los notarios frecuentemente operan, es un área identificada como altamente vulnerable al lavado de dinero. En cifras del Instituto Nacional de Estadística y Geografía (INEGI), el valor de las transacciones inmobiliarias anuales en México supera los 500,000 millones de pesos, lo que subraya el riesgo inherente en estas operaciones.
 
-Pasemos ahora a desglosar en detalle el marco legal aplicable a los notarios públicos según la LFPIORPI y cómo se traduce en obligaciones concretas para estos profesionales.
+Pasemos ahora a desglosar en detalle el marco legal aplicable a los [notarios públicos](https://artu.ai/articles/guia-sistema-automatizado-pld-fe-publica-notarios-corredores/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-notarios-publicos-requisitos-clave-bajo-la-lfpiorpi) según la LFPIORPI y cómo se traduce en obligaciones concretas para estos profesionales.
 
 ## Marco legal detallado
 
@@ -43,7 +45,7 @@ La implementación de la LFPIORPI en las actividades diarias de un notario públ
 
 1. **Identificación del Cliente:** El notario debe recopilar y verificar la documentación de identificación del cliente, asegurándose de que coincide con las bases de datos oficiales y otras fuentes confiables.
 
-2. **Evaluación del Beneficiario Controlador:** Según la reforma de 2025, es esencial identificar al beneficiario controlador, definido en la fracción III del Artículo 3 de la LFPIORPI, como aquella persona que ejerce control efectivo sobre el 25% del capital o votos de la entidad involucrada.
+2. **Evaluación del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-para-notarios-publicos-requisitos-clave-bajo-la-lfpiorpi):** Según la reforma de 2025, es esencial identificar al beneficiario controlador, definido en la fracción III del Artículo 3 de la LFPIORPI, como aquella persona que ejerce control efectivo sobre el 25% del capital o votos de la entidad involucrada.
 
 3. **Detección de Operaciones Inusuales:** Las operaciones que no se alinean con el perfil habitual del cliente deben ser clasificadas como inusuales y, de ser necesario, reportadas como operaciones preocupantes a la Unidad de Inteligencia Financiera (UIF) en un plazo de 24 horas, tal como lo establece el Artículo 18, fracción VI, párrafo segundo.
 
@@ -115,8 +117,3 @@ Aunque no es obligatorio, el uso de herramientas tecnológicas como Artu puede f
 **¿Cómo pueden los notarios asegurarse de que sus políticas de KYC sean efectivas?**
 Los notarios pueden asegurar la efectividad de sus políticas de KYC mediante la actualización regular de los perfiles de clientes, la capacitación continua del personal, y la implementación de auditorías internas y externas para evaluar la eficacia de sus procedimientos. La adopción de tecnologías avanzadas también puede mejorar significativamente el proceso de KYC.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

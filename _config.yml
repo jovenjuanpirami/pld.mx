@@ -1,4 +1,5 @@
-title: "PLD.mx - Prevención de Lavado de Dinero en México"
+title: "PLD.mx"
+tagline: "Prevención de Lavado de Dinero en México"
 description: "Noticias, guías y recursos sobre Prevención de Lavado de Dinero (PLD), la LFPIORPI y cumplimiento regulatorio para empresas en México."
 url: "https://pld.mx"
 baseurl: ""
@@ -22,6 +23,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Collections
 collections:
@@ -54,7 +56,7 @@ exclude:
 
 # Medición (se activa cada etiqueta al rellenar su clave)
 google_tag_manager: "GTM-WC66MFZP"  # Contenedor de Tag Manager (trae GA4 G-K3VX6RHQGN). Una página con analytics: false no lo carga
-google_analytics: ""        # GA4 directo, sin Tag Manager. Déjalo vacío mientras se use Tag Manager para no contar doble
+google_analytics: "G-K3VX6RHQGN"  # GA4 (referencia). Con google_tag_manager lleno, el gtag directo NO se carga: GA4 llega por GTM y no cuenta doble
 meta_pixel: ""              # ID numérico del pixel de Meta
 linkedin_partner_id: ""     # Partner ID del Insight Tag de LinkedIn
 lead_form_endpoint: ""      # Endpoint POST del formulario (Formspree, Tally, HubSpot…)

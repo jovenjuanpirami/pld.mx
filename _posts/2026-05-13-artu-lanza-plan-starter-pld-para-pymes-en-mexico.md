@@ -16,6 +16,7 @@ tags:
   - EBR
 image: /assets/images/posts/2026-05-13-artu-lanza-plan-starter-pld-para-pymes-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 Durante años, las pequeñas y medianas empresas mexicanas que realizan actividades vulnerables bajo la LFPIORPI han enfrentado el mismo dilema: las obligaciones del Artículo 18 aplican por igual a una corporación con miles de transacciones que a una PyME con apenas un puñado de operaciones al año — pero las soluciones disponibles en el mercado se han diseñado y precificado para los primeros.
@@ -106,12 +107,6 @@ Estos tres requisitos hacen que el cumplimiento manual mediante hojas de Excel y
 ## Conclusión
 
 La reforma de 2025 elevó la vara para todos los sujetos obligados, pero el mercado de software PLD se había quedado anclado en soluciones enterprise inaccesibles para la mayoría de las PyMEs mexicanas. El **Plan Starter de Artu** cierra esa brecha: cumplimiento profesional, automatizado y auditable al alcance de cualquier negocio que realice actividades vulnerables, con un flujo operativo de cinco minutos mensuales y la generación automática de avisos en ceros para mantener el registro al corriente ante el SAT.
-
-<div class="cta-box">
-<h3>Conoce el Plan Starter de Artu</h3>
-<p>Cumple con las 11 fracciones del Artículo 18 de la LFPIORPI desde cinco minutos al mes. Diseñado para PyMEs y sujetos obligados de bajo volumen.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## Preguntas Frecuentes
 

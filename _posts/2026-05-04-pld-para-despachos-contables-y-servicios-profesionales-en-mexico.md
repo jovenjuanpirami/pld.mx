@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-05-04-pld-para-despachos-contables-y-servicios-profesionales-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: profesionales
 ---
 
 ## Introducción Analítica

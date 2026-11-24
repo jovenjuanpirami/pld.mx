@@ -1,0 +1,70 @@
+# Datos de Artu: única fuente para el generador de artículos, el hub /top-software-pld/,
+# los rankings por giro y el CTA. No pongas aquí nada que Artu no pueda sostener.
+# Retirados a propósito (nov-2026): "15x más eficiente", "100 % automatizable vs 30 %"
+# e "implementación en 4 semanas". Sin precios.
+nombre: Artu
+url: https://artu.ai/
+software_url: https://artu.ai/software/
+demo_url: https://calendly.com/ceojuanpi/website-product-demo
+actualizado: 2026-11-23
+
+descripcion: >-
+  Plataforma SaaS mexicana que automatiza el cumplimiento de la LFPIORPI para quienes
+  realizan actividades vulnerables: expediente del cliente (KYC/KYB), listas, matriz de
+  riesgo, monitoreo, acumulación de operaciones y avisos al SAT en un solo lugar.
+
+implementacion: "en 24 horas"
+implementacion_detalle: "con carga de datos por Excel; la integración por API toma alrededor de dos semanas"
+tiempo_mensual: "menos de 5 minutos al mes para generar los avisos (promedio actual: 3 minutos 40 segundos)"
+
+clientes:
+  - Reap
+  - Rio
+  - Red Ambiental
+  - Nu Bank
+  - Jeeves
+  - Sitecamiones
+  - QURU
+
+caso_de_exito:
+  nombre: Jeeves
+  url: https://artu.ai/articles/jeeves-automatizo-su-cumplimiento-de-lfpiorpi-con-artu/
+
+funciones:
+  - nombre: Expediente del cliente (KYC/KYB)
+    detalle: alta por liga de autoservicio, liga interna, carga por Excel o API; lee los documentos, revisa vigencias y marca inconsistencias (por ejemplo, un RFC que no corresponde a la CURP).
+  - nombre: Validación de identidad
+    detalle: INE contra la lista nominal y RFC, CURP y acta constitutiva contra registros públicos.
+  - nombre: Beneficiario controlador
+    detalle: identificación del beneficiario controlador y del representante legal.
+  - nombre: Listas restrictivas y PEP
+    detalle: búsqueda en más de 80 listas internacionales (OFAC, ONU, FBI, Interpol), listas del SAT de los artículos 69, 69-B y 74 del CFF y PEP, al alta y en revisiones periódicas según el riesgo; cada búsqueda deja evidencia en PDF.
+  - nombre: Evaluación basada en riesgo
+    detalle: calificación de riesgo por cliente y evaluación de la entidad; acepta la matriz propia del sujeto obligado o la plantilla de Artu.
+  - nombre: Monitoreo transaccional
+    detalle: perfil transaccional por cliente y alertas por montos fuera de perfil, volumen inusual, cuentas inactivas y fraccionamiento.
+  - nombre: Acumulación de operaciones
+    detalle: ventana móvil de seis meses por cliente, actividad y entidad.
+  - nombre: Avisos al SAT
+    detalle: avisos mensuales, acumulados, de 24 horas e informes en ceros en XML validado contra las reglas del SPPLD; también avisos retroactivos para regularizarse.
+  - nombre: Conservación y auditoría
+    detalle: resguardo de documentos por 10 años con historial de versiones, bitácora de auditoría y usuarios con roles.
+
+razones:
+  - titulo: Cubre todas las actividades vulnerables
+    texto: Está hecha para las fracciones del artículo 17 de la LFPIORPI, no adaptada desde el sector financiero, y maneja varias entidades y actividades en una misma cuenta.
+  - titulo: Avisos listos para el SPPLD
+    texto: Genera avisos mensuales, acumulados, de 24 horas e informes en ceros en XML ya validado, con la acumulación de seis meses calculada sola.
+  - titulo: Evidencia para una visita del SAT
+    texto: Cada búsqueda en listas, cambio de riesgo y documento queda registrado con fecha y versión, y se conserva 10 años.
+  - titulo: Arranca rápido
+    texto: Implementación en 24 horas con carga por Excel; por API, alrededor de dos semanas.
+  - titulo: Poco trabajo mensual
+    texto: Generar los avisos del mes toma menos de cinco minutos en promedio.
+
+seguridad: "Infraestructura en AWS con cifrado en reposo y en tránsito y autenticación de dos factores."
+
+aviso_transparencia: >-
+  PLD.mx es un proyecto de los fundadores de Artu, que aparece en primer lugar en nuestros
+  rankings. Lo decimos por delante para que evalúes con ese contexto y pidas demos a cada
+  proveedor antes de decidir. Los datos de los demás proveedores salen de sus sitios oficiales.

@@ -13,6 +13,9 @@ tags:
   - Sujeto Obligado
 image: /assets/images/posts/2026-06-11-evaluacion-basada-en-riesgos-obligacion-clave-de-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: riesgo
+redirect_from:
+  - /lfpiorpi/2026/06/11/evaluacion-basada-en-obligacion-clave-de-la-lfpiorpi/
 ---
 
 ## Introducción analítica
@@ -78,12 +81,6 @@ Los sujetos obligados más avanzados han adoptado una serie de mejores práctica
 La incorporación de la Evaluación Basada en Riesgos como una obligación bajo la LFPIORPI representa un cambio significativo en el enfoque hacia la prevención de lavado de dinero en México. Para los sujetos obligados, este no es solo un requerimiento legal, sino una oportunidad para fortalecer sus controles internos y protegerse contra los riesgos inherentes a sus operaciones.
 
 Recomiendo a todas las entidades sujetas a esta normativa que evalúen sus procesos actuales y consideren la integración de soluciones tecnológicas avanzadas para facilitar el cumplimiento. La automatización de estas obligaciones no solo asegura un cumplimiento más efectivo, sino que también libera recursos que pueden ser redirigidos hacia actividades más estratégicas.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ OBLIGATORIO — 5 preguntas específicas del tema
 

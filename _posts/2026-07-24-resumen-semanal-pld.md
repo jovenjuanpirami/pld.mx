@@ -16,6 +16,7 @@ tags:
   - AMDA
 image: /assets/images/posts/2026-07-24-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 18 al 24 de julio de 2026 fue, sin duda, una de las más intensas del año en materia de prevención de lavado de dinero en México. En el frente operativo, la Unidad de Inteligencia Financiera y las autoridades estadounidenses ejecutaron su acción coordinada más contundente del año contra la infraestructura financiera del Cártel Jalisco Nueva Generación, incorporando a 63 sujetos a la Lista de Personas Bloqueadas en un solo movimiento. En el frente político, la Unidad de Inteligencia Financiera congeló las cuentas del exgobernador Ernesto Ruffo Appel en el marco de una investigación por presunto huachicol fiscal, sumando una nueva dimensión político-anticorrupción a su actividad. Al mismo tiempo, el calendario regulatorio registró un evento significativo que el sector no pasó por alto: el plazo del 16 de julio para que la Secretaría de Hacienda y Crédito Público publicara las nuevas Reglas Generales de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita venció sin que dicha publicación se materializara en el Diario Oficial de la Federación. Y en el sector bancario, las nuevas obligaciones de identificación para operaciones en efectivo superiores a 140 mil pesos continuaron consolidándose como una realidad operativa para millones de usuarios. Pasemos a revisar cada uno de estos desarrollos.

@@ -13,6 +13,7 @@ tags:
   - Art. 51 Bis y Ter
 image: /assets/images/posts/2026-04-28-nuevas-obligaciones-para-entidades-publicas-y-peps-art-51-bis-y-ter.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
 ## Introducción analítica
@@ -86,8 +87,3 @@ El cumplimiento de las nuevas disposiciones del Artículo 51 Bis y Ter de la LFP
 5. **¿Es obligatoria la capacitación anual bajo la nueva reforma?**
    Sí, la fracción IX del Artículo 18 establece que las entidades deben proporcionar capacitación anual al personal sobre las obligaciones de PLD/FT, asegurando que todos estén al tanto de las últimas regulaciones y prácticas de cumplimiento.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

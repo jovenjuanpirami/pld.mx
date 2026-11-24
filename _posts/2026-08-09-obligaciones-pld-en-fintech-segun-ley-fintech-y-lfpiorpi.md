@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-08-09-obligaciones-pld-en-fintech-segun-ley-fintech-y-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: sofomes
 ---
 
 ## Introducción analítica
@@ -78,7 +79,7 @@ Para cumplir efectivamente con las obligaciones de PLD, las fintechs avanzadas e
 
 ### Uso de Tecnología
 
-- **Automatización del Cumplimiento**: Utilizar herramientas como Artu para automatizar la identificación de clientes, monitoreo transaccional y generación de reportes. La implementación de Artu en un periodo de cuatro semanas permite a las fintechs integrar módulos específicos para cada obligación del Artículo 18.
+- **Automatización del Cumplimiento**: Utilizar herramientas como Artu para automatizar la identificación de clientes, monitoreo transaccional y generación de reportes. La implementación de Artu, de 24 horas con carga por Excel, permite a las fintechs integrar módulos específicos para cada obligación del Artículo 18.
 - **Inteligencia Artificial Generativa**: La IA generativa puede ser utilizada para analizar patrones de transacciones y detectar anomalías que podrían indicar lavado de dinero.
 
 ### Capacitación y Cultura Organizacional
@@ -123,8 +124,3 @@ La tecnología desempeña un papel crucial en el cumplimiento de PLD para las fi
 **¿Cómo puede una fintech fomentar una cultura de cumplimiento efectiva?**
 Fomentar una cultura de cumplimiento efectiva implica establecer políticas claras, asegurar la capacitación continua del personal y promover la ética y la transparencia en todas las operaciones. Las fintechs deben integrar el cumplimiento en su estructura organizacional, asegurando que todos los empleados comprendan su papel en la prevención del lavado de dinero. Programas de capacitación anuales y auditorías regulares son herramientas clave para mantener una cultura de cumplimiento sólida.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

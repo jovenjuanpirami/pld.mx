@@ -15,6 +15,7 @@ tags:
   - SAT
 image: /assets/images/posts/2026-09-11-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 5 al 11 de septiembre de 2026 estuvo marcada por la llegada del Segundo Informe de Gobierno, que reveló cifras históricas sobre el desempeño del sistema antilavado mexicano y puso sobre la mesa datos que todo profesional de cumplimiento debe conocer. En paralelo, la Fiscalía General de la República, conocida como FGR, ejecutó una detención en Nuevo León que ilustra, en términos concretos, cómo opera hoy la persecución del efectivo no justificado en carretera. En el plano regulatorio, el Acuerdo 115/2026 —la reforma más amplia a las Reglas de Carácter General de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, o LFPIORPI, en más de una década— sigue generando preguntas urgentes entre los sujetos obligados sobre los plazos que corren, y el calendario del Grupo de Acción Financiera Internacional, o GAFI, avanza hacia su plenaria de octubre, en la que se discutirá la evaluación mutua de México. Pasemos a revisar cada uno de estos ejes.

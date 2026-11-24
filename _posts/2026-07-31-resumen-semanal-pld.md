@@ -15,6 +15,7 @@ tags:
   - Mundial 2026
 image: /assets/images/posts/2026-07-31-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 25 al 31 de julio de 2026 cierra el mes más exigente del año para los sujetos obligados en México y lo hace con una señal de alarma difícil de ignorar: la Secretaría de Hacienda y Crédito Público incumplió el plazo legal para publicar las Reglas Generales de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI. Esa ausencia no es burocrática; deja a decenas de miles de actividades vulnerables sin los procedimientos operativos definitivos que necesitan para ejecutar las obligaciones de la reforma de julio de 2025. Al mismo tiempo, el escenario internacional avanzó en varias direcciones: el Grupo de Acción Financiera Internacional —o GAFI, también conocido por sus siglas en inglés como FATF— publicó su séptimo informe sobre activos virtuales con advertencias que afectan directamente a los proveedores de servicios de criptomonedas en México; la Unidad de Inteligencia Financiera, o UIF, y la Comisión Nacional Bancaria y de Valores, o CNBV, mantienen activo su alertamiento especial por el Mundial 2026 hasta el 31 de agosto; y el capítulo México de la Asociación de Especialistas Certificados en Antilavado de Dinero realizó un webinar el 22 de julio sobre financiamiento del terrorismo y proliferación de armas. Pasemos a detallar cada uno de estos desarrollos.

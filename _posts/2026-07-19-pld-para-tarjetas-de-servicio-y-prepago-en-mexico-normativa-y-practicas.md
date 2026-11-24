@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-19-pld-para-tarjetas-de-servicio-y-prepago-en-mexico-normativa-y-practicas.svg
 author: Equipo PLD.mx
+artu_tema: tarjetas
 ---
 
 ## Introducción analítica

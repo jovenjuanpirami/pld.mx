@@ -14,15 +14,14 @@ tags:
 image: /assets/images/posts/2026-04-22-cumplimiento-pld-para-empresas-de-traslado-de-valores-en-mexico.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-11-01
+artu_tema: traslado
 ---
-
-# Cumplimiento de PLD en Empresas de Traslado de Valores: Fracción X del Art. 17
 
 ## Introducción Analítica
 
 El sector de empresas de traslado de valores en México es un componente crítico del sistema financiero, facilitando la circulación segura de grandes sumas de dinero. Según datos de la Asociación Mexicana de Empresas de Seguridad Privada (AMESP), existen más de 150 empresas dedicadas a esta actividad, manejando diariamente más de 3,000 millones de pesos en efectivo. Este sector está bajo un estricto escrutinio regulatorio debido al alto riesgo de lavado de dinero y financiamiento al terrorismo, lo que exige un cumplimiento robusto con la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI).
 
-La reforma más reciente de la LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo cambios significativos que afectan a las empresas de traslado de valores, específicamente bajo la fracción X del Artículo 17. Esta fracción establece que las actividades relacionadas con la transportación y custodia de dinero en efectivo y valores son consideradas actividades vulnerables, obligando a estas empresas a cumplir con una serie de requisitos para prevenir el lavado de dinero.
+La reforma más reciente de la LFPIORPI, publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo cambios significativos que afectan a las empresas de [traslado de valores](https://artu.ai/articles/guia-sistema-automatizado-pld-traslado-custodia-dinero-valores/?utm_source=pldmx&utm_medium=referral&utm_campaign=cumplimiento-pld-para-empresas-de-traslado-de-valores-en-mex), específicamente bajo la fracción X del Artículo 17. Esta fracción establece que las actividades relacionadas con la transportación y custodia de dinero en efectivo y valores son consideradas actividades vulnerables, obligando a estas empresas a cumplir con una serie de requisitos para prevenir el lavado de dinero.
 
 Con la nueva reforma, los umbrales y obligaciones se han ajustado, lo que requiere que las empresas de traslado de valores implementen controles más rigurosos para el monitoreo y reporte de operaciones. La actualización de los umbrales en Unidad de Medida y Actualización (UMA), que para 2026 es de 113.14 pesos diarios, es un aspecto clave para determinar las operaciones que deben ser reportadas. Este contexto de mercado y la evolución regulatoria subrayan la importancia de que las empresas de traslado de valores no solo se mantengan al día con las obligaciones, sino que también fortalezcan sus sistemas de cumplimiento.
 
@@ -42,7 +41,7 @@ Un ejemplo concreto es el de una empresa de traslado de valores que diariamente 
 
 Los pasos para cumplir con estas obligaciones son los siguientes:
 
-1. **Evaluación Basada en Riesgos (EBR):** Documentar los riesgos asociados a las operaciones de traslado de valores y establecer controles adecuados. La documentación debe incluir la identificación del Beneficiario Controlador, según lo establecido en la fracción III del Artículo 3.
+1. **Evaluación Basada en Riesgos (EBR):** Documentar los riesgos asociados a las operaciones de traslado de valores y establecer controles adecuados. La documentación debe incluir la identificación del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=cumplimiento-pld-para-empresas-de-traslado-de-valores-en-mex), según lo establecido en la fracción III del Artículo 3.
 2. **Capacitación del Personal:** Realizar capacitaciones anuales para todo el personal involucrado en el manejo de efectivo y valores, asegurando que estén al tanto de las últimas regulaciones y prácticas de PLD/FT.
 3. **Monitoreo y Reporte:** Implementar sistemas automatizados que permitan la identificación temprana de operaciones que superen los umbrales establecidos y reportarlas de acuerdo con los plazos legales.
 4. **Auditoría Interna/Externa:** Programar auditorías regulares para evaluar la efectividad de los controles de PLD internos y realizar ajustes cuando sea necesario.

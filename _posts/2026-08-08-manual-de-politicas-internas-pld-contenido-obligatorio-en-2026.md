@@ -13,6 +13,12 @@ tags:
   - sujeto obligado
 image: /assets/images/posts/2026-08-08-manual-de-politicas-internas-pld-contenido-obligatorio-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: manual
+redirect_from:
+  - /cumplimiento/2026/06/13/manual-de-politicas-internas-pld-contenido-clave-en-2026/
+  - /cumplimiento/2026/08/08/manual-de-politicas-pld-contenido-obligatorio-en-2026/
+  - /lfpiorpi/2026/06/07/manual-de-politicas-internas-pld-requisitos-2026-segun-art-18/
+  - /lfpiorpi/2026/07/01/manual-de-politicas-internas-pld-requisitos-del-art-18-fraccion-viii/
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-10-05-tendencias-de-prevencion-de-lavado-de-dinero-en-mexico-2026.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

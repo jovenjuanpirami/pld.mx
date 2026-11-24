@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-17-prestamos-entre-particulares-identificacion-de-actividades-vulnerables.svg
 author: Equipo PLD.mx
 topic: "Préstamos entre particulares: cuándo el mutuo es actividad vulnerable"
+artu_tema: prestamos
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-05-28-pld-en-tarjetas-de-servicios-y-prepago-desafios-y-regulacion.svg
 author: Equipo PLD.mx
+artu_tema: tarjetas
 ---
 
 ## Introducción analítica

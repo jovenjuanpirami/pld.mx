@@ -13,6 +13,7 @@ tags:
   - Compliance
 image: /assets/images/posts/2026-09-09-cumplimiento-pld-en-construccion-obligaciones-y-estrategias.svg
 author: Equipo PLD.mx
+artu_tema: inmobiliarias
 ---
 
 ## Introducción analítica  
@@ -23,7 +24,7 @@ La Ley Federal para la Prevención e Identificación de Operaciones con Recursos
 Con la última reforma, las obligaciones de los sujetos obligados han aumentado de seis a once fracciones en el Artículo 18, estableciendo requisitos más estrictos de cumplimiento que incluyen, entre otros, la Evaluación Basada en Riesgos (EBR) documentada, la implementación de un Manual de Políticas Internas PLD/FT, y auditorías de cumplimiento internas o externas. Para las empresas del sector construcción, cumplir con estas obligaciones es esencial no solo para evitar sanciones, sino también para salvaguardar su reputación y mantener la confianza de inversores y clientes.  
 
 ## Marco legal detallado  
-La LFPIORPI establece un marco claro para identificar y mitigar las actividades de lavado de dinero en el sector de la construcción y desarrollo inmobiliario. El Artículo 17, fracción V Bis, especifica que las actividades relacionadas con el desarrollo inmobiliario, en particular la recepción de recursos para la construcción, son consideradas actividades vulnerables. Estos sujetos obligados deben presentar avisos al Servicio de Administración Tributaria (SAT) cuando las transacciones superan ciertos umbrales establecidos en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor de la UMA es de 113.14 pesos diarios.  
+La LFPIORPI establece un marco claro para identificar y mitigar las actividades de lavado de dinero en el sector de la construcción y desarrollo inmobiliario. El Artículo 17, fracción V Bis, especifica que las actividades relacionadas con el desarrollo inmobiliario, en particular la recepción de recursos para la construcción, son consideradas actividades vulnerables. Estos sujetos obligados deben presentar avisos al Servicio de Administración Tributaria (SAT) cuando las transacciones superan ciertos umbrales establecidos en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor de la UMA es de 113.14 pesos diarios. Relacionado: [Software de PLD para inmobiliarias](https://artu.ai/pld-inmobiliarias/?utm_source=pldmx&utm_medium=referral&utm_campaign=cumplimiento-pld-en-construccion-obligaciones-y-estrategias).
 
 Las obligaciones del Artículo 18 de la LFPIORPI se han ampliado significativamente con la última reforma. Ahora, los sujetos obligados deben cumplir con once fracciones, incluyendo:  
 
@@ -48,7 +49,7 @@ Implementar las obligaciones de la LFPIORPI en el sector de la construcción y d
 
 5. **Monitoreo y reporte**: Las empresas deben implementar sistemas de monitoreo automatizados que puedan identificar transacciones inusuales y generar alertas. Estos sistemas deben ser capaces de generar informes periódicos para la administración y para las auditorías.  
 
-Un ejemplo práctico sería una desarrolladora inmobiliaria que vende 12 unidades residenciales al mes, cada una por un valor de 2.8 millones de pesos. Dado que el umbral de aviso para operaciones de desarrollo inmobiliario es de 8,025 veces la UMA, esta empresa tendría que presentar un aviso por cada una de estas transacciones al SAT dentro de los primeros 17 días del mes siguiente.  
+Un ejemplo práctico sería una desarrolladora inmobiliaria que vende 12 unidades residenciales al mes, cada una por un valor de 2.8 millones de pesos. Dado que el [umbral de aviso](https://artu.ai/articles/umbrales-uma-2026-valor-diario-117-mxn-actualizado/?utm_source=pldmx&utm_medium=referral&utm_campaign=cumplimiento-pld-en-construccion-obligaciones-y-estrategias) para operaciones de desarrollo inmobiliario es de 8,025 veces la UMA, esta empresa tendría que presentar un aviso por cada una de estas transacciones al SAT dentro de los primeros 17 días del mes siguiente.  
 
 6. **Auditorías y revisiones**: Las revisiones periódicas del cumplimiento PLD deben ser parte integral de la estrategia de la empresa. Estas auditorías pueden ser internas, realizadas por un equipo designado dentro de la empresa, o externas, llevadas a cabo por consultores especializados en cumplimiento.  
 
@@ -111,8 +112,3 @@ El Oficial de Cumplimiento es responsable de implementar y supervisar las polít
 **5. ¿Cómo puede Artu facilitar el cumplimiento PLD para desarrolladoras inmobiliarias?**  
 Artu ofrece una solución integral que automatiza el cumplimiento de las obligaciones establecidas en el Artículo 18 de la LFPIORPI. Con módulos que incluyen monitoreo transaccional, generación de avisos XML al SAT y evaluación de riesgos, Artu ayuda a las empresas a cumplir de manera eficiente y efectiva, reduciendo el riesgo de sanciones y mejorando la gobernanza corporativa.  
 
-<div class="cta-box">  
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>  
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>  
-<a href="https://artu.ai">Conoce Artu →</a>  
-</div>

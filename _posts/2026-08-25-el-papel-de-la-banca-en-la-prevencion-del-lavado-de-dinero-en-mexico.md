@@ -13,6 +13,10 @@ tags:
   - compliance
 image: /assets/images/posts/2026-08-25-el-papel-de-la-banca-en-la-prevencion-del-lavado-de-dinero-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
+redirect_from:
+  - /noticias/2026/08/25/el-papel-de-la-banca-en-la-prevencion-de-lavado-de-dinero-en-mexico/
+  - /noticias/2026/08/25/el-papel-de-la-banca-en-la-prevencion-de-lavado-dinero-en-mexico/
 ---
 
 ## Introducción analítica

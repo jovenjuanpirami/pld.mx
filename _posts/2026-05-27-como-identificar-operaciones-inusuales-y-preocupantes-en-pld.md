@@ -13,6 +13,10 @@ tags:
   - México
 image: /assets/images/posts/2026-05-27-como-identificar-operaciones-inusuales-y-preocupantes-en-pld.svg
 author: Equipo PLD.mx
+artu_tema: avisos-24-horas
+redirect_from:
+  - /cumplimiento/2026/07/09/identificacion-de-operaciones-inusuales-y-preocupantes-en-pld/
+  - /cumplimiento/2026/09/25/identificacion-de-operaciones-inusuales-y-preocupantes-en-pld-mexico/
 ---
 
 ## Introducción analítica

@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-04-17-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 11 al 17 de abril de 2026 dejó un panorama de intensa actividad legislativa, diplomática y técnica en materia de prevención de lavado de dinero en México. La reacción política al fallo histórico de la SCJN que avala el bloqueo de cuentas sin orden judicial marcó la agenda, mientras que la Secretaría de Hacienda y el Departamento del Tesoro de Estados Unidos consolidaron una nueva etapa de cooperación bilateral contra las finanzas ilícitas. A esto se suma la publicación de nuevos boletines del IMCP que sitúan al fraude financiero como una de las cinco amenazas globales más graves, y la entrada en vigor de obligaciones concretas derivadas del nuevo Reglamento de la LFPIORPI. A continuación, el análisis detallado de las principales noticias de la semana.

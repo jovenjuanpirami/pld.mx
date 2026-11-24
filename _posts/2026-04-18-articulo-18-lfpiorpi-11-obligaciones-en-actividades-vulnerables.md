@@ -13,19 +13,20 @@ tags:
 image: /assets/images/posts/2026-04-18-articulo-18-lfpiorpi-11-obligaciones-en-actividades-vulnerables.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-25
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
 
 Desde la publicación de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI) el 17 de octubre de 2012, y más recientemente con su última reforma sustantiva publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, el marco regulatorio para la prevención de lavado de dinero en México ha evolucionado considerablemente. En 2026, México cuenta con más de 8,500 sujetos obligados registrados ante el SAT, lo que refleja una amplia cobertura de esta normativa en sectores como el financiero, inmobiliario y de servicios profesionales. 
 
-La reforma de 2025 introdujo cambios significativos, especialmente en las obligaciones para los sujetos obligados, incrementando de seis a once las fracciones del Artículo 18. Estas modificaciones buscan fortalecer los mecanismos de control y supervisión, haciendo énfasis en la implementación de una Evaluación Basada en Riesgos (EBR) documentada, manuales de políticas internas para la prevención de lavado de dinero y financiamiento al terrorismo (PLD/FT), y la utilización de mecanismos automatizados de monitoreo. Estos cambios no solo aumentan la carga regulatoria para las empresas, sino que también requieren de una adaptación tecnológica y operativa significativa para cumplir con los nuevos estándares.
+La reforma de 2025 introdujo cambios significativos, especialmente en las obligaciones para los sujetos obligados, incrementando de seis a once las fracciones del Artículo 18. Estas modificaciones buscan fortalecer los mecanismos de control y supervisión, haciendo énfasis en la implementación de una Evaluación Basada en Riesgos (EBR) documentada, manuales de políticas internas para la prevención de lavado de dinero y financiamiento al terrorismo (PLD/FT), y la utilización de [mecanismos automatizados](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=articulo-18-lfpiorpi-11-obligaciones-en-actividades-vulnerab) de monitoreo. Estos cambios no solo aumentan la carga regulatoria para las empresas, sino que también requieren de una adaptación tecnológica y operativa significativa para cumplir con los nuevos estándares.
 
 En este contexto, es crucial para las empresas operando en México entender a fondo sus obligaciones bajo la LFPIORPI para mitigar riesgos de sanciones y mejorar sus prácticas de cumplimiento. La adopción de soluciones tecnológicas como Artu, que ofrece un software de compliance 360 para actividades vulnerables, se convierte en una ventaja estratégica al automatizar gran parte de estos procesos.
 
 ## Marco legal detallado
 
-La LFPIORPI, en su Artículo 17, enumera 16 fracciones de actividades consideradas vulnerables, que abarcan desde operaciones con activos virtuales hasta el desarrollo inmobiliario, incluyendo la recepción de recursos para la construcción. La reforma de 2025 amplió estas categorías y estableció umbrales claros expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 se sitúa en $113.14 MXN diarios.
+La LFPIORPI, en su Artículo 17, enumera 16 fracciones de actividades consideradas vulnerables, que abarcan desde operaciones con activos virtuales hasta el desarrollo inmobiliario, incluyendo la recepción de recursos para la construcción. La reforma de 2025 amplió estas categorías y estableció umbrales claros expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 se sitúa en $113.14 MXN diarios. Relacionado: [Guía completa de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=articulo-18-lfpiorpi-11-obligaciones-en-actividades-vulnerab).
 
 Por ejemplo, la Fracción I del Artículo 17 establece que cualquier operación de mutuo, crédito o garantía superior a 3,210 veces la UMA, aproximadamente $363,195 MXN, es considerada vulnerable. Por otro lado, la Fracción V Bis, introducida en la reforma de 2025, abarca a los desarrolladores inmobiliarios que reciben recursos para construcción, obligándolos a reportar operaciones que excedan ciertos montos específicos.
 
@@ -97,12 +98,6 @@ La tabla anterior destaca las diferencias clave en las obligaciones de los sujet
 La evolución de la LFPIORPI refleja un cambio significativo hacia un marco regulatorio más robusto y exigente, impulsando a las empresas a adoptar medidas proactivas para asegurar el cumplimiento. La implementación de tecnologías avanzadas, como Artu, no solo simplifica estos procesos, sino que también proporciona a las organizaciones una ventaja competitiva al mejorar su capacidad de respuesta ante riesgos de lavado de dinero.
 
 Para las empresas en México, es imperativo no solo cumplir con las obligaciones legales, sino también adoptar una cultura de cumplimiento que involucre a todos los niveles de la organización. Esto incluye la inversión en capacitación continua, la revisión periódica de políticas y procedimientos, y la incorporación de herramientas tecnológicas que faciliten la implementación y monitoreo de las medidas requeridas por la LFPIORPI.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

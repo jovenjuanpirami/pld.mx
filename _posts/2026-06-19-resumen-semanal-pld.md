@@ -15,6 +15,7 @@ tags:
   - beneficiario controlador
 image: /assets/images/posts/2026-06-19-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 13 al 19 de junio de 2026 tuvo como telón de fondo algo sin precedente en la historia del sistema antilavado mexicano: la primera Copa Mundial de la FIFA celebrada en territorio nacional, con partidos en disputa desde el 11 de junio. Lo que en mayo fue un alertamiento sobre riesgos potenciales se convirtió esta semana en una realidad operativa que exige respuestas inmediatas de bancos, entidades financieras y actividades vulnerables. Al mismo tiempo, el calendario regulatorio no se detuvo: el plazo para que la Secretaría de Hacienda y Crédito Público emita las Reglas Generales de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita se acerca con fuerza, la evaluación del Grupo de Acción Financiera Internacional sigue su curso, y el Servicio de Administración Tributaria intensifica la fiscalización de los Beneficiarios Controladores. Pasemos a revisar cada uno de estos desarrollos.

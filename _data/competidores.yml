@@ -1,0 +1,11 @@
+# PROVISIONAL: se reemplaza con los datos verificados de cada proveedor antes de publicar.
+actualizado: 2026-11-23
+proxima_revision: 2027-02-23
+criterios:
+  - nombre: Cobertura de la LFPIORPI
+    detalle: qué obligaciones del artículo 18 resuelve la plataforma.
+columnas:
+  - clave: kyc
+    nombre: Expediente KYC/KYB
+rankings_por_giro: []
+proveedores: []

@@ -1,0 +1,293 @@
+# Mapa tema/giro -> página de artu.ai. Lo usan el generador (ligas en el cuerpo de cada post),
+# el CTA del final (post-cta.html, vía `artu_tema` en el front matter) y las ligas de los posts
+# con más impresiones. Solo URLs del sitemap de artu.ai (https://artu.ai/sitemap.xml), todas
+# revisadas con respuesta 200 el 23-nov-2026.
+#
+# claves: palabras (minúsculas y sin acentos) que se buscan en el título, el tema y las etiquetas;
+#         gana el primer tema de la lista que coincida, así que los giros van antes que los temas generales.
+# textos: textos de liga naturales; el generador rota entre ellos para no repetir siempre el mismo.
+# giro:   etiqueta para el CTA ("Automatiza el cumplimiento PLD para ...").
+default: actividades-vulnerables
+
+temas:
+  # ── Giros ───────────────────────────────────────────────────────────────
+  - clave: desarrolladoras
+    url: https://artu.ai/pld-desarrolladoras/
+    giro: desarrolladoras inmobiliarias
+    claves: [desarrollador, desarrolladora, desarrollo inmobiliario, preventa, recepcion de recursos]
+    textos:
+      - control de preventas y aportaciones para desarrolladoras
+      - cumplimiento PLD para desarrolladoras inmobiliarias
+      - herramienta de PLD pensada para desarrollos inmobiliarios
+  - clave: arrendadoras
+    url: https://artu.ai/pld-arrendadoras/
+    giro: arrendadores de inmuebles
+    claves: [arrendamiento, arrendador, arrendadora, renta de inmueble, rentas, copropiet, uso o goce]
+    textos:
+      - control de rentas y copropiedad para arrendadores
+      - cumplimiento PLD para arrendamiento de inmuebles
+      - umbral por contrato y por inmueble, mes con mes
+  - clave: activos-virtuales
+    url: https://artu.ai/pld-activos-virtuales/
+    giro: plataformas de activos virtuales
+    claves: [activos virtuales, cripto, criptomoneda, bitcoin, exchange]
+    textos:
+      - cumplimiento PLD para plataformas de activos virtuales
+      - controles de PLD para exchanges y activos virtuales
+      - software de PLD para criptoactivos
+  - clave: sofomes
+    url: https://artu.ai/pld-sofomes/
+    giro: SOFOM y otorgantes de crédito
+    claves: [sofom, sofipo, fintech, financiera, credito no bancario]
+    textos:
+      - qué le toca a una SOFOM ante la CNBV y ante el SAT
+      - cumplimiento PLD para SOFOM ENR
+      - software de PLD para SOFOM
+  - clave: prestamos
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-prestamos-mutuos-creditos-no-bancarios/
+    giro: otorgantes de préstamos y créditos
+    claves: [prestamo, mutuo, empeno, casa de empeno, credito, garantia]
+    textos:
+      - sistema automatizado de PLD para préstamos y créditos
+      - cómo automatizar el PLD en mutuos y créditos
+  - clave: blindaje
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-blindaje-vehiculos-inmuebles/
+    giro: empresas de blindaje
+    claves: [blindaje, blindad]
+    textos:
+      - sistema automatizado de PLD para blindadoras
+      - cómo automatizar el PLD en servicios de blindaje
+  - clave: automotriz
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-vehiculos-aereos-maritimos-terrestres/
+    giro: agencias automotrices
+    claves: [automotri, vehicul, autos, automovil, agencia de autos, camion]
+    textos:
+      - sistema automatizado de PLD para agencias de autos
+      - automatizar los avisos en la venta de vehículos
+      - control de PLD para distribuidores de vehículos
+  - clave: joyeria
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-metales-piedras-preciosas-joyas-relojes/
+    giro: joyerías y relojerías
+    claves: [joyer, joya, relojer, reloj, metales preciosos, piedras preciosas, oro]
+    textos:
+      - sistema automatizado de PLD para joyerías
+      - cómo automatizar el PLD en joyerías y relojerías
+  - clave: notarios
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-fe-publica-notarios-corredores/
+    giro: notarías y corredurías
+    claves: [notari, corredor, correduria, fe publica, fedatari]
+    textos:
+      - sistema automatizado de PLD para notarías y corredurías
+      - cómo automatizar el PLD en la fe pública
+  - clave: aduanas
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-servicios-comercio-exterior-agentes-aduanales/
+    giro: agentes aduanales
+    claves: [aduan, comercio exterior, importacion, exportacion]
+    textos:
+      - sistema automatizado de PLD para agentes aduanales
+      - cómo automatizar el PLD en comercio exterior
+  - clave: arte
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-obras-de-arte/
+    giro: galerías y casas de subastas
+    claves: [obras de arte, arte, galeria, subasta]
+    textos:
+      - sistema automatizado de PLD para galerías y subastas
+      - cómo automatizar el PLD en el comercio de arte
+  - clave: donativos
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-donativos-asociaciones-sin-fines-de-lucro/
+    giro: donatarias y asociaciones civiles
+    claves: [donativ, donataria, sin fines de lucro, asociacion civil, osc]
+    textos:
+      - sistema automatizado de PLD para donatarias
+      - cómo automatizar el PLD en la recepción de donativos
+  - clave: traslado
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-traslado-custodia-dinero-valores/
+    giro: empresas de traslado y custodia de valores
+    claves: [traslado, custodia de valores, custodia de dinero]
+    textos:
+      - sistema automatizado de PLD para traslado y custodia de valores
+      - cómo automatizar el PLD en traslado de valores
+  - clave: juegos
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-juegos-con-apuesta-concursos-sorteos/
+    giro: juegos con apuesta, concursos y sorteos
+    claves: [juego, apuesta, sorteo, concurso, casino]
+    textos:
+      - sistema automatizado de PLD para juegos y sorteos
+      - cómo automatizar el PLD en juegos con apuesta
+  - clave: tarjetas
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-tarjetas-servicios-credito-prepagadas/
+    giro: emisores de tarjetas y monederos
+    claves: [tarjeta, prepago, prepagada, monedero, vales]
+    textos:
+      - sistema automatizado de PLD para tarjetas y monederos
+      - cómo automatizar el PLD en tarjetas de prepago
+  - clave: cheques
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-cheques-de-viajero/
+    giro: emisores de cheques de viajero
+    claves: [cheques de viajero, cheque de viajero]
+    textos:
+      - sistema automatizado de PLD para cheques de viajero
+  - clave: profesionales
+    url: https://artu.ai/articles/guia-sistema-automatizado-pld-servicios-profesionales-independientes/
+    giro: despachos y servicios profesionales
+    claves: [despacho, contador, contable, abogad, servicios profesionales, consultor]
+    textos:
+      - sistema automatizado de PLD para abogados y contadores
+      - cómo automatizar el PLD en un despacho
+
+  - clave: inmobiliarias
+    url: https://artu.ai/pld-inmobiliarias/
+    giro: inmobiliarias
+    claves: [inmobiliari, bienes raices, compraventa de inmuebles, inmueble, terreno, lotes, construccion]
+    textos:
+      - cumplimiento PLD para inmobiliarias
+      - expediente y avisos para operaciones inmobiliarias
+      - software de PLD para inmobiliarias
+
+  # ── Temas ───────────────────────────────────────────────────────────────
+  - clave: efectivo
+    url: https://artu.ai/articles/limite-efectivo-ley-antilavado-articulo-32/
+    claves: [uso de efectivo, en efectivo, limite de efectivo, limites de efectivo, articulo 32, art. 32]
+    textos:
+      - tabla de límites de efectivo del artículo 32
+      - cuánto puedes recibir en efectivo por actividad
+  - clave: regularizacion
+    url: https://artu.ai/articles/no-has-cumplido-lfpiorpi-que-hacer-regularizacion-articulo-55/
+    claves: [articulo 55, art. 55, regulariz, no has cumplido, sancion, multa, incumpl]
+    textos:
+      - qué hacer si no has cumplido con la LFPIORPI
+      - cómo regularizarte con el artículo 55
+  - clave: avisos-24-horas
+    url: https://artu.ai/articles/avisos-24-horas-operaciones-sospechosas-como-presentarlos/
+    claves: [24 horas, sospech, operaciones inusuales, operacion inusual, preocupante]
+    textos:
+      - cómo presentar el aviso de 24 horas
+      - guía del aviso de 24 horas por operaciones sospechosas
+  - clave: pep
+    url: https://artu.ai/articles/peps-(personas-politicamente-expuestas)-en-mexico-quien-es-pep-que-pasa-con-familiares-y-relacionados-y-cuando-aplicar-debida-diligencia-reforzada/
+    claves: [pep, peps, politicamente expuesta, debida diligencia reforzada]
+    textos:
+      - quién es PEP y cuándo aplicar debida diligencia reforzada
+      - guía de personas políticamente expuestas
+  - clave: beneficiario-controlador
+    url: https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/
+    claves: [beneficiario controlador, dueno beneficiario, beneficiario final, iv bis]
+    textos:
+      - cómo identificar al beneficiario controlador
+      - guía para identificar al dueño real
+  - clave: listas
+    url: https://artu.ai/articles/compliance-pld-aml-en-mexico-screening-de-listas-negras-pep-y-sanciones-con-software-pld-(kyc-y-monitoreo-continuo)/
+    claves: [lista de personas bloqueadas, personas bloqueadas, listas negras, listas restrictivas, screening, ofac, 69-b]
+    textos:
+      - búsqueda en listas negras, PEP y sanciones
+      - cómo hacer el screening de listas
+  - clave: umbrales
+    url: https://artu.ai/articles/umbrales-uma-2026-valor-diario-117-mxn-actualizado/
+    claves: [umbral, uma, cuando presentar aviso]
+    textos:
+      - tabla de umbrales en UMA de 2026
+      - umbrales por actividad vulnerable con la UMA vigente
+  - clave: acuerdo-115
+    url: https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/
+    claves: [acuerdo 115, reglas de caracter general, mecanismos automatizados, articulo 41]
+    textos:
+      - análisis del Acuerdo 115/2026
+      - qué cambió con las nuevas Reglas de Carácter General
+  - clave: avisos
+    url: https://artu.ai/avisos-sppld/
+    claves: [aviso, avisos, sppld, xml, portal del sat, informe en ceros]
+    textos:
+      - cómo presentar avisos en el SPPLD sin rechazos
+      - generar los avisos XML para el SAT
+      - avisos al SPPLD sin errores de formato
+  - clave: manual
+    url: https://artu.ai/articles/manual-de-politicas-internas-pld-en-mexico-la-pieza-que-convierte-tu-compliance-en-un-sistema-real-(y-no-en-un-archivo-olvidado)/
+    claves: [manual, politicas internas, documento de politicas]
+    textos:
+      - cómo convertir el manual en un sistema que se cumple
+      - el manual de políticas internas en la práctica
+  - clave: conservacion
+    url: https://artu.ai/articles/de-5-a-10-anos-resguardo-de-evidencia-y-expediente-digital-auditable-en-compliance-pld-(lfpiorpi-2025)-y-como-lograrlo-con-software-pld/
+    claves: [conservacion, conservar, resguardo, 10 anos, archivo, expediente digital]
+    textos:
+      - cómo conservar el expediente 10 años y que sea auditable
+      - expediente digital auditable por 10 años
+  - clave: capacitacion
+    url: https://artu.ai/curso/
+    claves: [capacitacion, curso, formacion del personal]
+    textos:
+      - curso de capacitación anual en PLD
+      - capacitación anual de la LFPIORPI
+  - clave: auditoria
+    url: https://artu.ai/articles/auditoria-interna-vs-externa-pld-cuando-aplica-cada-una/
+    claves: [auditoria, auditor]
+    textos:
+      - cuándo aplica la auditoría interna o la externa
+      - guía de auditoría PLD según el nivel de riesgo
+  - clave: visitas
+    url: https://artu.ai/articles/visitas-de-verificacion-del-sat-el-dia-que-tu-compliance-se-vuelve-examen-(y-como-pasar-con-10)/
+    claves: [visita, verificacion del sat, requerimiento]
+    textos:
+      - cómo prepararte para una visita de verificación del SAT
+      - qué revisa el SAT en una visita de verificación
+  - clave: alta-padron
+    url: https://artu.ai/articles/alta-padron-sat-actividades-vulnerables-guia-paso-a-paso/
+    claves: [alta, padron, registro ante el sat, e.firma, responsable encargado, representante encargado]
+    textos:
+      - alta en el padrón del SAT paso a paso
+      - cómo darte de alta como actividad vulnerable
+  - clave: fraccionamiento
+    url: https://artu.ai/articles/fraccionamiento-de-operaciones-en-mexico-el-riesgo-silencioso-que-puede-romper-tu-compliance-pld-(y-por-que-un-software-pld-ya-no-es-opcional)/
+    claves: [fraccionamiento, fraccionar, acumulacion, seis meses, pitufeo]
+    textos:
+      - cómo detectar el fraccionamiento de operaciones
+      - acumulación de operaciones en seis meses
+  - clave: monitoreo
+    url: https://artu.ai/articles/tipologias-uif-2025-monitoreo-transaccional-y-software-pld-en-mexico-como-convertir-senales-de-alerta-en-controles-reales-(sin-ahogarte-en-falsos-positivos)/
+    claves: [monitoreo, tipologia, senales de alerta, alerta, perfil transaccional]
+    textos:
+      - cómo convertir señales de alerta en controles
+      - monitoreo transaccional y tipologías de la UIF
+  - clave: riesgo
+    url: https://artu.ai/calculadora-de-riesgo/
+    claves: [riesgo, matriz, ebr, enfoque basado, evaluacion basada]
+    textos:
+      - calculadora de riesgo PLD
+      - estima tu exposición a multas
+  - clave: kyc
+    url: https://artu.ai/articles/kyc-biometrico-e-identificacion-remota-en-mexico-(2026)-como-blindar-tu-compliance-pld-ante-deepfakes-y-que-debe-tener-tu-software-pld/
+    claves: [kyc, kyb, identificacion del cliente, conoce a tu cliente, identidad, onboarding, debida diligencia]
+    textos:
+      - identificación remota y KYC biométrico
+      - cómo verificar la identidad del cliente a distancia
+  - clave: fideicomisos
+    url: https://artu.ai/articles/fideicomisos-y-compliance-pld-en-mexico-como-cumplir-con-lfpiorpi-beneficiario-controlador-y-avisos-sppld-sin-perderte-en-la-estructura-(con-ayuda-de-software-pld)/
+    claves: [fideicomiso]
+    textos:
+      - cumplimiento PLD en fideicomisos
+  - clave: diagnostico
+    url: https://artu.ai/diagnostico-av/
+    claves: [soy actividad vulnerable, habitualidad, profesionalidad]
+    textos:
+      - diagnóstico gratuito de actividad vulnerable
+      - comprueba si tu negocio es actividad vulnerable
+  - clave: lfpiorpi
+    url: https://artu.ai/lfpiorpi/
+    claves: [lfpiorpi, ley antilavado, reforma, obligaciones, articulo 18, articulo 17, uif, gafi]
+    textos:
+      - guía completa de la LFPIORPI
+      - la Ley Antilavado explicada
+  - clave: software
+    url: https://artu.ai/software/
+    claves: [software, sistema, plataforma, herramienta, automatiz, regtech, tecnologia, inteligencia artificial]
+    textos:
+      - plataforma para automatizar la LFPIORPI
+      - herramienta que automatiza el cumplimiento PLD
+      - software de cumplimiento LFPIORPI
+  - clave: actividades-vulnerables
+    url: https://artu.ai/software-pld-para-actividades-vulnerables/
+    claves: [actividad vulnerable, actividades vulnerables]
+    textos:
+      - cumplimiento PLD para actividades vulnerables
+      - automatizar las obligaciones de una actividad vulnerable
+      - plataforma de PLD para actividades vulnerables

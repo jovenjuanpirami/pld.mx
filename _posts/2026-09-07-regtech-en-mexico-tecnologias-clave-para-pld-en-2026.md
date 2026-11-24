@@ -13,6 +13,7 @@ tags:
   - Cumplimiento
 image: /assets/images/posts/2026-09-07-regtech-en-mexico-tecnologias-clave-para-pld-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica

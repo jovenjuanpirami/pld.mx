@@ -13,6 +13,7 @@ tags:
   - tipologías
 image: /assets/images/posts/2026-08-01-tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: monitoreo
 ---
 
 ## Introducción analítica
@@ -21,7 +22,7 @@ En el contexto del lavado de dinero en México, las tipologías han evolucionado
 
 El mercado inmobiliario y el uso de activos virtuales han sido identificados como sectores de riesgo elevado. En 2025, el lavado de dinero a través de criptomonedas creció un 55.8% en México, según datos de SILIKN, lo que subraya la necesidad de una regulación más estricta y efectiva en este ámbito. La última reforma significativa de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido cambios sustanciales en la regulación, tales como la inclusión de desarrollos inmobiliarios y activos virtuales en su Artículo 17, fracción V Bis y fracción XVI, respectivamente.
 
-En este escenario, es crucial que los sujetos obligados comprendan y adapten sus procedimientos de cumplimiento a las nuevas dinámicas del mercado para mitigar los riesgos asociados al lavado de dinero. Esto no solo implica una actualización de sus sistemas de monitoreo y control, sino también el fortalecimiento de sus matrices de riesgo y la implementación de auditorías internas y externas más rigurosas.
+En este escenario, es crucial que los sujetos obligados comprendan y adapten sus procedimientos de cumplimiento a las nuevas dinámicas del mercado para mitigar los riesgos asociados al lavado de dinero. Esto no solo implica una actualización de sus sistemas de [monitoreo](https://artu.ai/articles/tipologias-uif-2025-monitoreo-transaccional-y-software-pld-en-mexico-como-convertir-senales-de-alerta-en-controles-reales-(sin-ahogarte-en-falsos-positivos)/?utm_source=pldmx&utm_medium=referral&utm_campaign=tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026) y control, sino también el fortalecimiento de sus matrices de riesgo y la implementación de auditorías internas y externas más rigurosas.
 
 ## Marco legal detallado
 
@@ -29,7 +30,7 @@ La LFPIORPI, desde su publicación en 2012 y con su última reforma en 2025, est
 
 En términos de obligaciones, el Artículo 18 de la LFPIORPI ha sido expandido de seis a once fracciones. Entre las nuevas obligaciones se incluyen la Evaluación Basada en Riesgos documentada (fracción VII), el Manual de Políticas Internas de Prevención de Lavado de Dinero/Financiamiento al Terrorismo (PLD/FT) (fracción VIII), y la capacitación anual del personal (fracción IX). Además, las sanciones por incumplimiento han sido endurecidas, con multas que oscilan entre 200 y 65,000 veces el valor de la Unidad de Medida y Actualización (UMA), lo que equivale a aproximadamente 22,628 pesos y 7,354,100 pesos mexicanos, respectivamente, en 2026.
 
-La importancia de estas reformas radica en su capacidad para obligar a los sujetos obligados a implementar controles más efectivos que prevengan el lavado de dinero. La definición ampliada de beneficiario controlador, ahora en la fracción III del Artículo 3, especifica que cualquier persona con control efectivo directo o indirecto del 25% del capital o votos, debe ser identificada y reportada. Esta ampliación tiene implicaciones significativas, ya que exige a las empresas realizar un análisis más detallado de sus estructuras de propiedad y de los individuos que pueden ejercer control.
+La importancia de estas reformas radica en su capacidad para obligar a los sujetos obligados a implementar controles más efectivos que prevengan el lavado de dinero. La definición ampliada de [beneficiario controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026), ahora en la fracción III del Artículo 3, especifica que cualquier persona con control efectivo directo o indirecto del 25% del capital o votos, debe ser identificada y reportada. Esta ampliación tiene implicaciones significativas, ya que exige a las empresas realizar un análisis más detallado de sus estructuras de propiedad y de los individuos que pueden ejercer control.
 
 ## Análisis práctico
 

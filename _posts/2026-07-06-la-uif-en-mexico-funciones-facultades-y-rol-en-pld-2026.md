@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-06-la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica  
@@ -23,11 +24,11 @@ Con la integración de nuevas obligaciones en la LFPIORPI, como la Evaluación B
 Pasemos ahora a desglosar el marco legal que sustenta las actividades de la UIF, así como las implicaciones prácticas y los riesgos asociados al incumplimiento de la normativa vigente.
 
 ## Marco legal detallado  
-La LFPIORPI, desde su publicación en 2012 y con la última reforma en 2025, establece un marco legal detallado para la identificación y prevención de operaciones con recursos de procedencia ilícita. La UIF, bajo la Secretaría de Hacienda y Crédito Público (SHCP), funge como el ente central encargado de supervisar y coordinar la implementación de estas normativas. Según el Artículo 17, las actividades vulnerables se dividen en 16 fracciones, cada una con umbrales específicos expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA).
+La LFPIORPI, desde su publicación en 2012 y con la última reforma en 2025, establece un marco legal detallado para la identificación y prevención de operaciones con recursos de procedencia ilícita. La UIF, bajo la Secretaría de Hacienda y Crédito Público (SHCP), funge como el ente central encargado de supervisar y coordinar la implementación de estas normativas. Según el Artículo 17, las actividades vulnerables se dividen en 16 fracciones, cada una con umbrales específicos expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA). Relacionado: [Guía completa de la LFPIORPI](https://artu.ai/lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026).
 
 Por ejemplo, una fracción relevante es la V Bis, que incluye el desarrollo inmobiliario, donde la recepción de recursos para construcción es considerada una actividad vulnerable. Aquí, los umbrales están definidos para operaciones que superen las 8,025 UMA, lo que equivale a aproximadamente novecientos mil pesos mexicanos. La reforma más reciente también incrementó las obligaciones de debida diligencia para los sujetos obligados, como se indica en el Artículo 18, que ahora contiene 11 fracciones. Estas incluyen la EBR documentada (Fracción VII), el Manual de Políticas Internas PLD/FT (Fracción VIII) y auditorías PLD (Fracción XI).
 
-El Capítulo IV Bis, que abarca los Artículos 33 Bis, Ter y Quáter, se centra en el régimen del Beneficiario Controlador, definiendo a estos individuos como aquellos que ejercen control efectivo directo o indirecto sobre al menos el 25% del capital o de los derechos de voto de una entidad. Esto amplía significativamente el alcance de la identificación y reporte de información sobre beneficiarios finales, alineando la normativa mexicana con las mejores prácticas internacionales.
+El Capítulo IV Bis, que abarca los Artículos 33 Bis, Ter y Quáter, se centra en el régimen del [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=la-uif-en-mexico-funciones-facultades-y-rol-en-pld-2026), definiendo a estos individuos como aquellos que ejercen control efectivo directo o indirecto sobre al menos el 25% del capital o de los derechos de voto de una entidad. Esto amplía significativamente el alcance de la identificación y reporte de información sobre beneficiarios finales, alineando la normativa mexicana con las mejores prácticas internacionales.
 
 ## Análisis práctico  
 Implementar estas medidas en la práctica requiere un enfoque meticuloso por parte de los sujetos obligados. Consideremos el caso de una notaría pública que autoriza la compraventa de propiedades. Si una transacción supera los 8,025 UMA, el notario debe presentar un aviso de actividad vulnerable dentro de los primeros 17 días del mes siguiente, según la normativa vigente.

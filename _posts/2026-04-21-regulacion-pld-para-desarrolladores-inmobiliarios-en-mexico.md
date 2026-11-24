@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-04-21-regulacion-pld-para-desarrolladores-inmobiliarios-en-mexico.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-30
+artu_tema: desarrolladoras
 ---
 
 ## Introducción analítica
@@ -26,7 +27,7 @@ La inclusión de esta fracción es una respuesta directa al aumento de operacion
 
 ## Marco legal detallado
 
-La adición de la fracción V Bis al Artículo 17 de la LFPIORPI marca un cambio significativo en las obligaciones de los desarrolladores inmobiliarios en México. Esta fracción específica que la recepción de recursos para la construcción de desarrollos inmobiliarios constituye una actividad vulnerable. En términos prácticos, esto implica que los desarrolladores deben cumplir con las obligaciones de identificación y reporte establecidas en la ley.
+La adición de la fracción V Bis al Artículo 17 de la LFPIORPI marca un cambio significativo en las obligaciones de los desarrolladores inmobiliarios en México. Esta fracción específica que la recepción de recursos para la construcción de [desarrollos inmobiliarios](https://artu.ai/pld-desarrolladoras/?utm_source=pldmx&utm_medium=referral&utm_campaign=regulacion-pld-para-desarrolladores-inmobiliarios-en-mexico) constituye una actividad vulnerable. En términos prácticos, esto implica que los desarrolladores deben cumplir con las obligaciones de identificación y reporte establecidas en la ley.
 
 Conforme al Artículo 17, las actividades vulnerables se definen ahora en 16 fracciones, siendo la fracción V Bis una de las más recientes. Esta fracción obliga a los desarrolladores a reportar las transacciones que superen ciertos umbrales. Por ejemplo, cualquier recepción de recursos para un proyecto de desarrollo que exceda las 8,025 veces la UMA (Unidad de Medida y Actualización), lo cual equivale aproximadamente a novecientos mil pesos mexicanos, debe ser reportada a la UIF.
 
@@ -42,7 +43,7 @@ La implementación de la fracción V Bis en la práctica requiere que los desarr
 
 3. **Reporte de Actividades Vulnerables**: Las transacciones que superen los umbrales establecidos deben ser reportadas a la UIF. Por ejemplo, un desarrollo residencial que recibe más de 900,000 pesos en recursos para la construcción debe generar un aviso dentro de los 17 días hábiles del mes siguiente, según lo estipulado por la ley.
 
-4. **Monitoreo y Auditoría**: Implementar mecanismos automatizados para el monitoreo continuo de las transacciones y realizar auditorías internas para asegurar que los controles de PLD estén siendo aplicados correctamente.
+4. **Monitoreo y Auditoría**: Implementar [mecanismos automatizados](https://artu.ai/articles/acuerdo-115-2026-reglas-caracter-general-lfpiorpi/?utm_source=pldmx&utm_medium=referral&utm_campaign=regulacion-pld-para-desarrolladores-inmobiliarios-en-mexico) para el monitoreo continuo de las transacciones y realizar auditorías internas para asegurar que los controles de PLD estén siendo aplicados correctamente.
 
 Ejemplo concreto: si una inmobiliaria recibe recursos para desarrollar 50 unidades residenciales, cada unidad vendida por 2 millones de pesos, tendría que presentar avisos si recibe recursos que excedan los 900,000 pesos en un solo evento o transacción acumulada. Esto se traduce en la necesidad de gestionar múltiples reportes y asegurar que cada venta sea debidamente documentada y analizada.
 

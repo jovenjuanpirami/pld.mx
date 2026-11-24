@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-07-13-automatizacion-del-cumplimiento-pld-con-tecnologia-e-ia-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
 
 ## Introducción analítica  
@@ -121,8 +122,3 @@ Las mejores prácticas incluyen realizar auditorías regulares, tanto internas c
 **¿Es necesario actualizar el sistema de cumplimiento cada vez que hay un cambio regulatorio?**  
 Sí, es crucial actualizar el sistema de cumplimiento cada vez que hay un cambio regulatorio para asegurar que todas las obligaciones se cumplan adecuadamente. Las soluciones tecnológicas avanzadas, como Artu, permiten actualizaciones más rápidas y menos disruptivas, asegurando que la entidad se mantenga conforme a las normativas vigentes.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

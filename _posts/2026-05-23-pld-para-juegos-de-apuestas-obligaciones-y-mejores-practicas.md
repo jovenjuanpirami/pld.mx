@@ -13,9 +13,8 @@ tags:
   - compliance
 image: /assets/images/posts/2026-05-23-pld-para-juegos-de-apuestas-obligaciones-y-mejores-practicas.svg
 author: Equipo PLD.mx
+artu_tema: juegos
 ---
-
-# PLD para juegos con apuesta, concursos y sorteos: fracción I Art. 17
 
 ## Introducción analítica
 
@@ -110,8 +109,3 @@ La implementación de un sistema de cumplimiento robusto y automatizado ofrece u
 5. **¿Cómo puede Artu ayudar a una casa de apuestas a cumplir con la LFPIORPI?**
    Artu ofrece soluciones tecnológicas avanzadas que automatizan procesos críticos de PLD, como la identificación de clientes, el monitoreo transaccional y la presentación de avisos al SAT. Con su implementación modular y capacidades de análisis predictivo, Artu ayuda a las casas de apuestas a cumplir con las regulaciones de manera eficiente y efectiva, reduciendo significativamente el riesgo de sanciones.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

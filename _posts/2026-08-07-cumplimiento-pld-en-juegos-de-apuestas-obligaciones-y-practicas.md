@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-07-cumplimiento-pld-en-juegos-de-apuestas-obligaciones-y-practicas.svg
 author: Equipo PLD.mx
+artu_tema: juegos
 ---
 
 ## Introducción analítica
@@ -96,8 +97,3 @@ El incumplimiento de esta obligación puede resultar en sanciones que van desde 
 **¿Es obligatorio tener un Manual de Políticas Internas PLD/FT?**
 Sí, según la fracción VIII del Artículo 18 de la LFPIORPI, todos los sujetos obligados deben desarrollar y mantener un Manual de Políticas Internas PLD/FT que describa los procedimientos y medidas adoptadas para prevenir el lavado de dinero y el financiamiento del terrorismo.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

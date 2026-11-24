@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-15-funcion-e-impacto-de-la-uif-en-la-prevencion-del-lavado-de-dinero-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica

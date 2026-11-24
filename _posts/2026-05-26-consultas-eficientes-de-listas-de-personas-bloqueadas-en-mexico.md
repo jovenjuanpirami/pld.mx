@@ -13,9 +13,8 @@ tags:
   - Artu
 image: /assets/images/posts/2026-05-26-consultas-eficientes-de-listas-de-personas-bloqueadas-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: listas
 ---
-
-# Introducción analítica
 
 La consulta de listas de personas bloqueadas es un componente crucial en el marco de la prevención de lavado de dinero y financiación del terrorismo en México. Al 2026, más de 8,500 sujetos obligados registrados ante el Servicio de Administración Tributaria (SAT) deben mantenerse vigilantes frente a posibles relaciones con personas incluidas en estas listas. La Unidad de Inteligencia Financiera (UIF), liderada por Omar Reyes Colmenares desde 2024, ha reforzado su enfoque en la identificación y bloqueo de activos ilícitos, habiendo inmovilizado aproximadamente 5,000 millones de pesos en la actual administración. Este contexto intensifica la necesidad de procesos eficientes para consultar y gestionar las listas de personas bloqueadas.
 
@@ -118,8 +117,3 @@ Sí, es necesario auditar los procesos de consulta de listas bloqueadas al menos
 
 La integración de las listas de personas bloqueadas en los sistemas de gestión de clientes puede lograrse mediante el uso de APIs que faciliten la sincronización automática de datos. Soluciones tecnológicas como Artu ofrecen módulos que automatizan esta integración, permitiendo que las evaluaciones de coincidencias se realicen en tiempo real sin intervención manual. Este enfoque no solo mejora la eficiencia, sino que también asegura que las evaluaciones sean precisas y actualizadas.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

@@ -13,6 +13,7 @@ tags:
   - PLD
 image: /assets/images/posts/2026-07-08-sanciones-por-incumplir-la-lfpiorpi-multas-de-200-a-65000-uma.svg
 author: Equipo PLD.mx
+artu_tema: regularizacion
 ---
 
 ## Introducción analítica
@@ -111,8 +112,3 @@ Los profesionales del cumplimiento deben estar atentos a las actualizaciones reg
 5. **¿Puede una auditoría interna sustituir a una auditoría externa bajo la LFPIORPI?**
    No, una auditoría interna no sustituye a una auditoría externa. Ambas son requeridas bajo diferentes contextos y propósitos. Mientras que la auditoría interna se centra en mejorar los controles internos y procesos, la auditoría externa proporciona una evaluación independiente del cumplimiento de la normativa.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

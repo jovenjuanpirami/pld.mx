@@ -13,6 +13,7 @@ tags:
   - Cumplimiento
 image: /assets/images/posts/2026-09-13-verificacion-kyb-para-actividades-vulnerables-en-mexico-2026.svg
 author: Equipo PLD.mx
+artu_tema: kyc
 ---
 
 ## Introducción analítica

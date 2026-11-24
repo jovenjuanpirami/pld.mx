@@ -13,9 +13,8 @@ tags:
   - compliance
 image: /assets/images/posts/2026-09-28-cumplimiento-pld-en-asociaciones-sin-fines-de-lucro-desafios-y-obligaciones.svg
 author: Equipo PLD.mx
+artu_tema: donativos
 ---
-
-# Cumplimiento PLD en Asociaciones Sin Fines de Lucro: Desafíos y Obligaciones
 
 ## Introducción analítica
 
@@ -115,8 +114,3 @@ Para las asociaciones sin fines de lucro en México, el cumplimiento de las obli
 5. **¿Cómo puede Artu ayudar a las asociaciones sin fines de lucro en su cumplimiento de PLD?**
    Artu ofrece una solución integral que automatiza el cumplimiento de las obligaciones bajo el Artículo 18 de la LFPIORPI. Sus módulos de gestión de riesgo, monitoreo transaccional y generación de reportes permiten a las asociaciones sin fines de lucro gestionar sus obligaciones de manera más eficiente, reduciendo el riesgo de incumplimiento y mejorando la precisión en la presentación de avisos.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

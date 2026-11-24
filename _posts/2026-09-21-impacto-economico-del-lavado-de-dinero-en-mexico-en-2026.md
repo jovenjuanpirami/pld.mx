@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-09-21-impacto-economico-del-lavado-de-dinero-en-mexico-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción Analítica

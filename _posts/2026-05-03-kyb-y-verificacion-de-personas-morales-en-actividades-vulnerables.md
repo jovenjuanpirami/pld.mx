@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-05-03-kyb-y-verificacion-de-personas-morales-en-actividades-vulnerables.svg
 author: Equipo PLD.mx
+artu_tema: kyc
 ---
 
 ## Introducción analítica
@@ -91,7 +92,7 @@ Es imperativo que las organizaciones revisen y actualicen regularmente sus polí
    No identificar correctamente al beneficiario controlador puede resultar en sanciones significativas, que van desde multas que pueden llegar hasta el 100% del valor de la operación, hasta penas de prisión si hay declaraciones falsas o uso de recursos ilícitos. Además, compromete la integridad de los procesos de cumplimiento y expone a la empresa a mayores riesgos regulatorios y reputacionales.
 
 3. **¿Cómo puede la tecnología facilitar la verificación KYB?**
-   La tecnología facilita la verificación KYB mediante soluciones automatizadas que integran la inteligencia artificial para la identificación del beneficiario controlador, monitoreo transaccional y generación de reportes. Herramientas como Artu permiten una implementación eficiente y adaptable en un plazo típico de 4 semanas, optimizando así los recursos internos y mejorando la exactitud de los datos.
+   La tecnología facilita la verificación KYB mediante soluciones automatizadas que integran la inteligencia artificial para la identificación del beneficiario controlador, monitoreo transaccional y generación de reportes. Herramientas como Artu permiten una implementación eficiente y adaptable en 24 horas con carga por Excel, optimizando así los recursos internos y mejorando la exactitud de los datos.
 
 4. **¿Qué obligaciones adicionales deben cumplir las inmobiliarias bajo la LFPIORPI?**
    Las inmobiliarias deben cumplir con la presentación de avisos mensuales por las transacciones que superen los umbrales establecidos, realizar una debida diligencia exhaustiva de sus clientes y verificar el beneficiario controlador. Además, deben asegurarse de que sus políticas internas estén documentadas y alineadas con las últimas reformas de la LFPIORPI, incluyendo los requisitos de auditoría y capacitación.
@@ -99,8 +100,3 @@ Es imperativo que las organizaciones revisen y actualicen regularmente sus polí
 5. **¿Qué papel juegan las auditorías en la gestión de compliance?**
    Las auditorías, ya sean internas o externas, desempeñan un papel crítico en la gestión de compliance al identificar debilidades en los sistemas de control, evaluar la efectividad de las políticas implementadas y asegurar el cumplimiento con las obligaciones regulatorias. Las auditorías permiten a las empresas estar preparadas para inspecciones regulatorias y mitigar riesgos de sanciones o penalidades.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

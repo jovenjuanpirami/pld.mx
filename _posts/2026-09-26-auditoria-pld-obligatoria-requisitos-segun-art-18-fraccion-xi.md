@@ -13,6 +13,7 @@ tags:
   - regulación
 image: /assets/images/posts/2026-09-26-auditoria-pld-obligatoria-requisitos-segun-art-18-fraccion-xi.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
 
 ## Introducción analítica

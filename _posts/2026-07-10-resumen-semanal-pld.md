@@ -16,6 +16,7 @@ tags:
   - GAFI
 image: /assets/images/posts/2026-07-10-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 4 al 10 de julio de 2026 concentró varios de los movimientos regulatorios más significativos que el sistema antilavado de México ha registrado en lo que va del año. El 9 de julio, la Unidad de Inteligencia Financiera —o UIF— y la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros —conocida como CONDUSEF— firmaron un convenio de colaboración para compartir inteligencia financiera en la detección de fraudes y lavado de dinero, una noticia que llega en un momento en que la CONDUSEF registró casi cuarenta y cuatro mil reportes de posibles daños financieros en el primer semestre del año. En paralelo, el reloj regulatorio marcó una cuenta regresiva de apenas seis días: la Secretaría de Hacienda y Crédito Público, conocida como SHCP, debe publicar antes del 16 de julio las nuevas Reglas de Carácter General que completarán el marco de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI. Mientras tanto, la nueva obligación bancaria de identificación para depósitos y retiros de efectivo superiores a ciento cuarenta mil pesos entró en vigor el 1 de julio, y el alertamiento por lavado de dinero y trata de personas vinculado al Mundial 2026 atraviesa su fase más crítica, a nueve días de la gran final. Pasemos a detallar cada uno de estos ejes.

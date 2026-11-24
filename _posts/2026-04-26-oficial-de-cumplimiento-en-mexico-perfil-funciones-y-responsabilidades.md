@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-04-26-oficial-de-cumplimiento-en-mexico-perfil-funciones-y-responsabilidades.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica
@@ -27,7 +28,7 @@ Este contexto regulatorio y de mercado subraya la creciente importancia del ofic
 
 La LFPIORPI, en su Artículo 18, establece las obligaciones específicas que los sujetos obligados deben cumplir para mitigar riesgos de lavado de dinero y financiamiento al terrorismo. Con la reforma de 2025, estas obligaciones incluyen desde la debida diligencia del cliente (DDC) hasta mecanismos automatizados de monitoreo. Específicamente, la Fracción VIII del Artículo 18 requiere que los sujetos obligados mantengan un manual de políticas internas PLD/FT, mientras que la Fracción IX impone la obligación de capacitación anual para todo el personal.
 
-El papel del oficial de cumplimiento, definido en la Fracción XII Bis del Artículo 3, es central para asegurar el cumplimiento de estas obligaciones. Este representante encarado de cumplimiento debe estar debidamente registrado ante las autoridades competentes y es responsable de coordinar la implementación de las políticas PLD/FT, supervisar la correcta presentación de avisos de actividad vulnerable y asegurar que la documentación se conserve por un periodo mínimo de 10 años, conforme a la Fracción IV del Artículo 18.
+El papel del oficial de cumplimiento, definido en la Fracción XII Bis del Artículo 3, es central para asegurar el cumplimiento de estas obligaciones. Este representante encarado de cumplimiento debe estar debidamente registrado ante las autoridades competentes y es responsable de coordinar la implementación de las políticas PLD/FT, supervisar la correcta presentación de avisos de [actividad vulnerable](https://artu.ai/software-pld-para-actividades-vulnerables/?utm_source=pldmx&utm_medium=referral&utm_campaign=oficial-de-cumplimiento-en-mexico-perfil-funciones-y-respons) y asegurar que la documentación se conserve por un periodo mínimo de 10 años, conforme a la Fracción IV del Artículo 18.
 
 Los umbrales para la presentación de avisos se expresan ahora en veces el valor diario de la Unidad de Medida y Actualización (UMA), que para 2026 es de $113.14 MXN. Por ejemplo, para las operaciones en efectivo que superen las 645 UMA (aproximadamente $72,986 MXN), se requiere la presentación de un aviso de actividad vulnerable. Además, el Artículo 18, Fracción VI, establece un plazo máximo de 24 horas para reportar una operación preocupante.
 
@@ -41,7 +42,7 @@ El procedimiento típico para el oficial de cumplimiento incluye:
 2. **Monitoreo de Operaciones**: Utilizar mecanismos automatizados para el monitoreo continuo de operaciones, identificando operaciones inusuales o preocupantes que podrían indicar potenciales actividades de lavado de dinero.
 3. **Presentación de Avisos**: Coordinar la elaboración y presentación de avisos de actividad vulnerable o de operaciones preocupantes dentro de los plazos legales establecidos.
 4. **Capacitación Interna**: Organizar y documentar programas de capacitación anual para el personal, asegurando que todos los empleados comprendan y puedan identificar indicadores de riesgo relevantes.
-5. **Revisión y Actualización de Políticas**: Supervisar la revisión regular de las políticas internas PLD/FT y la matriz de riesgo, asegurando que reflejen los cambios regulatorios y las mejores prácticas del sector.
+5. **Revisión y Actualización de Políticas**: Supervisar la revisión regular de las políticas internas PLD/FT y la [matriz de riesgo](https://artu.ai/calculadora-de-riesgo/?utm_source=pldmx&utm_medium=referral&utm_campaign=oficial-de-cumplimiento-en-mexico-perfil-funciones-y-respons), asegurando que reflejen los cambios regulatorios y las mejores prácticas del sector.
 6. **Evaluación Basada en Riesgos (EBR)**: Documentar y actualizar regularmente la evaluación basada en riesgos, conforme a la Fracción VII del Artículo 18, para adaptar las medidas de control a las amenazas específicas que enfrenta la organización.
 
 ## Riesgos y consecuencias

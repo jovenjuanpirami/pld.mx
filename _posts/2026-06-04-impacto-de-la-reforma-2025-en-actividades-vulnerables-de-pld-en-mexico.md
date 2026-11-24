@@ -13,6 +13,7 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-06-04-impacto-de-la-reforma-2025-en-actividades-vulnerables-de-pld-en-mexico.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica

@@ -14,6 +14,7 @@ tags:
   - Mundial 2026
 image: /assets/images/posts/2026-06-05-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 30 de mayo al 5 de junio de 2026 dejó un panorama antilavado marcado por la acción institucional en múltiples frentes. La Unidad de Inteligencia Financiera, o UIF, protagonizó varios de los titulares más relevantes: firmó convenios de colaboración con la Agencia Nacional de Aduanas de México, también conocida como ANAM, y con la Fiscalía de Zacatecas, mientras que a nivel judicial la Fiscalía General de la República, conocida como FGR, logró que un juez vinculara a proceso a ocho integrantes de la red delictiva "Del Caballito" por lavado de dinero y facturación falsa por más de doce mil millones de pesos. Al mismo tiempo, el sector inmobiliario continúa bajo una presión regulatoria creciente, y el alertamiento conjunto de la UIF y la Comisión Nacional Bancaria y de Valores —la CNBV— rumbo al Mundial 2026 sigue vigente y genera obligaciones concretas para los sujetos obligados. Pasemos a detallar cada uno de estos desarrollos.

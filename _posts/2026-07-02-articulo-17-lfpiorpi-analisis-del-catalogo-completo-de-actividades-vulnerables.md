@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-07-02-articulo-17-lfpiorpi-analisis-del-catalogo-completo-de-actividades-vulnerables.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
 
 ## Introducción analítica
@@ -56,7 +57,7 @@ Este proceso comienza con la debida diligencia del cliente (DDC), donde la empre
 
 Una vez identificada una operación que supere el umbral, el sujeto obligado debe preparar un aviso de actividad vulnerable. Este aviso debe incluir detalles precisos como el monto de la operación, la fecha, los datos del cliente y cualquier indicio de comportamiento sospechoso. La presentación del aviso debe realizarse dentro de los primeros 17 días del mes siguiente a la operación, conforme al Artículo 18 fracción VI.
 
-La tecnología juega un papel esencial en este proceso. Soluciones como Artu, que ofrece módulos de KYC/KYB, monitoreo transaccional, y reportes automatizados en formato XML al SAT, facilitan que los sujetos obligados cumplan con sus obligaciones de manera eficaz y oportuna. La implementación de un sistema como Artu, que se completa típicamente en cuatro semanas, permite automatizar gran parte del proceso de cumplimiento, reduciendo el riesgo de errores y optimizando recursos.
+La tecnología juega un papel esencial en este proceso. Soluciones como Artu, que ofrece módulos de KYC/KYB, monitoreo transaccional, y reportes automatizados en formato XML al SAT, facilitan que los sujetos obligados cumplan con sus obligaciones de manera eficaz y oportuna. La implementación de un sistema como Artu, que se implementa en 24 horas con carga por Excel, permite automatizar gran parte del proceso de cumplimiento, reduciendo el riesgo de errores y optimizando recursos.
 
 ## Riesgos y consecuencias
 
@@ -112,8 +113,3 @@ Recomendamos a los sujetos obligados que revisen sus sistemas de cumplimiento y 
 5. **¿Cómo puede Artu ayudar en el cumplimiento del Artículo 17?**
    Artu es un software de compliance 360 que automatiza diversas obligaciones del Artículo 18, incluyendo KYC/KYB, monitoreo transaccional, y la generación de reportes en formato XML para el SAT. Su implementación modular y auditable se completa en aproximadamente cuatro semanas, facilitando un cumplimiento eficiente y reduciendo riesgos de incumplimiento.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

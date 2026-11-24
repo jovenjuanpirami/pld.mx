@@ -13,6 +13,7 @@ tags:
   - Artu
 image: /assets/images/posts/2026-10-06-pld-para-empresas-de-blindaje-vehicular-umbrales-y-cumplimiento.svg
 author: Equipo PLD.mx
+artu_tema: blindaje
 ---
 
 ## Introducción analítica
@@ -107,8 +108,3 @@ Una estrategia eficaz también debe incluir la capacitación continua del person
 5. **¿Es necesario capacitar al personal cada año?**
    Sí, la capacitación anual es una obligación bajo la LFPIORPI para asegurar que todo el personal esté informado sobre las responsabilidades de cumplimiento y las mejores prácticas en PLD.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

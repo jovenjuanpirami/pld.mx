@@ -15,6 +15,7 @@ tags:
   - UNIFIMEX
 image: /assets/images/posts/2026-09-25-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 19 al 25 de septiembre de 2026 cerró con una densidad regulatoria e institucional que resulta difícil de ignorar para cualquier profesional del cumplimiento antilavado en México. El acontecimiento central fue el AML International Summit 2026 de la Unión de Instituciones Financieras Mexicanas, que reunió el 23 y 24 de septiembre en la Ciudad de México a los principales actores del sistema antilavado de México y Estados Unidos, en el encuentro binacional más ambicioso del año en la materia. En paralelo, la Secretaría de Hacienda y Crédito Público, la SHCP, publicó en el Diario Oficial de la Federación, conocido como DOF, dos resoluciones que actualizan los formatos oficiales de avisos y registro para las actividades vulnerables, acercando la implementación operativa del Acuerdo 115 de 2026 a su primer gran plazo, el 30 de noviembre. Mientras tanto, Transparencia Mexicana presentó esta semana una propuesta para expandir las facultades de la Unidad de Inteligencia Financiera, o UIF, en materia anticorrupción, basada en las mejores prácticas de veinte países. Pasemos a revisar cada uno de estos desarrollos.

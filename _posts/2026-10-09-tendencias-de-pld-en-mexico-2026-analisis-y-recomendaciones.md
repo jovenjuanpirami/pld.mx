@@ -13,6 +13,7 @@ tags:
   - Cumplimiento PLD
 image: /assets/images/posts/2026-10-09-tendencias-de-pld-en-mexico-2026-analisis-y-recomendaciones.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

@@ -13,9 +13,8 @@ tags:
   - regulación
 image: /assets/images/posts/2026-09-27-como-crear-un-programa-de-cumplimiento-pld-efectivo-segun-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: lfpiorpi
 ---
-
-# Cómo Crear un Programa de Cumplimiento PLD Efectivo Según la LFPIORPI
 
 ## Introducción analítica
 

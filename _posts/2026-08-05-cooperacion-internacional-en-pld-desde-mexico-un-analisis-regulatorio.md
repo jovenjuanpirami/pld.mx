@@ -13,6 +13,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-08-05-cooperacion-internacional-en-pld-desde-mexico-un-analisis-regulatorio.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción Analítica

@@ -13,6 +13,7 @@ tags:
   - Regulación
 image: /assets/images/posts/2026-10-07-criptomonedas-y-pld-en-mexico-regulacion-de-activos-virtuales-2026.svg
 author: Equipo PLD.mx
+artu_tema: activos-virtuales
 ---
 
 ## Introducción Analítica

@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-08-02-peps-en-mexico-impacto-de-la-nueva-fraccion-ix-bis-del-art-3.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
 ## Introducción analítica

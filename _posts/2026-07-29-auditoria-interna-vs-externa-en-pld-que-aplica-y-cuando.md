@@ -13,9 +13,8 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-07-29-auditoria-interna-vs-externa-en-pld-que-aplica-y-cuando.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
 ---
-
-# Auditoría interna vs externa en PLD: cuándo aplica cada una
 
 ## Introducción analítica
 
@@ -130,8 +129,3 @@ Artu proporciona herramientas automatizadas que simplifican el proceso de audito
 ### ¿Es suficiente con una auditoría interna para cumplir con la LFPIORPI?
 Dependiendo de la estructura y operación de la empresa, una auditoría interna puede ser suficiente, siempre que se realice de manera objetiva y rigurosa. Sin embargo, para entidades con altos niveles de riesgo o que han experimentado incumplimientos, una auditoría externa puede ser necesaria para proporcionar una evaluación independiente.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

@@ -13,13 +13,14 @@ tags:
   - UMA
 image: /assets/images/posts/2026-09-04-pld-en-joyerias-y-metales-preciosos-umbral-de-805-uma-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: joyeria
 ---
 
 ## Introducción analítica
 
 El sector de las joyerías y el comercio de metales preciosos en México ha sido históricamente un área de interés para las autoridades de prevención de lavado de dinero, dado su alto riesgo de ser utilizado para operaciones con recursos de procedencia ilícita. Según el último informe del Instituto Nacional de Estadística y Geografía (INEGI), el sector de joyerías representa un mercado con un valor de más de 10 mil millones de pesos anuales, con un crecimiento sostenido del 5% en los últimos cinco años. A medida que el mercado crece, también lo hace la necesidad de una regulación más estricta para prevenir el uso indebido de estos bienes.
 
-La reforma a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo un umbral específico para las joyerías y el comercio de metales preciosos. Este umbral se estableció en 805 veces el valor diario de la Unidad de Medida y Actualización (UMA), que para el año 2026 se traduce en aproximadamente 91,082 pesos mexicanos. Esta modificación busca alinear la regulación nacional con las mejores prácticas internacionales, especialmente aquellas promovidas por el Grupo de Acción Financiera Internacional (GAFI).
+La reforma a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, introdujo un umbral específico para las joyerías y el comercio de [metales preciosos](https://artu.ai/articles/guia-sistema-automatizado-pld-metales-piedras-preciosas-joyas-relojes/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-joyerias-y-metales-preciosos-umbral-de-805-uma-en-202). Este umbral se estableció en 805 veces el valor diario de la Unidad de Medida y Actualización (UMA), que para el año 2026 se traduce en aproximadamente 91,082 pesos mexicanos. Esta modificación busca alinear la regulación nacional con las mejores prácticas internacionales, especialmente aquellas promovidas por el Grupo de Acción Financiera Internacional (GAFI).
 
 La implementación de este umbral tiene implicaciones significativas para los sujetos obligados de este sector, requiriendo de ellos una adaptación de sus procedimientos internos de debida diligencia y de reporte de actividades vulnerables. A medida que avanzamos en el 2026, es crucial que las joyerías y comercios de metales preciosos comprendan en detalle estas obligaciones y las integren eficazmente en sus operaciones diarias.
 
@@ -57,7 +58,7 @@ Las joyerías y comercios de metales preciosos que han avanzado en la implementa
 
 - **Capacitación continua del personal**: Asegurarse de que todos los empleados estén debidamente capacitados en las políticas de PLD y en la identificación de operaciones sospechosas es fundamental. La capacitación debe ser específica para los roles y responsabilidades de cada empleado.
 
-- **Evaluación Basada en Riesgos (EBR) documentada**: Desarrollar una matriz de riesgo que considere factores como el tipo de cliente, el país de origen y el tipo de transacción, permite a las joyerías priorizar sus esfuerzos de mitigación de riesgos.
+- **Evaluación Basada en Riesgos (EBR) documentada**: Desarrollar una [matriz de riesgo](https://artu.ai/calculadora-de-riesgo/?utm_source=pldmx&utm_medium=referral&utm_campaign=pld-en-joyerias-y-metales-preciosos-umbral-de-805-uma-en-202) que considere factores como el tipo de cliente, el país de origen y el tipo de transacción, permite a las joyerías priorizar sus esfuerzos de mitigación de riesgos.
 
 - **Colaboración con autoridades**: Mantener una comunicación fluida con la UIF y otras autoridades puede ayudar a las joyerías a entender mejor las expectativas regulatorias y a recibir orientación sobre mejores prácticas.
 

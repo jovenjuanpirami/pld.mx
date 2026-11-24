@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-04-24-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 18 al 24 de abril de 2026 estuvo marcada por una intensa actividad en materia de inteligencia financiera y cooperación internacional antilavado en México. La acción coordinada entre la UIF y el Departamento del Tesoro de Estados Unidos para desmantelar una red de proveedores del Cártel de Sinaloa encabezó la agenda, mientras que el nuevo acuerdo entre la UIF y la CAAAREM busca reforzar los controles sobre el comercio exterior —uno de los vectores de mayor riesgo en el sistema antilavado mexicano. Al mismo tiempo, el SAT publicó orientaciones específicas para donatarias y el IMCP lanzó su Boletín 182, consolidando una semana densa en regulación y cumplimiento. A continuación, el análisis de las principales noticias.

@@ -13,6 +13,11 @@ tags:
   - cumplimiento
 image: /assets/images/posts/2026-05-16-auditoria-en-pld-interna-o-externa-cuando-y-como-aplicar.svg
 author: Equipo PLD.mx
+artu_tema: auditoria
+redirect_from:
+  - /cumplimiento/2026/05/16/auditoria-en-pld-cuando-y-como-aplicar/
+  - /cumplimiento/2026/05/16/auditoria-en-pld-interna-o-externa-cuando-como-aplicar/
+  - /cumplimiento/2026/05/16/auditoria-pld-interna-o-externa-cuando-y-como-aplicar/
 ---
 
 ## Introducción analítica
@@ -29,7 +34,7 @@ Pasemos ahora a explorar el marco legal que regula estas auditorías, establecie
 
 La LFPIORPI establece un conjunto de obligaciones que los sujetos obligados deben cumplir para prevenir el lavado de dinero. Según el Artículo 18, con la reforma de 2025, las auditorías en materia de PLD son ahora una obligación documental bajo la fracción XI, que estipula que los sujetos obligados deben realizar auditorías internas o externas para evaluar la efectividad de sus políticas, procedimientos y controles implementados.
 
-La elección entre una auditoría interna o externa depende de varios factores, incluyendo la complejidad de las operaciones del sujeto obligado, la amplitud de los riesgos identificados y la capacidad interna para llevar a cabo una auditoría imparcial. Según la LFPIORPI, no se especifica un umbral en UMA para determinar cuándo se debe realizar una auditoría externa en lugar de una interna; sin embargo, se espera que las empresas con operaciones más complejas o con mayor exposición al riesgo opten por auditorías externas para una evaluación más objetiva.
+La elección entre una auditoría interna o externa depende de varios factores, incluyendo la complejidad de las operaciones del sujeto obligado, la amplitud de los riesgos identificados y la capacidad interna para llevar a cabo una auditoría imparcial. Según la LFPIORPI, no se especifica un umbral en UMA para determinar cuándo se debe realizar una [auditoría externa](https://artu.ai/articles/auditoria-interna-vs-externa-pld-cuando-aplica-cada-una/?utm_source=pldmx&utm_medium=referral&utm_campaign=auditoria-en-pld-interna-o-externa-cuando-y-como-aplicar) en lugar de una interna; sin embargo, se espera que las empresas con operaciones más complejas o con mayor exposición al riesgo opten por auditorías externas para una evaluación más objetiva.
 
 Los umbrales expresados en veces el valor diario de la Unidad de Medida y Actualización (UMA) son clave para entender las obligaciones de cumplimiento. Para 2026, el valor de la UMA es de 113.14 pesos mexicanos diarios. Esto es relevante cuando se considera el tamaño de las operaciones que requieren evaluación, ya que las operaciones que superan ciertos umbrales pueden indicar un aumento en el riesgo y, por tanto, en la necesidad de auditorías más rigurosas.
 
@@ -43,7 +48,7 @@ En la práctica, la implementación de auditorías internas y externas en PLD va
 
 Por ejemplo, una institución financiera con una cartera de clientes extensa y compleja podría optar por realizar auditorías internas trimestrales para asegurarse de que sus procesos de debida diligencia del cliente (DDC) y monitoreo de transacciones cumplen con la normativa. Estas auditorías podrían enfocarse en revisar una muestra de transacciones para detectar patrones inusuales o inconsistencias que podrían indicar operaciones preocupantes.
 
-Por otro lado, los sujetos obligados con operaciones más complejas o que enfrentan mayores riesgos de lavado de dinero pueden beneficiarse de auditorías externas. Estas auditorías, realizadas por firmas especializadas, proporcionan una perspectiva independiente y pueden identificar vulnerabilidades que el personal interno podría pasar por alto. Por ejemplo, una inmobiliaria que vende múltiples unidades por un valor acumulado de 2.8 millones de pesos mensuales debería considerar una auditoría externa al menos una vez al año para evaluar el flujo de fondos y la identificación del beneficiario controlador, como lo exige el Artículo 17, Fracción V Bis de la LFPIORPI.
+Por otro lado, los sujetos obligados con operaciones más complejas o que enfrentan mayores riesgos de lavado de dinero pueden beneficiarse de auditorías externas. Estas auditorías, realizadas por firmas especializadas, proporcionan una perspectiva independiente y pueden identificar vulnerabilidades que el personal interno podría pasar por alto. Por ejemplo, una inmobiliaria que vende múltiples unidades por un valor acumulado de 2.8 millones de pesos mensuales debería considerar una auditoría externa al menos una vez al año para evaluar el flujo de fondos y la identificación del [beneficiario controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=auditoria-en-pld-interna-o-externa-cuando-y-como-aplicar), como lo exige el Artículo 17, Fracción V Bis de la LFPIORPI.
 
 El proceso de auditoría generalmente incluye los siguientes pasos:
 

@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-06-09-peps-en-mexico-nueva-fraccion-ix-bis-del-art-3-de-la-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - compliance
 image: /assets/images/posts/2026-06-15-capacitacion-pld-anual-claves-y-obligaciones-bajo-lfpiorpi.svg
 author: Equipo PLD.mx
+artu_tema: capacitacion
 ---
 
 ## Introducción analítica

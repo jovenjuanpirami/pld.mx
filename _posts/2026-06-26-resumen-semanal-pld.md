@@ -15,6 +15,7 @@ tags:
   - activos virtuales
 image: /assets/images/posts/2026-06-26-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 20 al 26 de junio de 2026 cerró con una noticia que resume el ánimo supervisor de la Unidad de Inteligencia Financiera: las denuncias por delitos financieros aumentaron 46.8 por ciento en los primeros cinco meses del año respecto al mismo período de 2025. Ese dato fresco de hoy, publicado en La Jornada, aterriza en un contexto que toda la semana fue construyendo tensión regulatoria: el SAT y la UIF realizaron un webinar oficial conjunto para sujetos obligados el viernes 20 de junio, el alertamiento por lavado de dinero y trata de personas vinculado al Mundial 2026 sigue activo y se acerca la mitad de su vigencia, el riesgo de que México caiga en la lista gris del Grupo de Acción Financiera Internacional sigue siendo el telón de fondo de cualquier conversación seria sobre cumplimiento, y el plazo de julio para que la Secretaría de Hacienda y Crédito Público emita las nuevas Reglas de Carácter General de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita —conocida como LFPIORPI— ya no está en el horizonte: está a menos de tres semanas. Pasemos a detallar cada uno de estos ejes.

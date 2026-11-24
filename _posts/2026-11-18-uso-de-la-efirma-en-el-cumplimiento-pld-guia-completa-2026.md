@@ -14,6 +14,7 @@ tags:
 image: /assets/images/posts/2026-11-18-uso-de-la-efirma-en-el-cumplimiento-pld-guia-completa-2026.svg
 author: Equipo PLD.mx
 topic: "Uso de la e.firma en el cumplimiento PLD: avisos, registro y representantes"
+artu_tema: avisos
 ---
 
 ## Introducción analítica
@@ -94,12 +95,6 @@ Esta tabla destaca algunos de los umbrales relevantes para las actividades vulne
 El uso de la e.firma en el cumplimiento de PLD no solo es una obligación legal, sino también una herramienta estratégica que puede mejorar la eficiencia operativa y reducir riesgos significativos. Las organizaciones deben asegurarse de integrar la e.firma en sus sistemas de cumplimiento, capacitar adecuadamente a su personal y utilizar tecnologías avanzadas para automatizar procesos.
 
 Implementar un software de compliance como Artu puede ser una solución efectiva para sujetos obligados que buscan una manera modular y auditable de cumplir con las obligaciones del artículo 18 de la LFPIORPI. Al adoptar estas prácticas, las empresas no solo cumplirán con la normativa vigente, sino que también fortalecerán sus controles contra el lavado de dinero.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

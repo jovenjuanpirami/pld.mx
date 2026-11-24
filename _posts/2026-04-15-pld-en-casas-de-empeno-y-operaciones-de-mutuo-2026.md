@@ -13,6 +13,7 @@ tags:
 image: /assets/images/posts/2026-04-15-pld-en-casas-de-empeno-y-operaciones-de-mutuo-2026.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-23
+artu_tema: prestamos
 ---
 
 ## Introducción analítica
@@ -106,8 +107,3 @@ Para asegurar un cumplimiento efectivo, las empresas deben mantener un enfoque p
 5. **¿Existen sanciones adicionales por no mantener la documentación adecuada?**
    Sí, la falta de documentación adecuada puede resultar en sanciones adicionales. La LFPIORPI requiere que toda la documentación relacionada con las actividades vulnerables se conserve por un período mínimo de 10 años, y el incumplimiento de esta obligación puede llevar a multas adicionales y complicar las auditorías regulatorias.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

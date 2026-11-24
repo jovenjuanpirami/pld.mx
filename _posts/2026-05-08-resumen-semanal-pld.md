@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-05-08-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 2 al 8 de mayo de 2026 estuvo marcada por la convergencia de presiones internacionales y nacionales sobre el sistema antilavado de México. La evaluación del GAFI sigue proyectando su sombra sobre la agenda regulatoria, con analistas y medios especializados señalando debilidades estructurales que el país necesita corregir antes de que el organismo internacional publique su reporte definitivo en octubre. En paralelo, la UIF y la CNBV estrecharon su coordinación supervisora, surgió un nuevo análisis sobre el vacío PLD en las Afores, y la CNBV envió un mensaje contundente al sector fintech con una multa de alto perfil por operaciones con criptomonedas no autorizadas. A esto se suma la publicación del Boletín 184 del IMCP y la escalada de la presión bilateral entre México y Estados Unidos en materia de finanzas del crimen organizado.

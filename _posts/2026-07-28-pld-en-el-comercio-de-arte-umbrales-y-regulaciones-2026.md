@@ -13,9 +13,8 @@ tags:
   - UMAs
 image: /assets/images/posts/2026-07-28-pld-en-el-comercio-de-arte-umbrales-y-regulaciones-2026.svg
 author: Equipo PLD.mx
+artu_tema: arte
 ---
-
-# PLD en el Comercio de Obras de Arte: Umbrales de 2,410 y 4,815 UMA
 
 ## Introducción Analítica
 

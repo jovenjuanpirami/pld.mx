@@ -15,6 +15,7 @@ tags:
   - certificación
 image: /assets/images/posts/2026-10-23-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 17 al 23 de octubre de 2026 quedará en los registros del sistema antilavado mexicano como una de las más cargadas del año. El martes 21 de octubre, la Unidad de Inteligencia Financiera —o UIF— y la Guardia Nacional hicieron público el convenio de colaboración que ambas instituciones suscribieron el 13 de octubre, con respaldo de la Secretaría de la Defensa Nacional; el acuerdo abre un canal permanente de intercambio de inteligencia financiera entre el sistema de supervisión económica y el aparato de seguridad pública. Al mismo tiempo, la Secretaría de Hacienda y Crédito Público, conocida como SHCP, anunció el lunes 20 de octubre que la evaluación mutua que el Grupo de Acción Financiera Internacional —o GAFI— realiza a México entra en su etapa definitiva: la plenaria que resolverá el resultado se celebra del 26 al 30 de octubre en París, con las implicaciones reputacionales y regulatorias que eso conlleva para todo el ecosistema de cumplimiento del país. En paralelo, la UIF confirmó que el proceso de certificación para las personas que realizan actividades vulnerables no se llevará a cabo en 2026, y que la convocatoria se publicará en 2027, justo cuando las nuevas Reglas de Carácter General —publicadas como Acuerdo 115/2026— terminen de entrar en vigor. Pasemos a examinar cada uno de estos ejes.

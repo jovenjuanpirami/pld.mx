@@ -13,6 +13,7 @@ tags:
   - 2026
 image: /assets/images/posts/2026-08-18-cooperacion-internacional-en-pld-desde-mexico-regulacion-y-practicas.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 ## Introducción analítica

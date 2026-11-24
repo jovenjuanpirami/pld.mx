@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-05-22-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 16 al 22 de mayo de 2026 estuvo dominada por una intensa actividad de la Unidad de Inteligencia Financiera, o UIF, en su papel de combate a las estructuras financieras del crimen organizado. En el transcurso de cinco días, la dependencia congeló de forma preventiva las cuentas de un gobernador con licencia y su círculo cercano, anunció el bloqueo de treinta y dos personas físicas y morales en Morelos por nexos con un operador del Cártel de Sinaloa, y firmó un nuevo convenio de colaboración con la Fiscalía de Michoacán para el intercambio de inteligencia financiera. En paralelo, el sistema bancario mexicano avanza hacia nuevos controles de identidad en operaciones en efectivo que entrarán en vigor el primero de julio, y el país mantiene la vista puesta en la próxima evaluación del Grupo de Acción Financiera Internacional, conocido como GAFI, ante señales persistentes de alerta sobre la efectividad real del sistema antilavado nacional.

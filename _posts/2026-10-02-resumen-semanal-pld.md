@@ -12,6 +12,7 @@ tags:
   - LFPIORPI
 image: /assets/images/posts/2026-10-02-resumen-semanal-pld.svg
 author: Equipo PLD.mx
+artu_tema: actividades-vulnerables
 ---
 
 La semana del 26 de septiembre al 2 de octubre de 2026 fue especialmente intensa en el frente de la inteligencia financiera en México. En el transcurso de apenas siete días, la Unidad de Inteligencia Financiera, o UIF, bloqueó a 46 personas físicas y morales vinculadas al Cártel de Sinaloa siguiendo una designación del Departamento del Tesoro de Estados Unidos, al tiempo que desató una investigación de alto perfil político contra Amílcar Olán, presunto operador financiero del círculo cercano al expresidente Andrés Manuel López Obrador. En el plano regulatorio, la Secretaría de Hacienda y Crédito Público, o SHCP, publicó en el Diario Oficial de la Federación los nuevos formatos de avisos de actividades vulnerables conforme a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI, con cambios que afectan a todos los sujetos obligados del país. Fue, en suma, una semana donde la coyuntura política y la agenda regulatoria convergieron para recordar que el cumplimiento antilavado no es un asunto técnico menor sino una pieza central de la soberanía financiera del país.

@@ -13,13 +13,14 @@ tags:
   - Riesgo Financiero
 image: /assets/images/posts/2026-05-12-debida-diligencia-reforzada-en-pld-cuando-y-como-aplicarla.svg
 author: Equipo PLD.mx
+artu_tema: pep
 ---
 
 ## Introducción analítica
 
 La debida diligencia del cliente (DDC) es un pilar esencial en la prevención del lavado de dinero y financiamiento al terrorismo (PLD/FT) en México. En los últimos años, las regulaciones han evolucionado para incluir medidas más estrictas, como la debida diligencia reforzada (DDR), especialmente tras la reforma del 16 de julio de 2025 publicada en el Diario Oficial de la Federación (DOF). Este cambio fue impulsado por la necesidad de alinear las normativas nacionales con los estándares internacionales, como las Recomendaciones del Grupo de Acción Financiera Internacional (GAFI).
 
-Según el reporte de 2026 del GAFI, México ha mejorado su capacidad de detectar y prevenir el lavado de dinero, aunque sigue enfrentando desafíos significativos debido a su posición como el segundo destino global de dinero de ciberdelitos, con 1,782 operaciones detectadas en 2025. En este contexto, la DDR se convierte en una herramienta crítica para mitigar los riesgos asociados con clientes de alto riesgo, tales como Personas Políticamente Expuestas (PEP) y operaciones transnacionales complejas.
+Según el reporte de 2026 del GAFI, México ha mejorado su capacidad de detectar y prevenir el lavado de dinero, aunque sigue enfrentando desafíos significativos debido a su posición como el segundo destino global de dinero de ciberdelitos, con 1,782 operaciones detectadas en 2025. En este contexto, la DDR se convierte en una herramienta crítica para mitigar los riesgos asociados con clientes de alto riesgo, tales como [Personas Políticamente Expuestas](https://artu.ai/articles/peps-(personas-politicamente-expuestas)-en-mexico-quien-es-pep-que-pasa-con-familiares-y-relacionados-y-cuando-aplicar-debida-diligencia-reforzada/?utm_source=pldmx&utm_medium=referral&utm_campaign=debida-diligencia-reforzada-en-pld-cuando-y-como-aplicarla) (PEP) y operaciones transnacionales complejas.
 
 Con más de 8,500 sujetos obligados registrados ante el SAT, la implementación efectiva de DDR es clave para evitar sanciones y proteger la integridad del sistema financiero mexicano. Este artículo explorará en profundidad cuándo y cómo aplicar la DDR, detallando el marco legal relevante, análisis práctico y mejores prácticas adoptadas por los sujetos obligados más avanzados.
 
@@ -29,7 +30,7 @@ La Ley Federal para la Prevención e Identificación de Operaciones con Recursos
 
 En el Artículo 18, se especifican 11 fracciones de obligaciones, entre las cuales se incluye la obligación de aplicar medidas de DDR cuando se interactúa con clientes de alto riesgo. Estas medidas son adicionales a las de la debida diligencia estándar y deben ser documentadas y sustentadas en una Evaluación Basada en Riesgos (EBR) conforme a la Fracción VII. La obligación de realizar una EBR documentada es crítica para identificar y mitigar los riesgos asociados a cada cliente y operación.
 
-La LFPIORPI establece umbrales en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor de la UMA es de $113.14 MXN. Por ejemplo, para transacciones bancarias que superen las 1,500 UMA (aproximadamente $169,710 MXN), es obligatorio realizar un análisis detallado del beneficiario controlador, definido en la fracción III del Artículo 3 como cualquier persona que ejerza control efectivo directo o indirecto sobre el 25% del capital o votos.
+La LFPIORPI establece umbrales en veces el valor diario de la Unidad de Medida y Actualización (UMA). Para 2026, el valor de la UMA es de $113.14 MXN. Por ejemplo, para transacciones bancarias que superen las 1,500 UMA (aproximadamente $169,710 MXN), es obligatorio realizar un análisis detallado del [beneficiario controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=debida-diligencia-reforzada-en-pld-cuando-y-como-aplicarla), definido en la fracción III del Artículo 3 como cualquier persona que ejerza control efectivo directo o indirecto sobre el 25% del capital o votos.
 
 ## Análisis práctico
 

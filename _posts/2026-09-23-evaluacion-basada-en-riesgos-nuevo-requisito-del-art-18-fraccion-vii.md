@@ -13,6 +13,7 @@ tags:
   - Art. 18
 image: /assets/images/posts/2026-09-23-evaluacion-basada-en-riesgos-nuevo-requisito-del-art-18-fraccion-vii.svg
 author: Equipo PLD.mx
+artu_tema: riesgo
 ---
 
 ## Introducción analítica
@@ -135,8 +136,3 @@ La capacitación del personal es un componente crucial de la EBR, ya que asegura
 
 Herramientas como Artu facilitan la implementación de una EBR al proporcionar módulos específicos para la evaluación y gestión de riesgos. Con su capacidad de automatización y el uso de inteligencia artificial generativa, Artu permite a las organizaciones monitorizar y analizar transacciones en tiempo real, simplificando el cumplimiento y asegurando que las empresas puedan responder rápidamente a las amenazas emergentes.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

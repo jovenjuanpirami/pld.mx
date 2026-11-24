@@ -13,15 +13,16 @@ tags:
   - México
 image: /assets/images/posts/2026-07-20-tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: monitoreo
+redirect_from:
+  - /regulacion/2026/07/20/tipologias-de-lavado-dinero-comunes-en-mexico-en-2026/
 ---
-
-# Tipologías de Lavado de Dinero Comunes en México en 2026
 
 ## Introducción analítica
 
 El lavado de dinero continúa siendo un desafío significativo para el sistema financiero y las instituciones reguladoras en México. Según cifras recientes del Grupo de Acción Financiera Internacional (GAFI), México se mantiene como un país vulnerable a las operaciones de lavado, ocupando el segundo lugar a nivel global en recepción de dinero proveniente de ciberdelitos, con 1,782 operaciones reportadas en 2025, lo cual destaca la urgencia de fortalecer los mecanismos de prevención. La Unidad de Inteligencia Financiera (UIF), bajo la dirección de Omar Reyes Colmenares desde 2024, ha estado activa en bloquear recursos ilícitos, inmovilizando cerca de cinco mil millones de pesos en lo que va de la administración actual (2024-2026).
 
-La reciente reforma de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido cambios clave que afectan la forma en que las instituciones financieras y otros sujetos obligados abordan el lavado de dinero. Esta reforma incluye nuevas fracciones en el Artículo 18, que ahora contempla 11 obligaciones para los sujetos obligados, incluyendo la Evaluación Basada en Riesgos (EBR), auditorías PLD obligatorias y la implementación de mecanismos automatizados de monitoreo.
+La reciente reforma de la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (LFPIORPI), publicada en el Diario Oficial de la Federación (DOF) el 16 de julio de 2025, ha introducido cambios clave que afectan la forma en que las instituciones financieras y otros sujetos obligados abordan el lavado de dinero. Esta reforma incluye nuevas fracciones en el Artículo 18, que ahora contempla 11 obligaciones para los sujetos obligados, incluyendo la Evaluación Basada en Riesgos (EBR), auditorías PLD obligatorias y la implementación de mecanismos automatizados de [monitoreo](https://artu.ai/articles/tipologias-uif-2025-monitoreo-transaccional-y-software-pld-en-mexico-como-convertir-senales-de-alerta-en-controles-reales-(sin-ahogarte-en-falsos-positivos)/?utm_source=pldmx&utm_medium=referral&utm_campaign=tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026).
 
 El impacto de estas reformas es notable, especialmente considerando la amplitud del sector financiero en México, que abarca más de 8,500 sujetos obligados registrados ante el Servicio de Administración Tributaria (SAT). Estos cambios buscan cerrar brechas y mejorar la eficacia de las estrategias de prevención de lavado de dinero, un compromiso que México ha reafirmado durante la evaluación del GAFI en 2026, cuyos resultados se esperan para octubre de este año. 
 
@@ -132,7 +133,7 @@ La falta de capacitación anual, como establece la fracción IX del Artículo 18
 
 Aunque la auditoría puede ser interna o externa, realizar una auditoría externa proporciona una perspectiva objetiva y puede ayudar a identificar áreas de mejora que no son evidentes para el personal interno. Esto es especialmente crítico para instituciones con altos volúmenes de transacciones.
 
-**¿Cómo impacta la definición ampliada de Beneficiario Controlador en la práctica?**
+**¿Cómo impacta la definición ampliada de [Beneficiario Controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=tipologias-de-lavado-de-dinero-comunes-en-mexico-en-2026) en la práctica?**
 
 La ampliación de la definición en la fracción III del Artículo 3 para incluir el control efectivo del 25% del capital o votos implica una mayor diligencia en la identificación de estructuras complejas de propiedad, asegurando que todos los beneficiarios finales sean adecuadamente identificados y verificados.
 

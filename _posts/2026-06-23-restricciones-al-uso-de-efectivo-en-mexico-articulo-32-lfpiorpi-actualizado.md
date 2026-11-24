@@ -13,6 +13,7 @@ tags:
   - México
 image: /assets/images/posts/2026-06-23-restricciones-al-uso-de-efectivo-en-mexico-articulo-32-lfpiorpi-actualizado.svg
 author: Equipo PLD.mx
+artu_tema: efectivo
 ---
 
 ## Introducción analítica

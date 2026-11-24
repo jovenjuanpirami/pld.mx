@@ -13,6 +13,9 @@ tags:
   - riesgos
 image: /assets/images/posts/2026-05-21-capacitacion-pld-anual-obligaciones-y-mejores-practicas-2026.svg
 author: Equipo PLD.mx
+artu_tema: capacitacion
+redirect_from:
+  - /lfpiorpi/2026/05/21/capacitacion-pld-anual-obligaciones-mejores-practicas-2026/
 ---
 
 ## Introducción analítica
@@ -23,7 +26,7 @@ La creciente complejidad del entorno financiero, junto con el aumento del uso de
 
 ## Marco legal detallado
 
-El artículo 18 de la LFPIORPI, reformado en 2025, establece once fracciones de obligaciones para los sujetos obligados, dentro de las cuales se incluye la capacitación anual al personal en su fracción IX. Esta obligación implica que las empresas deben implementar programas de formación continua que sean acordes a las actividades y riesgos específicos de cada organización. La LFPIORPI busca asegurar que los empleados estén equipados para identificar y manejar adecuadamente las operaciones vulnerables, reportar operaciones preocupantes dentro de las 24 horas (conforme al segundo párrafo de la fracción VI del mismo artículo), y mantener registros adecuados que deben conservarse por un periodo de 10 años, según la fracción IV del artículo 18.
+El artículo 18 de la LFPIORPI, reformado en 2025, establece once fracciones de obligaciones para los sujetos obligados, dentro de las cuales se incluye la [capacitación anual](https://artu.ai/curso/?utm_source=pldmx&utm_medium=referral&utm_campaign=capacitacion-pld-anual-obligaciones-y-mejores-practicas-2026) al personal en su fracción IX. Esta obligación implica que las empresas deben implementar programas de formación continua que sean acordes a las actividades y riesgos específicos de cada organización. La LFPIORPI busca asegurar que los empleados estén equipados para identificar y manejar adecuadamente las operaciones vulnerables, reportar operaciones preocupantes dentro de las 24 horas (conforme al segundo párrafo de la fracción VI del mismo artículo), y mantener registros adecuados que deben conservarse por un periodo de 10 años, según la fracción IV del artículo 18.
 
 Además, la norma refiere la Evaluación Basada en Riesgos (EBR) documentada, que se encuentra en la fracción VII del mismo artículo, como un componente que debe integrarse en los programas de capacitación para que el personal esté alineado con las matrices de riesgo establecidas por sus organizaciones. En términos de umbrales financieros, cualquier operación que supere los 3,210 UMA (aproximadamente $363,743 MXN) en actividades como la venta de bienes inmuebles debe ser reportada, lo cual resalta la importancia de una capacitación efectiva para cumplir con estas obligaciones de manera oportuna y precisa.
 
@@ -33,7 +36,7 @@ Implementar un programa de capacitación PLD efectivo requiere un enfoque estruc
 
 Una estrategia práctica comienza con la identificación de los roles y responsabilidades de cada empleado en el contexto de la prevención de lavado de dinero. Esto incluye desde la alta dirección hasta el personal operativo. Posteriormente, se debe desarrollar un plan de estudios que cubra:
 
-- **Conceptos básicos de PLD/FT**: Introducción a la LFPIORPI, definición de términos clave como "beneficiario controlador" y "persona políticamente expuesta" (PEP) conforme a la fracción III y IX Bis del artículo 3, respectivamente.
+- **Conceptos básicos de PLD/FT**: Introducción a la LFPIORPI, definición de términos clave como "[beneficiario controlador](https://artu.ai/articles/beneficiario-controlador-y-dueno-beneficiario-en-mexico-el-dueno-real-que-tu-compliance-pld-no-puede-ignorar-(kyc-software-lfpiorpi)/?utm_source=pldmx&utm_medium=referral&utm_campaign=capacitacion-pld-anual-obligaciones-y-mejores-practicas-2026)" y "persona políticamente expuesta" (PEP) conforme a la fracción III y IX Bis del artículo 3, respectivamente.
 - **Identificación de operaciones sospechosas**: Criterios para identificar y reportar operaciones preocupantes.
 - **Uso de tecnología en monitoreo**: Capacitación en herramientas automatizadas de monitoreo y generación de reportes, como los módulos de Artu que incluyen KYC/KYB y monitoreo transaccional.
 - **Procedimientos de reporte**: Cómo completar y enviar avisos de actividad vulnerable al SAT, ajustándose a las plataformas electrónicas requeridas.
@@ -81,12 +84,6 @@ Para cumplir eficazmente con la obligación de capacitación anual en PLD, los s
 ## Conclusión estratégica
 
 Una vez entendido el marco normativo y las implicaciones de la capacitación PLD, los sujetos obligados deben priorizar la implementación de programas efectivos que no solo cumplan con las obligaciones legales, sino que también fortalezcan la capacidad de la organización para gestionar riesgos. Es crucial integrar tecnología y procesos automatizados para facilitar el monitoreo continuo y la presentación de informes. Herramientas como Artu, con su capacidad para automatizar cada obligación del artículo 18, pueden ser un aliado valioso en este proceso. Al adoptar un enfoque proactivo y basado en riesgos, las organizaciones no solo evitarán sanciones, sino que también mejorarán su resiliencia frente a posibles amenazas financieras.
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
 
 ## FAQ
 

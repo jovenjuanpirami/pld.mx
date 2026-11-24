@@ -13,9 +13,8 @@ tags:
   - Compliance
 image: /assets/images/posts/2026-08-23-regtech-en-mexico-soluciones-esenciales-para-pld-en-2026.svg
 author: Equipo PLD.mx
+artu_tema: software
 ---
-
-# RegTech en México: Soluciones Tecnológicas para PLD
 
 ## Introducción analítica
 

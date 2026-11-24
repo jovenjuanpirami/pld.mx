@@ -13,6 +13,16 @@ tags:
   - riesgos
 image: /assets/images/posts/2026-06-12-conservacion-de-documentos-pld-requisitos-y-plazos-de-10-anos.svg
 author: Equipo PLD.mx
+artu_tema: conservacion
+redirect_from:
+  - /cumplimiento/2026/05/07/conservacion-de-documentos-pld-en-mexico-normas-y-requisitos/
+  - /cumplimiento/2026/05/07/conservacion-de-documentos-pld-en-mexico-nos-y-requisitos/
+  - /cumplimiento/2026/05/20/conservacion-de-documentos-pld-en-mexico-requisitos-y-sanciones/
+  - /cumplimiento/2026/05/20/conservacion-documents-pld-en-mexico-requisitos-y-sanciones/
+  - /cumplimiento/2026/06/14/conservacion-de-documentos-pld-en-mexico-requisitos-y-duracion/
+  - /cumplimiento/2026/08/14/conservacion-de-documentos-pld-en-mexico-requisitos-y-plazos/
+  - /cumplimiento/2026/08/14/conservacion-de-documentos-pld-mexico-requisitos-y-plazos/
+  - /lfpiorpi/2026/04/23/plazos-de-conservacion-de-documentos-segun-lfpiorpi-2026/
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - 2026
 image: /assets/images/posts/2026-09-22-pld-en-agencias-aduanales-obligaciones-y-mejores-practicas-2026.svg
 author: Equipo PLD.mx
+artu_tema: aduanas
 ---
 
 ## Introducción analítica

@@ -13,6 +13,7 @@ tags:
   - regulación
 image: /assets/images/posts/2026-09-14-cumplimiento-pld-en-juegos-de-apuesta-claves-del-articulo-17-fraccion-i.svg
 author: Equipo PLD.mx
+artu_tema: juegos
 ---
 
 ## Introducción analítica
@@ -120,8 +121,3 @@ Para implementar un sistema efectivo de monitoreo automatizado, las empresas deb
 **5. ¿Cómo afecta la reforma de 2025 a la capacitación del personal en empresas de juegos con apuesta?**
 La reforma de 2025 ha hecho obligatoria la capacitación anual del personal en empresas de juegos con apuesta, conforme a la fracción IX del Artículo 18. Esta capacitación debe estar diseñada para asegurar que todos los empleados comprendan las políticas de prevención de lavado de dinero y puedan implementar los procedimientos requeridos de manera efectiva. La capacitación continua es esencial para mantener a la empresa en cumplimiento y para adaptarse a cambios regulatorios futuros.
 
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>

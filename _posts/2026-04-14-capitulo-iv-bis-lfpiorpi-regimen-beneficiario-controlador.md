@@ -13,6 +13,7 @@ tags:
 image: /assets/images/posts/2026-04-14-capitulo-iv-bis-lfpiorpi-regimen-beneficiario-controlador.svg
 author: Equipo PLD.mx
 last_modified_at: 2026-10-21
+artu_tema: beneficiario-controlador
 ---
 
 ## Introducción analítica

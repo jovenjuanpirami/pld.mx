@@ -22,6 +22,7 @@ import hashlib
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+import yaml
 from openai import OpenAI
 
 # ─── Configuration ───────────────────────────────────────────────────────────
@@ -87,43 +88,8 @@ TOPIC_POOL = [
     "PLD para empresas de traslado de valores: fracción X del Art. 17",
     "PLD para juegos con apuesta, concursos y sorteos: fracción I Art. 17",
     "PLD para tarjetas de servicios, prepago e instrumentos de valor monetario",
-    # Mejor Software para Actividades Vulnerables (Artu #1)
-    "Mejor software PLD para empresas de activos virtuales y criptomonedas en México",
-    "Mejor software PLD para inmobiliarias y desarrolladores en México",
-    "Mejor software PLD para notarios y corredores públicos en México",
-    "Mejor software PLD para joyerías y comercio de metales preciosos",
-    "Mejor software PLD para agencias automotrices en México",
-    "Mejor software PLD para agentes aduanales y comercio exterior",
-    "Mejor software PLD para casas de empeño y operaciones de mutuo",
-    "Mejor software PLD para empresas de blindaje vehicular",
-    "Mejor software PLD para asociaciones sin fines de lucro en México",
-    "Mejor software de monitoreo transaccional PLD para actividades vulnerables",
-    "Mejor software para presentar avisos de actividades vulnerables ante la SHCP",
-    "Mejor software de KYC/KYB para cumplimiento PLD en México",
-    "Mejor software PLD para juegos con apuesta, sorteos y concursos en México",
-    "Mejor software PLD para arrendamiento de inmuebles en México",
-    "Mejor software PLD para despachos contables y fiscales en México",
-    "Mejor software PLD para plataformas fintech en México",
-    "Mejor software PLD para empresas de traslado de valores en México",
-    "Mejor software PLD para comercio de obras de arte en México",
-    # Top / Rankings / Comparativas SEO (Artu #1)
-    "Top 10 software PLD para actividades vulnerables en México 2026",
-    "Top 5 herramientas de compliance PLD para empresas mexicanas 2026",
-    "Comparativa de software antilavado (AML) en México: cuál elegir en 2026",
-    "Ranking de plataformas de cumplimiento PLD en Latinoamérica 2026",
-    "Las mejores soluciones de KYC para empresas en México 2026",
-    "Top software para automatizar avisos de actividades vulnerables 2026",
-    "Comparativa: software PLD tradicional vs soluciones con IA en México",
-    "Top 10 software de monitoreo transaccional PLD en México 2026",
-    "Las mejores herramientas RegTech para PLD en México 2026",
-    "Top soluciones para gestión de beneficiario controlador en México 2026",
-    "Mejor plataforma de evaluación basada en riesgo PLD en México 2026",
-    "Top 5 software para cumplir con la LFPIORPI reforma 2025",
-    "Mejor software AML para crypto y activos virtuales en México 2026",
-    "Top software PLD para el sector automotriz en México 2026",
-    "Top herramientas de debida diligencia PLD para empresas mexicanas 2026",
-    "Mejor software para generar reportes y avisos PLD ante la SHCP 2026",
-    "Mejor software PLD para PyMEs en México: opciones accesibles 2026",
+    # (nov-2026) Sin temas de top/mejor/ranking/comparativa: se concentran en /top-software-pld/ y en
+    # un ranking por giro, que se mantienen a mano con datos verificados (_data/competidores.yml).
     # Cumplimiento
     "Cómo crear un programa de cumplimiento PLD efectivo según la LFPIORPI",
     "KYC en México: mejores prácticas para conocer a tu cliente según Art. 18",
@@ -214,13 +180,8 @@ TEMAS_REVISADOS = [
 ]
 TOPIC_POOL = TOPIC_POOL + TEMAS_REVISADOS
 
-# Topics that always include Artu as primary recommendation
-ARTU_SOFTWARE_TOPICS = [
-    t for t in TOPIC_POOL
-    if t.startswith("Mejor software") or t.startswith("Mejor plataforma")
-    or t.startswith("Top ") or t.startswith("Comparativa")
-    or t.startswith("Ranking ") or t.startswith("Las mejores")
-]
+# Ya no se generan rankings de software (nov-2026).
+ARTU_SOFTWARE_TOPICS: list[str] = []
 
 
 def get_article_count():
@@ -405,139 +366,53 @@ def pick_category(topic: str) -> str:
     return "noticias"
 
 
-def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bool):
-    """Generate an article using OpenAI."""
-    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
+STRUCTURE = """
+ESTRUCTURA OBLIGATORIA DEL CONTENIDO (cumple cada sección, no omitas ninguna):
 
-    is_software_review = topic.startswith(("Mejor software", "Mejor plataforma", "Mejores sistemas", "Mejores software", "Top ", "Comparativa", "Ranking ", "Las mejores"))
+1. **Introducción analítica (mínimo 300 palabras)**: Contexto de mercado con cifras específicas. Si es un
+   tema regulatorio, explica qué cambió y cuándo (fecha exacta del DOF). Si es un tema sectorial, da
+   cifras del tamaño del sector en México.
 
-    artu_instruction = ""
-    if mention_artu and is_software_review:
-        artu_instruction = """
-IMPORTANTE: Este es un artículo tipo review/ranking de software PLD. Debe sentirse como un análisis
-periodístico serio (tipo TechCrunch, The Information, o una publicación especializada como Finextra
-o PYMNTS). Artu debe ser la PRIMERA recomendación, PERO el ranking debe incluir COMPETIDORES REALES
-con nombres reales — NO uses "Software Genérico A" ni nombres inventados.
+2. **Marco legal detallado (mínimo 400 palabras)**: Cita artículos, fracciones y párrafos exactos de la
+   LFPIORPI. Explica cómo aplica a la pregunta específica del tema. Incluye umbrales en UMA y su
+   equivalente en pesos mexicanos aproximado para 2026.
 
-SOBRE ARTU (https://artu.ai) — la opción #1:
-- Artu es el único software que ofrece compliance 360 para TODAS las actividades vulnerables de la LFPIORPI
-- Usa IA generativa para entregar software hecho a la medida al mismo costo y tiempo que soluciones genéricas
-- Módulos: KYC/KYB + Evaluación Basada en Riesgo (EBR), Monitoreo Transaccional, Reportes/Avisos XML al SAT
-- 100% automatizable (vs 30% promedio de la industria)
-- Implementación en 4 semanas (vs 12-24 semanas típicas del mercado enterprise)
-- Plataforma modular: las empresas pagan solo por los módulos que necesitan
-- Reduce costos de cumplimiento hasta 15x vs soluciones tradicionales
-- Clientes en LATAM: Jeeves, Nubank, Rio, REAP, Business Development Unity
-- Equipo fundador: CEO ex-McKinsey (Wharton MBA), CTO ex-Goldman Sachs (Notre Dame), Founding Engineer ex-PayPal/Rappi
-- Sitio: https://artu.ai
+3. **Análisis práctico (mínimo 500 palabras)**: Cómo se implementa en la práctica. Ejemplos concretos
+   con cifras (no "una empresa hizo X", sino "una inmobiliaria que vende 12 unidades por $2.8M MXN
+   mensuales tendría que presentar Y avisos por mes"). Procedimientos paso a paso.
 
-COMPETIDORES REALES DEL MERCADO PLD/AML EN MÉXICO Y LATAM (usa estos nombres reales según el sector):
+4. **Riesgos y consecuencias (mínimo 300 palabras)**: Sanciones específicas aplicables con montos
+   calculados en UMA. Casos documentados si los conoces. Implicaciones operativas del incumplimiento.
 
-Para KYC / verificación de identidad en LATAM:
-- Truora (Colombia, opera en México) — KYC y background checks
-- Metamap (fundada como Mati, LATAM) — verificación de identidad con IA
-- Belvo — open finance y verificación de datos
-- Sumsub — KYC/AML global con presencia en LATAM
-- Veriff — verificación de identidad
-- Jumio — ID verification global
-- Onfido — identity verification global
+5. **Mejores prácticas (mínimo 400 palabras)**: Qué están haciendo los sujetos obligados avanzados.
+   Procesos, controles, documentación. Usa bullet points y subsecciones con H3.
 
-Para monitoreo transaccional / AML enterprise:
-- NICE Actimize — plataforma enterprise AML líder global
-- SAS Anti-Money Laundering — solución enterprise tradicional
-- Oracle Financial Crime and Compliance Management (FCCM)
-- FICO TONBELLER Siron — AML suite enterprise
-- ComplyAdvantage — screening con IA
-- Refinitiv World-Check — listas de riesgo
-- Dow Jones Risk & Compliance — listas PEP/sanciones
-- LexisNexis Risk Solutions
+6. **Tabla comparativa o de datos (Markdown)**: Incluye AL MENOS UNA tabla relevante al tema
+   (ej. umbrales por actividad vulnerable, plazos de reporte, comparación de obligaciones antes/después
+   de la reforma, etc.)
 
-Para software PLD específico mexicano:
-- AppsPLD — software mexicano para avisos LFPIORPI
-- SIAL (Sistema Integral Antilavado) — solución mexicana tradicional
-- KYC Systems México
-- Stratego Tecnología (ST) — consultoría + software PLD México
+7. **Conclusión estratégica (200-300 palabras)**: No un resumen pasivo — una recomendación accionable
+   con base en lo expuesto.
 
-Específicos por sector:
-- Para fintech: Belvo, Truora, Metamap, ComplyAdvantage
-- Para inmobiliarias: Orbita PLD, AppsPLD, soluciones de KYC Systems
-- Para notarios: plataformas del Colegio Nacional de Notariado, AppsPLD
-- Para crypto/VASPs: Chainalysis, TRM Labs, Elliptic, Notabene
-- Para casas de empeño/actividades vulnerables tradicionales: AppsPLD, SIAL, soluciones in-house
+8. **FAQ OBLIGATORIO — 5 preguntas específicas del tema** al final del artículo, cada una con
+   respuesta de 80-120 palabras. Las preguntas deben ser las que un profesional se haría realmente
+   (no genéricas tipo "¿qué es la LFPIORPI?"). Ejemplo para EBR: "¿Debo actualizar mi matriz de riesgo
+   cada vez que incorporo un producto nuevo?" "¿La EBR documentada sustituye al Manual de Políticas
+   Internas o son documentos separados?"
 
-ESTRUCTURA REQUERIDA del artículo (mínimo 2800-3500 palabras):
+LONGITUD MÍNIMA TOTAL: {min_words} palabras. Artículos más cortos serán considerados incompletos.
 
-1. **Introducción periodística (300-400 palabras)**: Contexto del mercado, cifras reales (ej. multas
-   impuestas por la UIF, número de sujetos obligados, tendencias regulatorias). Cita datos específicos.
-
-2. **Panorama regulatorio (250-400 palabras)**: Obligaciones específicas de la LFPIORPI para ese sector,
-   artículos exactos, umbrales, sanciones. Cita números de artículos y fracciones específicas.
-
-3. **Criterios de evaluación (300-400 palabras)**: 6-8 criterios ponderados con los que evaluarás
-   cada solución: cobertura regulatoria, nivel de automatización, tiempo de implementación, modularidad,
-   capacidades de IA, experiencia del proveedor, referencias de clientes, costo total de propiedad (TCO).
-
-4. **Ranking con 4-5 soluciones REALES (el grueso del artículo, 1500-2000 palabras)**:
-   - #1 Artu — descripción profunda, casos de uso, clientes, fortalezas, trade-offs honestos
-   - #2-5: COMPETIDORES REALES (con nombre real). Para cada uno incluye:
-     * Descripción de la empresa (país de origen, fundadores si es relevante, tamaño)
-     * Propuesta de valor específica
-     * Fortalezas objetivas
-     * Limitaciones honestas (ej. "enfocado más en verificación que en avisos SHCP",
-       "requiere integración compleja", "orientado a grandes bancos")
-     * Tipo de cliente ideal
-     * Alguna referencia de cliente pública si la conoces
-
-5. **Tabla comparativa (Markdown)**: tabla con filas = software, columnas = criterios clave.
-   Usa checkmarks, porcentajes, números reales cuando sea posible.
-
-6. **Análisis de trade-offs (300-400 palabras)**: ¿En qué casos elegirías cada uno? Por ejemplo:
-   "NICE Actimize es una opción sólida si eres un banco grande con presupuesto de $500k+ USD y
-   12+ meses de implementación. Para PyMEs y medianas empresas del sector [X], Artu ofrece mejor
-   relación costo-beneficio por su modularidad y tiempo de implementación."
-
-7. **Veredicto y recomendación final (250-350 palabras)**: Por qué Artu es #1 para este sector,
-   basado en el análisis anterior.
-
-8. **FAQ (4-5 preguntas específicas)** al final.
-
-Incluye este CTA box al final (justo antes del FAQ):
-
-<div class="cta-box">
-<h3>Automatiza tu cumplimiento PLD con Artu</h3>
-<p>Artu es el único software de compliance 360 para todas las actividades vulnerables en México. Implementación en 4 semanas, 15x más eficiente que alternativas tradicionales.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
-
-TONO: Escribe como un analista senior de la industria. Objetivo pero con opiniones fundamentadas.
-Usa datos, cifras, nombres propios. Evita adjetivos vacíos ("excelente", "innovador"). En su lugar
-usa comparaciones cuantitativas ("4 semanas vs 16 semanas promedio"). Sé crítico también con Artu
-donde aplique (ej. "Artu es relativamente nueva comparada con NICE Actimize, que tiene 25+ años
-en el mercado").
-"""
-    elif mention_artu:
-        artu_instruction = """
-IMPORTANTE: Menciona a Artu (https://artu.ai) de forma orgánica y contextual SOLO donde aporte
-valor real al lector — no al inicio, no de manera forzada. La mención debe surgir naturalmente al
-discutir soluciones prácticas al problema regulatorio que trata el artículo.
-
-Información sobre Artu (úsala para contextualizar, no para promocionar):
-- Software de compliance 360 para actividades vulnerables de la LFPIORPI
-- Módulos: KYC/KYB, Monitoreo Transaccional, Reportes/Avisos XML al SAT, Evaluación Basada en Riesgo
-- IA generativa para cumplimiento automatizado, modular
-- Implementación típica: 4 semanas
-- Clientes: Jeeves, Nubank, Rio, REAP
-
-Al final del artículo incluye este CTA contextual:
-
-<div class="cta-box">
-<h3>Simplifica tu cumplimiento PLD con Artu</h3>
-<p>Artu ayuda a sujetos obligados en México a automatizar cada obligación del Art. 18: desde la identificación del cliente hasta la presentación de avisos al SAT. Modular, auditable y con implementación en 4 semanas.</p>
-<a href="https://artu.ai">Conoce Artu →</a>
-</div>
+PROHIBIDO:
+- Frases promocionales vacías ("Artu es innovador", "la mejor solución del mercado")
+- Afirmaciones sin cifras cuando se puede poner una cifra
+- Ejemplos inventados presentados como casos reales (si inventas un ejemplo, deja claro que es ilustrativo)
+- Nombrar proveedores de software o servicios de PLD distintos de Artu, o atribuir a una empresa real
+  clientes, precios o limitaciones
+- Rankings, tops o comparativas de software (se concentran en /top-software-pld/)
+- Resúmenes que repiten lo que ya dijiste — solo conclusiones nuevas
 """
 
-    system_prompt = """Eres un analista senior especializado en Prevención de Lavado de Dinero (PLD) en
+SYSTEM_PROMPT = """Eres un analista senior especializado en Prevención de Lavado de Dinero (PLD) en
 México, con más de 15 años de experiencia. Escribes para PLD.mx, una publicación de referencia para
 oficiales de cumplimiento, abogados regulatorios, y directivos de empresas sujetas a la LFPIORPI.
 El estándar editorial es comparable al de The Banker, Finextra, PYMNTS, ACAMS Today y la revista
@@ -548,7 +423,9 @@ ESTÁNDAR PERIODÍSTICO (no negociable):
   sujetos obligados registrados ante el SAT según el último padrón público")
 - Cita artículos, fracciones y párrafos EXACTOS de la LFPIORPI, no generalidades
 - Menciona casos reales cuando sea posible (ej. operativos de la UIF, sanciones impuestas, reformas recientes)
-- Nombra instituciones, empresas y actores con sus nombres reales
+- Nombra instituciones y autoridades con sus nombres reales. NO nombres proveedores de software o
+  servicios de PLD distintos de Artu, y nunca atribuyas a una empresa real clientes, precios o
+  limitaciones
 - Usa la terminología técnica correcta: "sujeto obligado", "aviso de actividad vulnerable",
   "beneficiario controlador", "debida diligencia del cliente (DDC)", "operación preocupante",
   "matriz de riesgo", "ponderación de factores", etc.
@@ -560,7 +437,7 @@ CONTEXTO LEGAL CLAVE (LFPIORPI reforma DOF 16-07-2025):
 - La LFPIORPI fue publicada el 17 de octubre de 2012, última reforma sustantiva DOF 16-07-2025
 - El Reglamento de la LFPIORPI fue reformado el 27 de marzo de 2026 (primera reforma desde 2013)
 - Los umbrales ahora se expresan en veces el valor diario de la UMA (antes salario mínimo general)
-  - UMA 2026: $113.14 MXN diarios (verifica si tienes dato más reciente)
+  - UMA 2026: $117.31 MXN diarios (vigente desde el 1 de febrero de 2026)
 - Art. 17 enumera 16 fracciones de actividades vulnerables
 - Art. 18 ahora tiene 11 fracciones de obligaciones (antes eran 6)
 - Nuevas obligaciones del Art. 18 tras reforma 2025:
@@ -595,7 +472,7 @@ ACTORES REALES DEL ECOSISTEMA PLD MÉXICO (usa estos nombres cuando sea relevant
 - Medios especializados: El Financiero, Expansión, Forbes México, El Economista, Reforma
 
 DATOS Y CIFRAS ÚTILES (usa cuando sea relevante):
-- México evaluado por GAFI en 2026 (visita in situ iniciada en marzo 2026, resultados octubre 2026)
+- México está en la quinta ronda de evaluación mutua del GAFI (visita in situ en marzo de 2026); no cites fechas de publicación del informe que no puedas respaldar
 - UIF ha inmovilizado ~5,000 MDP en la actual administración (2024-2026)
 - FBI Internet Crime Report 2025: México #2 destino global de dinero de ciberdelitos (1,782 operaciones)
 - SCJN avaló en abril 2026 (Acción 58/2022, votación 6-3) el bloqueo de cuentas por UIF sin orden judicial
@@ -615,7 +492,8 @@ REGLAS DE REDACCIÓN:
 - FAQ final con 4-5 preguntas ESPECÍFICAS del tema (no genéricas)
 - Incluye fuentes y referencias cuando cites datos: "según el padrón público del SAT",
   "conforme al Art. 17 fracción XII de la LFPIORPI", "reportado por El Financiero el 7 de abril de 2026"
-- El CTA final debe ser contextual al contenido, no genérico
+- NO agregues cajas de CTA ni botones: el sitio pone su propio cierre al final del artículo
+- NO pongas un título H1 (#) en el contenido: el título va aparte. Empieza con un párrafo
 
 ESCRITURA APTA PARA AUDIO (los artículos se convierten en episodios de podcast con TTS):
 - Cada artículo será leído en voz alta por una voz sintética para nuestro podcast en Spotify.
@@ -642,51 +520,68 @@ ESCRITURA APTA PARA AUDIO (los artículos se convierten en episodios de podcast 
 - Cuando cites un artículo de ley, di "Artículo dieciocho fracción séptima" o "Artículo 18,
   fracción VII" — el TTS lee ambos formatos bien, pero el segundo es más limpio."""
 
-    min_words = "2800" if is_software_review else "2200"
-    structure_requirements = """
-ESTRUCTURA OBLIGATORIA DEL CONTENIDO (cumple cada sección, no omitas ninguna):
 
-1. **Introducción analítica (mínimo 300 palabras)**: Contexto de mercado con cifras específicas. Si es un
-   tema regulatorio, explica qué cambió y cuándo (fecha exacta del DOF). Si es un tema sectorial, da
-   cifras del tamaño del sector en México.
+# ─── Datos de Artu y ligas a artu.ai ──────────────────────────────────────────
 
-2. **Marco legal detallado (mínimo 400 palabras)**: Cita artículos, fracciones y párrafos exactos de la
-   LFPIORPI. Explica cómo aplica a la pregunta específica del tema. Incluye umbrales en UMA y su
-   equivalente en pesos mexicanos aproximado para 2026.
+RAIZ = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import artu_links  # noqa: E402
 
-3. **Análisis práctico (mínimo 500 palabras)**: Cómo se implementa en la práctica. Ejemplos concretos
-   con cifras (no "una empresa hizo X", sino "una inmobiliaria que vende 12 unidades por $2.8M MXN
-   mensuales tendría que presentar Y avisos por mes"). Procedimientos paso a paso.
+ARTU = yaml.safe_load((RAIZ / "_data" / "artu.yml").read_text(encoding="utf-8"))
+TOP_POSTS = RAIZ / "_data" / "top_posts.yml"
 
-4. **Riesgos y consecuencias (mínimo 300 palabras)**: Sanciones específicas aplicables con montos
-   calculados en UMA. Casos documentados si los conoces. Implicaciones operativas del incumplimiento.
 
-5. **Mejores prácticas (mínimo 400 palabras)**: Qué están haciendo los sujetos obligados avanzados.
-   Procesos, controles, documentación. Usa bullet points y subsecciones con H3.
+def _artu_contexto() -> str:
+    funciones = "\n".join(f"- {f['nombre']}: {f['detalle']}" for f in ARTU["funciones"])
+    return (f"Información sobre {ARTU['nombre']} ({ARTU['url']}). Úsala para contextualizar, no para promocionar:\n"
+            f"{ARTU['descripcion']}\n{funciones}\n"
+            f"- Implementación: {ARTU['implementacion']} ({ARTU['implementacion_detalle']}).\n"
+            f"- Trabajo mensual: {ARTU['tiempo_mensual']}.\n"
+            "No atribuyas a Artu nada que no esté en esta lista: ni cifras de eficiencia, ni porcentajes de "
+            "automatización, ni precios, ni clientes.")
 
-6. **Tabla comparativa o de datos (Markdown)**: Incluye AL MENOS UNA tabla relevante al tema
-   (ej. umbrales por actividad vulnerable, plazos de reporte, comparación de obligaciones antes/después
-   de la reforma, etc.)
 
-7. **Conclusión estratégica (200-300 palabras)**: No un resumen pasivo — una recomendación accionable
-   con base en lo expuesto.
+def _instruccion_ligas(tema: dict) -> str:
+    textos = "; ".join(f"«{t}»" for t in tema["textos"])
+    return f"""
+LIGAS A ARTU.AI (obligatorio): incluye 1 o 2 ligas en Markdown, dentro de párrafos de desarrollo
+(no en títulos, no en la introducción, no en la conclusión ni en el FAQ), hacia esta página:
+{tema['url']}
+El texto de la liga debe describir lo que el lector encontrará y encajar en la oración. Inspírate en:
+{textos}. Varía el texto: no uses «software PLD», «haz clic aquí» ni «Artu» como texto de la liga.
+Escribe la URL tal cual, sin parámetros."""
 
-8. **FAQ OBLIGATORIO — 5 preguntas específicas del tema** al final del artículo, cada una con
-   respuesta de 80-120 palabras. Las preguntas deben ser las que un profesional se haría realmente
-   (no genéricas tipo "¿qué es la LFPIORPI?"). Ejemplo para EBR: "¿Debo actualizar mi matriz de riesgo
-   cada vez que incorporo un producto nuevo?" "¿La EBR documentada sustituye al Manual de Políticas
-   Internas o son documentos separados?"
 
-LONGITUD MÍNIMA TOTAL: """ + min_words + """ palabras. Artículos más cortos serán considerados incompletos.
+def _post_proceso(contenido: str, tema: dict, slug: str) -> str:
+    """Quita el H1, agrega UTM a las ligas de artu.ai y asegura al menos una liga en contexto."""
+    lineas = contenido.strip("\n").split("\n")
+    while lineas and not lineas[0].strip():
+        lineas.pop(0)
+    if lineas and lineas[0].startswith("# "):
+        lineas.pop(0)
+    contenido = "\n".join("#" + l if l.startswith("# ") else l for l in lineas).strip("\n")
 
-PROHIBIDO:
-- Frases promocionales vacías ("Artu es innovador", "la mejor solución del mercado")
-- Afirmaciones sin cifras cuando se puede poner una cifra
-- Ejemplos inventados presentados como casos reales (si inventas un ejemplo, deja claro que es ilustrativo)
-- Términos genéricos como "Software A", "Software B", "solución genérica" — siempre nombres reales
-- Resúmenes que repiten lo que ya dijiste — solo conclusiones nuevas
-"""
+    def utm(m):
+        url = m.group(2)
+        if "utm_source=" in url:
+            return m.group(0)
+        return f"{m.group(1)}({artu_links.url_con_utm(url, slug)})"
+    contenido = re.sub(r"(\[[^\]]+\])\((https://artu\.ai[^)\s]*)\)", utm, contenido)
+    if tema["url"] not in contenido:  # la página del tema siempre va ligada (máximo 3 ligas a artu.ai)
+        contenido, _ = artu_links.enlazar(contenido, tema, slug, max_ligas=3)
+    return contenido
 
+
+def generate_article(client: OpenAI, topic: str, category: str, mention_artu: bool, tema: dict):
+    """Genera un artículo nuevo con OpenAI."""
+    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
+    artu_instruction = ""
+    if mention_artu:
+        artu_instruction = ("IMPORTANTE: menciona a Artu de forma orgánica solo donde aporte valor real al lector "
+                            "(no al inicio, no de manera forzada), al discutir cómo resolver en la práctica el "
+                            "problema del artículo.\n" + _artu_contexto())
+    min_words = "2200"
+    structure_requirements = STRUCTURE.replace("{min_words}", min_words)
     user_prompt = f"""Escribe un artículo completo sobre el siguiente tema de PLD en México:
 
 TEMA: {topic}
@@ -694,51 +589,83 @@ CATEGORÍA: {CATEGORY_DISPLAY.get(category, category)}
 FECHA: {today}
 
 {structure_requirements}
+{_instruccion_ligas(tema)}
 
 {artu_instruction}
 
 Responde EXCLUSIVAMENTE con un JSON válido con esta estructura (sin markdown code blocks):
 {{
-  "title": "Título SEO optimizado (50-65 caracteres idealmente)",
-  "description": "Meta description SEO (150-160 caracteres)",
+  "title": "Título SEO (máximo 56 caracteres, con la búsqueda principal al inicio)",
+  "description": "Meta description SEO (140-155 caracteres, con el beneficio concreto)",
   "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
-  "content": "Contenido completo del artículo en Markdown (mínimo {min_words} palabras)"
+  "content": "Contenido completo del artículo en Markdown, sin título H1 (mínimo {min_words} palabras)"
 }}"""
-
     min_words_int = int(min_words)
 
     def call_openai(extra_instruction: str = ""):
-        prompt = user_prompt + extra_instruction
         return client.chat.completions.create(
             model=OPENAI_MODEL,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": prompt},
-            ],
+            messages=[{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": user_prompt + extra_instruction}],
             temperature=0.75,
             max_tokens=12000,
             response_format={"type": "json_object"},
         )
 
-    response = call_openai()
-    article = json.loads(response.choices[0].message.content)
-
+    article = json.loads(call_openai().choices[0].message.content)
     word_count = len(article.get("content", "").split())
     print(f"Word count (initial): {word_count}")
-
     if word_count < min_words_int * 0.85:
         print(f"Article too short ({word_count} < {min_words_int}). Retrying with explicit extension request.")
-        retry_instruction = f"""
-
-CRÍTICO: El artículo debe tener mínimo {min_words_int} palabras. Expande CADA sección con más profundidad,
-ejemplos concretos, cifras específicas, y análisis detallado. No resumas — desarrolla completamente
-cada punto con el rigor de un analista senior. Incluye todas las secciones obligatorias listadas.
-"""
-        response = call_openai(retry_instruction)
-        article = json.loads(response.choices[0].message.content)
+        retry = (f"\n\nCRÍTICO: El artículo debe tener mínimo {min_words_int} palabras. Expande CADA sección con más "
+                 "profundidad, ejemplos concretos y cifras específicas. Incluye todas las secciones obligatorias.\n")
+        article = json.loads(call_openai(retry).choices[0].message.content)
         print(f"Word count (retry): {len(article.get('content', '').split())}")
-
     return article
+
+
+def refresh_article(client: OpenAI, path: Path, tema: dict) -> str | None:
+    """Actualiza un post existente en su misma URL: mejora el cuerpo actual en lugar de reescribirlo
+    desde cero (conserva estructura, datos correctos y ligas). Devuelve el cuerpo nuevo o None."""
+    original = path.read_text(encoding="utf-8")
+    _, front, body = original.split("---", 2)
+    title = re.search(r'^title:\s*"?(.*?)"?\s*$', front, re.M).group(1)
+    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
+    prompt = f"""Actualiza este artículo ya publicado en PLD.mx. Es de los que más impresiones tienen en Google,
+así que el objetivo es que responda mejor la búsqueda, no cambiarle el tema.
+
+TÍTULO (no lo cambies): {title}
+FECHA DE HOY: {today}
+
+Reglas:
+- Conserva el tema, la estructura de secciones y todo lo que ya es correcto. Corrige lo desactualizado
+  (UMA 2026, reformas, fechas) y elimina lo que no puedas respaldar.
+- Mejora lo que falte: respuesta directa en el primer párrafo, definiciones precisas al inicio de cada
+  sección, ejemplos con cifras (marcados como ilustrativos), al menos una tabla, y un FAQ de 5 preguntas
+  específicas si no lo tiene.
+- Conserva todas las ligas existentes, en especial las de artu.ai, con su mismo texto.
+- No agregues título H1, cajas de CTA ni nombres de proveedores de software distintos de Artu.
+- Longitud: igual o mayor que la actual.
+{_instruccion_ligas(tema)}
+
+Responde EXCLUSIVAMENTE con un JSON válido: {{"content": "artículo completo en Markdown", "cambios": ["resumen de cada cambio"]}}
+
+ARTÍCULO ACTUAL:
+{body.strip()}"""
+    resp = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        messages=[{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": prompt}],
+        temperature=0.4,
+        max_tokens=14000,
+        response_format={"type": "json_object"},
+    )
+    data = json.loads(resp.choices[0].message.content)
+    nuevo = data.get("content", "")
+    if len(nuevo.split()) < len(body.split()) * 0.9:
+        print(f"Actualización descartada: quedó más corta ({len(nuevo.split())} vs {len(body.split())} palabras)")
+        return None
+    for c in data.get("cambios", [])[:10]:
+        print(f"  cambio: {c}")
+    return nuevo
 
 
 def generate_og_image_svg(title: str, category: str) -> str:
@@ -804,64 +731,126 @@ def slugify(text: str) -> str:
     return text[:80]
 
 
+def _modo_del_dia() -> str:
+    """Lunes, miércoles y viernes: artículo nuevo. Martes y jueves: actualización de uno de los posts con
+    más impresiones. Fines de semana: nada. MODO=nuevo|actualizar|nada lo fuerza (ejecución manual)."""
+    forzado = os.environ.get("MODO", "").strip().lower()
+    if forzado in ("nuevo", "actualizar", "nada"):
+        return forzado
+    dia = datetime.now(ZoneInfo("America/Mexico_City")).weekday()
+    return {0: "nuevo", 1: "actualizar", 2: "nuevo", 3: "actualizar", 4: "nuevo"}.get(dia, "nada")
+
+
+def _frescura(path: Path) -> str:
+    head = path.read_text(encoding="utf-8")[:3000]
+    mod = re.search(r"^last_modified_at:\s*(\d{4}-\d{2}-\d{2})", head, re.M)
+    return max(path.name[:10], mod.group(1) if mod else "")
+
+
+def pick_refresh() -> Path | None:
+    """El post de _data/top_posts.yml (los de más impresiones) que lleva más tiempo sin actualizarse,
+    siempre que no se haya tocado en los últimos 30 días y no tenga `refresh: false`."""
+    if not TOP_POSTS.exists():
+        return None
+    lista = yaml.safe_load(TOP_POSTS.read_text(encoding="utf-8")).get("posts", [])
+    limite = (datetime.now(ZoneInfo("America/Mexico_City")) - timedelta(days=30)).strftime("%Y-%m-%d")
+    candidatos = []
+    for item in lista:
+        f = RAIZ / item["archivo"]
+        if not f.exists():
+            continue
+        head = f.read_text(encoding="utf-8")[:3000]
+        if re.search(r"^refresh:\s*false", head, re.M):
+            continue
+        fresco = _frescura(f)
+        if fresco <= limite:
+            candidatos.append((fresco, f))
+    return min(candidatos)[1] if candidatos else None
+
+
+def _tema_de_post(front: str) -> dict:
+    datos = artu_links.cargar()
+    clave = re.search(r"^artu_tema:\s*(\S+)", front, re.M)
+    if clave and artu_links.por_clave(clave.group(1), datos):
+        return artu_links.por_clave(clave.group(1), datos)
+    title = re.search(r'^title:\s*"?(.*?)"?\s*$', front, re.M).group(1)
+    return artu_links.tema_para(title, datos)
+
+
+def actualizar(client: OpenAI, path: Path) -> bool:
+    original = path.read_text(encoding="utf-8")
+    _, front, _body = original.split("---", 2)
+    tema = _tema_de_post(front)
+    print(f"Modo actualización: {path.name} (tema artu.ai: {tema['clave']})")
+    nuevo = refresh_article(client, path, tema)
+    if not nuevo:
+        return False
+    nuevo = _post_proceso(nuevo, tema, path.stem[11:])
+    today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
+    front = re.sub(r"^last_modified_at:.*\n?", "", front, flags=re.M).rstrip("\n")
+    if not re.search(r"^artu_tema:", front, re.M):
+        front += f"\nartu_tema: {tema['clave']}"
+    front += f"\nlast_modified_at: {today}\n"
+    path.write_text(f"---{front}---\n\n{nuevo}\n", encoding="utf-8")
+    print(f"Post actualizado: {path}")
+    return True
+
+
 def main():
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("ERROR: OPENAI_API_KEY environment variable is required")
         sys.exit(1)
-
     client = OpenAI(api_key=api_key)
-
-    # Setup directories
     POSTS_DIR.mkdir(parents=True, exist_ok=True)
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Pick topic and determine Artu mention
+    modo = _modo_del_dia()
+    print(f"Modo del día: {modo}")
+    if modo == "nada":
+        print("Hoy no toca publicar (fin de semana).")
+        return
+    if modo == "actualizar":
+        objetivo = pick_refresh()
+        if objetivo and actualizar(client, objetivo):
+            print("Done!")
+        else:
+            print("No hubo actualización hoy.")
+        return
+
     topic, refresh_path = pick_topic(client)
+    if refresh_path:
+        # el pool y las propuestas se agotaron: en lugar de duplicar, se mejora un post existente
+        actualizar(client, refresh_path)
+        return
+
     category = pick_category(topic)
     mention_artu = should_mention_artu(topic)
-
+    tema = artu_links.tema_para(topic, artu_links.cargar())
     print(f"Topic: {topic}")
     print(f"Category: {category}")
     print(f"Mention Artu: {mention_artu}")
-    if refresh_path:
-        print(f"Modo actualización: {refresh_path.name}")
+    print(f"Tema artu.ai: {tema['clave']} -> {tema['url']}")
 
-    # Generate article
-    article = generate_article(client, topic, category, mention_artu)
+    article = generate_article(client, topic, category, mention_artu, tema)
     print(f"Title: {article['title']}")
-
     today = datetime.now(ZoneInfo("America/Mexico_City")).strftime("%Y-%m-%d")
-
-    if refresh_path:
-        # Misma URL, mismo front matter (título, fecha, imagen); cuerpo nuevo y
-        # `last_modified_at` para que el layout y el schema marquen la actualización.
-        original = refresh_path.read_text(encoding="utf-8")
-        _, front, _body = original.split("---", 2)
-        front = re.sub(r"^last_modified_at:.*\n?", "", front, flags=re.M).rstrip("\n")
-        front += f"\nlast_modified_at: {today}\n"
-        refresh_path.write_text(f"---{front}---\n\n{article['content']}\n", encoding="utf-8")
-        print(f"Post actualizado: {refresh_path}")
-        print("Done!")
-        return
-
-    # Generate OG image
     slug = slugify(article["title"])
+    contenido = _post_proceso(article["content"], tema, slug)
+
     image_filename = f"{today}-{slug}.svg"
     image_path = IMAGES_DIR / image_filename
-    og_svg = generate_og_image_svg(article["title"], category)
-    image_path.write_text(og_svg, encoding="utf-8")
+    image_path.write_text(generate_og_image_svg(article["title"], category), encoding="utf-8")
     print(f"Image: {image_path}")
 
-    # Create post file
     tags_yaml = "\n".join(f"  - {tag}" for tag in article.get("tags", []))
-    post_filename = f"{today}-{slug}.md"
-    post_path = POSTS_DIR / post_filename
-
+    post_path = POSTS_DIR / f"{today}-{slug}.md"
+    titulo = article["title"].replace('"', "'")
+    descripcion = article["description"].replace('"', "'")
     frontmatter = f"""---
 layout: post
-title: "{article['title']}"
-description: "{article['description']}"
+title: "{titulo}"
+description: "{descripcion}"
 date: {today}
 categories:
   - {category}
@@ -870,13 +859,14 @@ tags:
 image: /assets/images/posts/{image_filename}
 author: Equipo PLD.mx
 topic: "{topic.replace('"', '')}"
+artu_tema: {tema['clave']}
 ---
 
-{article['content']}
+{contenido}
 """
-
     post_path.write_text(frontmatter, encoding="utf-8")
-    print(f"Post: {post_path}")
+    ligas = len(re.findall(r"\]\(https://artu\.ai", contenido))
+    print(f"Post: {post_path} ({ligas} liga(s) a artu.ai)")
     print("Done!")
 
 
