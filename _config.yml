@@ -53,7 +53,8 @@ exclude:
   - .github/
 
 # Medición (se activa cada etiqueta al rellenar su clave)
-google_analytics: ""        # GA4, p. ej. "G-XXXXXXXXXX"
+google_tag_manager: "GTM-WC66MFZP"  # Contenedor de Tag Manager (trae GA4 G-K3VX6RHQGN). Una página con analytics: false no lo carga
+google_analytics: ""        # GA4 directo, sin Tag Manager. Déjalo vacío mientras se use Tag Manager para no contar doble
 meta_pixel: ""              # ID numérico del pixel de Meta
 linkedin_partner_id: ""     # Partner ID del Insight Tag de LinkedIn
 lead_form_endpoint: ""      # Endpoint POST del formulario (Formspree, Tally, HubSpot…)

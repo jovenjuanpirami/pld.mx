@@ -5,6 +5,7 @@ description: "Responde la entrevista en línea para elaborar el Manual de Polít
 permalink: /entrevista/
 sitemap: false
 noindex: true
+analytics: false
 ---
 <link rel="stylesheet" href="{{ '/assets/css/entrevista.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
 <div class="ent" id="entrevista" data-datos="{{ '/assets/data/entrevista.json' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" data-hash="{{ site.entrevista_password_hash }}" data-hash-demo="{{ site.entrevista_demo_hash }}" data-demo="{{ '/assets/data/entrevista-demo.json' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" data-base="{{ site.baseurl }}">

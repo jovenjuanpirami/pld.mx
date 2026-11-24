@@ -1,9 +1,23 @@
 {%- comment -%}
 Etiquetas de medición. Cada bloque se activa solo si su clave existe en _config.yml:
+  google_tag_manager: "GTM-XXXXXXX"   (el iframe para navegadores sin JavaScript está en analytics-body.html)
   google_analytics: "G-XXXXXXXXXX"
   meta_pixel: "123456789012345"
   linkedin_partner_id: "1234567"
+Una página con `analytics: false` en su front matter no carga ninguna (p. ej. la entrevista,
+que promete al cliente que nada sale de su navegador).
 {%- endcomment -%}
+{% unless page.analytics == false %}
+{% if site.google_tag_manager and site.google_tag_manager != "" %}
+<!-- Google Tag Manager -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','{{ site.google_tag_manager }}');
+</script>
+<!-- End Google Tag Manager -->
+{% endif %}
 {% if site.google_analytics and site.google_analytics != "" %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
@@ -31,3 +45,4 @@ b.type="text/javascript";b.async=true;b.src="https://snap.licdn.com/li.lms-analy
 s.parentNode.insertBefore(b,s)})(window.lintrk);
 </script>
 {% endif %}
+{% endunless %}

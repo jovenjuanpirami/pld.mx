@@ -4,7 +4,7 @@ Atribución de enlaces salientes hacia Artu y Calendly:
 - Añade utm_source/medium/campaign/content sin pisar los que ya vengan en el enlace.
 - utm_campaign sale de data-cta (para distinguir el tipo de CTA); los enlaces en prosa quedan como "contenido".
 - utm_content es el slug de la página, para saber qué artículo originó el clic.
-- Registra el clic como evento en GA4 si está activo.
+- Registra el clic como evento artu_click en GA4 (directo o a través de Tag Manager, que define gtag).
 {%- endcomment -%}
 <script>
 (function () {
