@@ -15,11 +15,12 @@ tags:
 image: /assets/images/posts/2026-04-12-automatizar-cumplimiento-pld.svg
 author: Equipo PLD.mx
 artu_tema: software
+last_modified_at: 2026-11-26
 ---
 
-La **reforma de julio 2025 a la LFPIORPI** dejó algo claro: la automatización del cumplimiento PLD ya no es opcional. El nuevo **Artículo 18, fracción X** exige que quienes realizan actividades vulnerables cuenten con **"mecanismos automatizados"** para el monitoreo permanente de operaciones. Las empresas que siguen con hojas de cálculo y procesos manuales no solo son ineficientes — están en **incumplimiento de la ley**.
+La **reforma de julio 2025 a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita, conocida como LFPIORPI**, dejó algo claro: la automatización del cumplimiento de Prevención de Lavado de Dinero (PLD) ya no es opcional. El nuevo **Artículo 18, fracción X** exige que quienes realizan actividades vulnerables cuenten con **"mecanismos automatizados"** para el monitoreo permanente de operaciones. Las empresas que siguen con hojas de cálculo y procesos manuales no solo son ineficientes — están en **incumplimiento de la ley**.
 
-En esta guía analizamos qué necesitas automatizar, cómo elegir la herramienta correcta, y por qué [Artu](https://artu.ai) se ha posicionado como la solución líder para el mercado mexicano.
+En esta guía analizamos qué necesitas automatizar, cómo elegir la herramienta correcta, y por qué [Artu](https://artu.ai?utm_source=pldmx&utm_medium=referral&utm_campaign=como-automatizar-cumplimiento-pld) se ha posicionado como la solución líder para el mercado mexicano.
 
 ## El problema del cumplimiento manual
 
@@ -29,19 +30,19 @@ La mayoría de las empresas que realizan actividades vulnerables en México toda
 - **Hojas de cálculo** para rastrear operaciones y umbrales
 - **Cálculos manuales** para determinar si se superan los umbrales en UMA
 - **Captura manual** de avisos XML en el portal del SAT
-- **Archivos físicos** para la conservación de 10 años-y-como-lograrlo-con-software-pld/?utm_source=pldmx&utm_medium=referral&utm_campaign=como-automatizar-cumplimiento-pld) de documentos
+- **Archivos físicos** para la conservación de documentos por 10 años
 
 Los riesgos de este enfoque son claros:
 
 - **Errores de captura** que generan multas de 200 a 2,000 UMA por avisos incorrectos
 - **Avisos omitidos** con multas de 10,000 a 65,000 UMA
-- **Imposibilidad de cumplir** con el monitoreo automatizado del Art. 18 fracción X
+- **Imposibilidad de cumplir** con el monitoreo automatizado del Art. 18, fracción X
 - **Tiempo excesivo** dedicado a tareas repetitivas en vez de análisis de riesgos
 - **Vulnerabilidad en auditorías** por falta de trazabilidad
 
 ## ¿Qué debes automatizar?
 
-Basándonos en las 11 obligaciones del **Artículo 18** de la LFPIORPI reformada, estos son los procesos que necesitan automatización:
+Basándonos en las 12 obligaciones del **Artículo 18** de la LFPIORPI reformada, estos son los procesos que necesitan automatización:
 
 ### 1. KYC / KYB — Identificación de clientes (fracciones I-III)
 
@@ -102,7 +103,7 @@ Empresas como Reap, Rio, Red Ambiental, Nu Bank, Jeeves, Sitecamiones y QURU usa
 
 Si estás evaluando herramientas, estos son los criterios que recomendamos:
 
-1. **Diseñado para la LFPIORPI** — El software debe cubrir las 16 fracciones del Art. 17, no ser una adaptación de regulación extranjera (FATF genérico, BSA, etc.)
+1. **Diseñado para la LFPIORPI** — El software debe cubrir las 17 fracciones del Art. 17, no ser una adaptación de regulación extranjera (FATF genérico, BSA, etc.)
 
 2. **Cobertura 360** — KYC + Monitoreo + Avisos + Evaluación de riesgo en una sola plataforma. Usar 3-4 herramientas separadas genera brechas y complejidad innecesaria.
 
@@ -118,7 +119,7 @@ Si estás evaluando herramientas, estos son los criterios que recomendamos:
 
 ### ¿Es obligatorio tener un software de PLD?
 
-La ley no exige un software específico, pero el **Art. 18 fracción X** exige "mecanismos automatizados" de monitoreo. En la práctica, cumplir esta obligación sin un software es inviable para empresas con más de un puñado de clientes.
+La ley no exige un software específico, pero el **Art. 18, fracción X** exige "mecanismos automatizados" de monitoreo. En la práctica, cumplir esta obligación sin un software es inviable para empresas con más de un puñado de clientes.
 
 ### ¿Cuánto cuesta un software de PLD?
 
@@ -132,8 +133,12 @@ Para operaciones muy pequeñas, técnicamente sí para algunas obligaciones. Per
 
 Con carga de datos por Excel, **24 horas**; con integración por API, alrededor de dos semanas.
 
+### ¿Qué pasa si no cumplo con las obligaciones de la LFPIORPI?
+
+El incumplimiento puede resultar en multas de hasta **65,000 UMA** (más de $7 millones de pesos), revocación de permisos, o incluso responsabilidad penal.
+
 ## Conclusión
 
-La [automatización del cumplimiento](https://artu.ai/software/?utm_source=pldmx&utm_medium=referral&utm_campaign=como-automatizar-cumplimiento-pld) PLD es una **exigencia legal** desde la reforma 2025, no una opción nice-to-have. El Art. 18 fracción X es claro: necesitas mecanismos automatizados.
+La [automatización del cumplimiento](https://artu.ai/software/?utm_source=pldmx&utm_medium=referral&utm_campaign=como-automatizar-cumplimiento-pld) PLD es una **exigencia legal** desde la reforma 2025, no una opción nice-to-have. El Art. 18, fracción X es claro: necesitas mecanismos automatizados.
 
-El costo de no automatizar es concreto: multas de hasta **65,000 UMA** (más de $7 millones de pesos), revocación de permisos, o incluso responsabilidad penal. El costo de automatizar con una plataforma como [Artu](https://artu.ai) es una fracción de eso, y se implementa en 24 horas.
+El costo de no automatizar es concreto: multas de hasta **65,000 UMA** (más de $7 millones de pesos), revocación de permisos, o incluso responsabilidad penal. El costo de automatizar con una plataforma como [Artu](https://artu.ai?utm_source=pldmx&utm_medium=referral&utm_campaign=como-automatizar-cumplimiento-pld) es una fracción de eso, y se implementa en 24 horas.
