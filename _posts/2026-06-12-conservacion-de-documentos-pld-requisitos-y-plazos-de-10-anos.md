@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Plazo de conservación de documentos PLD: 10 años"
-description: "Quien realiza actividades vulnerables debe conservar 10 años la documentación de operaciones y clientes. Qué guardar, cómo contar el plazo y el formato."
+title: "Conservación de documentos PLD: 10 años y qué guardar"
+description: "Las actividades vulnerables deben conservar 10 años los documentos de cada operación y cliente. Qué guardar, cómo contar el plazo y si puede ser digital."
 date: 2026-06-12
 categories:
   - cumplimiento
@@ -26,7 +26,7 @@ redirect_from:
 last_modified_at: 2026-11-23
 ---
 
-**Respuesta corta:** quienes realizan actividades vulnerables deben conservar durante **10 años** la información y la documentación que respaldan cada actividad vulnerable y la identificación de sus clientes. Así lo establece el artículo 18, fracción IV, de la LFPIORPI, que la reforma publicada en el Diario Oficial de la Federación el 16 de julio de 2025 amplió de cinco a diez años. El plazo se cuenta a partir de la fecha en que se realizó la actividad vulnerable, y la información puede conservarse de manera física o electrónica en el domicilio registrado ante la Secretaría de Hacienda.
+Quien realiza actividades vulnerables debe conservar **al menos 10 años** la información y la documentación de cada operación y de la identificación de sus clientes, contados desde la fecha de la operación (artículo 18, fracción IV, de la LFPIORPI). La reforma del 16 de julio de 2025 amplió el plazo, que antes era de cinco años, y permite conservar todo de manera física o electrónica en el domicilio registrado ante la Secretaría de Hacienda.
 
 Esta guía reúne en un solo lugar qué hay que guardar, cómo contar el plazo, en qué formato se puede conservar y qué revisa el SAT en una visita de verificación.
 

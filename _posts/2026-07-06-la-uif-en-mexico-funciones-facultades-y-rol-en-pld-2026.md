@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Qué es la UIF en México: marco jurídico y funciones"
-description: "Qué es la Unidad de Inteligencia Financiera (UIF), en qué normas se basa, qué funciones y facultades tiene en PLD y cómo se relaciona con el SAT."
+title: "UIF en México: marco jurídico, funciones y facultades"
+description: "Qué es la UIF, cuál es su marco jurídico (Reglamento Interior de Hacienda, LFPIORPI y otras leyes) y qué funciones y facultades tiene en PLD en México."
 date: 2026-07-06
 categories:
   - regulacion
@@ -17,7 +17,7 @@ artu_tema: lfpiorpi
 last_modified_at: 2026-11-23
 ---
 
-**Respuesta corta:** la Unidad de Inteligencia Financiera (UIF) es una unidad administrativa de la Secretaría de Hacienda y Crédito Público que recibe y analiza los reportes y avisos de prevención de lavado de dinero, requiere información, presenta denuncias ante el Ministerio Público e integra la Lista de Personas Bloqueadas. Sus atribuciones están en el artículo 10 del Reglamento Interior de la Secretaría de Hacienda.
+La **Unidad de Inteligencia Financiera (UIF)** es la unidad de la Secretaría de Hacienda que recibe y analiza los avisos y reportes de prevención de lavado de dinero, requiere información, presenta denuncias ante el Ministerio Público e integra la Lista de Personas Bloqueadas. Su marco jurídico principal es el artículo 10 del Reglamento Interior de la Secretaría de Hacienda, junto con la LFPIORPI, su Reglamento y la Ley de Instituciones de Crédito.
 
 ## Marco jurídico de la UIF
 

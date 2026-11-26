@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Funciones del oficial de cumplimiento PLD en México"
-description: "Funciones del oficial de cumplimiento y del responsable encargado del cumplimiento PLD: qué hace, cómo se designa ante el SAT y de qué responde."
+description: "Qué hace el oficial de cumplimiento PLD en México, cómo se designa y en qué se distingue del representante encargado del cumplimiento de la LFPIORPI."
 date: 2026-04-26
 categories:
   - cumplimiento
@@ -17,7 +17,7 @@ artu_tema: actividades-vulnerables
 last_modified_at: 2026-11-23
 ---
 
-**Respuesta corta:** en las entidades financieras, el **oficial de cumplimiento** coordina el programa de prevención de lavado de dinero: propone las políticas de identificación del cliente, coordina el seguimiento de operaciones y las investigaciones, envía los reportes urgentes, define la capacitación y es el enlace con la autoridad. En las actividades vulnerables, la figura equivalente se llama **persona representante encargada del cumplimiento** (artículo 20 de la LFPIORPI) y sus funciones deben quedar escritas en el manual de políticas internas.
+El **oficial de cumplimiento** coordina el programa de prevención de lavado de dinero de una entidad financiera: propone las políticas de identificación del cliente, coordina el seguimiento de operaciones, envía los reportes urgentes y es el enlace con la autoridad. En las actividades vulnerables, la figura equivalente es la **persona representante encargada del cumplimiento** (artículo 20 de la LFPIORPI), cuyas funciones deben quedar escritas en el manual de políticas internas.
 
 ## Oficial de cumplimiento o representante encargado: cuál te aplica
 

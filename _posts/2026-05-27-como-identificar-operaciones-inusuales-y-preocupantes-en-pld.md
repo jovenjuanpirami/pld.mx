@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Operación inusual e interna preocupante: qué son en PLD"
-description: "Qué es una operación inusual, una interna preocupante y una relevante, cómo distinguirlas, cómo se detectan y qué reportan las actividades vulnerables."
+title: "Operaciones inusuales y preocupantes PLD: qué son y ejemplos"
+description: "Qué son las operaciones inusuales, internas preocupantes y relevantes en PLD, cómo distinguirlas, ejemplos y qué reportan las actividades vulnerables."
 date: 2026-05-27
 categories:
   - cumplimiento
@@ -20,9 +20,9 @@ redirect_from:
 last_modified_at: 2026-11-23
 ---
 
-**Respuesta corta:** una **operación inusual** es la operación o conducta de un cliente que no concuerda con sus antecedentes, con la actividad que declaró o con su patrón habitual de operación (por monto, frecuencia, tipo o naturaleza) sin una justificación razonable. Una **operación interna preocupante** es la conducta de un directivo, funcionario, empleado o apoderado de la propia institución que pudiera contravenir o evadir las normas de prevención de lavado de dinero, o facilitar ese delito. Ambos términos vienen de las disposiciones de carácter general del sector financiero, que emite la Secretaría de Hacienda con opinión de la CNBV (para los bancos, las disposiciones del artículo 115 de la Ley de Instituciones de Crédito). No aparecen en la LFPIORPI.
+Una **operación inusual** es la de un cliente que no concuerda con sus antecedentes, con la actividad que declaró o con su patrón habitual (monto, frecuencia, tipo o naturaleza) sin una justificación razonable; una **operación interna preocupante** es la conducta de un directivo, empleado o apoderado de la propia institución que podría evadir las normas de prevención de lavado de dinero o facilitar ese delito. Son términos del sector financiero: quien realiza actividades vulnerables presenta, en su lugar, el **aviso de 24 horas** cuando hay sospecha o indicios de recursos ilícitos.
 
-Si tu empresa realiza actividades vulnerables, estos términos no te aplican tal cual. Tu equivalente es el **aviso de 24 horas** del artículo 18, fracción VI, segundo párrafo, de la LFPIORPI (y del artículo 7 Bis de su Reglamento), que se presenta cuando hay sospecha o indicios de que los recursos pueden ser de procedencia ilícita. Con las Reglas de Carácter General que entran en vigor el 30 de noviembre de 2026, ese aviso se divide en aviso por sospecha y aviso por hechos o indicios; su envío se habilitará seis meses después de que se publique el nuevo formato de avisos.
+Las definiciones de operación inusual, interna preocupante y relevante están en las disposiciones de carácter general del sector financiero, que emite la Secretaría de Hacienda con opinión de la CNBV (para los bancos, las del artículo 115 de la Ley de Instituciones de Crédito); no aparecen en la LFPIORPI. En las actividades vulnerables, el aviso de 24 horas está en el artículo 18, fracción VI, segundo párrafo, de la LFPIORPI y en el artículo 7 Bis de su Reglamento. Con las Reglas de Carácter General que entran en vigor el 30 de noviembre de 2026, ese aviso se divide en aviso por sospecha y aviso por hechos o indicios; su envío se habilitará seis meses después de que se publique el nuevo formato de avisos.
 
 ## Los tipos de reporte, lado a lado
 

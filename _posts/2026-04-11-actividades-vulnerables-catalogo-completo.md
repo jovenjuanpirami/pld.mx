@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Actividades vulnerables: las 17 fracciones del art. 17"
-description: "Ya no son 16: desde la reforma de 2025 el artículo 17 de la LFPIORPI tiene 17 fracciones (I a XVI y V Bis). Lista completa con umbrales en UMA."
+title: "Actividades vulnerables (art. 17 LFPIORPI): lista completa"
+description: "Lista completa de las actividades vulnerables del artículo 17 de la LFPIORPI: las 17 fracciones vigentes desde 2025, con sus umbrales de aviso en UMA."
 date: 2026-04-11
 categories:
   - actividades-vulnerables
@@ -16,6 +16,8 @@ author: Equipo PLD.mx
 last_modified_at: 2026-11-23
 artu_tema: umbrales
 ---
+
+Las **actividades vulnerables** son las operaciones que el artículo 17 de la LFPIORPI enumera en 17 fracciones (de la I a la XVI más la V Bis, añadida en 2025): juegos y sorteos, tarjetas, préstamos, inmuebles, joyas, arte, vehículos, blindaje, traslado de valores, servicios profesionales, fe pública, donativos, comercio exterior, arrendamiento y activos virtuales, entre otras. Quien las realiza debe identificar a sus clientes y presentar avisos al SAT cuando una operación alcanza el umbral de su fracción.
 
 El **Artículo 17 de la LFPIORPI** establece el catálogo de actividades vulnerables en México — operaciones económicas que, por su naturaleza, son susceptibles de ser utilizadas para el lavado de dinero. Con la **reforma publicada el 16 de julio de 2025**, el artículo tiene **17 fracciones**: de la I a la XVI más la nueva **V Bis**, que agrega la recepción de recursos para un desarrollo inmobiliario. La reforma también sumó un apartado D a la fracción XII.
 
