@@ -7,7 +7,7 @@
   const root = document.getElementById('entrevista');
   if (!root) return;
   const DATA_URL = root.dataset.datos;
-  const HASH = (root.dataset.hash || '').trim();
+  const HASHES = (root.dataset.hash || '').split(',').map((h) => h.trim()).filter(Boolean);   // una o varias contraseñas válidas
   const HASH_DEMO = (root.dataset.hashDemo || '').trim();   // contraseña de demostración: carga respuestas de ejemplo
   const DEMO_URL = root.dataset.demo || '';
   const KEY_DEMO = 'pldmx_entrevista_demo';
@@ -437,8 +437,10 @@
       <form id="gate"><input type="password" id="gate-pw" placeholder="Contraseña" autocomplete="off" style="margin-bottom:12px">${error ? '<div class="error" style="margin-bottom:12px">Contraseña incorrecta.</div>' : ''}<button class="btn ok" style="width:100%">Comenzar →</button></form></div>`;
     $('#gate').addEventListener('submit', async (e) => {
       e.preventDefault();
-      const h = await sha256($('#gate-pw').value.trim());
-      if (h === HASH) { demo = false; try { sessionStorage.setItem(KEY_OK, '1'); sessionStorage.removeItem(KEY_DEMO); } catch (x) { /* nada */ } arrancar(); }
+      const pw = $('#gate-pw').value.trim();
+      const h = await sha256(pw);
+      // también en minúsculas: si la contraseña es un correo, el celular puede escribir la primera letra en mayúscula
+      if (HASHES.includes(h) || HASHES.includes(await sha256(pw.toLowerCase()))) { demo = false; try { sessionStorage.setItem(KEY_OK, '1'); sessionStorage.removeItem(KEY_DEMO); } catch (x) { /* nada */ } arrancar(); }
       else if (HASH_DEMO && DEMO_URL && h === HASH_DEMO) arrancarDemo();
       else renderGate(true);
     });
@@ -456,7 +458,7 @@
   fetch(DATA_URL, { cache: 'no-store' }).then((r) => r.json()).then((d) => {
     D = d;
     let ok = false; try { ok = sessionStorage.getItem(KEY_OK) === '1'; demo = sessionStorage.getItem(KEY_DEMO) === '1'; } catch (x) { /* nada */ }
-    if (!HASH || ok) arrancar(); else renderGate(false);
+    if (!HASHES.length || ok) arrancar(); else renderGate(false);
   }).catch(() => { root.innerHTML = '<div class="card"><p class="error">No se pudo cargar la entrevista. Recarga la página.</p></div>'; });
 
   // para pruebas automatizadas
